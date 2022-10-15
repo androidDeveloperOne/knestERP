@@ -1,0 +1,869 @@
+2022-09-28 07:56:28,245 DEBUG cd frappe-bench && python3 -m venv env
+2022-09-28 07:56:31,976 DEBUG cd frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2022-09-28 07:56:35,224 LOG Getting frappe
+2022-09-28 07:56:35,224 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-14 --depth 1 --origin upstream
+2022-09-28 07:56:38,982 LOG Installing frappe
+2022-09-28 07:56:38,983 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/frappe 
+2022-09-28 07:57:37,505 DEBUG cd /home/ubuntu/frappe-bench/apps/frappe && yarn install
+2022-09-28 07:58:00,279 DEBUG cd frappe-bench && bench build
+2022-09-28 07:58:00,411 INFO /usr/local/bin/bench build
+2022-09-28 07:58:23,497 LOG setting up backups
+2022-09-28 07:58:23,508 LOG backups were set up
+2022-09-28 07:58:23,509 INFO Bench frappe-bench initialized
+2022-09-28 07:59:37,570 INFO /usr/local/bin/bench new-site erp.knestcrm.com
+2022-09-28 08:00:49,833 INFO /usr/local/bin/bench get-app payments
+2022-09-28 08:00:50,293 LOG Getting payments
+2022-09-28 08:00:50,293 DEBUG cd ./apps && git clone https://github.com/frappe/payments.git  --depth 1 --origin upstream
+2022-09-28 08:00:51,204 LOG Installing payments
+2022-09-28 08:00:51,348 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/payments 
+2022-09-28 08:00:54,509 DEBUG bench build --app payments
+2022-09-28 08:00:54,627 INFO /usr/local/bin/bench build --app payments
+2022-09-28 08:01:08,417 INFO /usr/local/bin/bench get-app --branch version-14 erpnext
+2022-09-28 08:01:08,879 LOG Getting erpnext
+2022-09-28 08:01:08,879 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-14 --depth 1 --origin upstream
+2022-09-28 08:01:13,483 LOG Installing erpnext
+2022-09-28 08:01:13,627 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/erpnext 
+2022-09-28 08:01:44,357 DEBUG cd /home/ubuntu/frappe-bench/apps/erpnext && yarn install
+2022-09-28 08:01:45,739 DEBUG bench build --app erpnext
+2022-09-28 08:01:45,856 INFO /usr/local/bin/bench build --app erpnext
+2022-09-28 08:02:05,079 INFO /usr/local/bin/bench get-app hrms
+2022-09-28 08:02:05,554 LOG Getting hrms
+2022-09-28 08:02:05,554 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2022-09-28 08:02:06,707 LOG Installing hrms
+2022-09-28 08:02:06,897 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/hrms 
+2022-09-28 08:02:09,691 DEBUG bench build --app hrms
+2022-09-28 08:02:09,808 INFO /usr/local/bin/bench build --app hrms
+2022-09-28 08:03:23,090 INFO /usr/local/bin/bench --site erp.knestcrm.com install-app erpnext
+2022-09-28 08:05:05,223 INFO /usr/local/bin/bench --site erp.knestcrm.com install-app hrms
+2022-09-28 08:06:09,758 INFO /usr/local/bin/bench --site erp.knestcrm.com install-app hrms
+2022-09-28 08:06:15,394 INFO /usr/local/bin/bench start
+2022-09-28 08:06:15,906 INFO /usr/local/bin/bench worker --queue short
+2022-09-28 08:06:15,929 INFO /usr/local/bin/bench worker --queue default
+2022-09-28 08:06:16,044 INFO /usr/local/bin/bench schedule
+2022-09-28 08:06:16,109 INFO /usr/local/bin/bench watch
+2022-09-28 08:06:16,124 INFO /usr/local/bin/bench worker --queue long
+2022-09-28 08:06:16,143 INFO /usr/local/bin/bench serve --port 8000
+2022-09-28 10:24:07,340 INFO /usr/local/bin/bench start
+2022-09-28 10:24:07,978 INFO /usr/local/bin/bench serve --port 8000
+2022-09-28 10:24:08,003 INFO /usr/local/bin/bench worker --queue short
+2022-09-28 10:24:08,005 INFO /usr/local/bin/bench watch
+2022-09-28 10:24:08,021 INFO /usr/local/bin/bench schedule
+2022-09-28 10:24:08,035 INFO /usr/local/bin/bench worker --queue long
+2022-09-28 10:24:08,042 INFO /usr/local/bin/bench worker --queue default
+2022-09-28 10:27:46,608 INFO /usr/local/bin/bench --site erp.knestcrm.com enable-scheduler
+2022-09-28 10:28:05,614 INFO /usr/local/bin/bench --site erp.knestcrm.com set-maintenance-mode off
+2022-09-28 10:28:21,076 INFO /usr/local/bin/bench setup production ubuntu
+2022-09-28 10:28:21,088 DEBUG sudo /usr/bin/python3 -m pip install ansible
+2022-09-28 10:28:47,212 DEBUG bench setup role fail2ban
+2022-09-28 10:28:47,328 INFO /usr/local/bin/bench setup role fail2ban
+2022-09-28 10:29:02,916 DEBUG bench setup role nginx
+2022-09-28 10:29:03,034 INFO /usr/local/bin/bench setup role nginx
+2022-09-28 10:29:17,695 DEBUG bench setup role supervisor
+2022-09-28 10:29:17,811 INFO /usr/local/bin/bench setup role supervisor
+2022-09-28 10:29:27,892 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-09-28 10:29:27,892 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2022-09-28 10:29:27,966 DEBUG sudo /usr/sbin/nginx -t
+2022-09-28 10:29:27,982 DEBUG sudo systemctl reload nginx
+2022-09-28 10:30:32,666 INFO /usr/local/bin/bench setup nginx
+2022-09-28 10:30:54,439 INFO /usr/local/bin/bench setup production ubuntu
+2022-09-28 10:30:54,446 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-09-28 10:30:54,446 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2022-09-28 10:31:01,032 DEBUG /usr/bin/supervisorctl reread
+2022-09-28 10:31:01,268 DEBUG /usr/bin/supervisorctl update
+2022-09-28 10:31:01,530 DEBUG sudo /usr/sbin/nginx -t
+2022-09-28 10:31:01,552 DEBUG sudo systemctl reload nginx
+2022-09-28 10:31:01,943 INFO /usr/local/bin/bench schedule
+2022-09-28 10:31:02,061 INFO /usr/local/bin/bench worker --queue short
+2022-09-28 10:31:02,082 INFO /usr/local/bin/bench worker --queue long
+2022-09-28 10:31:02,100 INFO /usr/local/bin/bench worker --queue default
+2022-09-28 10:50:09,315 INFO /usr/local/bin/bench worker --queue long
+2022-09-28 10:50:09,324 INFO /usr/local/bin/bench schedule
+2022-09-28 10:50:09,440 INFO /usr/local/bin/bench worker --queue short
+2022-09-28 10:50:09,463 INFO /usr/local/bin/bench worker --queue default
+2022-09-28 11:30:04,248 INFO /usr/local/bin/bench schedule
+2022-09-28 11:30:04,248 INFO /usr/local/bin/bench worker --queue long
+2022-09-28 11:30:04,248 INFO /usr/local/bin/bench worker --queue short
+2022-09-28 11:30:04,283 INFO /usr/local/bin/bench worker --queue default
+2022-09-28 12:00:01,392 INFO /usr/local/bin/bench --verbose --site all backup
+2022-09-28 18:00:02,029 INFO /usr/local/bin/bench --verbose --site all backup
+2022-09-29 00:00:01,316 INFO /usr/local/bin/bench --verbose --site all backup
+2022-09-29 06:00:01,830 INFO /usr/local/bin/bench --verbose --site all backup
+2022-09-29 12:00:01,578 INFO /usr/local/bin/bench --verbose --site all backup
+2022-09-29 18:00:02,078 INFO /usr/local/bin/bench --verbose --site all backup
+2022-09-30 00:00:01,824 INFO /usr/local/bin/bench --verbose --site all backup
+2022-09-30 06:00:01,243 INFO /usr/local/bin/bench --verbose --site all backup
+2022-09-30 12:00:02,030 INFO /usr/local/bin/bench --verbose --site all backup
+2022-09-30 18:00:01,435 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-01 00:00:01,332 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-01 06:00:01,674 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-01 12:00:02,102 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-01 18:00:01,394 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-02 00:00:01,748 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-02 06:00:02,090 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-02 12:00:01,538 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-02 18:00:01,983 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-03 00:00:01,356 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-03 06:00:01,742 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-03 12:00:01,162 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-03 18:00:01,826 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-04 00:00:01,154 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-04 06:00:01,598 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-04 08:05:41,534 INFO /usr/local/bin/bench --site erp.knestcrm.com enable-scheduler
+2022-10-04 08:05:50,233 INFO /usr/local/bin/bench --site erp.knestcrm.com set-maintenance-mode off
+2022-10-04 08:05:59,079 INFO /usr/local/bin/bench setup production ubuntu
+2022-10-04 08:05:59,091 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-10-04 08:05:59,091 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2022-10-04 08:06:10,604 DEBUG /usr/bin/supervisorctl reread
+2022-10-04 08:06:10,842 DEBUG /usr/bin/supervisorctl update
+2022-10-04 08:06:11,074 DEBUG sudo /usr/sbin/nginx -t
+2022-10-04 08:06:11,088 DEBUG sudo systemctl reload nginx
+2022-10-04 08:06:15,195 INFO /usr/local/bin/bench setup nginx
+2022-10-04 08:06:24,810 INFO /usr/local/bin/bench schedule
+2022-10-04 08:06:24,836 INFO /usr/local/bin/bench worker --queue short
+2022-10-04 08:06:24,866 INFO /usr/local/bin/bench worker --queue long
+2022-10-04 08:06:24,916 INFO /usr/local/bin/bench worker --queue default
+2022-10-04 08:06:30,697 INFO /usr/local/bin/bench setup production ubuntu
+2022-10-04 08:06:30,703 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-10-04 08:06:30,704 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2022-10-04 08:06:33,509 DEBUG /usr/bin/supervisorctl reread
+2022-10-04 08:06:33,741 DEBUG /usr/bin/supervisorctl update
+2022-10-04 08:06:33,972 DEBUG sudo /usr/sbin/nginx -t
+2022-10-04 08:06:33,986 DEBUG sudo systemctl reload nginx
+2022-10-04 12:00:01,145 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-04 18:00:01,535 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-05 00:00:01,910 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-05 06:00:01,341 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-05 12:00:01,725 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-05 18:00:02,104 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-06 00:00:01,516 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-06 06:00:02,068 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-06 12:00:01,681 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-06 18:00:01,563 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-07 00:00:01,265 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-07 06:00:01,206 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-07 12:00:01,889 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-07 12:57:41,187 INFO /usr/local/bin/bench get-app https://github.com/frappe/erpnext_gst_compliance.git
+2022-10-07 12:57:41,195 LOG Getting erpnext_gst_compliance
+2022-10-07 12:57:41,195 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext_gst_compliance.git  --depth 1 --origin upstream
+2022-10-07 12:57:42,125 LOG Installing erpnext_gst_compliance
+2022-10-07 12:57:42,311 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/erpnext_gst_compliance 
+2022-10-07 12:57:46,379 DEBUG bench build --app erpnext_gst_compliance
+2022-10-07 12:57:46,501 INFO /usr/local/bin/bench build --app erpnext_gst_compliance
+2022-10-07 12:57:50,844 DEBUG cd /home/ubuntu/frappe-bench && supervisorctl restart frappe:
+2022-10-07 12:57:51,082 WARNING cd /home/ubuntu/frappe-bench && supervisorctl restart frappe: executed with exit code 1
+2022-10-07 12:57:51,083 WARNING /usr/local/bin/bench get-app https://github.com/frappe/erpnext_gst_compliance.git executed with exit code 1
+2022-10-07 12:57:55,519 INFO /usr/local/bin/bench schedule
+2022-10-07 12:58:16,991 INFO /usr/local/bin/bench --site erp.knestcrm.com install-app erpnext_gst_compliance
+2022-10-07 13:00:43,632 INFO /usr/local/bin/bench --site erp.knestcrm.com set-maintenance-mode on
+2022-10-07 13:00:55,081 INFO /usr/local/bin/bench setup production ubuntu
+2022-10-07 13:00:55,088 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-10-07 13:00:55,089 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2022-10-07 13:01:02,919 DEBUG /usr/bin/supervisorctl reread
+2022-10-07 13:01:03,167 DEBUG /usr/bin/supervisorctl update
+2022-10-07 13:01:03,411 DEBUG sudo /usr/sbin/nginx -t
+2022-10-07 13:01:03,427 DEBUG sudo systemctl reload nginx
+2022-10-07 13:01:09,670 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:01:09,724 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:01:09,731 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:01:09,736 INFO /usr/local/bin/bench schedule
+2022-10-07 13:01:55,844 INFO /usr/local/bin/bench get-app https://github.com/frappe/erpnext_gst_compliance.git
+2022-10-07 13:01:58,223 WARNING /usr/local/bin/bench get-app https://github.com/frappe/erpnext_gst_compliance.git executed with exit code 1
+2022-10-07 13:02:52,631 INFO /usr/local/bin/bench get-app https://github.com/frappe/erpnext_gst_compliance.git
+2022-10-07 13:02:52,640 LOG Getting erpnext_gst_compliance
+2022-10-07 13:02:52,640 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext_gst_compliance.git  --depth 1 --origin upstream
+2022-10-07 13:02:53,508 LOG Installing erpnext_gst_compliance
+2022-10-07 13:02:53,687 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/erpnext_gst_compliance 
+2022-10-07 13:02:57,047 DEBUG bench build --app erpnext_gst_compliance
+2022-10-07 13:02:57,168 INFO /usr/local/bin/bench build --app erpnext_gst_compliance
+2022-10-07 13:02:58,817 WARNING bench build --app erpnext_gst_compliance executed with exit code 1
+2022-10-07 13:02:58,818 WARNING /usr/local/bin/bench get-app https://github.com/frappe/erpnext_gst_compliance.git executed with exit code 1
+2022-10-07 13:04:01,080 INFO /usr/local/bin/bench get-app https://github.com/frappe/erpnext_gst_compliance.git
+2022-10-07 13:04:01,089 LOG Getting erpnext_gst_compliance
+2022-10-07 13:04:01,089 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext_gst_compliance.git  --depth 1 --origin upstream
+2022-10-07 13:04:02,107 LOG Installing erpnext_gst_compliance
+2022-10-07 13:04:02,291 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/erpnext_gst_compliance 
+2022-10-07 13:04:05,703 DEBUG bench build --app erpnext_gst_compliance
+2022-10-07 13:04:05,825 INFO /usr/local/bin/bench build --app erpnext_gst_compliance
+2022-10-07 13:04:07,347 WARNING bench build --app erpnext_gst_compliance executed with exit code 1
+2022-10-07 13:04:07,347 WARNING /usr/local/bin/bench get-app https://github.com/frappe/erpnext_gst_compliance.git executed with exit code 1
+2022-10-07 13:24:49,651 INFO /usr/local/bin/bench get-app https://github.com/resilient-tech/india-compliance.git
+2022-10-07 13:24:49,660 LOG Getting india-compliance
+2022-10-07 13:24:49,660 DEBUG cd ./apps && git clone https://github.com/resilient-tech/india-compliance.git  --depth 1 --origin upstream
+2022-10-07 13:24:50,874 LOG Installing india_compliance
+2022-10-07 13:24:51,060 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/india_compliance 
+2022-10-07 13:25:00,873 DEBUG bench build --app india_compliance
+2022-10-07 13:25:00,992 INFO /usr/local/bin/bench build --app india_compliance
+2022-10-07 13:25:05,189 DEBUG cd /home/ubuntu/frappe-bench && supervisorctl restart frappe:
+2022-10-07 13:25:05,428 WARNING cd /home/ubuntu/frappe-bench && supervisorctl restart frappe: executed with exit code 1
+2022-10-07 13:25:05,428 WARNING /usr/local/bin/bench get-app https://github.com/resilient-tech/india-compliance.git executed with exit code 1
+2022-10-07 13:25:15,428 INFO /usr/local/bin/bench schedule
+2022-10-07 13:27:28,979 INFO /usr/local/bin/bench start
+2022-10-07 13:27:29,658 INFO /usr/local/bin/bench schedule
+2022-10-07 13:27:29,668 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:27:29,720 INFO /usr/local/bin/bench watch
+2022-10-07 13:27:29,725 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:27:29,732 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:27:29,749 INFO /usr/local/bin/bench serve --port 8000
+2022-10-07 13:29:40,433 INFO /usr/local/bin/bench get-app https://github.com/resilient-tech/india-compliance.git
+2022-10-07 13:29:40,441 LOG Getting india-compliance
+2022-10-07 13:29:40,441 DEBUG cd ./apps && git clone https://github.com/resilient-tech/india-compliance.git  --depth 1 --origin upstream
+2022-10-07 13:29:41,457 LOG Installing india_compliance
+2022-10-07 13:29:41,644 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/india_compliance 
+2022-10-07 13:29:44,813 DEBUG bench build --app india_compliance
+2022-10-07 13:29:44,937 INFO /usr/local/bin/bench build --app india_compliance
+2022-10-07 13:29:50,926 DEBUG cd /home/ubuntu/frappe-bench && supervisorctl restart frappe:
+2022-10-07 13:29:51,168 WARNING cd /home/ubuntu/frappe-bench && supervisorctl restart frappe: executed with exit code 7
+2022-10-07 13:29:51,169 WARNING /usr/local/bin/bench get-app https://github.com/resilient-tech/india-compliance.git executed with exit code 1
+2022-10-07 13:30:14,963 INFO /usr/local/bin/bench start
+2022-10-07 13:30:15,575 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:30:15,665 INFO /usr/local/bin/bench schedule
+2022-10-07 13:30:15,676 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:30:15,689 INFO /usr/local/bin/bench watch
+2022-10-07 13:30:15,729 INFO /usr/local/bin/bench serve --port 8000
+2022-10-07 13:30:15,768 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:30:28,727 INFO /usr/local/bin/bench get-app https://github.com/resilient-tech/india-compliance.git
+2022-10-07 13:30:28,735 LOG Getting india-compliance
+2022-10-07 13:30:28,736 DEBUG cd ./apps && git clone https://github.com/resilient-tech/india-compliance.git  --depth 1 --origin upstream
+2022-10-07 13:30:30,021 WARNING /usr/local/bin/bench get-app https://github.com/resilient-tech/india-compliance.git executed with exit code 1
+2022-10-07 13:31:52,915 INFO /usr/local/bin/bench start
+2022-10-07 13:31:53,550 INFO /usr/local/bin/bench schedule
+2022-10-07 13:31:53,591 INFO /usr/local/bin/bench serve --port 8000
+2022-10-07 13:31:53,613 INFO /usr/local/bin/bench watch
+2022-10-07 13:31:53,646 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:31:53,660 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:31:53,728 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:32:01,171 INFO /usr/local/bin/bench start
+2022-10-07 13:32:01,833 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:32:01,851 INFO /usr/local/bin/bench watch
+2022-10-07 13:32:01,869 INFO /usr/local/bin/bench schedule
+2022-10-07 13:32:01,895 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:32:01,901 INFO /usr/local/bin/bench serve --port 8000
+2022-10-07 13:32:01,921 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:32:24,521 INFO /usr/local/bin/bench start
+2022-10-07 13:32:25,185 INFO /usr/local/bin/bench schedule
+2022-10-07 13:32:25,188 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:32:25,233 INFO /usr/local/bin/bench serve --port 8000
+2022-10-07 13:32:25,239 INFO /usr/local/bin/bench watch
+2022-10-07 13:32:25,247 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:32:25,317 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:33:12,403 INFO /usr/local/bin/bench start
+2022-10-07 13:33:13,053 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:33:13,078 INFO /usr/local/bin/bench serve --port 8000
+2022-10-07 13:33:13,094 INFO /usr/local/bin/bench watch
+2022-10-07 13:33:13,108 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:33:13,152 INFO /usr/local/bin/bench schedule
+2022-10-07 13:33:13,171 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:33:30,894 INFO /usr/local/bin/bench start
+2022-10-07 13:33:31,548 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:33:31,598 INFO /usr/local/bin/bench serve --port 8000
+2022-10-07 13:33:31,617 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:33:31,630 INFO /usr/local/bin/bench watch
+2022-10-07 13:33:31,630 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:33:31,649 INFO /usr/local/bin/bench schedule
+2022-10-07 13:34:16,098 INFO /usr/local/bin/bench start
+2022-10-07 13:34:16,734 INFO /usr/local/bin/bench watch
+2022-10-07 13:34:16,743 INFO /usr/local/bin/bench schedule
+2022-10-07 13:34:16,775 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:34:16,806 INFO /usr/local/bin/bench serve --port 8000
+2022-10-07 13:34:16,831 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:34:16,861 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:34:30,155 INFO /usr/local/bin/bench start
+2022-10-07 13:34:30,779 INFO /usr/local/bin/bench serve --port 8000
+2022-10-07 13:34:30,805 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:34:30,813 INFO /usr/local/bin/bench schedule
+2022-10-07 13:34:30,849 INFO /usr/local/bin/bench watch
+2022-10-07 13:34:30,889 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:34:30,893 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:34:43,634 INFO /usr/local/bin/bench setup production ubuntu
+2022-10-07 13:34:43,641 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-10-07 13:34:43,641 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2022-10-07 13:34:46,943 DEBUG /usr/bin/supervisorctl reread
+2022-10-07 13:34:47,183 WARNING /usr/bin/supervisorctl reread executed with exit code 1
+2022-10-07 13:34:47,183 DEBUG /usr/bin/supervisorctl reload
+2022-10-07 13:34:47,427 WARNING /usr/bin/supervisorctl reload executed with exit code 1
+2022-10-07 13:34:47,427 DEBUG sudo systemctl restart supervisord
+2022-10-07 13:34:47,442 WARNING sudo systemctl restart supervisord executed with exit code 5
+2022-10-07 13:34:47,443 DEBUG sudo systemctl restart supervisor
+2022-10-07 13:34:47,484 DEBUG sudo /usr/sbin/nginx -t
+2022-10-07 13:34:47,503 DEBUG sudo systemctl reload nginx
+2022-10-07 13:34:47,523 WARNING sudo systemctl reload nginx executed with exit code 1
+2022-10-07 13:34:47,523 WARNING /usr/local/bin/bench setup production ubuntu executed with exit code 1
+2022-10-07 13:34:49,137 INFO /usr/local/bin/bench schedule
+2022-10-07 13:34:49,177 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:34:49,200 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:34:49,209 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:34:52,249 INFO /usr/local/bin/bench schedule
+2022-10-07 13:34:52,321 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:34:52,329 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:34:52,332 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:34:54,800 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:34:54,891 INFO /usr/local/bin/bench schedule
+2022-10-07 13:34:54,913 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:34:55,969 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:34:57,146 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:34:57,149 INFO /usr/local/bin/bench schedule
+2022-10-07 13:34:58,005 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:34:58,942 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:34:59,427 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:34:59,837 INFO /usr/local/bin/bench schedule
+2022-10-07 13:35:00,723 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:35:01,586 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:35:01,872 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:35:02,611 INFO /usr/local/bin/bench schedule
+2022-10-07 13:35:03,569 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:35:04,189 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:35:04,641 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:35:05,437 INFO /usr/local/bin/bench schedule
+2022-10-07 13:35:06,246 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:35:06,536 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:35:07,509 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:35:08,151 INFO /usr/local/bin/bench schedule
+2022-10-07 13:35:08,516 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:35:09,463 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:35:10,021 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:35:10,284 INFO /usr/local/bin/bench schedule
+2022-10-07 13:35:11,414 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:35:11,967 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:35:12,154 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:35:13,336 INFO /usr/local/bin/bench schedule
+2022-10-07 13:35:13,902 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:35:14,089 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:35:15,022 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:35:15,721 INFO /usr/local/bin/bench schedule
+2022-10-07 13:35:16,175 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:35:17,057 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:35:17,741 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:35:17,864 INFO /usr/local/bin/bench schedule
+2022-10-07 13:35:19,089 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:35:19,709 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:35:19,844 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:35:21,027 INFO /usr/local/bin/bench schedule
+2022-10-07 13:35:21,642 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:35:22,469 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:35:22,556 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:35:23,269 INFO /usr/local/bin/bench schedule
+2022-10-07 13:35:24,486 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:35:24,599 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:35:24,880 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:35:26,049 INFO /usr/local/bin/bench schedule
+2022-10-07 13:35:26,713 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:35:27,626 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:35:27,679 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:35:28,388 INFO /usr/local/bin/bench schedule
+2022-10-07 13:35:29,258 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:35:29,645 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:35:30,257 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:35:31,255 INFO /usr/local/bin/bench schedule
+2022-10-07 13:35:31,596 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:35:32,307 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:35:33,410 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:35:33,501 INFO /usr/local/bin/bench schedule
+2022-10-07 13:35:33,952 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:35:35,190 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:35:35,561 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:35:35,938 INFO /usr/local/bin/bench schedule
+2022-10-07 13:35:37,177 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:35:37,473 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:35:37,836 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:35:39,073 INFO /usr/local/bin/bench schedule
+2022-10-07 13:35:39,496 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:35:39,785 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:35:40,949 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:35:41,304 INFO /usr/local/bin/bench schedule
+2022-10-07 13:35:41,990 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:35:42,893 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:35:43,357 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:35:43,805 INFO /usr/local/bin/bench schedule
+2022-10-07 13:35:44,897 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:35:45,327 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:35:45,648 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:35:46,877 INFO /usr/local/bin/bench schedule
+2022-10-07 13:35:47,165 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:35:47,753 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:35:48,897 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:35:49,105 INFO /usr/local/bin/bench schedule
+2022-10-07 13:35:49,794 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:35:50,797 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:35:51,037 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:35:51,655 INFO /usr/local/bin/bench schedule
+2022-10-07 13:35:52,643 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:35:53,252 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:35:53,681 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:35:54,817 INFO /usr/local/bin/bench schedule
+2022-10-07 13:36:12,319 INFO /usr/local/bin/bench start
+2022-10-07 13:36:12,929 INFO /usr/local/bin/bench serve --port 8000
+2022-10-07 13:36:13,020 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:36:13,016 INFO /usr/local/bin/bench schedule
+2022-10-07 13:36:13,038 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:36:13,047 INFO /usr/local/bin/bench watch
+2022-10-07 13:36:13,053 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:36:35,230 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:36:35,289 INFO /usr/local/bin/bench schedule
+2022-10-07 13:36:35,307 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:36:35,316 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:36:38,922 INFO /usr/local/bin/bench schedule
+2022-10-07 13:36:39,014 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:36:39,053 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:36:39,850 INFO /usr/local/bin/bench start
+2022-10-07 13:36:40,337 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:36:41,508 INFO /usr/local/bin/bench schedule
+2022-10-07 13:36:41,821 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:36:42,498 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:36:43,692 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:36:43,999 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:36:44,033 INFO /usr/local/bin/bench schedule
+2022-10-07 13:36:45,505 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:36:45,777 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:36:46,157 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:36:47,490 INFO /usr/local/bin/bench schedule
+2022-10-07 13:36:47,769 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:36:48,153 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:36:49,338 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:36:49,765 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:36:50,205 INFO /usr/local/bin/bench schedule
+2022-10-07 13:36:51,201 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:36:51,961 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:36:52,881 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:36:53,147 INFO /usr/local/bin/bench schedule
+2022-10-07 13:36:57,113 INFO /usr/local/bin/bench start
+2022-10-07 13:36:57,789 INFO /usr/local/bin/bench serve --port 8000
+2022-10-07 13:36:57,805 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:36:57,824 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:36:57,825 INFO /usr/local/bin/bench watch
+2022-10-07 13:36:57,845 INFO /usr/local/bin/bench schedule
+2022-10-07 13:36:57,893 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:37:26,847 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:37:26,973 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:37:26,985 INFO /usr/local/bin/bench schedule
+2022-10-07 13:37:27,005 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:37:29,905 INFO /usr/local/bin/bench schedule
+2022-10-07 13:37:29,944 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:37:30,035 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:37:30,437 INFO /usr/local/bin/bench start
+2022-10-07 13:37:31,950 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:37:32,227 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:37:32,284 INFO /usr/local/bin/bench schedule
+2022-10-07 13:37:33,645 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:37:34,284 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:37:34,355 INFO /usr/local/bin/bench schedule
+2022-10-07 13:37:35,602 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:37:36,052 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:37:36,331 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:37:37,547 INFO /usr/local/bin/bench schedule
+2022-10-07 13:37:37,877 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:37:38,205 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:37:39,613 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:37:39,789 INFO /usr/local/bin/bench schedule
+2022-10-07 13:37:39,942 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:37:41,181 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:37:41,919 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:37:41,924 INFO /usr/local/bin/bench schedule
+2022-10-07 13:37:43,128 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:37:43,811 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:37:44,600 INFO /usr/local/bin/bench schedule
+2022-10-07 13:37:44,684 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:37:45,427 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:37:46,595 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:37:46,636 INFO /usr/local/bin/bench schedule
+2022-10-07 13:37:47,288 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:37:48,354 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:37:48,672 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:37:49,244 INFO /usr/local/bin/bench schedule
+2022-10-07 13:37:50,295 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:37:50,584 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:37:51,333 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:37:52,397 INFO /usr/local/bin/bench schedule
+2022-10-07 13:37:52,487 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:37:53,251 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:37:54,355 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:37:54,645 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:37:55,171 INFO /usr/local/bin/bench schedule
+2022-10-07 13:37:56,441 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:37:56,692 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:37:57,092 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:37:58,273 INFO /usr/local/bin/bench schedule
+2022-10-07 13:37:59,105 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:37:59,364 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:38:00,113 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:38:01,148 INFO /usr/local/bin/bench schedule
+2022-10-07 13:38:01,543 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:38:02,025 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:38:03,497 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:38:03,682 INFO /usr/local/bin/bench schedule
+2022-10-07 13:38:04,014 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:38:05,497 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:38:05,562 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:38:06,078 INFO /usr/local/bin/bench schedule
+2022-10-07 13:38:07,429 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:38:07,589 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:38:08,059 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:38:09,313 INFO /usr/local/bin/bench schedule
+2022-10-07 13:38:09,913 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:38:09,977 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:38:11,024 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:38:11,224 INFO /usr/local/bin/bench start
+2022-10-07 13:38:11,987 INFO /usr/local/bin/bench schedule
+2022-10-07 13:38:12,345 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:38:13,350 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:38:13,832 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:38:14,203 INFO /usr/local/bin/bench schedule
+2022-10-07 13:38:15,301 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:38:15,614 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:38:16,337 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:38:17,356 INFO /usr/local/bin/bench schedule
+2022-10-07 13:38:17,998 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:38:18,054 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:38:18,979 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:38:19,961 INFO /usr/local/bin/bench schedule
+2022-10-07 13:38:20,067 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:38:20,832 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:38:21,985 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:38:22,196 INFO /usr/local/bin/bench schedule
+2022-10-07 13:38:22,800 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:38:23,563 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:38:24,239 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:38:25,141 INFO /usr/local/bin/bench schedule
+2022-10-07 13:38:25,522 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:38:26,233 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:38:27,140 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:38:27,240 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:38:28,108 INFO /usr/local/bin/bench schedule
+2022-10-07 13:38:28,901 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:38:29,295 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:38:29,887 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:38:30,970 INFO /usr/local/bin/bench schedule
+2022-10-07 13:38:31,323 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:38:31,889 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:38:32,778 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:38:33,337 INFO /usr/local/bin/bench schedule
+2022-10-07 13:38:33,884 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:38:34,809 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:38:35,265 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:38:35,908 INFO /usr/local/bin/bench schedule
+2022-10-07 13:38:36,608 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:38:37,209 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:38:37,836 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:38:38,711 INFO /usr/local/bin/bench schedule
+2022-10-07 13:38:39,073 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:38:39,696 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:38:40,580 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:38:55,466 INFO /usr/local/bin/bench start
+2022-10-07 13:38:56,091 INFO /usr/local/bin/bench serve --port 8000
+2022-10-07 13:38:56,132 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:38:56,191 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:38:56,207 INFO /usr/local/bin/bench schedule
+2022-10-07 13:38:56,208 INFO /usr/local/bin/bench watch
+2022-10-07 13:38:56,228 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:39:47,726 INFO /usr/local/bin/bench start
+2022-10-07 13:39:48,322 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:39:48,336 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:39:48,425 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:39:48,444 INFO /usr/local/bin/bench schedule
+2022-10-07 13:39:48,436 INFO /usr/local/bin/bench serve --port 8000
+2022-10-07 13:39:48,475 INFO /usr/local/bin/bench watch
+2022-10-07 13:40:16,938 INFO /usr/local/bin/bench --site erp.knestcrm.com install-app india_compliance
+2022-10-07 13:40:26,700 INFO /usr/local/bin/bench start
+2022-10-07 13:40:27,309 INFO /usr/local/bin/bench serve --port 8000
+2022-10-07 13:40:27,378 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:40:27,390 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:40:27,413 INFO /usr/local/bin/bench schedule
+2022-10-07 13:40:27,422 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:40:27,463 INFO /usr/local/bin/bench watch
+2022-10-07 13:42:33,188 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:42:33,189 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:42:33,190 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:42:33,189 INFO /usr/local/bin/bench schedule
+2022-10-07 13:42:41,649 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:42:41,851 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:42:41,867 INFO /usr/local/bin/bench schedule
+2022-10-07 13:42:44,014 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:42:44,692 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:42:44,759 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:42:46,041 INFO /usr/local/bin/bench schedule
+2022-10-07 13:42:46,300 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:42:46,558 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:42:47,692 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:42:48,310 INFO /usr/local/bin/bench schedule
+2022-10-07 13:42:48,455 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:42:49,368 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:42:50,046 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:42:50,847 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:42:50,932 INFO /usr/local/bin/bench schedule
+2022-10-07 13:42:51,660 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:42:52,506 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:42:52,805 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:42:53,400 INFO /usr/local/bin/bench schedule
+2022-10-07 13:42:54,222 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:42:54,712 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:42:55,156 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:42:56,091 INFO /usr/local/bin/bench schedule
+2022-10-07 13:42:56,536 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:42:56,847 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:42:57,833 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:42:58,324 INFO /usr/local/bin/bench schedule
+2022-10-07 13:42:58,755 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:42:59,518 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:43:00,296 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:43:00,399 INFO /usr/local/bin/bench schedule
+2022-10-07 13:43:01,528 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:43:01,933 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:43:02,260 INFO /usr/local/bin/bench schedule
+2022-10-07 13:43:03,599 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:43:03,847 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:43:04,883 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:43:04,951 INFO /usr/local/bin/bench schedule
+2022-10-07 13:43:05,225 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:43:06,523 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:43:06,908 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:43:07,144 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:43:08,148 INFO /usr/local/bin/bench schedule
+2022-10-07 13:43:08,666 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:43:08,901 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:43:10,025 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:43:10,573 INFO /usr/local/bin/bench schedule
+2022-10-07 13:43:11,404 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:43:11,479 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:43:11,995 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:43:12,775 INFO /usr/local/bin/bench schedule
+2022-10-07 13:43:13,478 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:43:14,060 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:43:14,783 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:43:15,191 INFO /usr/local/bin/bench schedule
+2022-10-07 13:43:16,089 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:43:16,406 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:43:17,086 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:43:18,091 INFO /usr/local/bin/bench schedule
+2022-10-07 13:43:18,139 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:43:18,827 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:43:19,587 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:43:20,200 INFO /usr/local/bin/bench schedule
+2022-10-07 13:43:20,513 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:43:21,365 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:43:21,953 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:43:22,304 INFO /usr/local/bin/bench schedule
+2022-10-07 13:43:23,050 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:43:23,877 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:43:24,042 INFO /usr/local/bin/bench start
+2022-10-07 13:43:24,354 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:43:24,997 INFO /usr/local/bin/bench schedule
+2022-10-07 13:43:25,839 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:43:26,327 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:43:26,679 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:43:27,565 INFO /usr/local/bin/bench schedule
+2022-10-07 13:43:28,125 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:43:28,419 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:43:29,393 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:43:30,017 INFO /usr/local/bin/bench schedule
+2022-10-07 13:43:30,786 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:43:30,851 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:43:31,492 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:43:32,616 INFO /usr/local/bin/bench schedule
+2022-10-07 13:43:32,828 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:43:33,147 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:43:34,227 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:43:34,820 INFO /usr/local/bin/bench schedule
+2022-10-07 13:43:34,996 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:43:36,001 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:43:36,612 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:43:36,863 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:43:37,659 INFO /usr/local/bin/bench schedule
+2022-10-07 13:43:38,290 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:43:38,907 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:43:39,296 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:43:40,126 INFO /usr/local/bin/bench schedule
+2022-10-07 13:43:40,584 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:43:41,081 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:43:42,039 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:43:42,068 INFO /usr/local/bin/bench schedule
+2022-10-07 13:43:43,072 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:43:43,663 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:43:44,028 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:43:45,019 INFO /usr/local/bin/bench schedule
+2022-10-07 13:43:45,323 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:43:45,855 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:43:46,872 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:43:47,003 INFO /usr/local/bin/bench schedule
+2022-10-07 13:43:47,691 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:43:48,652 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:43:48,951 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:43:49,416 INFO /usr/local/bin/bench schedule
+2022-10-07 13:43:50,210 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:43:50,850 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:43:51,271 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:43:51,927 INFO /usr/local/bin/bench schedule
+2022-10-07 13:43:52,606 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:43:53,119 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:43:53,743 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:43:54,451 INFO /usr/local/bin/bench schedule
+2022-10-07 13:43:54,802 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:43:55,429 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:43:56,436 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:43:56,539 INFO /usr/local/bin/bench schedule
+2022-10-07 13:43:57,149 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:43:58,220 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:43:58,316 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:43:59,112 INFO /usr/local/bin/bench schedule
+2022-10-07 13:44:00,003 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:44:00,211 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:44:00,895 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:44:02,703 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:44:02,806 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:44:02,828 INFO /usr/local/bin/bench schedule
+2022-10-07 13:44:03,179 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:44:43,326 INFO /usr/local/bin/bench start
+2022-10-07 13:44:43,868 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:44:43,888 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:44:43,926 INFO /usr/local/bin/bench serve --port 8000
+2022-10-07 13:44:43,931 INFO /usr/local/bin/bench schedule
+2022-10-07 13:44:43,962 INFO /usr/local/bin/bench watch
+2022-10-07 13:44:43,974 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:46:40,510 INFO /usr/local/bin/bench get-app https://github.com/resilient-tech/india-compliance.git
+2022-10-07 13:46:40,517 LOG Getting india-compliance
+2022-10-07 13:46:40,517 DEBUG cd ./apps && git clone https://github.com/resilient-tech/india-compliance.git  --depth 1 --origin upstream
+2022-10-07 13:46:41,580 LOG Installing india_compliance
+2022-10-07 13:46:41,751 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/india_compliance 
+2022-10-07 13:46:45,145 DEBUG bench build --app india_compliance
+2022-10-07 13:46:45,261 INFO /usr/local/bin/bench build --app india_compliance
+2022-10-07 13:46:53,447 DEBUG cd /home/ubuntu/frappe-bench && supervisorctl restart frappe:
+2022-10-07 13:46:53,667 WARNING cd /home/ubuntu/frappe-bench && supervisorctl restart frappe: executed with exit code 7
+2022-10-07 13:46:53,668 WARNING /usr/local/bin/bench get-app https://github.com/resilient-tech/india-compliance.git executed with exit code 1
+2022-10-07 13:47:05,549 INFO /usr/local/bin/bench start
+2022-10-07 13:47:06,151 INFO /usr/local/bin/bench schedule
+2022-10-07 13:47:06,160 INFO /usr/local/bin/bench serve --port 8000
+2022-10-07 13:47:06,191 INFO /usr/local/bin/bench watch
+2022-10-07 13:47:06,193 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 13:47:06,206 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 13:47:06,232 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 13:47:31,045 INFO /usr/local/bin/bench --site erp.knestcrm.com install-app india_compliance
+2022-10-07 13:51:44,740 INFO /usr/local/bin/bench get-app https://github.com/Community-Apps-for-erpnext/erpnext_fingerprint-attendance.git
+2022-10-07 13:51:44,748 LOG Getting erpnext_fingerprint-attendance
+2022-10-07 13:51:44,748 DEBUG cd ./apps && git clone https://github.com/Community-Apps-for-erpnext/erpnext_fingerprint-attendance.git  --depth 1 --origin upstream
+2022-10-07 13:51:54,173 WARNING /usr/local/bin/bench get-app https://github.com/Community-Apps-for-erpnext/erpnext_fingerprint-attendance.git executed with exit code 1
+2022-10-07 13:57:06,023 INFO /usr/local/bin/bench get-app https://github.com/Community-Apps-for-erpnext/erpnext_fingerprint-attendance.git
+2022-10-07 13:57:07,571 WARNING /usr/local/bin/bench get-app https://github.com/Community-Apps-for-erpnext/erpnext_fingerprint-attendance.git executed with exit code 1
+2022-10-07 13:58:39,837 INFO /usr/local/bin/bench get-app chat
+2022-10-07 13:58:40,295 LOG Getting chat
+2022-10-07 13:58:40,296 DEBUG cd ./apps && git clone https://github.com/frappe/chat.git  --depth 1 --origin upstream
+2022-10-07 13:58:41,989 LOG Installing chat
+2022-10-07 13:58:42,160 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/chat 
+2022-10-07 13:58:44,183 DEBUG bench build --app chat
+2022-10-07 13:58:44,299 INFO /usr/local/bin/bench build --app chat
+2022-10-07 13:58:47,512 DEBUG cd /home/ubuntu/frappe-bench && supervisorctl restart frappe:
+2022-10-07 13:58:47,740 WARNING cd /home/ubuntu/frappe-bench && supervisorctl restart frappe: executed with exit code 7
+2022-10-07 13:58:47,740 WARNING /usr/local/bin/bench get-app chat executed with exit code 1
+2022-10-07 13:59:51,405 INFO /usr/local/bin/bench use erp.knestcrm.com
+2022-10-07 14:00:13,946 INFO /usr/local/bin/bench migrate
+2022-10-07 14:00:33,634 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 14:00:33,636 INFO /usr/local/bin/bench schedule
+2022-10-07 14:00:33,656 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 14:00:33,656 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 14:00:47,862 INFO /usr/local/bin/bench --site erp.knestcrm.com enable-scheduler
+2022-10-07 14:00:59,013 INFO /usr/local/bin/bench --site erp.knestcrm.com set-maintenance-mode off
+2022-10-07 14:01:06,622 INFO /usr/local/bin/bench setup production ubuntu
+2022-10-07 14:01:06,632 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-10-07 14:01:06,632 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2022-10-07 14:01:11,098 DEBUG /usr/bin/supervisorctl reread
+2022-10-07 14:01:11,328 DEBUG /usr/bin/supervisorctl update
+2022-10-07 14:01:11,557 DEBUG sudo /usr/sbin/nginx -t
+2022-10-07 14:01:11,570 DEBUG sudo systemctl reload nginx
+2022-10-07 14:01:11,583 WARNING sudo systemctl reload nginx executed with exit code 1
+2022-10-07 14:01:11,583 WARNING /usr/local/bin/bench setup production ubuntu executed with exit code 1
+2022-10-07 14:01:33,666 INFO /usr/local/bin/bench setup nginx
+2022-10-07 14:01:42,841 INFO /usr/local/bin/bench setup production ubuntu
+2022-10-07 14:01:42,849 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-10-07 14:01:42,849 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2022-10-07 14:01:45,460 DEBUG /usr/bin/supervisorctl reread
+2022-10-07 14:01:45,702 DEBUG /usr/bin/supervisorctl update
+2022-10-07 14:01:45,935 DEBUG sudo /usr/sbin/nginx -t
+2022-10-07 14:01:45,950 DEBUG sudo systemctl reload nginx
+2022-10-07 14:01:45,965 WARNING sudo systemctl reload nginx executed with exit code 1
+2022-10-07 14:01:45,966 WARNING /usr/local/bin/bench setup production ubuntu executed with exit code 1
+2022-10-07 14:02:06,448 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 14:02:06,509 INFO /usr/local/bin/bench schedule
+2022-10-07 14:02:06,519 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 14:02:06,536 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 14:02:14,350 INFO /usr/local/bin/bench setup production ubuntu
+2022-10-07 14:02:14,357 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-10-07 14:02:14,357 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2022-10-07 14:02:16,782 DEBUG /usr/bin/supervisorctl reread
+2022-10-07 14:02:17,010 DEBUG /usr/bin/supervisorctl update
+2022-10-07 14:02:17,238 DEBUG sudo /usr/sbin/nginx -t
+2022-10-07 14:02:17,252 DEBUG sudo systemctl reload nginx
+2022-10-07 14:02:17,266 WARNING sudo systemctl reload nginx executed with exit code 1
+2022-10-07 14:02:17,266 WARNING /usr/local/bin/bench setup production ubuntu executed with exit code 1
+2022-10-07 14:03:10,340 INFO /usr/local/bin/bench --site erp.knestcrm.com enable-scheduler
+2022-10-07 14:03:15,493 INFO /usr/local/bin/bench --site erp.knestcrm.com set-maintenance-mode off
+2022-10-07 14:03:20,206 INFO /usr/local/bin/bench setup production ubuntu
+2022-10-07 14:03:20,213 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-10-07 14:03:20,213 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2022-10-07 14:03:23,624 DEBUG /usr/bin/supervisorctl reread
+2022-10-07 14:03:23,854 DEBUG /usr/bin/supervisorctl update
+2022-10-07 14:03:24,085 DEBUG sudo /usr/sbin/nginx -t
+2022-10-07 14:03:24,099 DEBUG sudo systemctl reload nginx
+2022-10-07 14:03:28,946 INFO /usr/local/bin/bench setup nginx
+2022-10-07 14:03:36,672 INFO /usr/local/bin/bench worker --queue default
+2022-10-07 14:03:36,760 INFO /usr/local/bin/bench worker --queue long
+2022-10-07 14:03:36,883 INFO /usr/local/bin/bench schedule
+2022-10-07 14:03:36,892 INFO /usr/local/bin/bench worker --queue short
+2022-10-07 14:03:42,129 INFO /usr/local/bin/bench setup production ubuntu
+2022-10-07 14:03:42,135 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-10-07 14:03:42,135 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2022-10-07 14:03:44,361 DEBUG /usr/bin/supervisorctl reread
+2022-10-07 14:03:44,593 DEBUG /usr/bin/supervisorctl update
+2022-10-07 14:03:44,827 DEBUG sudo /usr/sbin/nginx -t
+2022-10-07 14:03:44,840 DEBUG sudo systemctl reload nginx
+2022-10-07 18:00:01,250 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-08 00:00:01,864 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-08 06:00:01,434 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-08 12:00:02,076 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-08 18:00:01,550 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-09 00:00:02,115 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-09 06:00:01,610 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-09 12:00:01,580 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-09 18:00:01,487 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-10 00:00:01,403 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-10 06:00:01,480 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-10 12:00:01,425 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-10 18:00:01,394 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-11 00:00:01,537 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-11 06:00:01,803 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-11 07:48:55,550 INFO /usr/local/bin/bench worker --queue default
+2022-10-11 07:48:55,551 INFO /usr/local/bin/bench worker --queue long
+2022-10-11 07:48:55,605 INFO /usr/local/bin/bench worker --queue short
+2022-10-11 07:48:55,648 INFO /usr/local/bin/bench schedule
+2022-10-11 11:22:03,618 INFO /usr/local/bin/bench worker --queue default
+2022-10-11 11:22:03,625 INFO /usr/local/bin/bench worker --queue long
+2022-10-11 11:22:03,627 INFO /usr/local/bin/bench worker --queue short
+2022-10-11 11:22:03,628 INFO /usr/local/bin/bench schedule
+2022-10-11 12:00:01,617 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-11 18:00:01,797 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-12 00:00:01,790 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-12 06:00:01,831 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-12 12:00:01,819 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-12 12:58:50,346 INFO /usr/local/bin/bench schedule
+2022-10-12 12:58:50,347 INFO /usr/local/bin/bench worker --queue short
+2022-10-12 12:58:50,347 INFO /usr/local/bin/bench worker --queue default
+2022-10-12 12:58:50,348 INFO /usr/local/bin/bench worker --queue long
+2022-10-12 18:00:01,494 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-13 00:00:01,848 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-13 06:00:01,954 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-13 12:00:01,942 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-13 18:00:01,925 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-14 00:00:02,024 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-14 06:00:01,162 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-14 12:00:01,197 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-14 18:00:01,241 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-15 00:00:01,319 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-15 04:33:14,714 INFO /usr/local/bin/bench worker --queue short
+2022-10-15 04:33:14,714 INFO /usr/local/bin/bench schedule
+2022-10-15 04:33:14,717 INFO /usr/local/bin/bench worker --queue long
+2022-10-15 04:33:14,717 INFO /usr/local/bin/bench worker --queue default
+2022-10-15 04:39:39,535 INFO /usr/local/bin/bench worker --queue long
+2022-10-15 04:39:39,535 INFO /usr/local/bin/bench worker --queue default
+2022-10-15 04:39:39,536 INFO /usr/local/bin/bench worker --queue short
+2022-10-15 04:39:39,618 INFO /usr/local/bin/bench schedule
+2022-10-15 06:00:01,647 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-15 09:36:11,136 INFO /usr/local/bin/bench schedule
+2022-10-15 09:36:11,145 INFO /usr/local/bin/bench worker --queue short
+2022-10-15 09:36:11,152 INFO /usr/local/bin/bench worker --queue default
+2022-10-15 09:36:11,170 INFO /usr/local/bin/bench worker --queue long

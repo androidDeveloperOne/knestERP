@@ -1,0 +1,56 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "14.9.0"
+    },
+    "payments": {
+        "resolution": {
+            "commit_hash": "487747b73f658de78fbe1741a06e7447927cfa79",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "0.0.1"
+    },
+    "erpnext": {
+        "resolution": {
+            "commit_hash": "c50d6c5e74bc2a4aa5b3acba91bc6096df406336",
+            "branch": "version-14"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "14.2.0"
+    },
+    "hrms": {
+        "resolution": {
+            "commit_hash": "673b54493f2d2fcd2dc850dbb187ae38bc212b8b",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 4,
+        "version": "1.0.0"
+    },
+    "india_compliance": {
+        "resolution": {
+            "commit_hash": "5ec8582ed121cba092d5b33fe8e7ca06029b50f0",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 5,
+        "version": "0.0.1"
+    },
+    "chat": {
+        "resolution": {
+            "commit_hash": "8f261fb6a97c13a358ddbf30850cd19e7673c357",
+            "branch": "main"
+        },
+        "required": [],
+        "idx": 6,
+        "version": "0.0.1"
+    }
+}

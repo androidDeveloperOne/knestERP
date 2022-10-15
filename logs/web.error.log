@@ -1,0 +1,1491 @@
+[2022-09-28 10:31:03 +0000] [38862] [INFO] Starting gunicorn 20.1.0
+[2022-09-28 10:31:03 +0000] [38862] [INFO] Listening at: http://127.0.0.1:8000 (38862)
+[2022-09-28 10:31:03 +0000] [38862] [INFO] Using worker: sync
+[2022-09-28 10:31:03 +0000] [38917] [INFO] Booting worker with pid: 38917
+[2022-09-28 10:31:03 +0000] [38918] [INFO] Booting worker with pid: 38918
+[2022-09-28 10:31:03 +0000] [38919] [INFO] Booting worker with pid: 38919
+[2022-09-28 10:31:04 +0000] [38920] [INFO] Booting worker with pid: 38920
+[2022-09-28 10:31:04 +0000] [38921] [INFO] Booting worker with pid: 38921
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+[2022-09-28 10:49:16 +0000] [38862] [INFO] Handling signal: term
+[2022-09-28 10:49:16 +0000] [38917] [INFO] Worker exiting (pid: 38917)
+[2022-09-28 10:49:16 +0000] [38918] [INFO] Worker exiting (pid: 38918)
+[2022-09-28 10:49:16 +0000] [38920] [INFO] Worker exiting (pid: 38920)
+[2022-09-28 10:49:16 +0000] [38921] [INFO] Worker exiting (pid: 38921)
+[2022-09-28 10:49:16 +0000] [38919] [INFO] Worker exiting (pid: 38919)
+[2022-09-28 10:49:16 +0000] [38862] [INFO] Shutting down: Master
+[2022-09-28 10:50:14 +0000] [748] [INFO] Starting gunicorn 20.1.0
+[2022-09-28 10:50:14 +0000] [748] [INFO] Listening at: http://127.0.0.1:8000 (748)
+[2022-09-28 10:50:14 +0000] [748] [INFO] Using worker: sync
+[2022-09-28 10:50:14 +0000] [1166] [INFO] Booting worker with pid: 1166
+[2022-09-28 10:50:14 +0000] [1165] [INFO] Booting worker with pid: 1165
+[2022-09-28 10:50:14 +0000] [1167] [INFO] Booting worker with pid: 1167
+[2022-09-28 10:50:14 +0000] [1168] [INFO] Booting worker with pid: 1168
+[2022-09-28 10:50:15 +0000] [1169] [INFO] Booting worker with pid: 1169
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+[2022-09-28 11:29:15 +0000] [748] [INFO] Handling signal: term
+[2022-09-28 11:29:15 +0000] [1166] [INFO] Worker exiting (pid: 1166)
+[2022-09-28 11:29:15 +0000] [1169] [INFO] Worker exiting (pid: 1169)
+[2022-09-28 11:29:15 +0000] [1167] [INFO] Worker exiting (pid: 1167)
+[2022-09-28 11:29:15 +0000] [1165] [INFO] Worker exiting (pid: 1165)
+[2022-09-28 11:29:15 +0000] [1168] [INFO] Worker exiting (pid: 1168)
+[2022-09-28 11:29:15 +0000] [748] [INFO] Shutting down: Master
+[2022-09-28 11:30:08 +0000] [754] [INFO] Starting gunicorn 20.1.0
+[2022-09-28 11:30:08 +0000] [754] [INFO] Listening at: http://127.0.0.1:8000 (754)
+[2022-09-28 11:30:08 +0000] [754] [INFO] Using worker: sync
+[2022-09-28 11:30:08 +0000] [880] [INFO] Booting worker with pid: 880
+[2022-09-28 11:30:08 +0000] [881] [INFO] Booting worker with pid: 881
+[2022-09-28 11:30:08 +0000] [882] [INFO] Booting worker with pid: 882
+[2022-09-28 11:30:08 +0000] [883] [INFO] Booting worker with pid: 883
+[2022-09-28 11:30:08 +0000] [884] [INFO] Booting worker with pid: 884
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+[2022-10-04 08:06:23 +0000] [754] [INFO] Handling signal: term
+[2022-10-04 08:06:23 +0000] [883] [INFO] Worker exiting (pid: 883)
+[2022-10-04 08:06:23 +0000] [880] [INFO] Worker exiting (pid: 880)
+[2022-10-04 08:06:23 +0000] [881] [INFO] Worker exiting (pid: 881)
+[2022-10-04 08:06:23 +0000] [882] [INFO] Worker exiting (pid: 882)
+[2022-10-04 08:06:23 +0000] [884] [INFO] Worker exiting (pid: 884)
+[2022-10-04 08:06:24 +0000] [754] [INFO] Shutting down: Master
+[2022-10-04 08:06:26 +0000] [51139] [INFO] Starting gunicorn 20.1.0
+[2022-10-04 08:06:26 +0000] [51139] [INFO] Listening at: http://127.0.0.1:8000 (51139)
+[2022-10-04 08:06:26 +0000] [51139] [INFO] Using worker: sync
+[2022-10-04 08:06:26 +0000] [51183] [INFO] Booting worker with pid: 51183
+[2022-10-04 08:06:26 +0000] [51184] [INFO] Booting worker with pid: 51184
+[2022-10-04 08:06:26 +0000] [51185] [INFO] Booting worker with pid: 51185
+[2022-10-04 08:06:26 +0000] [51186] [INFO] Booting worker with pid: 51186
+[2022-10-04 08:06:26 +0000] [51187] [INFO] Booting worker with pid: 51187
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+[2022-10-07 13:00:01 +0000] [51186] [ERROR] Error handling request /
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/serve.py", line 18, in get_response
+    response = renderer_instance.render()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/page_renderers/template_page.py", line 78, in render
+    html = self.get_html()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/utils.py", line 510, in cache_html_decorator
+    html = func(*args, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/page_renderers/template_page.py", line 86, in get_html
+    self.init_context()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/page_renderers/base_template_page.py", line 15, in init_context
+    self.context.update(get_website_settings())
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/doctype/website_settings/website_settings.py", line 113, in get_website_settings
+    {"label": _("My Account"), "url": "/me"},
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 115, in _
+    translated_string = get_full_dict(lang).get(msg)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/translate.py", line 281, in get_full_dict
+    frappe.local.lang_full_dict = load_lang(lang)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/translate.py", line 305, in load_lang
+    path = os.path.join(frappe.get_pymodule_path(app), "translations", lang + ".csv")
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1369, in get_pymodule_path
+    return os.path.join(os.path.dirname(get_module(scrub(modulename)).__file__ or ""), *joins)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'erpnext_gst_compliance'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 78, in application
+    response = get_response()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/serve.py", line 27, in get_response
+    response = ErrorPage(exception=e).render()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/page_renderers/template_page.py", line 78, in render
+    html = self.get_html()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/utils.py", line 510, in cache_html_decorator
+    html = func(*args, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/page_renderers/template_page.py", line 86, in get_html
+    self.init_context()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/page_renderers/error_page.py", line 14, in init_context
+    super().init_context()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/page_renderers/base_template_page.py", line 15, in init_context
+    self.context.update(get_website_settings())
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/doctype/website_settings/website_settings.py", line 113, in get_website_settings
+    {"label": _("My Account"), "url": "/me"},
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 115, in _
+    translated_string = get_full_dict(lang).get(msg)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/translate.py", line 281, in get_full_dict
+    frappe.local.lang_full_dict = load_lang(lang)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/translate.py", line 305, in load_lang
+    path = os.path.join(frappe.get_pymodule_path(app), "translations", lang + ".csv")
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1369, in get_pymodule_path
+    return os.path.join(os.path.dirname(get_module(scrub(modulename)).__file__ or ""), *joins)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'erpnext_gst_compliance'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/serve.py", line 18, in get_response
+    response = renderer_instance.render()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/page_renderers/template_page.py", line 78, in render
+    html = self.get_html()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/utils.py", line 510, in cache_html_decorator
+    html = func(*args, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/page_renderers/template_page.py", line 86, in get_html
+    self.init_context()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/page_renderers/base_template_page.py", line 15, in init_context
+    self.context.update(get_website_settings())
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/doctype/website_settings/website_settings.py", line 113, in get_website_settings
+    {"label": _("My Account"), "url": "/me"},
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 115, in _
+    translated_string = get_full_dict(lang).get(msg)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/translate.py", line 281, in get_full_dict
+    frappe.local.lang_full_dict = load_lang(lang)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/translate.py", line 305, in load_lang
+    path = os.path.join(frappe.get_pymodule_path(app), "translations", lang + ".csv")
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1369, in get_pymodule_path
+    return os.path.join(os.path.dirname(get_module(scrub(modulename)).__file__ or ""), *joins)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'erpnext_gst_compliance'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 136, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 179, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 237, in application
+    return ClosingIterator(app(environ, start_response), self.cleanup)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 187, in application
+    resp = f(*args[:-2] + (request,))
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 87, in application
+    response = handle_exception(e)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 324, in handle_exception
+    response = get_response("message", http_status_code=http_status_code)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/serve.py", line 27, in get_response
+    response = ErrorPage(exception=e).render()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/page_renderers/template_page.py", line 78, in render
+    html = self.get_html()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/utils.py", line 510, in cache_html_decorator
+    html = func(*args, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/page_renderers/template_page.py", line 86, in get_html
+    self.init_context()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/page_renderers/error_page.py", line 14, in init_context
+    super().init_context()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/page_renderers/base_template_page.py", line 15, in init_context
+    self.context.update(get_website_settings())
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/doctype/website_settings/website_settings.py", line 113, in get_website_settings
+    {"label": _("My Account"), "url": "/me"},
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 115, in _
+    translated_string = get_full_dict(lang).get(msg)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/translate.py", line 281, in get_full_dict
+    frappe.local.lang_full_dict = load_lang(lang)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/translate.py", line 305, in load_lang
+    path = os.path.join(frappe.get_pymodule_path(app), "translations", lang + ".csv")
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1369, in get_pymodule_path
+    return os.path.join(os.path.dirname(get_module(scrub(modulename)).__file__ or ""), *joins)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'erpnext_gst_compliance'
+[2022-10-07 13:01:08 +0000] [51139] [INFO] Handling signal: term
+[2022-10-07 13:01:08 +0000] [51184] [INFO] Worker exiting (pid: 51184)
+[2022-10-07 13:01:08 +0000] [51185] [INFO] Worker exiting (pid: 51185)
+[2022-10-07 13:01:08 +0000] [51186] [INFO] Worker exiting (pid: 51186)
+[2022-10-07 13:01:08 +0000] [51183] [INFO] Worker exiting (pid: 51183)
+[2022-10-07 13:01:08 +0000] [51187] [INFO] Worker exiting (pid: 51187)
+[2022-10-07 13:01:09 +0000] [51139] [INFO] Shutting down: Master
+[2022-10-07 13:01:11 +0000] [79440] [INFO] Starting gunicorn 20.1.0
+[2022-10-07 13:01:11 +0000] [79440] [INFO] Listening at: http://127.0.0.1:8000 (79440)
+[2022-10-07 13:01:11 +0000] [79440] [INFO] Using worker: sync
+[2022-10-07 13:01:11 +0000] [79484] [INFO] Booting worker with pid: 79484
+[2022-10-07 13:01:11 +0000] [79485] [INFO] Booting worker with pid: 79485
+[2022-10-07 13:01:11 +0000] [79486] [INFO] Booting worker with pid: 79486
+[2022-10-07 13:01:11 +0000] [79487] [INFO] Booting worker with pid: 79487
+[2022-10-07 13:01:11 +0000] [79488] [INFO] Booting worker with pid: 79488
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+[2022-10-07 13:27:13 +0000] [79440] [INFO] Handling signal: term
+[2022-10-07 13:27:13 +0000] [79484] [INFO] Worker exiting (pid: 79484)
+[2022-10-07 13:27:13 +0000] [79485] [INFO] Worker exiting (pid: 79485)
+[2022-10-07 13:27:13 +0000] [79486] [INFO] Worker exiting (pid: 79486)
+[2022-10-07 13:27:13 +0000] [79487] [INFO] Worker exiting (pid: 79487)
+[2022-10-07 13:27:13 +0000] [79488] [INFO] Worker exiting (pid: 79488)
+[2022-10-07 13:27:14 +0000] [79440] [INFO] Shutting down: Master
+[2022-10-07 13:34:51 +0000] [96037] [INFO] Starting gunicorn 20.1.0
+[2022-10-07 13:34:51 +0000] [96037] [INFO] Listening at: http://127.0.0.1:8000 (96037)
+[2022-10-07 13:34:51 +0000] [96037] [INFO] Using worker: sync
+[2022-10-07 13:34:51 +0000] [96081] [INFO] Booting worker with pid: 96081
+[2022-10-07 13:34:51 +0000] [96082] [INFO] Booting worker with pid: 96082
+[2022-10-07 13:34:51 +0000] [96083] [INFO] Booting worker with pid: 96083
+[2022-10-07 13:34:51 +0000] [96084] [INFO] Booting worker with pid: 96084
+[2022-10-07 13:34:51 +0000] [96085] [INFO] Booting worker with pid: 96085
+[2022-10-07 13:35:55 +0000] [96037] [INFO] Handling signal: term
+[2022-10-07 13:35:55 +0000] [96081] [INFO] Worker exiting (pid: 96081)
+[2022-10-07 13:35:55 +0000] [96082] [INFO] Worker exiting (pid: 96082)
+[2022-10-07 13:35:56 +0000] [96084] [INFO] Worker exiting (pid: 96084)
+[2022-10-07 13:35:56 +0000] [96085] [INFO] Worker exiting (pid: 96085)
+[2022-10-07 13:35:56 +0000] [96083] [INFO] Worker exiting (pid: 96083)
+[2022-10-07 13:35:56 +0000] [96037] [INFO] Shutting down: Master
+[2022-10-07 13:36:37 +0000] [96700] [INFO] Starting gunicorn 20.1.0
+[2022-10-07 13:36:37 +0000] [96700] [INFO] Listening at: http://127.0.0.1:8000 (96700)
+[2022-10-07 13:36:37 +0000] [96700] [INFO] Using worker: sync
+[2022-10-07 13:36:37 +0000] [96752] [INFO] Booting worker with pid: 96752
+[2022-10-07 13:36:37 +0000] [96753] [INFO] Booting worker with pid: 96753
+[2022-10-07 13:36:37 +0000] [96754] [INFO] Booting worker with pid: 96754
+[2022-10-07 13:36:37 +0000] [96756] [INFO] Booting worker with pid: 96756
+[2022-10-07 13:36:37 +0000] [96757] [INFO] Booting worker with pid: 96757
+[2022-10-07 13:36:54 +0000] [96700] [INFO] Handling signal: term
+[2022-10-07 13:36:54 +0000] [96752] [INFO] Worker exiting (pid: 96752)
+[2022-10-07 13:36:54 +0000] [96753] [INFO] Worker exiting (pid: 96753)
+[2022-10-07 13:36:54 +0000] [96754] [INFO] Worker exiting (pid: 96754)
+[2022-10-07 13:36:54 +0000] [96756] [INFO] Worker exiting (pid: 96756)
+[2022-10-07 13:36:54 +0000] [96757] [INFO] Worker exiting (pid: 96757)
+[2022-10-07 13:36:54 +0000] [96700] [INFO] Shutting down: Master
+[2022-10-07 13:37:28 +0000] [97029] [INFO] Starting gunicorn 20.1.0
+[2022-10-07 13:37:28 +0000] [97029] [INFO] Listening at: http://127.0.0.1:8000 (97029)
+[2022-10-07 13:37:28 +0000] [97029] [INFO] Using worker: sync
+[2022-10-07 13:37:28 +0000] [97073] [INFO] Booting worker with pid: 97073
+[2022-10-07 13:37:28 +0000] [97074] [INFO] Booting worker with pid: 97074
+[2022-10-07 13:37:28 +0000] [97075] [INFO] Booting worker with pid: 97075
+[2022-10-07 13:37:28 +0000] [97076] [INFO] Booting worker with pid: 97076
+[2022-10-07 13:37:28 +0000] [97077] [INFO] Booting worker with pid: 97077
+[2022-10-07 13:38:41 +0000] [97029] [INFO] Handling signal: term
+[2022-10-07 13:38:41 +0000] [97073] [INFO] Worker exiting (pid: 97073)
+[2022-10-07 13:38:41 +0000] [97074] [INFO] Worker exiting (pid: 97074)
+[2022-10-07 13:38:41 +0000] [97075] [INFO] Worker exiting (pid: 97075)
+[2022-10-07 13:38:41 +0000] [97076] [INFO] Worker exiting (pid: 97076)
+[2022-10-07 13:38:41 +0000] [97077] [INFO] Worker exiting (pid: 97077)
+[2022-10-07 13:38:41 +0000] [97029] [INFO] Shutting down: Master
+[2022-10-07 13:42:36 +0000] [759] [INFO] Starting gunicorn 20.1.0
+[2022-10-07 13:42:36 +0000] [759] [INFO] Listening at: http://127.0.0.1:8000 (759)
+[2022-10-07 13:42:36 +0000] [759] [INFO] Using worker: sync
+[2022-10-07 13:42:36 +0000] [1059] [INFO] Booting worker with pid: 1059
+[2022-10-07 13:42:37 +0000] [1112] [INFO] Booting worker with pid: 1112
+[2022-10-07 13:42:37 +0000] [1152] [INFO] Booting worker with pid: 1152
+[2022-10-07 13:42:37 +0000] [1165] [INFO] Booting worker with pid: 1165
+[2022-10-07 13:42:37 +0000] [1166] [INFO] Booting worker with pid: 1166
+[2022-10-07 13:43:12 +0000] [1166] [ERROR] Error handling request /app/address-template/India
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 55, in application
+    init_request(request)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 112, in init_request
+    frappe.init(site=site, sites_path=_sites_path)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 248, in init
+    setup_module_map()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1516, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1374, in get_module_list
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'india_compliance'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/serve.py", line 17, in get_response
+    endpoint, renderer_instance = path_resolver.resolve()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/path_resolver.py", line 36, in resolve
+    resolve_redirect(self.path, request.query_string)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/path_resolver.py", line 107, in resolve_redirect
+    redirects = frappe.get_hooks("website_redirects")
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1476, in get_hooks
+    hooks = _dict(cache().get_value("app_hooks", _load_app_hooks))
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 81, in get_value
+    val = generator()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/caching.py", line 45, in wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1441, in _load_app_hooks
+    apps = [app_name] if app_name else get_installed_apps(sort=True)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/caching.py", line 45, in wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1408, in get_installed_apps
+    installed = json.loads(db.get_global("installed_apps") or "[]")
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 938, in get_global
+    return self.get_default(key, user)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 942, in get_default
+    d = self.get_defaults(key, parent)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 958, in get_defaults
+    defaults = frappe.defaults.get_defaults_for(parent)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/defaults.py", line 218, in get_defaults_for
+    frappe.qb.from_(table)
+TypeError: 'Field' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 136, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 179, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 237, in application
+    return ClosingIterator(app(environ, start_response), self.cleanup)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 187, in application
+    resp = f(*args[:-2] + (request,))
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 87, in application
+    response = handle_exception(e)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 324, in handle_exception
+    response = get_response("message", http_status_code=http_status_code)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/serve.py", line 26, in get_response
+    frappe.log_error(f"{path} failed")
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 2214, in log_error
+    error_log = get_doc(
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/model/base_document.py", line 47, in _get_controller
+    module_name, custom = frappe.db.get_value(
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 473, in get_value
+    result = self.get_values(
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 570, in get_values
+    out = self._get_values_from_table(
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 787, in _get_values_from_table
+    query = frappe.qb.engine.get_query(
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py", line 513, in get_query
+    criterion = self.build_conditions(table, filters, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py", line 369, in build_conditions
+    criterion = self.dict_query(filters=filters, table=table, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py", line 328, in dict_query
+    _operator = self.OPERATOR_MAP["="]
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py", line 194, in OPERATOR_MAP
+    if frappe.get_hooks("filters_config"):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1476, in get_hooks
+    hooks = _dict(cache().get_value("app_hooks", _load_app_hooks))
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 81, in get_value
+    val = generator()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/caching.py", line 45, in wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1441, in _load_app_hooks
+    apps = [app_name] if app_name else get_installed_apps(sort=True)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/caching.py", line 45, in wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1408, in get_installed_apps
+    installed = json.loads(db.get_global("installed_apps") or "[]")
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 938, in get_global
+    return self.get_default(key, user)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 942, in get_default
+    d = self.get_defaults(key, parent)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 958, in get_defaults
+    defaults = frappe.defaults.get_defaults_for(parent)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/defaults.py", line 218, in get_defaults_for
+    frappe.qb.from_(table)
+TypeError: 'Field' object is not callable
+[2022-10-07 13:43:12 +0000] [1165] [ERROR] Error handling request /favicon.ico
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 55, in application
+    init_request(request)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 112, in init_request
+    frappe.init(site=site, sites_path=_sites_path)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 248, in init
+    setup_module_map()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1516, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1374, in get_module_list
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'india_compliance'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/serve.py", line 17, in get_response
+    endpoint, renderer_instance = path_resolver.resolve()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/path_resolver.py", line 36, in resolve
+    resolve_redirect(self.path, request.query_string)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/path_resolver.py", line 107, in resolve_redirect
+    redirects = frappe.get_hooks("website_redirects")
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1476, in get_hooks
+    hooks = _dict(cache().get_value("app_hooks", _load_app_hooks))
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 81, in get_value
+    val = generator()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/caching.py", line 45, in wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1441, in _load_app_hooks
+    apps = [app_name] if app_name else get_installed_apps(sort=True)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/caching.py", line 45, in wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1408, in get_installed_apps
+    installed = json.loads(db.get_global("installed_apps") or "[]")
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 938, in get_global
+    return self.get_default(key, user)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 942, in get_default
+    d = self.get_defaults(key, parent)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 958, in get_defaults
+    defaults = frappe.defaults.get_defaults_for(parent)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/defaults.py", line 218, in get_defaults_for
+    frappe.qb.from_(table)
+TypeError: 'Field' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 136, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 179, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 237, in application
+    return ClosingIterator(app(environ, start_response), self.cleanup)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 187, in application
+    resp = f(*args[:-2] + (request,))
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 87, in application
+    response = handle_exception(e)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 324, in handle_exception
+    response = get_response("message", http_status_code=http_status_code)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/serve.py", line 26, in get_response
+    frappe.log_error(f"{path} failed")
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 2214, in log_error
+    error_log = get_doc(
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/model/base_document.py", line 47, in _get_controller
+    module_name, custom = frappe.db.get_value(
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 473, in get_value
+    result = self.get_values(
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 570, in get_values
+    out = self._get_values_from_table(
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 787, in _get_values_from_table
+    query = frappe.qb.engine.get_query(
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py", line 513, in get_query
+    criterion = self.build_conditions(table, filters, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py", line 369, in build_conditions
+    criterion = self.dict_query(filters=filters, table=table, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py", line 328, in dict_query
+    _operator = self.OPERATOR_MAP["="]
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py", line 194, in OPERATOR_MAP
+    if frappe.get_hooks("filters_config"):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1476, in get_hooks
+    hooks = _dict(cache().get_value("app_hooks", _load_app_hooks))
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 81, in get_value
+    val = generator()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/caching.py", line 45, in wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1441, in _load_app_hooks
+    apps = [app_name] if app_name else get_installed_apps(sort=True)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/caching.py", line 45, in wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1408, in get_installed_apps
+    installed = json.loads(db.get_global("installed_apps") or "[]")
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 938, in get_global
+    return self.get_default(key, user)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 942, in get_default
+    d = self.get_defaults(key, parent)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 958, in get_defaults
+    defaults = frappe.defaults.get_defaults_for(parent)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/defaults.py", line 218, in get_defaults_for
+    frappe.qb.from_(table)
+TypeError: 'Field' object is not callable
+[2022-10-07 13:43:14 +0000] [1165] [ERROR] Error handling request /
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 55, in application
+    init_request(request)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 112, in init_request
+    frappe.init(site=site, sites_path=_sites_path)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 248, in init
+    setup_module_map()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1516, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1374, in get_module_list
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'india_compliance'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/serve.py", line 17, in get_response
+    endpoint, renderer_instance = path_resolver.resolve()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/path_resolver.py", line 36, in resolve
+    resolve_redirect(self.path, request.query_string)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/path_resolver.py", line 107, in resolve_redirect
+    redirects = frappe.get_hooks("website_redirects")
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1476, in get_hooks
+    hooks = _dict(cache().get_value("app_hooks", _load_app_hooks))
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 81, in get_value
+    val = generator()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/caching.py", line 45, in wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1441, in _load_app_hooks
+    apps = [app_name] if app_name else get_installed_apps(sort=True)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/caching.py", line 45, in wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1408, in get_installed_apps
+    installed = json.loads(db.get_global("installed_apps") or "[]")
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 938, in get_global
+    return self.get_default(key, user)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 942, in get_default
+    d = self.get_defaults(key, parent)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 958, in get_defaults
+    defaults = frappe.defaults.get_defaults_for(parent)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/defaults.py", line 218, in get_defaults_for
+    frappe.qb.from_(table)
+TypeError: 'Field' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 136, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 179, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 237, in application
+    return ClosingIterator(app(environ, start_response), self.cleanup)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 187, in application
+    resp = f(*args[:-2] + (request,))
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 87, in application
+    response = handle_exception(e)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 324, in handle_exception
+    response = get_response("message", http_status_code=http_status_code)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/serve.py", line 26, in get_response
+    frappe.log_error(f"{path} failed")
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 2214, in log_error
+    error_log = get_doc(
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/model/base_document.py", line 47, in _get_controller
+    module_name, custom = frappe.db.get_value(
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 473, in get_value
+    result = self.get_values(
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 570, in get_values
+    out = self._get_values_from_table(
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 787, in _get_values_from_table
+    query = frappe.qb.engine.get_query(
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py", line 513, in get_query
+    criterion = self.build_conditions(table, filters, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py", line 369, in build_conditions
+    criterion = self.dict_query(filters=filters, table=table, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py", line 328, in dict_query
+    _operator = self.OPERATOR_MAP["="]
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py", line 194, in OPERATOR_MAP
+    if frappe.get_hooks("filters_config"):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1476, in get_hooks
+    hooks = _dict(cache().get_value("app_hooks", _load_app_hooks))
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 81, in get_value
+    val = generator()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/caching.py", line 45, in wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1441, in _load_app_hooks
+    apps = [app_name] if app_name else get_installed_apps(sort=True)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/caching.py", line 45, in wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1408, in get_installed_apps
+    installed = json.loads(db.get_global("installed_apps") or "[]")
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 938, in get_global
+    return self.get_default(key, user)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 942, in get_default
+    d = self.get_defaults(key, parent)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 958, in get_defaults
+    defaults = frappe.defaults.get_defaults_for(parent)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/defaults.py", line 218, in get_defaults_for
+    frappe.qb.from_(table)
+TypeError: 'Field' object is not callable
+[2022-10-07 13:43:14 +0000] [1165] [ERROR] Error handling request /favicon.ico
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 55, in application
+    init_request(request)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 112, in init_request
+    frappe.init(site=site, sites_path=_sites_path)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 248, in init
+    setup_module_map()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1516, in setup_module_map
+    for module in get_module_list(app):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1374, in get_module_list
+    return get_file_items(os.path.join(os.path.dirname(get_module(app_name).__file__), "modules.txt"))
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'india_compliance'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/serve.py", line 17, in get_response
+    endpoint, renderer_instance = path_resolver.resolve()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/path_resolver.py", line 36, in resolve
+    resolve_redirect(self.path, request.query_string)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/path_resolver.py", line 107, in resolve_redirect
+    redirects = frappe.get_hooks("website_redirects")
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1476, in get_hooks
+    hooks = _dict(cache().get_value("app_hooks", _load_app_hooks))
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 81, in get_value
+    val = generator()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/caching.py", line 45, in wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1441, in _load_app_hooks
+    apps = [app_name] if app_name else get_installed_apps(sort=True)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/caching.py", line 45, in wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1408, in get_installed_apps
+    installed = json.loads(db.get_global("installed_apps") or "[]")
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 938, in get_global
+    return self.get_default(key, user)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 942, in get_default
+    d = self.get_defaults(key, parent)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 958, in get_defaults
+    defaults = frappe.defaults.get_defaults_for(parent)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/defaults.py", line 218, in get_defaults_for
+    frappe.qb.from_(table)
+TypeError: 'Field' object is not callable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 136, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 179, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/werkzeug/local.py", line 237, in application
+    return ClosingIterator(app(environ, start_response), self.cleanup)
+  File "/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/werkzeug/wrappers/request.py", line 187, in application
+    resp = f(*args[:-2] + (request,))
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 87, in application
+    response = handle_exception(e)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/app.py", line 324, in handle_exception
+    response = get_response("message", http_status_code=http_status_code)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/website/serve.py", line 26, in get_response
+    frappe.log_error(f"{path} failed")
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 2214, in log_error
+    error_log = get_doc(
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/model/base_document.py", line 47, in _get_controller
+    module_name, custom = frappe.db.get_value(
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 473, in get_value
+    result = self.get_values(
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 570, in get_values
+    out = self._get_values_from_table(
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 787, in _get_values_from_table
+    query = frappe.qb.engine.get_query(
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py", line 513, in get_query
+    criterion = self.build_conditions(table, filters, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py", line 369, in build_conditions
+    criterion = self.dict_query(filters=filters, table=table, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py", line 328, in dict_query
+    _operator = self.OPERATOR_MAP["="]
+  File "/usr/lib/python3.10/functools.py", line 981, in __get__
+    val = self.func(instance)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py", line 194, in OPERATOR_MAP
+    if frappe.get_hooks("filters_config"):
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1476, in get_hooks
+    hooks = _dict(cache().get_value("app_hooks", _load_app_hooks))
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 81, in get_value
+    val = generator()
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/caching.py", line 45, in wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1441, in _load_app_hooks
+    apps = [app_name] if app_name else get_installed_apps(sort=True)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/utils/caching.py", line 45, in wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/__init__.py", line 1408, in get_installed_apps
+    installed = json.loads(db.get_global("installed_apps") or "[]")
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 938, in get_global
+    return self.get_default(key, user)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 942, in get_default
+    d = self.get_defaults(key, parent)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/database/database.py", line 958, in get_defaults
+    defaults = frappe.defaults.get_defaults_for(parent)
+  File "/home/ubuntu/frappe-bench/apps/frappe/frappe/defaults.py", line 218, in get_defaults_for
+    frappe.qb.from_(table)
+TypeError: 'Field' object is not callable
+[2022-10-07 13:44:04 +0000] [759] [INFO] Handling signal: term
+[2022-10-07 13:44:04 +0000] [1059] [INFO] Worker exiting (pid: 1059)
+[2022-10-07 13:44:04 +0000] [1112] [INFO] Worker exiting (pid: 1112)
+[2022-10-07 13:44:04 +0000] [1165] [INFO] Worker exiting (pid: 1165)
+[2022-10-07 13:44:04 +0000] [1152] [INFO] Worker exiting (pid: 1152)
+[2022-10-07 13:44:04 +0000] [1166] [INFO] Worker exiting (pid: 1166)
+[2022-10-07 13:44:04 +0000] [759] [INFO] Shutting down: Master
+[2022-10-07 14:00:34 +0000] [2982] [INFO] Starting gunicorn 20.1.0
+[2022-10-07 14:00:34 +0000] [2982] [INFO] Listening at: http://127.0.0.1:8000 (2982)
+[2022-10-07 14:00:34 +0000] [2982] [INFO] Using worker: sync
+[2022-10-07 14:00:34 +0000] [3026] [INFO] Booting worker with pid: 3026
+[2022-10-07 14:00:35 +0000] [3027] [INFO] Booting worker with pid: 3027
+[2022-10-07 14:00:35 +0000] [3028] [INFO] Booting worker with pid: 3028
+[2022-10-07 14:00:35 +0000] [3029] [INFO] Booting worker with pid: 3029
+[2022-10-07 14:00:35 +0000] [3030] [INFO] Booting worker with pid: 3030
+[2022-10-07 14:02:05 +0000] [2982] [INFO] Handling signal: term
+[2022-10-07 14:02:05 +0000] [3026] [INFO] Worker exiting (pid: 3026)
+[2022-10-07 14:02:05 +0000] [3027] [INFO] Worker exiting (pid: 3027)
+[2022-10-07 14:02:05 +0000] [3028] [INFO] Worker exiting (pid: 3028)
+[2022-10-07 14:02:05 +0000] [3029] [INFO] Worker exiting (pid: 3029)
+[2022-10-07 14:02:05 +0000] [3030] [INFO] Worker exiting (pid: 3030)
+[2022-10-07 14:02:05 +0000] [2982] [INFO] Shutting down: Master
+[2022-10-07 14:02:08 +0000] [3166] [INFO] Starting gunicorn 20.1.0
+[2022-10-07 14:02:08 +0000] [3166] [INFO] Listening at: http://127.0.0.1:8000 (3166)
+[2022-10-07 14:02:08 +0000] [3166] [INFO] Using worker: sync
+[2022-10-07 14:02:08 +0000] [3210] [INFO] Booting worker with pid: 3210
+[2022-10-07 14:02:08 +0000] [3211] [INFO] Booting worker with pid: 3211
+[2022-10-07 14:02:08 +0000] [3212] [INFO] Booting worker with pid: 3212
+[2022-10-07 14:02:08 +0000] [3213] [INFO] Booting worker with pid: 3213
+[2022-10-07 14:02:08 +0000] [3214] [INFO] Booting worker with pid: 3214
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+[2022-10-07 14:03:35 +0000] [3166] [INFO] Handling signal: term
+[2022-10-07 14:03:35 +0000] [3211] [INFO] Worker exiting (pid: 3211)
+[2022-10-07 14:03:35 +0000] [3213] [INFO] Worker exiting (pid: 3213)
+[2022-10-07 14:03:35 +0000] [3214] [INFO] Worker exiting (pid: 3214)
+[2022-10-07 14:03:35 +0000] [3212] [INFO] Worker exiting (pid: 3212)
+[2022-10-07 14:03:35 +0000] [3210] [INFO] Worker exiting (pid: 3210)
+[2022-10-07 14:03:36 +0000] [3166] [INFO] Shutting down: Master
+[2022-10-07 14:03:38 +0000] [3332] [INFO] Starting gunicorn 20.1.0
+[2022-10-07 14:03:38 +0000] [3332] [INFO] Listening at: http://127.0.0.1:8000 (3332)
+[2022-10-07 14:03:38 +0000] [3332] [INFO] Using worker: sync
+[2022-10-07 14:03:38 +0000] [3376] [INFO] Booting worker with pid: 3376
+[2022-10-07 14:03:38 +0000] [3377] [INFO] Booting worker with pid: 3377
+[2022-10-07 14:03:38 +0000] [3378] [INFO] Booting worker with pid: 3378
+[2022-10-07 14:03:38 +0000] [3379] [INFO] Booting worker with pid: 3379
+[2022-10-07 14:03:38 +0000] [3380] [INFO] Booting worker with pid: 3380
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+[2022-10-11 07:48:06 +0000] [3332] [INFO] Handling signal: term
+[2022-10-11 07:48:06 +0000] [3378] [INFO] Worker exiting (pid: 3378)
+[2022-10-11 07:48:06 +0000] [3376] [INFO] Worker exiting (pid: 3376)
+[2022-10-11 07:48:06 +0000] [3377] [INFO] Worker exiting (pid: 3377)
+[2022-10-11 07:48:06 +0000] [3379] [INFO] Worker exiting (pid: 3379)
+[2022-10-11 07:48:06 +0000] [3380] [INFO] Worker exiting (pid: 3380)
+[2022-10-11 07:48:07 +0000] [3332] [INFO] Shutting down: Master
+[2022-10-11 07:48:58 +0000] [777] [INFO] Starting gunicorn 20.1.0
+[2022-10-11 07:48:58 +0000] [777] [INFO] Listening at: http://127.0.0.1:8000 (777)
+[2022-10-11 07:48:58 +0000] [777] [INFO] Using worker: sync
+[2022-10-11 07:48:58 +0000] [901] [INFO] Booting worker with pid: 901
+[2022-10-11 07:48:58 +0000] [902] [INFO] Booting worker with pid: 902
+[2022-10-11 07:48:58 +0000] [903] [INFO] Booting worker with pid: 903
+[2022-10-11 07:48:58 +0000] [904] [INFO] Booting worker with pid: 904
+[2022-10-11 07:48:58 +0000] [905] [INFO] Booting worker with pid: 905
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+[2022-10-11 11:21:13 +0000] [777] [INFO] Handling signal: term
+[2022-10-11 11:21:13 +0000] [901] [INFO] Worker exiting (pid: 901)
+[2022-10-11 11:21:13 +0000] [902] [INFO] Worker exiting (pid: 902)
+[2022-10-11 11:21:13 +0000] [904] [INFO] Worker exiting (pid: 904)
+[2022-10-11 11:21:13 +0000] [905] [INFO] Worker exiting (pid: 905)
+[2022-10-11 11:21:13 +0000] [903] [INFO] Worker exiting (pid: 903)
+[2022-10-11 11:21:14 +0000] [777] [INFO] Shutting down: Master
+[2022-10-11 11:22:07 +0000] [755] [INFO] Starting gunicorn 20.1.0
+[2022-10-11 11:22:07 +0000] [755] [INFO] Listening at: http://127.0.0.1:8000 (755)
+[2022-10-11 11:22:07 +0000] [755] [INFO] Using worker: sync
+[2022-10-11 11:22:07 +0000] [874] [INFO] Booting worker with pid: 874
+[2022-10-11 11:22:07 +0000] [876] [INFO] Booting worker with pid: 876
+[2022-10-11 11:22:07 +0000] [880] [INFO] Booting worker with pid: 880
+[2022-10-11 11:22:07 +0000] [878] [INFO] Booting worker with pid: 878
+[2022-10-11 11:22:07 +0000] [882] [INFO] Booting worker with pid: 882
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+[2022-10-12 12:57:59 +0000] [755] [INFO] Handling signal: term
+[2022-10-12 12:57:59 +0000] [878] [INFO] Worker exiting (pid: 878)
+[2022-10-12 12:57:59 +0000] [882] [INFO] Worker exiting (pid: 882)
+[2022-10-12 12:57:59 +0000] [874] [INFO] Worker exiting (pid: 874)
+[2022-10-12 12:57:59 +0000] [876] [INFO] Worker exiting (pid: 876)
+[2022-10-12 12:57:59 +0000] [880] [INFO] Worker exiting (pid: 880)
+[2022-10-12 12:58:00 +0000] [755] [INFO] Shutting down: Master
+[2022-10-12 12:58:53 +0000] [781] [INFO] Starting gunicorn 20.1.0
+[2022-10-12 12:58:53 +0000] [781] [INFO] Listening at: http://127.0.0.1:8000 (781)
+[2022-10-12 12:58:53 +0000] [781] [INFO] Using worker: sync
+[2022-10-12 12:58:53 +0000] [908] [INFO] Booting worker with pid: 908
+[2022-10-12 12:58:53 +0000] [909] [INFO] Booting worker with pid: 909
+[2022-10-12 12:58:53 +0000] [910] [INFO] Booting worker with pid: 910
+[2022-10-12 12:58:53 +0000] [911] [INFO] Booting worker with pid: 911
+[2022-10-12 12:58:53 +0000] [912] [INFO] Booting worker with pid: 912
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+[2022-10-15 04:32:24 +0000] [781] [INFO] Handling signal: term
+[2022-10-15 04:32:24 +0000] [909] [INFO] Worker exiting (pid: 909)
+[2022-10-15 04:32:24 +0000] [911] [INFO] Worker exiting (pid: 911)
+[2022-10-15 04:32:24 +0000] [912] [INFO] Worker exiting (pid: 912)
+[2022-10-15 04:32:24 +0000] [908] [INFO] Worker exiting (pid: 908)
+[2022-10-15 04:32:24 +0000] [910] [INFO] Worker exiting (pid: 910)
+[2022-10-15 04:32:24 +0000] [781] [INFO] Shutting down: Master
+[2022-10-15 04:33:18 +0000] [771] [INFO] Starting gunicorn 20.1.0
+[2022-10-15 04:33:18 +0000] [771] [INFO] Listening at: http://127.0.0.1:8000 (771)
+[2022-10-15 04:33:18 +0000] [771] [INFO] Using worker: sync
+[2022-10-15 04:33:18 +0000] [897] [INFO] Booting worker with pid: 897
+[2022-10-15 04:33:18 +0000] [903] [INFO] Booting worker with pid: 903
+[2022-10-15 04:33:18 +0000] [905] [INFO] Booting worker with pid: 905
+[2022-10-15 04:33:18 +0000] [952] [INFO] Booting worker with pid: 952
+[2022-10-15 04:33:18 +0000] [984] [INFO] Booting worker with pid: 984
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+[2022-10-15 04:38:51 +0000] [771] [INFO] Handling signal: term
+[2022-10-15 04:38:51 +0000] [952] [INFO] Worker exiting (pid: 952)
+[2022-10-15 04:38:51 +0000] [984] [INFO] Worker exiting (pid: 984)
+[2022-10-15 04:38:51 +0000] [903] [INFO] Worker exiting (pid: 903)
+[2022-10-15 04:38:51 +0000] [897] [INFO] Worker exiting (pid: 897)
+[2022-10-15 04:38:51 +0000] [905] [INFO] Worker exiting (pid: 905)
+[2022-10-15 04:38:52 +0000] [771] [INFO] Shutting down: Master
+[2022-10-15 04:39:43 +0000] [758] [INFO] Starting gunicorn 20.1.0
+[2022-10-15 04:39:43 +0000] [758] [INFO] Listening at: http://127.0.0.1:8000 (758)
+[2022-10-15 04:39:43 +0000] [758] [INFO] Using worker: sync
+[2022-10-15 04:39:43 +0000] [876] [INFO] Booting worker with pid: 876
+[2022-10-15 04:39:43 +0000] [877] [INFO] Booting worker with pid: 877
+[2022-10-15 04:39:43 +0000] [878] [INFO] Booting worker with pid: 878
+[2022-10-15 04:39:43 +0000] [879] [INFO] Booting worker with pid: 879
+[2022-10-15 04:39:43 +0000] [884] [INFO] Booting worker with pid: 884
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+[2022-10-15 09:35:20 +0000] [758] [INFO] Handling signal: term
+[2022-10-15 09:35:20 +0000] [878] [INFO] Worker exiting (pid: 878)
+[2022-10-15 09:35:20 +0000] [879] [INFO] Worker exiting (pid: 879)
+[2022-10-15 09:35:20 +0000] [876] [INFO] Worker exiting (pid: 876)
+[2022-10-15 09:35:20 +0000] [877] [INFO] Worker exiting (pid: 877)
+[2022-10-15 09:35:20 +0000] [884] [INFO] Worker exiting (pid: 884)
+[2022-10-15 09:35:21 +0000] [758] [INFO] Shutting down: Master
+[2022-10-15 09:36:14 +0000] [760] [INFO] Starting gunicorn 20.1.0
+[2022-10-15 09:36:14 +0000] [760] [INFO] Listening at: http://127.0.0.1:8000 (760)
+[2022-10-15 09:36:14 +0000] [760] [INFO] Using worker: sync
+[2022-10-15 09:36:14 +0000] [885] [INFO] Booting worker with pid: 885
+[2022-10-15 09:36:15 +0000] [886] [INFO] Booting worker with pid: 886
+[2022-10-15 09:36:15 +0000] [887] [INFO] Booting worker with pid: 887
+[2022-10-15 09:36:15 +0000] [888] [INFO] Booting worker with pid: 888
+[2022-10-15 09:36:15 +0000] [889] [INFO] Booting worker with pid: 889
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
