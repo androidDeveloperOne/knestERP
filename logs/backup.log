@@ -712,3 +712,9 @@ Backup Summary for erp.knestcrm.com at 2022-10-28 05:30:05.498437
 Config  : ./erp.knestcrm.com/private/backups/20221028_053002-erp_knestcrm_com-site_config_backup.json 249.0B
 Database: ./erp.knestcrm.com/private/backups/20221028_053002-erp_knestcrm_com-database.sql.gz         4.1MiB
 Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221028_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-10-28 11:30:05.674234
+Config  : ./erp.knestcrm.com/private/backups/20221028_113002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221028_113002-erp_knestcrm_com-database.sql.gz         4.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
