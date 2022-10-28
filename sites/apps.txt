@@ -1,6 +1,8 @@
 frappe
+whatsapp_integration
 erpnext
 india_compliance
 hrms
 payments
 chat
+barcode_shrdc

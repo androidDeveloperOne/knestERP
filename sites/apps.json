@@ -1,21 +1,12 @@
 {
     "frappe": {
         "resolution": {
-            "commit_hash": null,
-            "branch": null
-        },
-        "required": [],
-        "idx": 1,
-        "version": "14.9.0"
-    },
-    "payments": {
-        "resolution": {
-            "commit_hash": "487747b73f658de78fbe1741a06e7447927cfa79",
-            "branch": "develop"
+            "commit_hash": "64e613b6058d05932d912489286ace3ee02b7677",
+            "branch": "version-14"
         },
         "required": [],
         "idx": 2,
-        "version": "0.0.1"
+        "version": "14.9.0"
     },
     "erpnext": {
         "resolution": {
@@ -26,22 +17,31 @@
         "idx": 3,
         "version": "14.2.0"
     },
-    "hrms": {
-        "resolution": {
-            "commit_hash": "673b54493f2d2fcd2dc850dbb187ae38bc212b8b",
-            "branch": "develop"
-        },
-        "required": [],
-        "idx": 4,
-        "version": "1.0.0"
-    },
     "india_compliance": {
         "resolution": {
             "commit_hash": "5ec8582ed121cba092d5b33fe8e7ca06029b50f0",
             "branch": "develop"
         },
         "required": [],
+        "idx": 4,
+        "version": "0.0.1"
+    },
+    "hrms": {
+        "resolution": {
+            "commit_hash": "673b54493f2d2fcd2dc850dbb187ae38bc212b8b",
+            "branch": "develop"
+        },
+        "required": [],
         "idx": 5,
+        "version": "1.0.0"
+    },
+    "payments": {
+        "resolution": {
+            "commit_hash": "487747b73f658de78fbe1741a06e7447927cfa79",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 6,
         "version": "0.0.1"
     },
     "chat": {
@@ -50,7 +50,26 @@
             "branch": "main"
         },
         "required": [],
-        "idx": 6,
+        "idx": 7,
+        "version": "0.0.1"
+    },
+    "barcode_shrdc": {
+        "resolution": {
+            "commit_hash": "e88597092387f4c4a0b62d6bde006517a75fdef9",
+            "branch": "master"
+        },
+        "required": [],
+        "idx": 8,
+        "version": "0.0.1"
+    },
+    "whatsapp_integration": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "e34a3b4dd6593dd94016a30b35a3f0522a14d853",
+            "branch": "whatsapp_integration"
+        },
+        "required": [],
+        "idx": 8,
         "version": "0.0.1"
     }
 }

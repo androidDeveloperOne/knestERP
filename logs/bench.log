@@ -867,3 +867,610 @@
 2022-10-15 09:36:11,145 INFO /usr/local/bin/bench worker --queue short
 2022-10-15 09:36:11,152 INFO /usr/local/bin/bench worker --queue default
 2022-10-15 09:36:11,170 INFO /usr/local/bin/bench worker --queue long
+2022-10-15 10:05:53,755 INFO /usr/local/bin/bench worker --queue short
+2022-10-15 10:05:53,756 INFO /usr/local/bin/bench worker --queue long
+2022-10-15 10:05:53,756 INFO /usr/local/bin/bench worker --queue default
+2022-10-15 10:05:53,757 INFO /usr/local/bin/bench schedule
+2022-10-15 10:35:47,062 INFO /usr/local/bin/bench worker --queue short
+2022-10-15 10:35:47,062 INFO /usr/local/bin/bench schedule
+2022-10-15 10:35:47,063 INFO /usr/local/bin/bench worker --queue default
+2022-10-15 10:35:47,063 INFO /usr/local/bin/bench worker --queue long
+2022-10-15 12:00:02,013 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-15 18:00:01,349 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-16 00:00:01,357 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-16 06:00:01,524 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-16 12:00:01,556 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-16 18:00:01,758 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-17 00:00:01,781 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-17 06:00:01,892 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-17 06:48:07,162 INFO /usr/local/bin/bench schedule
+2022-10-17 06:48:07,167 INFO /usr/local/bin/bench worker --queue long
+2022-10-17 06:48:07,168 INFO /usr/local/bin/bench worker --queue short
+2022-10-17 06:48:07,170 INFO /usr/local/bin/bench worker --queue default
+2022-10-17 10:08:50,896 INFO /usr/local/bin/bench start
+2022-10-17 10:08:51,477 INFO /usr/local/bin/bench watch
+2022-10-17 10:08:51,490 INFO /usr/local/bin/bench serve --port 8000
+2022-10-17 10:08:51,508 INFO /usr/local/bin/bench schedule
+2022-10-17 10:08:51,509 INFO /usr/local/bin/bench worker --queue short
+2022-10-17 10:08:51,540 INFO /usr/local/bin/bench worker --queue default
+2022-10-17 10:08:51,542 INFO /usr/local/bin/bench worker --queue long
+2022-10-17 10:09:47,878 INFO /usr/local/bin/bench get-app --branch production https://github.com/sihaysistema/labels.git
+2022-10-17 10:09:47,886 LOG Getting labels
+2022-10-17 10:09:47,886 DEBUG cd ./apps && git clone https://github.com/sihaysistema/labels.git --branch production --depth 1 --origin upstream
+2022-10-17 10:09:48,869 LOG Installing labels
+2022-10-17 10:09:49,045 DEBUG cd /home/ubuntu/frappe-bench/apps && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/labels 
+2022-10-17 10:09:54,817 DEBUG bench build --app labels
+2022-10-17 10:09:54,986 INFO /usr/local/bin/bench build --app labels
+2022-10-17 10:10:00,627 DEBUG cd /home/ubuntu/frappe-bench/apps && supervisorctl restart frappe:
+2022-10-17 10:10:00,856 WARNING cd /home/ubuntu/frappe-bench/apps && supervisorctl restart frappe: executed with exit code 7
+2022-10-17 10:10:00,856 WARNING /usr/local/bin/bench get-app --branch production https://github.com/sihaysistema/labels.git executed with exit code 1
+2022-10-17 10:10:01,060 INFO A newer version of bench is available: 5.14.3 → 5.14.4
+2022-10-17 10:10:40,920 INFO /usr/local/bin/bench setup requirements
+2022-10-17 10:10:41,101 DEBUG /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2022-10-17 10:10:43,988 LOG Installing frappe
+2022-10-17 10:10:43,988 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/frappe 
+2022-10-17 10:10:47,954 DEBUG cd /home/ubuntu/frappe-bench/apps/frappe && yarn install
+2022-10-17 10:10:49,077 LOG Installing erpnext
+2022-10-17 10:10:49,077 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/erpnext 
+2022-10-17 10:10:52,108 DEBUG cd /home/ubuntu/frappe-bench/apps/erpnext && yarn install
+2022-10-17 10:10:52,581 LOG Installing india_compliance
+2022-10-17 10:10:52,581 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/india_compliance 
+2022-10-17 10:10:55,492 LOG Installing hrms
+2022-10-17 10:10:55,493 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/hrms 
+2022-10-17 10:10:58,404 LOG Installing payments
+2022-10-17 10:10:58,404 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/payments 
+2022-10-17 10:11:00,540 LOG Installing labels
+2022-10-17 10:11:00,541 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/labels 
+2022-10-17 10:11:03,979 LOG Installing chat
+2022-10-17 10:11:03,980 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/chat 
+2022-10-17 10:11:04,006 INFO /usr/local/bin/bench start
+2022-10-17 10:11:04,701 INFO /usr/local/bin/bench serve --port 8000
+2022-10-17 10:11:04,721 INFO /usr/local/bin/bench schedule
+2022-10-17 10:11:04,731 INFO /usr/local/bin/bench worker --queue short
+2022-10-17 10:11:04,734 INFO /usr/local/bin/bench watch
+2022-10-17 10:11:04,749 INFO /usr/local/bin/bench worker --queue long
+2022-10-17 10:11:04,762 INFO /usr/local/bin/bench worker --queue default
+2022-10-17 10:11:09,422 INFO A newer version of bench is available: 5.14.3 → 5.14.4
+2022-10-17 10:11:30,671 INFO /usr/local/bin/bench build --app labels
+2022-10-17 10:11:42,283 INFO /usr/local/bin/bench restart
+2022-10-17 10:11:42,521 DEBUG cd /home/ubuntu/frappe-bench && supervisorctl restart frappe:
+2022-10-17 10:11:42,748 WARNING cd /home/ubuntu/frappe-bench && supervisorctl restart frappe: executed with exit code 7
+2022-10-17 10:11:42,749 WARNING /usr/local/bin/bench restart executed with exit code 1
+2022-10-17 10:11:42,941 INFO A newer version of bench is available: 5.14.3 → 5.14.4
+2022-10-17 10:11:48,620 INFO /usr/local/bin/bench start
+2022-10-17 10:11:49,120 INFO /usr/local/bin/bench worker --queue short
+2022-10-17 10:11:49,154 INFO /usr/local/bin/bench worker --queue default
+2022-10-17 10:11:49,340 INFO /usr/local/bin/bench worker --queue long
+2022-10-17 10:11:49,342 INFO /usr/local/bin/bench watch
+2022-10-17 10:11:49,359 INFO /usr/local/bin/bench schedule
+2022-10-17 10:11:49,364 INFO /usr/local/bin/bench serve --port 8000
+2022-10-17 10:15:07,413 INFO /usr/local/bin/bench --site erp.knestcrm.com install-app labels
+2022-10-17 10:15:41,616 INFO /usr/local/bin/bench --site erp.knestcrm.com install-app erpnext_fingerprint-attendance
+2022-10-17 10:15:59,394 INFO /usr/local/bin/bench build --app erpnext_fingerprint-attendance
+2022-10-17 10:20:07,331 INFO /usr/local/bin/bench start
+2022-10-17 10:20:07,902 INFO /usr/local/bin/bench schedule
+2022-10-17 10:20:07,973 INFO /usr/local/bin/bench worker --queue short
+2022-10-17 10:20:08,000 INFO /usr/local/bin/bench serve --port 8000
+2022-10-17 10:20:08,026 INFO /usr/local/bin/bench worker --queue long
+2022-10-17 10:20:08,042 INFO /usr/local/bin/bench worker --queue default
+2022-10-17 10:20:08,033 INFO /usr/local/bin/bench watch
+2022-10-17 10:20:47,978 INFO /usr/local/bin/bench restart
+2022-10-17 10:20:48,214 DEBUG cd /home/ubuntu/frappe-bench/apps/erpnext_fingerprint-attendance && supervisorctl restart frappe:
+2022-10-17 10:20:48,442 WARNING cd /home/ubuntu/frappe-bench/apps/erpnext_fingerprint-attendance && supervisorctl restart frappe: executed with exit code 7
+2022-10-17 10:20:48,442 WARNING /usr/local/bin/bench restart executed with exit code 1
+2022-10-17 10:20:48,629 INFO A newer version of bench is available: 5.14.3 → 5.14.4
+2022-10-17 10:22:42,271 INFO /usr/local/bin/bench --site erp.knestcrm.com install-app labels
+2022-10-17 10:22:54,343 INFO /usr/local/bin/bench --site erp.knestcrm.com migrate
+2022-10-17 10:47:37,607 INFO /usr/local/bin/bench start
+2022-10-17 10:47:38,058 INFO /usr/local/bin/bench worker --queue default
+2022-10-17 10:47:38,301 INFO /usr/local/bin/bench worker --queue long
+2022-10-17 10:47:38,315 INFO /usr/local/bin/bench watch
+2022-10-17 10:47:38,315 INFO /usr/local/bin/bench worker --queue short
+2022-10-17 10:47:38,320 INFO /usr/local/bin/bench serve --port 8000
+2022-10-17 10:47:38,325 INFO /usr/local/bin/bench schedule
+2022-10-17 10:48:11,433 INFO /usr/local/bin/bench get-app --branch production https://github.com/msf4-0/ERPNext-Barcode-Integration.git
+2022-10-17 10:48:11,441 LOG Getting ERPNext-Barcode-Integration
+2022-10-17 10:48:11,441 DEBUG cd ./apps && git clone https://github.com/msf4-0/ERPNext-Barcode-Integration.git --branch production --depth 1 --origin upstream
+2022-10-17 10:48:12,118 WARNING cd ./apps && git clone https://github.com/msf4-0/ERPNext-Barcode-Integration.git --branch production --depth 1 --origin upstream executed with exit code 128
+2022-10-17 10:48:12,118 WARNING /usr/local/bin/bench get-app --branch production https://github.com/msf4-0/ERPNext-Barcode-Integration.git executed with exit code 1
+2022-10-17 10:48:12,316 INFO A newer version of bench is available: 5.14.3 → 5.14.4
+2022-10-17 10:49:36,587 INFO /usr/local/bin/bench setup requirements
+2022-10-17 10:49:36,771 DEBUG /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2022-10-17 10:49:38,041 LOG Installing frappe
+2022-10-17 10:49:38,041 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/frappe 
+2022-10-17 10:49:41,957 DEBUG cd /home/ubuntu/frappe-bench/apps/frappe && yarn install
+2022-10-17 10:49:42,666 LOG Installing erpnext
+2022-10-17 10:49:42,667 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/erpnext 
+2022-10-17 10:49:45,692 DEBUG cd /home/ubuntu/frappe-bench/apps/erpnext && yarn install
+2022-10-17 10:49:46,164 LOG Installing india_compliance
+2022-10-17 10:49:46,164 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/india_compliance 
+2022-10-17 10:49:49,100 LOG Installing hrms
+2022-10-17 10:49:49,101 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/hrms 
+2022-10-17 10:49:52,003 LOG Installing payments
+2022-10-17 10:49:52,003 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/payments 
+2022-10-17 10:49:54,108 LOG Installing labels
+2022-10-17 10:49:54,108 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/labels 
+2022-10-17 10:49:57,504 LOG Installing chat
+2022-10-17 10:49:57,504 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/chat 
+2022-10-17 10:49:59,687 INFO A newer version of bench is available: 5.14.3 → 5.14.4
+2022-10-17 10:50:14,465 INFO /usr/local/bin/bench build --app pdf-barcode-label-gen
+2022-10-17 10:50:58,503 INFO /usr/local/bin/bench build chat
+2022-10-17 10:51:33,120 INFO /usr/local/bin/bench --site erp.knestcrm.com chat
+2022-10-17 10:52:00,507 INFO /usr/local/bin/bench start
+2022-10-17 10:52:01,132 INFO /usr/local/bin/bench schedule
+2022-10-17 10:52:01,144 INFO /usr/local/bin/bench serve --port 8000
+2022-10-17 10:52:01,149 INFO /usr/local/bin/bench worker --queue short
+2022-10-17 10:52:01,161 INFO /usr/local/bin/bench watch
+2022-10-17 10:52:01,179 INFO /usr/local/bin/bench worker --queue long
+2022-10-17 10:52:01,180 INFO /usr/local/bin/bench worker --queue default
+2022-10-17 10:52:07,020 INFO /usr/local/bin/bench --site erp.knestcrm.com chat
+2022-10-17 10:52:35,134 INFO /usr/local/bin/bench --site erp.knestcrm.com migrate
+2022-10-17 10:53:13,650 INFO /usr/local/bin/bench --site erp.knestcrm.com install-app chat
+2022-10-17 10:53:20,484 INFO /usr/local/bin/bench --site erp.knestcrm.com migrate
+2022-10-17 10:56:21,891 INFO /usr/local/bin/bench restart
+2022-10-17 10:56:22,120 DEBUG cd /home/ubuntu/frappe-bench && supervisorctl restart frappe:
+2022-10-17 10:56:22,347 WARNING cd /home/ubuntu/frappe-bench && supervisorctl restart frappe: executed with exit code 7
+2022-10-17 10:56:22,347 WARNING /usr/local/bin/bench restart executed with exit code 1
+2022-10-17 10:56:22,538 INFO A newer version of bench is available: 5.14.3 → 5.14.4
+2022-10-17 10:56:27,981 INFO /usr/local/bin/bench start
+2022-10-17 10:56:28,615 INFO /usr/local/bin/bench serve --port 8000
+2022-10-17 10:56:28,616 INFO /usr/local/bin/bench watch
+2022-10-17 10:56:28,621 INFO /usr/local/bin/bench worker --queue default
+2022-10-17 10:56:28,627 INFO /usr/local/bin/bench schedule
+2022-10-17 10:56:28,656 INFO /usr/local/bin/bench worker --queue short
+2022-10-17 10:56:28,675 INFO /usr/local/bin/bench worker --queue long
+2022-10-17 10:57:06,061 INFO /usr/local/bin/bench get-app --branch https://github.com/msf4-0/ERPNext-Barcode-Integration.git
+2022-10-17 10:57:06,068 WARNING /usr/local/bin/bench get-app --branch https://github.com/msf4-0/ERPNext-Barcode-Integration.git executed with exit code 2
+2022-10-17 10:57:06,232 INFO A newer version of bench is available: 5.14.3 → 5.14.4
+2022-10-17 10:58:05,035 INFO /usr/local/bin/bench get-app --branch https://github.com/Tropicalrambler/pdf-barcode-label-gen.git
+2022-10-17 10:58:05,042 WARNING /usr/local/bin/bench get-app --branch https://github.com/Tropicalrambler/pdf-barcode-label-gen.git executed with exit code 2
+2022-10-17 10:58:05,251 INFO A newer version of bench is available: 5.14.3 → 5.14.4
+2022-10-17 11:00:31,222 INFO /usr/local/bin/bench get-app https://github.com/Tropicalrambler/pdf-barcode-label-gen.git
+2022-10-17 11:00:31,230 LOG Getting pdf-barcode-label-gen
+2022-10-17 11:00:31,231 DEBUG cd ./apps && git clone https://github.com/Tropicalrambler/pdf-barcode-label-gen.git  --depth 1 --origin upstream
+2022-10-17 11:00:32,063 WARNING /usr/local/bin/bench get-app https://github.com/Tropicalrambler/pdf-barcode-label-gen.git executed with exit code 1
+2022-10-17 11:00:32,251 INFO A newer version of bench is available: 5.14.3 → 5.14.4
+2022-10-17 11:01:45,459 INFO /usr/local/bin/bench get-app https://github.com/Tropicalrambler/pdf-barcode-label-gen.git
+2022-10-17 11:01:49,130 WARNING /usr/local/bin/bench get-app https://github.com/Tropicalrambler/pdf-barcode-label-gen.git executed with exit code 1
+2022-10-17 11:01:49,321 INFO A newer version of bench is available: 5.14.3 → 5.14.4
+2022-10-17 11:01:56,089 INFO /usr/local/bin/bench get-app https://github.com/msf4-0/ERPNext-Barcode-Integration.git
+2022-10-17 11:01:56,097 LOG Getting ERPNext-Barcode-Integration
+2022-10-17 11:01:56,097 DEBUG cd ./apps && git clone https://github.com/msf4-0/ERPNext-Barcode-Integration.git  --depth 1 --origin upstream
+2022-10-17 11:01:56,992 LOG Installing barcode_shrdc
+2022-10-17 11:01:57,172 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/barcode_shrdc 
+2022-10-17 11:02:01,498 DEBUG bench build --app barcode_shrdc
+2022-10-17 11:02:01,615 INFO /usr/local/bin/bench build --app barcode_shrdc
+2022-10-17 11:02:04,200 DEBUG cd /home/ubuntu/frappe-bench && supervisorctl restart frappe:
+2022-10-17 11:02:04,429 WARNING cd /home/ubuntu/frappe-bench && supervisorctl restart frappe: executed with exit code 7
+2022-10-17 11:02:04,429 WARNING /usr/local/bin/bench get-app https://github.com/msf4-0/ERPNext-Barcode-Integration.git executed with exit code 1
+2022-10-17 11:02:04,619 INFO A newer version of bench is available: 5.14.3 → 5.14.4
+2022-10-17 11:02:13,396 INFO /usr/local/bin/bench setup requirements
+2022-10-17 11:02:13,579 DEBUG /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2022-10-17 11:02:14,869 LOG Installing frappe
+2022-10-17 11:02:14,869 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/frappe 
+2022-10-17 11:02:18,847 DEBUG cd /home/ubuntu/frappe-bench/apps/frappe && yarn install
+2022-10-17 11:02:19,557 LOG Installing erpnext
+2022-10-17 11:02:19,557 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/erpnext 
+2022-10-17 11:02:22,608 DEBUG cd /home/ubuntu/frappe-bench/apps/erpnext && yarn install
+2022-10-17 11:02:23,071 LOG Installing india_compliance
+2022-10-17 11:02:23,071 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/india_compliance 
+2022-10-17 11:02:25,994 LOG Installing hrms
+2022-10-17 11:02:25,994 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/hrms 
+2022-10-17 11:02:28,911 LOG Installing payments
+2022-10-17 11:02:28,911 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/payments 
+2022-10-17 11:02:31,021 LOG Installing labels
+2022-10-17 11:02:31,021 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/labels 
+2022-10-17 11:02:34,659 LOG Installing chat
+2022-10-17 11:02:34,659 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/chat 
+2022-10-17 11:02:36,727 LOG Installing barcode_shrdc
+2022-10-17 11:02:36,728 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/barcode_shrdc 
+2022-10-17 11:02:40,373 INFO A newer version of bench is available: 5.14.3 → 5.14.4
+2022-10-17 11:03:14,132 INFO /usr/local/bin/bench build --app barcode_shrdc
+2022-10-17 11:03:30,109 INFO /usr/local/bin/bench build --app pdf-barcode-label-gen
+2022-10-17 11:04:04,353 INFO /usr/local/bin/bench --site erp.knestcrm.com install-app barcode_shrdc
+2022-10-17 11:04:22,806 INFO /usr/local/bin/bench start
+2022-10-17 11:04:23,175 INFO /usr/local/bin/bench worker --queue long
+2022-10-17 11:04:23,503 INFO /usr/local/bin/bench schedule
+2022-10-17 11:04:23,515 INFO /usr/local/bin/bench serve --port 8000
+2022-10-17 11:04:23,525 INFO /usr/local/bin/bench worker --queue short
+2022-10-17 11:04:23,562 INFO /usr/local/bin/bench worker --queue default
+2022-10-17 11:04:23,575 INFO /usr/local/bin/bench watch
+2022-10-17 11:04:31,549 INFO /usr/local/bin/bench build --app pdf-barcode-label-gen
+2022-10-17 11:04:40,557 INFO /usr/local/bin/bench --site erp.knestcrm.com install-app barcode_shrdc
+2022-10-17 11:05:00,967 INFO /usr/local/bin/bench --site erp.knestcrm.com install-app pdf-barcode-label-gen
+2022-10-17 11:05:14,571 INFO /usr/local/bin/bench --site erp.knestcrm.com install-app erpnext_fingerprint-attendance
+2022-10-17 11:05:27,176 INFO /usr/local/bin/bench build --app erpnext_fingerprint-attendance
+2022-10-17 11:05:47,609 INFO /usr/local/bin/bench --site erp.knestcrm.com migrate
+2022-10-17 11:06:13,716 INFO /usr/local/bin/bench start
+2022-10-17 11:06:14,252 INFO /usr/local/bin/bench watch
+2022-10-17 11:06:14,377 INFO /usr/local/bin/bench worker --queue long
+2022-10-17 11:06:14,385 INFO /usr/local/bin/bench worker --queue default
+2022-10-17 11:06:14,400 INFO /usr/local/bin/bench schedule
+2022-10-17 11:06:14,423 INFO /usr/local/bin/bench worker --queue short
+2022-10-17 11:06:14,425 INFO /usr/local/bin/bench serve --port 8000
+2022-10-17 11:06:42,503 INFO /usr/local/bin/bench setup production ubuntu
+2022-10-17 11:06:42,514 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-10-17 11:06:42,514 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2022-10-17 11:06:47,309 DEBUG /usr/bin/supervisorctl reread
+2022-10-17 11:06:47,545 WARNING /usr/bin/supervisorctl reread executed with exit code 1
+2022-10-17 11:06:47,545 DEBUG /usr/bin/supervisorctl reload
+2022-10-17 11:06:47,773 WARNING /usr/bin/supervisorctl reload executed with exit code 1
+2022-10-17 11:06:47,774 DEBUG sudo systemctl restart supervisord
+2022-10-17 11:06:47,787 WARNING sudo systemctl restart supervisord executed with exit code 5
+2022-10-17 11:06:47,788 DEBUG sudo systemctl restart supervisor
+2022-10-17 11:06:47,824 DEBUG sudo /usr/sbin/nginx -t
+2022-10-17 11:06:47,839 DEBUG sudo systemctl reload nginx
+2022-10-17 11:06:47,855 WARNING sudo systemctl reload nginx executed with exit code 1
+2022-10-17 11:06:47,855 WARNING /usr/local/bin/bench setup production ubuntu executed with exit code 1
+2022-10-17 11:06:48,047 INFO A newer version of bench is available: 5.14.3 → 5.14.4
+2022-10-17 11:06:49,424 INFO /usr/local/bin/bench worker --queue short
+2022-10-17 11:06:49,447 INFO /usr/local/bin/bench worker --queue long
+2022-10-17 11:06:49,492 INFO /usr/local/bin/bench schedule
+2022-10-17 11:06:49,554 INFO /usr/local/bin/bench worker --queue default
+2022-10-17 11:07:38,772 INFO /usr/local/bin/bench schedule
+2022-10-17 11:07:38,803 INFO /usr/local/bin/bench worker --queue default
+2022-10-17 11:07:38,826 INFO /usr/local/bin/bench worker --queue long
+2022-10-17 11:07:38,832 INFO /usr/local/bin/bench worker --queue short
+2022-10-17 11:07:45,416 INFO /usr/local/bin/bench setup production ubuntu
+2022-10-17 11:07:45,423 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-10-17 11:07:45,423 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2022-10-17 11:07:47,372 DEBUG /usr/bin/supervisorctl reread
+2022-10-17 11:07:47,611 DEBUG /usr/bin/supervisorctl update
+2022-10-17 11:07:47,851 DEBUG sudo /usr/sbin/nginx -t
+2022-10-17 11:07:47,865 DEBUG sudo systemctl reload nginx
+2022-10-17 11:07:47,879 WARNING sudo systemctl reload nginx executed with exit code 1
+2022-10-17 11:07:47,879 WARNING /usr/local/bin/bench setup production ubuntu executed with exit code 1
+2022-10-17 11:07:48,064 INFO A newer version of bench is available: 5.14.3 → 5.14.4
+2022-10-17 11:08:32,874 INFO /usr/local/bin/bench setup production ubuntu
+2022-10-17 11:08:32,881 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-10-17 11:08:32,881 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2022-10-17 11:08:34,468 DEBUG /usr/bin/supervisorctl reread
+2022-10-17 11:08:34,711 DEBUG /usr/bin/supervisorctl update
+2022-10-17 11:08:34,952 DEBUG sudo /usr/sbin/nginx -t
+2022-10-17 11:08:34,967 DEBUG sudo systemctl reload nginx
+2022-10-17 11:08:35,169 INFO A newer version of bench is available: 5.14.3 → 5.14.4
+2022-10-17 11:08:43,490 INFO /usr/local/bin/bench setup nginx
+2022-10-17 11:08:45,486 INFO A newer version of bench is available: 5.14.3 → 5.14.4
+2022-10-17 11:08:54,637 INFO /usr/local/bin/bench worker --queue default
+2022-10-17 11:08:54,765 INFO /usr/local/bin/bench schedule
+2022-10-17 11:08:54,780 INFO /usr/local/bin/bench worker --queue short
+2022-10-17 11:08:54,790 INFO /usr/local/bin/bench worker --queue long
+2022-10-17 11:09:03,357 INFO /usr/local/bin/bench setup production ubuntu
+2022-10-17 11:09:03,364 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-10-17 11:09:03,364 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2022-10-17 11:09:05,282 DEBUG /usr/bin/supervisorctl reread
+2022-10-17 11:09:05,517 DEBUG /usr/bin/supervisorctl update
+2022-10-17 11:09:05,750 DEBUG sudo /usr/sbin/nginx -t
+2022-10-17 11:09:05,764 DEBUG sudo systemctl reload nginx
+2022-10-17 11:09:05,965 INFO A newer version of bench is available: 5.14.3 → 5.14.4
+2022-10-17 11:09:13,764 INFO /usr/local/bin/bench worker --queue short
+2022-10-17 11:09:13,770 INFO /usr/local/bin/bench worker --queue default
+2022-10-17 11:09:13,775 INFO /usr/local/bin/bench schedule
+2022-10-17 11:09:13,795 INFO /usr/local/bin/bench worker --queue long
+2022-10-17 11:09:22,012 INFO /usr/local/bin/bench setup production ubuntu
+2022-10-17 11:09:22,019 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-10-17 11:09:22,020 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2022-10-17 11:09:24,159 DEBUG /usr/bin/supervisorctl reread
+2022-10-17 11:09:24,393 DEBUG /usr/bin/supervisorctl update
+2022-10-17 11:09:24,627 DEBUG sudo /usr/sbin/nginx -t
+2022-10-17 11:09:24,641 DEBUG sudo systemctl reload nginx
+2022-10-17 11:09:24,838 INFO A newer version of bench is available: 5.14.3 → 5.14.4
+2022-10-17 11:11:31,437 INFO /usr/local/bin/bench worker --queue long
+2022-10-17 11:11:31,437 INFO /usr/local/bin/bench worker --queue short
+2022-10-17 11:11:31,438 INFO /usr/local/bin/bench worker --queue default
+2022-10-17 11:11:31,438 INFO /usr/local/bin/bench schedule
+2022-10-17 11:21:27,131 INFO /usr/local/bin/bench worker --queue short
+2022-10-17 11:21:27,135 INFO /usr/local/bin/bench worker --queue default
+2022-10-17 11:21:27,136 INFO /usr/local/bin/bench schedule
+2022-10-17 11:21:27,236 INFO /usr/local/bin/bench worker --queue long
+2022-10-17 11:26:04,542 INFO /usr/local/bin/bench worker --queue short
+2022-10-17 11:26:04,543 INFO /usr/local/bin/bench schedule
+2022-10-17 11:26:04,603 INFO /usr/local/bin/bench worker --queue default
+2022-10-17 11:26:04,658 INFO /usr/local/bin/bench worker --queue long
+2022-10-17 11:32:32,799 INFO /usr/local/bin/bench start
+2022-10-17 11:32:44,808 INFO /usr/local/bin/bench start
+2022-10-17 11:33:14,119 INFO /usr/local/bin/bench start
+2022-10-17 11:33:14,634 INFO /usr/local/bin/bench schedule
+2022-10-17 11:33:14,653 INFO /usr/local/bin/bench serve --port 8000
+2022-10-17 11:33:14,759 INFO /usr/local/bin/bench worker --queue short
+2022-10-17 11:33:14,788 INFO /usr/local/bin/bench watch
+2022-10-17 11:33:14,792 INFO /usr/local/bin/bench worker --queue long
+2022-10-17 11:33:14,797 INFO /usr/local/bin/bench worker --queue default
+2022-10-17 11:35:24,129 INFO /usr/local/bin/bench --site erp.knestcrm.com migrate
+2022-10-17 11:36:05,114 INFO /usr/local/bin/bench setup requirements
+2022-10-17 11:36:05,292 DEBUG /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2022-10-17 11:36:07,017 LOG Installing frappe
+2022-10-17 11:36:07,017 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/frappe 
+2022-10-17 11:36:10,994 DEBUG cd /home/ubuntu/frappe-bench/apps/frappe && yarn install
+2022-10-17 11:36:11,768 LOG Installing erpnext
+2022-10-17 11:36:11,769 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/erpnext 
+2022-10-17 11:36:14,800 DEBUG cd /home/ubuntu/frappe-bench/apps/erpnext && yarn install
+2022-10-17 11:36:15,113 LOG Installing india_compliance
+2022-10-17 11:36:15,114 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/india_compliance 
+2022-10-17 11:36:18,067 LOG Installing hrms
+2022-10-17 11:36:18,067 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/hrms 
+2022-10-17 11:36:20,996 LOG Installing payments
+2022-10-17 11:36:20,996 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/payments 
+2022-10-17 11:36:23,243 LOG Installing labels
+2022-10-17 11:36:23,243 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/labels 
+2022-10-17 11:36:26,698 LOG Installing chat
+2022-10-17 11:36:26,698 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/chat 
+2022-10-17 11:36:28,755 LOG Installing barcode_shrdc
+2022-10-17 11:36:28,755 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/barcode_shrdc 
+2022-10-17 11:36:40,681 INFO /usr/local/bin/bench --site erp.knestcrm.com migrate
+2022-10-17 11:37:18,130 INFO /usr/local/bin/bench --site erp.knestcrm.com enable-scheduler
+2022-10-17 11:37:19,442 INFO /usr/local/bin/bench --site erp.knestcrm.com set-maintenance-mode off
+2022-10-17 11:37:25,631 INFO /usr/local/bin/bench setup production ubuntu
+2022-10-17 11:37:25,641 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-10-17 11:37:25,641 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2022-10-17 11:37:27,883 DEBUG /usr/bin/supervisorctl reread
+2022-10-17 11:37:28,110 WARNING /usr/bin/supervisorctl reread executed with exit code 1
+2022-10-17 11:37:28,110 DEBUG /usr/bin/supervisorctl reload
+2022-10-17 11:37:28,337 WARNING /usr/bin/supervisorctl reload executed with exit code 1
+2022-10-17 11:37:28,337 DEBUG sudo systemctl restart supervisord
+2022-10-17 11:37:28,352 WARNING sudo systemctl restart supervisord executed with exit code 5
+2022-10-17 11:37:28,352 DEBUG sudo systemctl restart supervisor
+2022-10-17 11:37:28,389 DEBUG sudo /usr/sbin/nginx -t
+2022-10-17 11:37:28,405 DEBUG sudo systemctl reload nginx
+2022-10-17 11:37:28,423 WARNING sudo systemctl reload nginx executed with exit code 1
+2022-10-17 11:37:28,424 WARNING /usr/local/bin/bench setup production ubuntu executed with exit code 1
+2022-10-17 11:37:30,029 INFO /usr/local/bin/bench worker --queue long
+2022-10-17 11:37:30,037 INFO /usr/local/bin/bench schedule
+2022-10-17 11:37:30,059 INFO /usr/local/bin/bench worker --queue default
+2022-10-17 11:37:30,059 INFO /usr/local/bin/bench worker --queue short
+2022-10-17 11:37:39,902 INFO /usr/local/bin/bench start
+2022-10-17 11:37:59,802 INFO /usr/local/bin/bench start
+2022-10-17 11:38:34,359 INFO /usr/local/bin/bench setup production ubuntu
+2022-10-17 11:38:34,366 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-10-17 11:38:34,366 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2022-10-17 11:38:36,685 DEBUG /usr/bin/supervisorctl reread
+2022-10-17 11:38:36,918 DEBUG /usr/bin/supervisorctl update
+2022-10-17 11:38:37,149 DEBUG sudo /usr/sbin/nginx -t
+2022-10-17 11:38:37,163 DEBUG sudo systemctl reload nginx
+2022-10-17 11:38:44,296 INFO /usr/local/bin/bench --site erp.knestcrm.com enable-scheduler
+2022-10-17 11:38:48,155 INFO /usr/local/bin/bench --site erp.knestcrm.com set-maintenance-mode off
+2022-10-17 11:38:52,944 INFO /usr/local/bin/bench setup nginx
+2022-10-17 11:39:00,560 INFO /usr/local/bin/bench schedule
+2022-10-17 11:39:00,572 INFO /usr/local/bin/bench worker --queue long
+2022-10-17 11:39:00,585 INFO /usr/local/bin/bench worker --queue short
+2022-10-17 11:39:00,644 INFO /usr/local/bin/bench worker --queue default
+2022-10-17 11:39:06,056 INFO /usr/local/bin/bench setup production ubuntu
+2022-10-17 11:39:06,062 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-10-17 11:39:06,063 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2022-10-17 11:39:09,000 DEBUG /usr/bin/supervisorctl reread
+2022-10-17 11:39:09,235 DEBUG /usr/bin/supervisorctl update
+2022-10-17 11:39:09,470 DEBUG sudo /usr/sbin/nginx -t
+2022-10-17 11:39:09,483 DEBUG sudo systemctl reload nginx
+2022-10-17 11:46:41,124 INFO /usr/local/bin/bench worker --queue long
+2022-10-17 11:46:41,125 INFO /usr/local/bin/bench worker --queue short
+2022-10-17 11:46:41,126 INFO /usr/local/bin/bench schedule
+2022-10-17 11:46:41,125 INFO /usr/local/bin/bench worker --queue default
+2022-10-17 12:00:01,137 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-17 18:00:01,616 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-18 00:00:01,700 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-18 06:00:01,832 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-18 11:22:02,196 INFO /usr/local/bin/bench worker --queue short
+2022-10-18 11:22:02,200 INFO /usr/local/bin/bench worker --queue long
+2022-10-18 11:22:02,201 INFO /usr/local/bin/bench schedule
+2022-10-18 11:22:02,284 INFO /usr/local/bin/bench worker --queue default
+2022-10-18 12:00:01,232 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-18 18:00:01,640 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-19 00:00:01,771 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-19 06:00:01,999 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-19 06:03:59,012 INFO /usr/local/bin/bench worker --queue short
+2022-10-19 06:03:59,013 INFO /usr/local/bin/bench worker --queue default
+2022-10-19 06:03:59,013 INFO /usr/local/bin/bench schedule
+2022-10-19 06:03:59,014 INFO /usr/local/bin/bench worker --queue long
+2022-10-19 07:45:44,513 INFO /usr/local/bin/bench schedule
+2022-10-19 07:45:44,514 INFO /usr/local/bin/bench worker --queue long
+2022-10-19 07:45:44,514 INFO /usr/local/bin/bench worker --queue default
+2022-10-19 07:45:44,515 INFO /usr/local/bin/bench worker --queue short
+2022-10-19 08:00:52,920 INFO /usr/local/bin/bench worker --queue default
+2022-10-19 08:00:52,921 INFO /usr/local/bin/bench schedule
+2022-10-19 08:00:52,921 INFO /usr/local/bin/bench worker --queue long
+2022-10-19 08:00:52,922 INFO /usr/local/bin/bench worker --queue short
+2022-10-19 08:19:51,304 INFO /usr/local/bin/bench start
+2022-10-19 08:20:09,113 INFO /usr/local/bin/bench start
+2022-10-19 08:20:20,313 INFO /usr/local/bin/bench start
+2022-10-19 08:20:56,915 INFO /usr/local/bin/bench start
+2022-10-19 08:21:13,759 INFO /usr/local/bin/bench start
+2022-10-19 08:21:49,274 INFO /usr/local/bin/bench start
+2022-10-19 08:24:56,079 INFO /usr/local/bin/bench start
+2022-10-19 08:25:08,016 INFO /usr/local/bin/bench start
+2022-10-19 08:26:43,963 INFO /usr/local/bin/bench schedule
+2022-10-19 08:26:43,963 INFO /usr/local/bin/bench worker --queue short
+2022-10-19 08:26:43,964 INFO /usr/local/bin/bench worker --queue long
+2022-10-19 08:26:43,964 INFO /usr/local/bin/bench worker --queue default
+2022-10-19 08:27:58,714 INFO /usr/local/bin/bench start
+2022-10-19 08:32:12,558 INFO /usr/local/bin/bench start
+2022-10-19 08:32:13,089 INFO /usr/local/bin/bench serve --port 8000
+2022-10-19 08:32:13,140 INFO /usr/local/bin/bench worker --queue default
+2022-10-19 08:32:13,160 INFO /usr/local/bin/bench worker --queue long
+2022-10-19 08:32:13,164 INFO /usr/local/bin/bench worker --queue short
+2022-10-19 08:32:13,177 INFO /usr/local/bin/bench schedule
+2022-10-19 08:32:13,204 INFO /usr/local/bin/bench watch
+2022-10-19 08:34:05,457 INFO /usr/local/bin/bench --site erp.knestcrm.com uninstall-app labels --no-backup --force
+2022-10-19 08:34:51,606 INFO /usr/local/bin/bench remove-app labels
+2022-10-19 08:34:51,728 INFO /usr/local/bin/bench --site all list-apps --format json
+2022-10-19 08:34:53,072 INFO /usr/local/bin/bench --site erp.knestcrm.com list-apps
+2022-10-19 08:34:54,456 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip uninstall -y labels
+2022-10-19 08:34:55,633 INFO App moved from apps/labels to archived/apps/labels-2022-10-19
+2022-10-19 08:34:55,867 DEBUG cd /home/ubuntu/frappe-bench && supervisorctl restart frappe:
+2022-10-19 08:34:56,098 WARNING cd /home/ubuntu/frappe-bench && supervisorctl restart frappe: executed with exit code 7
+2022-10-19 08:34:56,099 WARNING /usr/local/bin/bench remove-app labels executed with exit code 1
+2022-10-19 08:35:33,380 INFO /usr/local/bin/bench --site erp.knestcrm.com uninstall-app erpnext_fingerprint-attendance --no-backup --force
+2022-10-19 08:37:05,552 INFO /usr/local/bin/bench setup production ubuntu
+2022-10-19 08:37:05,564 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-10-19 08:37:05,564 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2022-10-19 08:37:08,968 DEBUG /usr/bin/supervisorctl reread
+2022-10-19 08:37:09,199 WARNING /usr/bin/supervisorctl reread executed with exit code 1
+2022-10-19 08:37:09,199 DEBUG /usr/bin/supervisorctl reload
+2022-10-19 08:37:09,427 WARNING /usr/bin/supervisorctl reload executed with exit code 1
+2022-10-19 08:37:09,428 DEBUG sudo systemctl restart supervisord
+2022-10-19 08:37:09,442 WARNING sudo systemctl restart supervisord executed with exit code 5
+2022-10-19 08:37:09,442 DEBUG sudo systemctl restart supervisor
+2022-10-19 08:37:09,474 DEBUG sudo /usr/sbin/nginx -t
+2022-10-19 08:37:09,490 DEBUG sudo systemctl reload nginx
+2022-10-19 08:37:09,508 WARNING sudo systemctl reload nginx executed with exit code 1
+2022-10-19 08:37:09,508 WARNING /usr/local/bin/bench setup production ubuntu executed with exit code 1
+2022-10-19 08:37:11,006 INFO /usr/local/bin/bench worker --queue long
+2022-10-19 08:37:11,044 INFO /usr/local/bin/bench worker --queue short
+2022-10-19 08:37:11,171 INFO /usr/local/bin/bench schedule
+2022-10-19 08:37:11,187 INFO /usr/local/bin/bench worker --queue default
+2022-10-19 08:37:19,187 INFO /usr/local/bin/bench setup production ubuntu
+2022-10-19 08:37:19,194 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-10-19 08:37:19,194 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2022-10-19 08:37:21,373 DEBUG /usr/bin/supervisorctl reread
+2022-10-19 08:37:21,607 DEBUG /usr/bin/supervisorctl update
+2022-10-19 08:37:21,841 DEBUG sudo /usr/sbin/nginx -t
+2022-10-19 08:37:21,855 DEBUG sudo systemctl reload nginx
+2022-10-19 08:37:21,870 WARNING sudo systemctl reload nginx executed with exit code 1
+2022-10-19 08:37:21,870 WARNING /usr/local/bin/bench setup production ubuntu executed with exit code 1
+2022-10-19 08:37:36,340 INFO /usr/local/bin/bench schedule
+2022-10-19 08:37:36,360 INFO /usr/local/bin/bench worker --queue short
+2022-10-19 08:37:36,372 INFO /usr/local/bin/bench worker --queue default
+2022-10-19 08:37:36,406 INFO /usr/local/bin/bench worker --queue long
+2022-10-19 08:38:06,980 INFO /usr/local/bin/bench start
+2022-10-19 08:38:14,416 INFO /usr/local/bin/bench --site erp.knestcrm.com enable-scheduler
+2022-10-19 08:38:18,871 INFO /usr/local/bin/bench --site erp.knestcrm.com set-maintenance-mode off
+2022-10-19 08:38:23,738 INFO /usr/local/bin/bench setup production ubuntu
+2022-10-19 08:38:23,744 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-10-19 08:38:23,745 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2022-10-19 08:38:26,137 DEBUG /usr/bin/supervisorctl reread
+2022-10-19 08:38:26,371 DEBUG /usr/bin/supervisorctl update
+2022-10-19 08:38:26,606 DEBUG sudo /usr/sbin/nginx -t
+2022-10-19 08:38:26,620 DEBUG sudo systemctl reload nginx
+2022-10-19 08:38:30,752 INFO /usr/local/bin/bench setup nginx
+2022-10-19 08:38:38,635 INFO /usr/local/bin/bench worker --queue default
+2022-10-19 08:38:38,681 INFO /usr/local/bin/bench schedule
+2022-10-19 08:38:38,700 INFO /usr/local/bin/bench worker --queue long
+2022-10-19 08:38:38,724 INFO /usr/local/bin/bench worker --queue short
+2022-10-19 08:38:43,813 INFO /usr/local/bin/bench setup production ubuntu
+2022-10-19 08:38:43,819 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-10-19 08:38:43,819 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2022-10-19 08:38:45,606 DEBUG /usr/bin/supervisorctl reread
+2022-10-19 08:38:45,839 DEBUG /usr/bin/supervisorctl update
+2022-10-19 08:38:46,074 DEBUG sudo /usr/sbin/nginx -t
+2022-10-19 08:38:46,088 DEBUG sudo systemctl reload nginx
+2022-10-19 08:50:00,170 INFO /usr/local/bin/bench start
+2022-10-19 08:50:00,801 INFO /usr/local/bin/bench schedule
+2022-10-19 08:50:00,818 INFO /usr/local/bin/bench worker --queue short
+2022-10-19 08:50:00,832 INFO /usr/local/bin/bench worker --queue default
+2022-10-19 08:50:00,841 INFO /usr/local/bin/bench serve --port 8000
+2022-10-19 08:50:00,844 INFO /usr/local/bin/bench watch
+2022-10-19 08:50:00,875 INFO /usr/local/bin/bench worker --queue long
+2022-10-19 08:50:48,612 INFO /usr/local/bin/bench get-app https://github.com/asoral/whatsapp_integration.git
+2022-10-19 08:50:48,620 LOG Getting whatsapp_integration
+2022-10-19 08:50:48,620 DEBUG cd ./apps && git clone https://github.com/asoral/whatsapp_integration.git  --depth 1 --origin upstream
+2022-10-19 08:50:49,731 LOG Installing whatsapp_integration
+2022-10-19 08:50:49,908 DEBUG cd /home/ubuntu/frappe-bench && /home/ubuntu/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ubuntu/frappe-bench/apps/whatsapp_integration 
+2022-10-19 08:50:52,098 DEBUG bench build --app whatsapp_integration
+2022-10-19 08:50:52,214 INFO /usr/local/bin/bench build --app whatsapp_integration
+2022-10-19 08:50:54,839 DEBUG cd /home/ubuntu/frappe-bench && supervisorctl restart frappe:
+2022-10-19 08:50:55,070 WARNING cd /home/ubuntu/frappe-bench && supervisorctl restart frappe: executed with exit code 7
+2022-10-19 08:50:55,070 WARNING /usr/local/bin/bench get-app https://github.com/asoral/whatsapp_integration.git executed with exit code 1
+2022-10-19 08:51:38,846 INFO /usr/local/bin/bench start
+2022-10-19 08:51:39,460 INFO /usr/local/bin/bench worker --queue short
+2022-10-19 08:51:39,486 INFO /usr/local/bin/bench worker --queue long
+2022-10-19 08:51:39,502 INFO /usr/local/bin/bench schedule
+2022-10-19 08:51:39,506 INFO /usr/local/bin/bench worker --queue default
+2022-10-19 08:51:39,516 INFO /usr/local/bin/bench serve --port 8000
+2022-10-19 08:51:39,524 INFO /usr/local/bin/bench watch
+2022-10-19 08:52:59,568 INFO /usr/local/bin/bench build --app whatsapp_integration
+2022-10-19 08:53:15,350 INFO /usr/local/bin/bench --site erp.knestcrm.com install-app whatsapp_integration
+2022-10-19 08:53:30,183 INFO /usr/local/bin/bench --site erp.knestcrm.com migrate
+2022-10-19 08:55:07,155 INFO /usr/local/bin/bench setup production ubuntu
+2022-10-19 08:55:07,162 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-10-19 08:55:07,162 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2022-10-19 08:55:09,198 DEBUG /usr/bin/supervisorctl reread
+2022-10-19 08:55:09,428 WARNING /usr/bin/supervisorctl reread executed with exit code 1
+2022-10-19 08:55:09,428 DEBUG /usr/bin/supervisorctl reload
+2022-10-19 08:55:09,658 WARNING /usr/bin/supervisorctl reload executed with exit code 1
+2022-10-19 08:55:09,659 DEBUG sudo systemctl restart supervisord
+2022-10-19 08:55:09,673 WARNING sudo systemctl restart supervisord executed with exit code 5
+2022-10-19 08:55:09,673 DEBUG sudo systemctl restart supervisor
+2022-10-19 08:55:09,709 DEBUG sudo /usr/sbin/nginx -t
+2022-10-19 08:55:09,725 DEBUG sudo systemctl reload nginx
+2022-10-19 08:55:11,359 INFO /usr/local/bin/bench worker --queue long
+2022-10-19 08:55:11,449 INFO /usr/local/bin/bench schedule
+2022-10-19 08:55:11,471 INFO /usr/local/bin/bench worker --queue default
+2022-10-19 08:55:11,475 INFO /usr/local/bin/bench worker --queue short
+2022-10-19 08:55:23,353 INFO /usr/local/bin/bench setup nginx
+2022-10-19 08:55:32,312 INFO /usr/local/bin/bench worker --queue short
+2022-10-19 08:55:32,323 INFO /usr/local/bin/bench worker --queue long
+2022-10-19 08:55:32,344 INFO /usr/local/bin/bench schedule
+2022-10-19 08:55:32,372 INFO /usr/local/bin/bench worker --queue default
+2022-10-19 08:55:35,052 INFO /usr/local/bin/bench setup production ubuntu
+2022-10-19 08:55:35,060 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-10-19 08:55:35,060 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2022-10-19 08:55:37,199 DEBUG /usr/bin/supervisorctl reread
+2022-10-19 08:55:37,444 DEBUG /usr/bin/supervisorctl update
+2022-10-19 08:55:37,678 DEBUG sudo /usr/sbin/nginx -t
+2022-10-19 08:55:37,692 DEBUG sudo systemctl reload nginx
+2022-10-19 08:57:23,981 INFO /usr/local/bin/bench worker --queue default
+2022-10-19 08:57:24,215 INFO /usr/local/bin/bench schedule
+2022-10-19 08:57:24,219 INFO /usr/local/bin/bench worker --queue short
+2022-10-19 08:57:24,290 INFO /usr/local/bin/bench worker --queue long
+2022-10-19 08:57:38,340 INFO /usr/local/bin/bench setup production ubuntu
+2022-10-19 08:57:38,358 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-10-19 08:57:38,358 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2022-10-19 08:57:40,750 DEBUG /usr/bin/supervisorctl reread
+2022-10-19 08:57:40,986 DEBUG /usr/bin/supervisorctl update
+2022-10-19 08:57:41,222 DEBUG sudo /usr/sbin/nginx -t
+2022-10-19 08:57:41,236 DEBUG sudo systemctl reload nginx
+2022-10-19 08:57:55,250 INFO /usr/local/bin/bench setup nginx
+2022-10-19 08:58:03,062 INFO /usr/local/bin/bench worker --queue short
+2022-10-19 08:58:03,102 INFO /usr/local/bin/bench worker --queue default
+2022-10-19 08:58:03,150 INFO /usr/local/bin/bench schedule
+2022-10-19 08:58:03,181 INFO /usr/local/bin/bench worker --queue long
+2022-10-19 08:58:07,824 INFO /usr/local/bin/bench setup production ubuntu
+2022-10-19 08:58:07,831 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2022-10-19 08:58:07,831 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2022-10-19 08:58:09,621 DEBUG /usr/bin/supervisorctl reread
+2022-10-19 08:58:09,852 DEBUG /usr/bin/supervisorctl update
+2022-10-19 08:58:10,084 DEBUG sudo /usr/sbin/nginx -t
+2022-10-19 08:58:10,098 DEBUG sudo systemctl reload nginx
+2022-10-19 08:58:18,457 INFO /usr/local/bin/bench setup nginx
+2022-10-19 08:58:26,582 INFO /usr/local/bin/bench worker --queue long
+2022-10-19 08:58:26,607 INFO /usr/local/bin/bench worker --queue default
+2022-10-19 08:58:26,636 INFO /usr/local/bin/bench worker --queue short
+2022-10-19 08:58:26,638 INFO /usr/local/bin/bench schedule
+2022-10-19 12:00:01,236 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-19 18:00:02,034 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-20 00:00:02,094 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-20 06:00:01,353 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-20 12:00:01,478 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-20 18:00:01,513 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-21 00:00:01,685 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-21 06:00:02,046 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-21 12:00:01,186 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-21 18:00:01,347 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-22 00:00:01,623 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-22 06:00:01,996 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-22 07:05:24,445 INFO /usr/local/bin/bench worker --queue short
+2022-10-22 07:05:24,445 INFO /usr/local/bin/bench worker --queue default
+2022-10-22 07:05:24,516 INFO /usr/local/bin/bench schedule
+2022-10-22 07:05:24,558 INFO /usr/local/bin/bench worker --queue long
+2022-10-22 12:00:01,572 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-22 18:00:01,162 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-23 00:00:01,330 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-23 06:00:01,721 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-23 12:00:01,870 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-23 18:00:01,979 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-24 00:00:02,089 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-24 06:00:01,403 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-24 12:00:01,536 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-24 18:00:01,667 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-25 00:00:01,819 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-25 06:00:02,125 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-25 12:00:01,302 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-25 18:00:01,403 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-26 00:00:01,595 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-26 06:00:01,974 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-26 12:00:02,098 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-26 18:00:01,460 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-27 00:00:01,626 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-27 06:00:01,949 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-27 12:00:01,162 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-27 18:00:01,301 INFO /usr/local/bin/bench --verbose --site all backup
+2022-10-28 00:00:01,497 INFO /usr/local/bin/bench --verbose --site all backup
