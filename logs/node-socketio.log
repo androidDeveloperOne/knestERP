@@ -3201,3 +3201,742 @@ Unable to join user room. Error: Bad Gateway
 Unable to join user room. Error: Bad Gateway
 Unable to join user room. Error: Bad Gateway
 Unable to join user room. Error: Bad Gateway
+Error: Not Found
+    at Request.callback (/home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:706:15)
+    at /home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:18
+    at IncomingMessage.<anonymous> (/home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+    at IncomingMessage.emit (events.js:326:22)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  status: 404,
+  response: Response {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [Socket],
+      connection: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'NOT FOUND',
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      req: [ClientRequest],
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Leave Application new-leave-application-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      [Symbol(kCapture)]: false
+    },
+    request: Request {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      _agent: false,
+      _formData: null,
+      method: 'GET',
+      url: 'http://erp.knestcrm.com/api/method/frappe.realtime.can_subscribe_doc?sid=f58eadc0378d2aeeb1091914d3252c46f510b1bba34b4db59940c0e0&doctype=Leave%20Application&docname=new-leave-application-1',
+      _header: [Object],
+      header: [Object],
+      writable: true,
+      _redirects: 0,
+      _maxRedirects: 5,
+      cookies: '',
+      qs: {},
+      _query: [],
+      qsRaw: [],
+      _redirectList: [],
+      _streamRequest: false,
+      req: [ClientRequest],
+      protocol: 'http:',
+      host: 'erp.knestcrm.com',
+      _endCalled: true,
+      _callback: [Function],
+      res: [IncomingMessage],
+      response: [Circular],
+      called: true,
+      [Symbol(kCapture)]: false
+    },
+    req: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [Socket],
+      connection: [Socket],
+      _header: 'GET /api/method/frappe.realtime.can_subscribe_doc?sid=f58eadc0378d2aeeb1091914d3252c46f510b1bba34b4db59940c0e0&doctype=Leave%20Application&docname=new-leave-application-1 HTTP/1.1\r\n' +
+        'Host: erp.knestcrm.com\r\n' +
+        'Accept-Encoding: gzip, deflate\r\n' +
+        'User-Agent: node-superagent/3.8.3\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      insecureHTTPParser: undefined,
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=f58eadc0378d2aeeb1091914d3252c46f510b1bba34b4db59940c0e0&doctype=Leave%20Application&docname=new-leave-application-1',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'erp.knestcrm.com',
+      protocol: 'http:',
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Leave Application new-leave-application-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+    body: {
+      exc_type: 'DoesNotExistError',
+      _server_messages: '["{\\"message\\": \\"Leave Application new-leave-application-1 not found\\", \\"title\\": \\"Message\\", \\"indicator\\": \\"red\\", \\"raise_exception\\": 1}"]'
+    },
+    files: undefined,
+    buffered: true,
+    headers: {
+      server: 'nginx',
+      date: 'Sat, 29 Oct 2022 13:04:11 GMT',
+      'content-type': 'application/json',
+      'content-length': '230',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    header: {
+      server: 'nginx',
+      date: 'Sat, 29 Oct 2022 13:04:11 GMT',
+      'content-type': 'application/json',
+      'content-length': '230',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    statusCode: 404,
+    status: 404,
+    statusType: 4,
+    info: false,
+    ok: false,
+    redirect: false,
+    clientError: true,
+    serverError: false,
+    error: Error: cannot GET /api/method/frappe.realtime.can_subscribe_doc?sid=f58eadc0378d2aeeb1091914d3252c46f510b1bba34b4db59940c0e0&doctype=Leave%20Application&docname=new-leave-application-1 (404)
+        at Response.toError (/home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:94:15)
+        at ResponseBase._setStatusProperties (/home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/response-base.js:123:16)
+        at new Response (/home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:41:8)
+        at Request._emitResponse (/home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:752:20)
+        at /home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:38
+        at IncomingMessage.<anonymous> (/home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+        at IncomingMessage.emit (events.js:326:22)
+        at endReadableNT (_stream_readable.js:1241:12)
+        at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+      status: 404,
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Leave Application new-leave-application-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      method: 'GET',
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=f58eadc0378d2aeeb1091914d3252c46f510b1bba34b4db59940c0e0&doctype=Leave%20Application&docname=new-leave-application-1'
+    },
+    created: false,
+    accepted: false,
+    noContent: false,
+    badRequest: false,
+    unauthorized: false,
+    notAcceptable: false,
+    forbidden: false,
+    notFound: true,
+    unprocessableEntity: false,
+    type: 'application/json',
+    links: {},
+    setEncoding: [Function: bound ],
+    redirects: [],
+    [Symbol(kCapture)]: false
+  }
+}
+Unable to join user room. Error: Internal Server Error
+Error: Not Found
+    at Request.callback (/home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:706:15)
+    at /home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:18
+    at IncomingMessage.<anonymous> (/home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+    at IncomingMessage.emit (events.js:326:22)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  status: 404,
+  response: Response {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [Socket],
+      connection: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'NOT FOUND',
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      req: [ClientRequest],
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Material Request new-material-request-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      [Symbol(kCapture)]: false
+    },
+    request: Request {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      _agent: false,
+      _formData: null,
+      method: 'GET',
+      url: 'http://erp.knestcrm.com/api/method/frappe.realtime.can_subscribe_doc?sid=665238ffa4417a2ad3d726e5ad6eec9ae274327b10322ee8cd7b1f2b&doctype=Material%20Request&docname=new-material-request-1',
+      _header: [Object],
+      header: [Object],
+      writable: true,
+      _redirects: 0,
+      _maxRedirects: 5,
+      cookies: '',
+      qs: {},
+      _query: [],
+      qsRaw: [],
+      _redirectList: [],
+      _streamRequest: false,
+      req: [ClientRequest],
+      protocol: 'http:',
+      host: 'erp.knestcrm.com',
+      _endCalled: true,
+      _callback: [Function],
+      res: [IncomingMessage],
+      response: [Circular],
+      called: true,
+      [Symbol(kCapture)]: false
+    },
+    req: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [Socket],
+      connection: [Socket],
+      _header: 'GET /api/method/frappe.realtime.can_subscribe_doc?sid=665238ffa4417a2ad3d726e5ad6eec9ae274327b10322ee8cd7b1f2b&doctype=Material%20Request&docname=new-material-request-1 HTTP/1.1\r\n' +
+        'Host: erp.knestcrm.com\r\n' +
+        'Accept-Encoding: gzip, deflate\r\n' +
+        'User-Agent: node-superagent/3.8.3\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      insecureHTTPParser: undefined,
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=665238ffa4417a2ad3d726e5ad6eec9ae274327b10322ee8cd7b1f2b&doctype=Material%20Request&docname=new-material-request-1',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'erp.knestcrm.com',
+      protocol: 'http:',
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Material Request new-material-request-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+    body: {
+      exc_type: 'DoesNotExistError',
+      _server_messages: '["{\\"message\\": \\"Material Request new-material-request-1 not found\\", \\"title\\": \\"Message\\", \\"indicator\\": \\"red\\", \\"raise_exception\\": 1}"]'
+    },
+    files: undefined,
+    buffered: true,
+    headers: {
+      server: 'nginx',
+      date: 'Wed, 02 Nov 2022 09:14:01 GMT',
+      'content-type': 'application/json',
+      'content-length': '228',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    header: {
+      server: 'nginx',
+      date: 'Wed, 02 Nov 2022 09:14:01 GMT',
+      'content-type': 'application/json',
+      'content-length': '228',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    statusCode: 404,
+    status: 404,
+    statusType: 4,
+    info: false,
+    ok: false,
+    redirect: false,
+    clientError: true,
+    serverError: false,
+    error: Error: cannot GET /api/method/frappe.realtime.can_subscribe_doc?sid=665238ffa4417a2ad3d726e5ad6eec9ae274327b10322ee8cd7b1f2b&doctype=Material%20Request&docname=new-material-request-1 (404)
+        at Response.toError (/home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:94:15)
+        at ResponseBase._setStatusProperties (/home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/response-base.js:123:16)
+        at new Response (/home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:41:8)
+        at Request._emitResponse (/home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:752:20)
+        at /home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:38
+        at IncomingMessage.<anonymous> (/home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+        at IncomingMessage.emit (events.js:326:22)
+        at endReadableNT (_stream_readable.js:1241:12)
+        at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+      status: 404,
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Material Request new-material-request-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      method: 'GET',
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=665238ffa4417a2ad3d726e5ad6eec9ae274327b10322ee8cd7b1f2b&doctype=Material%20Request&docname=new-material-request-1'
+    },
+    created: false,
+    accepted: false,
+    noContent: false,
+    badRequest: false,
+    unauthorized: false,
+    notAcceptable: false,
+    forbidden: false,
+    notFound: true,
+    unprocessableEntity: false,
+    type: 'application/json',
+    links: {},
+    setEncoding: [Function: bound ],
+    redirects: [],
+    [Symbol(kCapture)]: false
+  }
+}
+Unable to join user room. Error: Internal Server Error
+Error: Not Found
+    at Request.callback (/home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:706:15)
+    at /home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:18
+    at IncomingMessage.<anonymous> (/home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+    at IncomingMessage.emit (events.js:326:22)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  status: 404,
+  response: Response {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [Socket],
+      connection: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'NOT FOUND',
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      req: [ClientRequest],
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Asset new-asset-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      [Symbol(kCapture)]: false
+    },
+    request: Request {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      _agent: false,
+      _formData: null,
+      method: 'GET',
+      url: 'http://erp.knestcrm.com/api/method/frappe.realtime.can_subscribe_doc?sid=5e6961fd63656110cb8707bb6a493bf13ffb560bcac6470451a53856&doctype=Asset&docname=new-asset-1',
+      _header: [Object],
+      header: [Object],
+      writable: true,
+      _redirects: 0,
+      _maxRedirects: 5,
+      cookies: '',
+      qs: {},
+      _query: [],
+      qsRaw: [],
+      _redirectList: [],
+      _streamRequest: false,
+      req: [ClientRequest],
+      protocol: 'http:',
+      host: 'erp.knestcrm.com',
+      _endCalled: true,
+      _callback: [Function],
+      res: [IncomingMessage],
+      response: [Circular],
+      called: true,
+      [Symbol(kCapture)]: false
+    },
+    req: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [Socket],
+      connection: [Socket],
+      _header: 'GET /api/method/frappe.realtime.can_subscribe_doc?sid=5e6961fd63656110cb8707bb6a493bf13ffb560bcac6470451a53856&doctype=Asset&docname=new-asset-1 HTTP/1.1\r\n' +
+        'Host: erp.knestcrm.com\r\n' +
+        'Accept-Encoding: gzip, deflate\r\n' +
+        'User-Agent: node-superagent/3.8.3\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      insecureHTTPParser: undefined,
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=5e6961fd63656110cb8707bb6a493bf13ffb560bcac6470451a53856&doctype=Asset&docname=new-asset-1',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'erp.knestcrm.com',
+      protocol: 'http:',
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Asset new-asset-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+    body: {
+      exc_type: 'DoesNotExistError',
+      _server_messages: '["{\\"message\\": \\"Asset new-asset-1 not found\\", \\"title\\": \\"Message\\", \\"indicator\\": \\"red\\", \\"raise_exception\\": 1}"]'
+    },
+    files: undefined,
+    buffered: true,
+    headers: {
+      server: 'nginx',
+      date: 'Mon, 07 Nov 2022 04:48:06 GMT',
+      'content-type': 'application/json',
+      'content-length': '206',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    header: {
+      server: 'nginx',
+      date: 'Mon, 07 Nov 2022 04:48:06 GMT',
+      'content-type': 'application/json',
+      'content-length': '206',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    statusCode: 404,
+    status: 404,
+    statusType: 4,
+    info: false,
+    ok: false,
+    redirect: false,
+    clientError: true,
+    serverError: false,
+    error: Error: cannot GET /api/method/frappe.realtime.can_subscribe_doc?sid=5e6961fd63656110cb8707bb6a493bf13ffb560bcac6470451a53856&doctype=Asset&docname=new-asset-1 (404)
+        at Response.toError (/home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:94:15)
+        at ResponseBase._setStatusProperties (/home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/response-base.js:123:16)
+        at new Response (/home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:41:8)
+        at Request._emitResponse (/home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:752:20)
+        at /home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:38
+        at IncomingMessage.<anonymous> (/home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+        at IncomingMessage.emit (events.js:326:22)
+        at endReadableNT (_stream_readable.js:1241:12)
+        at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+      status: 404,
+      text: '{"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Asset new-asset-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      method: 'GET',
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=5e6961fd63656110cb8707bb6a493bf13ffb560bcac6470451a53856&doctype=Asset&docname=new-asset-1'
+    },
+    created: false,
+    accepted: false,
+    noContent: false,
+    badRequest: false,
+    unauthorized: false,
+    notAcceptable: false,
+    forbidden: false,
+    notFound: true,
+    unprocessableEntity: false,
+    type: 'application/json',
+    links: {},
+    setEncoding: [Function: bound ],
+    redirects: [],
+    [Symbol(kCapture)]: false
+  }
+}
+Error: Not Found
+    at Request.callback (/home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:706:15)
+    at /home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:18
+    at IncomingMessage.<anonymous> (/home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+    at IncomingMessage.emit (events.js:326:22)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  status: 404,
+  response: Response {
+    _events: [Object: null prototype] {},
+    _eventsCount: 0,
+    _maxListeners: undefined,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      readable: false,
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [Socket],
+      connection: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      headers: [Object],
+      rawHeaders: [Array],
+      trailers: {},
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 404,
+      statusMessage: 'NOT FOUND',
+      client: [Socket],
+      _consuming: false,
+      _dumped: false,
+      req: [ClientRequest],
+      text: '{"session_expired":1,"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Asset new-asset-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      [Symbol(kCapture)]: false
+    },
+    request: Request {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      _agent: false,
+      _formData: null,
+      method: 'GET',
+      url: 'http://erp.knestcrm.com/api/method/frappe.realtime.can_subscribe_doc?sid=1001ada7e919086ede83a23523e093f3a98b907c37376f512d8cef64&doctype=Asset&docname=new-asset-1',
+      _header: [Object],
+      header: [Object],
+      writable: true,
+      _redirects: 0,
+      _maxRedirects: 5,
+      cookies: '',
+      qs: {},
+      _query: [],
+      qsRaw: [],
+      _redirectList: [],
+      _streamRequest: false,
+      req: [ClientRequest],
+      protocol: 'http:',
+      host: 'erp.knestcrm.com',
+      _endCalled: true,
+      _callback: [Function],
+      res: [IncomingMessage],
+      response: [Circular],
+      called: true,
+      [Symbol(kCapture)]: false
+    },
+    req: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      _last: true,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: false,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      _contentLength: 0,
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      socket: [Socket],
+      connection: [Socket],
+      _header: 'GET /api/method/frappe.realtime.can_subscribe_doc?sid=1001ada7e919086ede83a23523e093f3a98b907c37376f512d8cef64&doctype=Asset&docname=new-asset-1 HTTP/1.1\r\n' +
+        'Host: erp.knestcrm.com\r\n' +
+        'Accept-Encoding: gzip, deflate\r\n' +
+        'User-Agent: node-superagent/3.8.3\r\n' +
+        'Content-Type: application/x-www-form-urlencoded\r\n' +
+        'Connection: close\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: noopPendingOutput],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'GET',
+      insecureHTTPParser: undefined,
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=1001ada7e919086ede83a23523e093f3a98b907c37376f512d8cef64&doctype=Asset&docname=new-asset-1',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'erp.knestcrm.com',
+      protocol: 'http:',
+      [Symbol(kCapture)]: false,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype]
+    },
+    text: '{"session_expired":1,"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Asset new-asset-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+    body: {
+      session_expired: 1,
+      exc_type: 'DoesNotExistError',
+      _server_messages: '["{\\"message\\": \\"Asset new-asset-1 not found\\", \\"title\\": \\"Message\\", \\"indicator\\": \\"red\\", \\"raise_exception\\": 1}"]'
+    },
+    files: undefined,
+    buffered: true,
+    headers: {
+      server: 'nginx',
+      date: 'Thu, 10 Nov 2022 04:05:46 GMT',
+      'content-type': 'application/json',
+      'content-length': '226',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    header: {
+      server: 'nginx',
+      date: 'Thu, 10 Nov 2022 04:05:46 GMT',
+      'content-type': 'application/json',
+      'content-length': '226',
+      connection: 'close',
+      'set-cookie': [Array]
+    },
+    statusCode: 404,
+    status: 404,
+    statusType: 4,
+    info: false,
+    ok: false,
+    redirect: false,
+    clientError: true,
+    serverError: false,
+    error: Error: cannot GET /api/method/frappe.realtime.can_subscribe_doc?sid=1001ada7e919086ede83a23523e093f3a98b907c37376f512d8cef64&doctype=Asset&docname=new-asset-1 (404)
+        at Response.toError (/home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:94:15)
+        at ResponseBase._setStatusProperties (/home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/response-base.js:123:16)
+        at new Response (/home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/response.js:41:8)
+        at Request._emitResponse (/home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:752:20)
+        at /home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/index.js:916:38
+        at IncomingMessage.<anonymous> (/home/ubuntu/frappe-bench/apps/frappe/node_modules/superagent/lib/node/parsers/json.js:19:7)
+        at IncomingMessage.emit (events.js:326:22)
+        at endReadableNT (_stream_readable.js:1241:12)
+        at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+      status: 404,
+      text: '{"session_expired":1,"exc_type":"DoesNotExistError","_server_messages":"[\\"{\\\\\\"message\\\\\\": \\\\\\"Asset new-asset-1 not found\\\\\\", \\\\\\"title\\\\\\": \\\\\\"Message\\\\\\", \\\\\\"indicator\\\\\\": \\\\\\"red\\\\\\", \\\\\\"raise_exception\\\\\\": 1}\\"]"}',
+      method: 'GET',
+      path: '/api/method/frappe.realtime.can_subscribe_doc?sid=1001ada7e919086ede83a23523e093f3a98b907c37376f512d8cef64&doctype=Asset&docname=new-asset-1'
+    },
+    created: false,
+    accepted: false,
+    noContent: false,
+    badRequest: false,
+    unauthorized: false,
+    notAcceptable: false,
+    forbidden: false,
+    notFound: true,
+    unprocessableEntity: false,
+    type: 'application/json',
+    links: {},
+    setEncoding: [Function: bound ],
+    redirects: [],
+    [Symbol(kCapture)]: false
+  }
+}
