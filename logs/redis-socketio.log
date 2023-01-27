@@ -586,3 +586,289 @@
 732:M 22 Oct 2022 07:05:23.565 * Running mode=standalone, port=12000.
 732:M 22 Oct 2022 07:05:23.565 # Server initialized
 732:M 22 Oct 2022 07:05:23.577 * Ready to accept connections
+732:signal-handler (1669180720) Received SIGTERM scheduling shutdown...
+732:M 23 Nov 2022 05:18:40.712 # User requested shutdown...
+732:M 23 Nov 2022 05:18:40.712 * Removing the pid file.
+732:M 23 Nov 2022 05:18:40.712 # Redis is now ready to exit, bye bye...
+24079:C 23 Nov 2022 05:59:33.521 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+24079:C 23 Nov 2022 05:59:33.521 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=24079, just started
+24079:C 23 Nov 2022 05:59:33.521 # Configuration loaded
+24079:M 23 Nov 2022 05:59:33.522 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+24079:M 23 Nov 2022 05:59:33.525 * Running mode=standalone, port=12000.
+24079:M 23 Nov 2022 05:59:33.525 # Server initialized
+24079:M 23 Nov 2022 05:59:33.526 * Ready to accept connections
+24079:signal-handler (1669186340) Received SIGTERM scheduling shutdown...
+24079:M 23 Nov 2022 06:52:20.393 # User requested shutdown...
+24079:M 23 Nov 2022 06:52:20.393 * Removing the pid file.
+24079:M 23 Nov 2022 06:52:20.394 # Redis is now ready to exit, bye bye...
+1008:C 23 Nov 2022 06:53:14.079 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1008:C 23 Nov 2022 06:53:14.079 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=1008, just started
+1008:C 23 Nov 2022 06:53:14.079 # Configuration loaded
+1008:M 23 Nov 2022 06:53:14.079 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+1008:M 23 Nov 2022 06:53:14.080 * Running mode=standalone, port=12000.
+1008:M 23 Nov 2022 06:53:14.080 # Server initialized
+1008:M 23 Nov 2022 06:53:14.080 * Ready to accept connections
+1008:signal-handler (1669961324) Received SIGTERM scheduling shutdown...
+1008:M 02 Dec 2022 06:08:44.352 # User requested shutdown...
+1008:M 02 Dec 2022 06:08:44.352 * Removing the pid file.
+1008:M 02 Dec 2022 06:08:44.352 # Redis is now ready to exit, bye bye...
+792:C 02 Dec 2022 06:09:31.907 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+792:C 02 Dec 2022 06:09:31.907 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=792, just started
+792:C 02 Dec 2022 06:09:31.907 # Configuration loaded
+792:M 02 Dec 2022 06:09:31.909 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+792:M 02 Dec 2022 06:09:31.912 * Running mode=standalone, port=12000.
+792:M 02 Dec 2022 06:09:31.912 # Server initialized
+792:M 02 Dec 2022 06:09:31.919 * Ready to accept connections
+792:signal-handler (1669968922) Received SIGTERM scheduling shutdown...
+792:M 02 Dec 2022 08:15:22.546 # User requested shutdown...
+792:M 02 Dec 2022 08:15:22.546 * Removing the pid file.
+792:M 02 Dec 2022 08:15:22.546 # Redis is now ready to exit, bye bye...
+775:C 02 Dec 2022 08:16:09.563 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+775:C 02 Dec 2022 08:16:09.563 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=775, just started
+775:C 02 Dec 2022 08:16:09.563 # Configuration loaded
+775:M 02 Dec 2022 08:16:09.563 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+775:M 02 Dec 2022 08:16:09.570 * Running mode=standalone, port=12000.
+775:M 02 Dec 2022 08:16:09.570 # Server initialized
+775:M 02 Dec 2022 08:16:09.575 * Ready to accept connections
+775:signal-handler (1670234351) Received SIGTERM scheduling shutdown...
+775:M 05 Dec 2022 09:59:12.027 # User requested shutdown...
+775:M 05 Dec 2022 09:59:12.027 * Removing the pid file.
+775:M 05 Dec 2022 09:59:12.027 # Redis is now ready to exit, bye bye...
+793:C 05 Dec 2022 09:59:57.196 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+793:C 05 Dec 2022 09:59:57.197 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=793, just started
+793:C 05 Dec 2022 09:59:57.197 # Configuration loaded
+793:M 05 Dec 2022 09:59:57.197 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+793:M 05 Dec 2022 09:59:57.203 * Running mode=standalone, port=12000.
+793:M 05 Dec 2022 09:59:57.203 # Server initialized
+793:M 05 Dec 2022 09:59:57.204 * Ready to accept connections
+793:signal-handler (1670317853) Received SIGTERM scheduling shutdown...
+793:M 06 Dec 2022 09:10:54.019 # User requested shutdown...
+793:M 06 Dec 2022 09:10:54.019 * Removing the pid file.
+793:M 06 Dec 2022 09:10:54.019 # Redis is now ready to exit, bye bye...
+771:C 06 Dec 2022 09:11:41.552 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+771:C 06 Dec 2022 09:11:41.559 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=771, just started
+771:C 06 Dec 2022 09:11:41.559 # Configuration loaded
+771:M 06 Dec 2022 09:11:41.561 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+771:M 06 Dec 2022 09:11:41.563 * Running mode=standalone, port=12000.
+771:M 06 Dec 2022 09:11:41.564 # Server initialized
+771:M 06 Dec 2022 09:11:41.565 * Ready to accept connections
+771:signal-handler (1673415987) Received SIGTERM scheduling shutdown...
+771:M 11 Jan 2023 05:46:27.322 # User requested shutdown...
+771:M 11 Jan 2023 05:46:27.322 * Removing the pid file.
+771:M 11 Jan 2023 05:46:27.322 # Redis is now ready to exit, bye bye...
+784:C 11 Jan 2023 05:47:16.310 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+784:C 11 Jan 2023 05:47:16.310 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=784, just started
+784:C 11 Jan 2023 05:47:16.310 # Configuration loaded
+784:M 11 Jan 2023 05:47:16.318 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+784:M 11 Jan 2023 05:47:16.319 * Running mode=standalone, port=12000.
+784:M 11 Jan 2023 05:47:16.319 # Server initialized
+784:M 11 Jan 2023 05:47:16.319 * Ready to accept connections
+784:signal-handler (1673416959) Received SIGTERM scheduling shutdown...
+784:M 11 Jan 2023 06:02:39.362 # User requested shutdown...
+784:M 11 Jan 2023 06:02:39.362 * Removing the pid file.
+784:M 11 Jan 2023 06:02:39.362 # Redis is now ready to exit, bye bye...
+2165:C 11 Jan 2023 06:13:21.797 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2165:C 11 Jan 2023 06:13:21.797 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=2165, just started
+2165:C 11 Jan 2023 06:13:21.797 # Configuration loaded
+2165:M 11 Jan 2023 06:13:21.798 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+2165:M 11 Jan 2023 06:13:21.799 * Running mode=standalone, port=12000.
+2165:M 11 Jan 2023 06:13:21.803 # Server initialized
+2165:M 11 Jan 2023 06:13:21.804 * Ready to accept connections
+2165:signal-handler (1673417612) Received SIGTERM scheduling shutdown...
+2165:M 11 Jan 2023 06:13:32.760 # User requested shutdown...
+2165:M 11 Jan 2023 06:13:32.760 * Removing the pid file.
+2165:M 11 Jan 2023 06:13:32.760 # Redis is now ready to exit, bye bye...
+4688:C 11 Jan 2023 06:13:34.857 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+4688:C 11 Jan 2023 06:13:34.857 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=4688, just started
+4688:C 11 Jan 2023 06:13:34.857 # Configuration loaded
+4688:M 11 Jan 2023 06:13:34.864 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+4688:M 11 Jan 2023 06:13:34.864 * Running mode=standalone, port=12000.
+4688:M 11 Jan 2023 06:13:34.864 # Server initialized
+4688:M 11 Jan 2023 06:13:34.865 * Ready to accept connections
+4688:signal-handler (1673947003) Received SIGTERM scheduling shutdown...
+4688:M 17 Jan 2023 09:16:43.107 # User requested shutdown...
+4688:M 17 Jan 2023 09:16:43.107 * Removing the pid file.
+4688:M 17 Jan 2023 09:16:43.107 # Redis is now ready to exit, bye bye...
+829:C 17 Jan 2023 09:17:34.335 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+829:C 17 Jan 2023 09:17:34.335 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=829, just started
+829:C 17 Jan 2023 09:17:34.335 # Configuration loaded
+829:M 17 Jan 2023 09:17:34.335 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+829:M 17 Jan 2023 09:17:34.354 * Running mode=standalone, port=12000.
+829:M 17 Jan 2023 09:17:34.354 # Server initialized
+829:M 17 Jan 2023 09:17:34.355 * Ready to accept connections
+829:signal-handler (1674640355) Received SIGTERM scheduling shutdown...
+829:M 25 Jan 2023 09:52:35.414 # User requested shutdown...
+829:M 25 Jan 2023 09:52:35.414 * Removing the pid file.
+829:M 25 Jan 2023 09:52:35.414 # Redis is now ready to exit, bye bye...
+833:C 25 Jan 2023 09:53:25.320 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+833:C 25 Jan 2023 09:53:25.321 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=833, just started
+833:C 25 Jan 2023 09:53:25.321 # Configuration loaded
+833:M 25 Jan 2023 09:53:25.321 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+833:M 25 Jan 2023 09:53:25.322 * Running mode=standalone, port=12000.
+833:M 25 Jan 2023 09:53:25.322 # Server initialized
+833:M 25 Jan 2023 09:53:25.322 * Ready to accept connections
+833:signal-handler (1674795027) Received SIGTERM scheduling shutdown...
+833:M 27 Jan 2023 04:50:27.541 # User requested shutdown...
+833:M 27 Jan 2023 04:50:27.541 * Removing the pid file.
+833:M 27 Jan 2023 04:50:27.541 # Redis is now ready to exit, bye bye...
+25292:C 27 Jan 2023 04:55:51.357 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+25292:C 27 Jan 2023 04:55:51.357 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=25292, just started
+25292:C 27 Jan 2023 04:55:51.357 # Configuration loaded
+25292:M 27 Jan 2023 04:55:51.358 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+25292:M 27 Jan 2023 04:55:51.366 * Running mode=standalone, port=12000.
+25292:M 27 Jan 2023 04:55:51.366 # Server initialized
+25292:M 27 Jan 2023 04:55:51.366 * Ready to accept connections
+25292:signal-handler (1674795422) Received SIGTERM scheduling shutdown...
+25292:M 27 Jan 2023 04:57:02.931 # User requested shutdown...
+25292:M 27 Jan 2023 04:57:02.931 * Removing the pid file.
+25292:M 27 Jan 2023 04:57:02.931 # Redis is now ready to exit, bye bye...
+25355:C 27 Jan 2023 04:57:03.763 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+25355:C 27 Jan 2023 04:57:03.763 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=25355, just started
+25355:C 27 Jan 2023 04:57:03.763 # Configuration loaded
+25355:M 27 Jan 2023 04:57:03.763 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+25355:M 27 Jan 2023 04:57:03.764 * Running mode=standalone, port=12000.
+25355:M 27 Jan 2023 04:57:03.764 # Server initialized
+25355:M 27 Jan 2023 04:57:03.764 * Ready to accept connections
+25355:signal-handler (1674795573) Received SIGTERM scheduling shutdown...
+25355:M 27 Jan 2023 04:59:33.473 # User requested shutdown...
+25355:M 27 Jan 2023 04:59:33.473 * Removing the pid file.
+25355:M 27 Jan 2023 04:59:33.473 # Redis is now ready to exit, bye bye...
+25517:C 27 Jan 2023 04:59:56.751 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+25517:C 27 Jan 2023 04:59:56.751 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=25517, just started
+25517:C 27 Jan 2023 04:59:56.751 # Configuration loaded
+25517:M 27 Jan 2023 04:59:56.751 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+25517:M 27 Jan 2023 04:59:56.752 * Running mode=standalone, port=12000.
+25517:M 27 Jan 2023 04:59:56.752 # Server initialized
+25517:M 27 Jan 2023 04:59:56.752 * Ready to accept connections
+25517:signal-handler (1674795603) Received SIGTERM scheduling shutdown...
+25517:M 27 Jan 2023 05:00:03.875 # User requested shutdown...
+25517:M 27 Jan 2023 05:00:03.875 * Removing the pid file.
+25517:M 27 Jan 2023 05:00:03.876 # Redis is now ready to exit, bye bye...
+25576:C 27 Jan 2023 05:00:04.532 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+25576:C 27 Jan 2023 05:00:04.532 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=25576, just started
+25576:C 27 Jan 2023 05:00:04.532 # Configuration loaded
+25576:M 27 Jan 2023 05:00:04.533 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+25576:M 27 Jan 2023 05:00:04.533 * Running mode=standalone, port=12000.
+25576:M 27 Jan 2023 05:00:04.533 # Server initialized
+25576:M 27 Jan 2023 05:00:04.534 * Ready to accept connections
+25576:signal-handler (1674800869) Received SIGTERM scheduling shutdown...
+25576:M 27 Jan 2023 06:27:49.592 # User requested shutdown...
+25576:M 27 Jan 2023 06:27:49.592 * Removing the pid file.
+25576:M 27 Jan 2023 06:27:49.592 # Redis is now ready to exit, bye bye...
+28407:C 27 Jan 2023 06:27:49.643 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+28407:C 27 Jan 2023 06:27:49.643 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=28407, just started
+28407:C 27 Jan 2023 06:27:49.643 # Configuration loaded
+28407:M 27 Jan 2023 06:27:49.648 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+28407:M 27 Jan 2023 06:27:49.649 * Running mode=standalone, port=12000.
+28407:M 27 Jan 2023 06:27:49.649 # Server initialized
+28407:M 27 Jan 2023 06:27:49.649 * Ready to accept connections
+28407:signal-handler (1674800881) Received SIGTERM scheduling shutdown...
+28407:M 27 Jan 2023 06:28:01.706 # User requested shutdown...
+28407:M 27 Jan 2023 06:28:01.706 * Removing the pid file.
+28407:M 27 Jan 2023 06:28:01.706 # Redis is now ready to exit, bye bye...
+28480:C 27 Jan 2023 06:28:02.592 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+28480:C 27 Jan 2023 06:28:02.592 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=28480, just started
+28480:C 27 Jan 2023 06:28:02.592 # Configuration loaded
+28480:M 27 Jan 2023 06:28:02.593 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+28480:M 27 Jan 2023 06:28:02.593 * Running mode=standalone, port=12000.
+28480:M 27 Jan 2023 06:28:02.593 # Server initialized
+28480:M 27 Jan 2023 06:28:02.594 * Ready to accept connections
+28480:signal-handler (1674800910) Received SIGTERM scheduling shutdown...
+28480:M 27 Jan 2023 06:28:30.157 # User requested shutdown...
+28480:M 27 Jan 2023 06:28:30.157 * Removing the pid file.
+28480:M 27 Jan 2023 06:28:30.157 # Redis is now ready to exit, bye bye...
+826:C 27 Jan 2023 06:30:55.415 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+826:C 27 Jan 2023 06:30:55.415 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=826, just started
+826:C 27 Jan 2023 06:30:55.415 # Configuration loaded
+826:M 27 Jan 2023 06:30:55.415 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+826:M 27 Jan 2023 06:30:55.416 * Running mode=standalone, port=12000.
+826:M 27 Jan 2023 06:30:55.416 # Server initialized
+826:M 27 Jan 2023 06:30:55.416 * Ready to accept connections
+826:signal-handler (1674804079) Received SIGTERM scheduling shutdown...
+826:M 27 Jan 2023 07:21:19.097 # User requested shutdown...
+826:M 27 Jan 2023 07:21:19.097 * Removing the pid file.
+826:M 27 Jan 2023 07:21:19.097 # Redis is now ready to exit, bye bye...
+2509:C 27 Jan 2023 07:21:42.167 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2509:C 27 Jan 2023 07:21:42.176 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=2509, just started
+2509:C 27 Jan 2023 07:21:42.176 # Configuration loaded
+2509:M 27 Jan 2023 07:21:42.177 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+2509:M 27 Jan 2023 07:21:42.178 * Running mode=standalone, port=12000.
+2509:M 27 Jan 2023 07:21:42.178 # Server initialized
+2509:M 27 Jan 2023 07:21:42.178 * Ready to accept connections
+2509:signal-handler (1674804113) Received SIGTERM scheduling shutdown...
+2509:M 27 Jan 2023 07:21:53.604 # User requested shutdown...
+2509:M 27 Jan 2023 07:21:53.604 * Removing the pid file.
+2509:M 27 Jan 2023 07:21:53.604 # Redis is now ready to exit, bye bye...
+2570:C 27 Jan 2023 07:21:54.294 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2570:C 27 Jan 2023 07:21:54.294 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=2570, just started
+2570:C 27 Jan 2023 07:21:54.294 # Configuration loaded
+2570:M 27 Jan 2023 07:21:54.295 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+2570:M 27 Jan 2023 07:21:54.304 * Running mode=standalone, port=12000.
+2570:M 27 Jan 2023 07:21:54.304 # Server initialized
+2570:M 27 Jan 2023 07:21:54.306 * Ready to accept connections
+2570:signal-handler (1674804129) Received SIGTERM scheduling shutdown...
+2570:M 27 Jan 2023 07:22:09.816 # User requested shutdown...
+2570:M 27 Jan 2023 07:22:09.816 * Removing the pid file.
+2570:M 27 Jan 2023 07:22:09.816 # Redis is now ready to exit, bye bye...
+825:C 27 Jan 2023 07:22:57.221 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+825:C 27 Jan 2023 07:22:57.222 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=825, just started
+825:C 27 Jan 2023 07:22:57.222 # Configuration loaded
+825:M 27 Jan 2023 07:22:57.224 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+825:M 27 Jan 2023 07:22:57.234 * Running mode=standalone, port=12000.
+825:M 27 Jan 2023 07:22:57.237 # Server initialized
+825:M 27 Jan 2023 07:22:57.244 * Ready to accept connections
+825:signal-handler (1674805601) Received SIGTERM scheduling shutdown...
+825:M 27 Jan 2023 07:46:41.269 # User requested shutdown...
+825:M 27 Jan 2023 07:46:41.269 * Removing the pid file.
+825:M 27 Jan 2023 07:46:41.269 # Redis is now ready to exit, bye bye...
+2490:C 27 Jan 2023 07:46:42.195 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2490:C 27 Jan 2023 07:46:42.195 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=2490, just started
+2490:C 27 Jan 2023 07:46:42.195 # Configuration loaded
+2490:M 27 Jan 2023 07:46:42.196 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+2490:M 27 Jan 2023 07:46:42.197 * Running mode=standalone, port=12000.
+2490:M 27 Jan 2023 07:46:42.197 # Server initialized
+2490:M 27 Jan 2023 07:46:42.197 * Ready to accept connections
+2490:signal-handler (1674805661) Received SIGTERM scheduling shutdown...
+2490:M 27 Jan 2023 07:47:41.440 # User requested shutdown...
+2490:M 27 Jan 2023 07:47:41.440 * Removing the pid file.
+2490:M 27 Jan 2023 07:47:41.440 # Redis is now ready to exit, bye bye...
+2581:C 27 Jan 2023 07:47:42.132 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2581:C 27 Jan 2023 07:47:42.132 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=2581, just started
+2581:C 27 Jan 2023 07:47:42.132 # Configuration loaded
+2581:M 27 Jan 2023 07:47:42.133 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+2581:M 27 Jan 2023 07:47:42.133 * Running mode=standalone, port=12000.
+2581:M 27 Jan 2023 07:47:42.133 # Server initialized
+2581:M 27 Jan 2023 07:47:42.134 * Ready to accept connections
+2581:signal-handler (1674806519) Received SIGTERM scheduling shutdown...
+2581:M 27 Jan 2023 08:01:59.517 # User requested shutdown...
+2581:M 27 Jan 2023 08:01:59.517 * Removing the pid file.
+2581:M 27 Jan 2023 08:01:59.517 # Redis is now ready to exit, bye bye...
+5038:C 27 Jan 2023 08:40:15.054 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+5038:C 27 Jan 2023 08:40:15.055 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=5038, just started
+5038:C 27 Jan 2023 08:40:15.055 # Configuration loaded
+5038:M 27 Jan 2023 08:40:15.055 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+5038:M 27 Jan 2023 08:40:15.056 * Running mode=standalone, port=12000.
+5038:M 27 Jan 2023 08:40:15.056 # Server initialized
+5038:M 27 Jan 2023 08:40:15.057 * Ready to accept connections
+5038:signal-handler (1674808825) Received SIGTERM scheduling shutdown...
+5038:M 27 Jan 2023 08:40:26.081 # User requested shutdown...
+5038:M 27 Jan 2023 08:40:26.081 * Removing the pid file.
+5038:M 27 Jan 2023 08:40:26.081 # Redis is now ready to exit, bye bye...
+5100:C 27 Jan 2023 08:40:26.752 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+5100:C 27 Jan 2023 08:40:26.752 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=5100, just started
+5100:C 27 Jan 2023 08:40:26.752 # Configuration loaded
+5100:M 27 Jan 2023 08:40:26.762 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+5100:M 27 Jan 2023 08:40:26.763 * Running mode=standalone, port=12000.
+5100:M 27 Jan 2023 08:40:26.763 # Server initialized
+5100:M 27 Jan 2023 08:40:26.764 * Ready to accept connections
+5100:signal-handler (1674811741) Received SIGTERM scheduling shutdown...
+5100:M 27 Jan 2023 09:29:01.590 # User requested shutdown...
+5100:M 27 Jan 2023 09:29:01.590 * Removing the pid file.
+5100:M 27 Jan 2023 09:29:01.590 # Redis is now ready to exit, bye bye...
+829:C 27 Jan 2023 09:29:53.716 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+829:C 27 Jan 2023 09:29:53.716 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=829, just started
+829:C 27 Jan 2023 09:29:53.716 # Configuration loaded
+829:M 27 Jan 2023 09:29:53.727 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+829:M 27 Jan 2023 09:29:53.749 * Running mode=standalone, port=12000.
+829:M 27 Jan 2023 09:29:53.749 # Server initialized
+829:M 27 Jan 2023 09:29:53.761 * Ready to accept connections

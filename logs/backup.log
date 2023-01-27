@@ -1054,3 +1054,1852 @@ Backup Summary for erp.knestcrm.com at 2022-11-11 11:30:05.951676
 Config  : ./erp.knestcrm.com/private/backups/20221111_113003-erp_knestcrm_com-site_config_backup.json 249.0B
 Database: ./erp.knestcrm.com/private/backups/20221111_113003-erp_knestcrm_com-database.sql.gz         5.0MiB
 Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221111_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-11 17:30:05.678575
+Config  : ./erp.knestcrm.com/private/backups/20221111_173002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221111_173002-erp_knestcrm_com-database.sql.gz         5.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221111_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-11 23:30:06.077192
+Config  : ./erp.knestcrm.com/private/backups/20221111_233003-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221111_233003-erp_knestcrm_com-database.sql.gz         5.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221112_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-12 05:30:05.527044
+Config  : ./erp.knestcrm.com/private/backups/20221112_053002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221112_053002-erp_knestcrm_com-database.sql.gz         5.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221112_113003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-12 11:30:05.959957
+Config  : ./erp.knestcrm.com/private/backups/20221112_113003-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221112_113003-erp_knestcrm_com-database.sql.gz         5.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221112_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-12 17:30:05.381265
+Config  : ./erp.knestcrm.com/private/backups/20221112_173002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221112_173002-erp_knestcrm_com-database.sql.gz         5.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221112_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-12 23:30:05.781152
+Config  : ./erp.knestcrm.com/private/backups/20221112_233002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221112_233002-erp_knestcrm_com-database.sql.gz         5.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221113_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-13 05:30:06.505530
+Config  : ./erp.knestcrm.com/private/backups/20221113_053003-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221113_053003-erp_knestcrm_com-database.sql.gz         4.7MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221113_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-13 11:30:05.853911
+Config  : ./erp.knestcrm.com/private/backups/20221113_113002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221113_113002-erp_knestcrm_com-database.sql.gz         4.7MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221113_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-13 17:30:05.299147
+Config  : ./erp.knestcrm.com/private/backups/20221113_173002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221113_173002-erp_knestcrm_com-database.sql.gz         4.7MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221113_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-13 23:30:05.680871
+Config  : ./erp.knestcrm.com/private/backups/20221113_233002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221113_233002-erp_knestcrm_com-database.sql.gz         4.7MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221114_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-14 05:30:06.133715
+Config  : ./erp.knestcrm.com/private/backups/20221114_053003-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221114_053003-erp_knestcrm_com-database.sql.gz         4.7MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221114_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-14 11:30:05.545993
+Config  : ./erp.knestcrm.com/private/backups/20221114_113002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221114_113002-erp_knestcrm_com-database.sql.gz         4.7MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221114_173003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-14 17:30:05.986448
+Config  : ./erp.knestcrm.com/private/backups/20221114_173003-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221114_173003-erp_knestcrm_com-database.sql.gz         4.8MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221114_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-14 23:30:05.401873
+Config  : ./erp.knestcrm.com/private/backups/20221114_233002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221114_233002-erp_knestcrm_com-database.sql.gz         4.8MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221115_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-15 05:30:05.835691
+Config  : ./erp.knestcrm.com/private/backups/20221115_053002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221115_053002-erp_knestcrm_com-database.sql.gz         4.8MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221115_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-15 11:30:05.271976
+Config  : ./erp.knestcrm.com/private/backups/20221115_113002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221115_113002-erp_knestcrm_com-database.sql.gz         4.9MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221115_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-15 17:30:05.741264
+Config  : ./erp.knestcrm.com/private/backups/20221115_173002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221115_173002-erp_knestcrm_com-database.sql.gz         4.9MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221115_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-15 23:30:06.133095
+Config  : ./erp.knestcrm.com/private/backups/20221115_233003-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221115_233003-erp_knestcrm_com-database.sql.gz         4.9MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221116_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-16 05:30:05.617174
+Config  : ./erp.knestcrm.com/private/backups/20221116_053002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221116_053002-erp_knestcrm_com-database.sql.gz         4.9MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221116_113003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-16 11:30:06.141610
+Config  : ./erp.knestcrm.com/private/backups/20221116_113003-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221116_113003-erp_knestcrm_com-database.sql.gz         4.9MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221116_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-16 17:30:05.598770
+Config  : ./erp.knestcrm.com/private/backups/20221116_173002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221116_173002-erp_knestcrm_com-database.sql.gz         5.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221116_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-16 23:30:06.282585
+Config  : ./erp.knestcrm.com/private/backups/20221116_233003-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221116_233003-erp_knestcrm_com-database.sql.gz         5.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221117_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-17 05:30:05.749069
+Config  : ./erp.knestcrm.com/private/backups/20221117_053002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221117_053002-erp_knestcrm_com-database.sql.gz         5.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221117_113003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-17 11:30:06.245779
+Config  : ./erp.knestcrm.com/private/backups/20221117_113003-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221117_113003-erp_knestcrm_com-database.sql.gz         5.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221117_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-17 17:30:05.813310
+Config  : ./erp.knestcrm.com/private/backups/20221117_173002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221117_173002-erp_knestcrm_com-database.sql.gz         5.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221117_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-17 23:30:06.328687
+Config  : ./erp.knestcrm.com/private/backups/20221117_233003-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221117_233003-erp_knestcrm_com-database.sql.gz         5.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221118_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-18 05:30:05.965758
+Config  : ./erp.knestcrm.com/private/backups/20221118_053002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221118_053002-erp_knestcrm_com-database.sql.gz         5.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221118_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-18 11:30:05.514893
+Config  : ./erp.knestcrm.com/private/backups/20221118_113002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221118_113002-erp_knestcrm_com-database.sql.gz         5.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221118_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-18 17:30:06.020642
+Config  : ./erp.knestcrm.com/private/backups/20221118_173002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221118_173002-erp_knestcrm_com-database.sql.gz         5.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221118_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-18 23:30:05.545523
+Config  : ./erp.knestcrm.com/private/backups/20221118_233002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221118_233002-erp_knestcrm_com-database.sql.gz         5.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221119_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-19 05:30:06.091494
+Config  : ./erp.knestcrm.com/private/backups/20221119_053003-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221119_053003-erp_knestcrm_com-database.sql.gz         5.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221119_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-19 11:30:05.616142
+Config  : ./erp.knestcrm.com/private/backups/20221119_113002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221119_113002-erp_knestcrm_com-database.sql.gz         5.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221119_173003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-19 17:30:06.166621
+Config  : ./erp.knestcrm.com/private/backups/20221119_173003-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221119_173003-erp_knestcrm_com-database.sql.gz         5.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221119_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-19 23:30:05.700644
+Config  : ./erp.knestcrm.com/private/backups/20221119_233002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221119_233002-erp_knestcrm_com-database.sql.gz         5.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221120_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-20 05:30:06.482826
+Config  : ./erp.knestcrm.com/private/backups/20221120_053003-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221120_053003-erp_knestcrm_com-database.sql.gz         5.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221120_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-20 11:30:05.980328
+Config  : ./erp.knestcrm.com/private/backups/20221120_113002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221120_113002-erp_knestcrm_com-database.sql.gz         5.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221120_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-20 17:30:05.520440
+Config  : ./erp.knestcrm.com/private/backups/20221120_173002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221120_173002-erp_knestcrm_com-database.sql.gz         5.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221120_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-20 23:30:06.027499
+Config  : ./erp.knestcrm.com/private/backups/20221120_233002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221120_233002-erp_knestcrm_com-database.sql.gz         5.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221121_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-21 05:30:05.584227
+Config  : ./erp.knestcrm.com/private/backups/20221121_053002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221121_053002-erp_knestcrm_com-database.sql.gz         5.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221121_113003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-21 11:30:06.178559
+Config  : ./erp.knestcrm.com/private/backups/20221121_113003-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221121_113003-erp_knestcrm_com-database.sql.gz         5.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221121_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-21 17:30:05.816631
+Config  : ./erp.knestcrm.com/private/backups/20221121_173002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221121_173002-erp_knestcrm_com-database.sql.gz         5.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221121_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-21 23:30:05.375401
+Config  : ./erp.knestcrm.com/private/backups/20221121_233002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221121_233002-erp_knestcrm_com-database.sql.gz         5.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221122_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-22 05:30:06.153712
+Config  : ./erp.knestcrm.com/private/backups/20221122_053002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221122_053002-erp_knestcrm_com-database.sql.gz         5.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221122_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-22 11:30:05.712073
+Config  : ./erp.knestcrm.com/private/backups/20221122_113002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221122_113002-erp_knestcrm_com-database.sql.gz         5.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221122_173003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-22 17:30:06.264188
+Config  : ./erp.knestcrm.com/private/backups/20221122_173003-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221122_173003-erp_knestcrm_com-database.sql.gz         5.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221122_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-22 23:30:05.769206
+Config  : ./erp.knestcrm.com/private/backups/20221122_233002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221122_233002-erp_knestcrm_com-database.sql.gz         5.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221123_053003-erp_knestcrm_com-database.sql.gz
+
+Backup failed for Site erp.knestcrm.com. Database or site_config.json may be corrupted
+OSError: [Errno 28] No space left on device
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 714, in backup
+    odb = scheduled_backup(
+  File "apps/frappe/frappe/utils/backups.py", line 529, in scheduled_backup
+    odb = new_backup(
+  File "apps/frappe/frappe/utils/backups.py", line 581, in new_backup
+    odb.get_backup(oldmysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221123_113003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-23 11:30:08.700292
+Config  : ./erp.knestcrm.com/private/backups/20221123_113003-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221123_113003-erp_knestcrm_com-database.sql.gz         5.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221123_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-23 17:30:07.551518
+Config  : ./erp.knestcrm.com/private/backups/20221123_173002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221123_173002-erp_knestcrm_com-database.sql.gz         5.2MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221123_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-23 23:30:06.640819
+Config  : ./erp.knestcrm.com/private/backups/20221123_233003-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221123_233003-erp_knestcrm_com-database.sql.gz         5.2MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221124_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-24 05:30:06.203859
+Config  : ./erp.knestcrm.com/private/backups/20221124_053003-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221124_053003-erp_knestcrm_com-database.sql.gz         5.2MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221124_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-24 11:30:05.945368
+Config  : ./erp.knestcrm.com/private/backups/20221124_113002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221124_113002-erp_knestcrm_com-database.sql.gz         5.2MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221124_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-24 17:30:06.014871
+Config  : ./erp.knestcrm.com/private/backups/20221124_173002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221124_173002-erp_knestcrm_com-database.sql.gz         5.2MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221124_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-24 23:30:06.206308
+Config  : ./erp.knestcrm.com/private/backups/20221124_233002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221124_233002-erp_knestcrm_com-database.sql.gz         5.2MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221125_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-25 05:30:06.380179
+Config  : ./erp.knestcrm.com/private/backups/20221125_053002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221125_053002-erp_knestcrm_com-database.sql.gz         5.2MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221125_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-25 11:30:06.248512
+Config  : ./erp.knestcrm.com/private/backups/20221125_113002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221125_113002-erp_knestcrm_com-database.sql.gz         5.2MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221125_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-25 17:30:06.046616
+Config  : ./erp.knestcrm.com/private/backups/20221125_173002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221125_173002-erp_knestcrm_com-database.sql.gz         5.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221125_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-25 23:30:05.961250
+Config  : ./erp.knestcrm.com/private/backups/20221125_233002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221125_233002-erp_knestcrm_com-database.sql.gz         5.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221126_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-26 05:30:06.174980
+Config  : ./erp.knestcrm.com/private/backups/20221126_053002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221126_053002-erp_knestcrm_com-database.sql.gz         5.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221126_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-26 11:30:05.936680
+Config  : ./erp.knestcrm.com/private/backups/20221126_113002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221126_113002-erp_knestcrm_com-database.sql.gz         5.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221126_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-26 17:30:05.735926
+Config  : ./erp.knestcrm.com/private/backups/20221126_173002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221126_173002-erp_knestcrm_com-database.sql.gz         5.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221126_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-26 23:30:06.549554
+Config  : ./erp.knestcrm.com/private/backups/20221126_233003-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221126_233003-erp_knestcrm_com-database.sql.gz         5.4MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221127_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-27 05:30:06.375500
+Config  : ./erp.knestcrm.com/private/backups/20221127_053003-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221127_053003-erp_knestcrm_com-database.sql.gz         5.4MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221127_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-27 11:30:06.193531
+Config  : ./erp.knestcrm.com/private/backups/20221127_113002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221127_113002-erp_knestcrm_com-database.sql.gz         5.4MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221127_173003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-27 17:30:06.597797
+Config  : ./erp.knestcrm.com/private/backups/20221127_173003-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221127_173003-erp_knestcrm_com-database.sql.gz         5.4MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221127_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-27 23:30:06.448961
+Config  : ./erp.knestcrm.com/private/backups/20221127_233003-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221127_233003-erp_knestcrm_com-database.sql.gz         5.4MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221128_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-28 05:30:06.229676
+Config  : ./erp.knestcrm.com/private/backups/20221128_053002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221128_053002-erp_knestcrm_com-database.sql.gz         5.4MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221128_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-28 11:30:06.042921
+Config  : ./erp.knestcrm.com/private/backups/20221128_113002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221128_113002-erp_knestcrm_com-database.sql.gz         5.4MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221128_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-28 17:30:05.845265
+Config  : ./erp.knestcrm.com/private/backups/20221128_173002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221128_173002-erp_knestcrm_com-database.sql.gz         5.4MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221128_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-28 23:30:06.297169
+Config  : ./erp.knestcrm.com/private/backups/20221128_233002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221128_233002-erp_knestcrm_com-database.sql.gz         5.4MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221129_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-29 05:30:06.257792
+Config  : ./erp.knestcrm.com/private/backups/20221129_053002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221129_053002-erp_knestcrm_com-database.sql.gz         5.4MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221129_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-29 11:30:06.038099
+Config  : ./erp.knestcrm.com/private/backups/20221129_113002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221129_113002-erp_knestcrm_com-database.sql.gz         5.5MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221129_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-29 17:30:05.875919
+Config  : ./erp.knestcrm.com/private/backups/20221129_173002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221129_173002-erp_knestcrm_com-database.sql.gz         5.5MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221129_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-29 23:30:05.642629
+Config  : ./erp.knestcrm.com/private/backups/20221129_233002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221129_233002-erp_knestcrm_com-database.sql.gz         5.5MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221130_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-30 05:30:06.451762
+Config  : ./erp.knestcrm.com/private/backups/20221130_053003-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221130_053003-erp_knestcrm_com-database.sql.gz         5.5MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221130_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-30 11:30:06.282013
+Config  : ./erp.knestcrm.com/private/backups/20221130_113002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221130_113002-erp_knestcrm_com-database.sql.gz         5.5MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221130_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-30 17:30:06.121323
+Config  : ./erp.knestcrm.com/private/backups/20221130_173002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221130_173002-erp_knestcrm_com-database.sql.gz         5.5MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221130_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-11-30 23:30:05.931868
+Config  : ./erp.knestcrm.com/private/backups/20221130_233002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221130_233002-erp_knestcrm_com-database.sql.gz         5.5MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221201_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-01 05:30:06.265720
+Config  : ./erp.knestcrm.com/private/backups/20221201_053002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221201_053002-erp_knestcrm_com-database.sql.gz         5.5MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221201_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-01 11:30:06.100789
+Config  : ./erp.knestcrm.com/private/backups/20221201_113002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221201_113002-erp_knestcrm_com-database.sql.gz         5.5MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221201_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-01 17:30:06.043825
+Config  : ./erp.knestcrm.com/private/backups/20221201_173002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221201_173002-erp_knestcrm_com-database.sql.gz         5.5MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221201_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-01 23:30:05.894363
+Config  : ./erp.knestcrm.com/private/backups/20221201_233002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221201_233002-erp_knestcrm_com-database.sql.gz         5.5MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221202_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-02 05:30:05.906145
+Config  : ./erp.knestcrm.com/private/backups/20221202_053002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221202_053002-erp_knestcrm_com-database.sql.gz         5.5MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221202_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-02 11:30:05.748711
+Config  : ./erp.knestcrm.com/private/backups/20221202_113002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221202_113002-erp_knestcrm_com-database.sql.gz         5.5MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221202_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-02 17:30:07.105886
+Config  : ./erp.knestcrm.com/private/backups/20221202_173002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221202_173002-erp_knestcrm_com-database.sql.gz         5.5MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221202_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-02 23:30:05.627630
+Config  : ./erp.knestcrm.com/private/backups/20221202_233002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221202_233002-erp_knestcrm_com-database.sql.gz         5.5MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221203_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-03 05:30:06.236388
+Config  : ./erp.knestcrm.com/private/backups/20221203_053003-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221203_053003-erp_knestcrm_com-database.sql.gz         5.5MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221203_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-03 11:30:05.789880
+Config  : ./erp.knestcrm.com/private/backups/20221203_113002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221203_113002-erp_knestcrm_com-database.sql.gz         5.5MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221203_173003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-03 17:30:06.360598
+Config  : ./erp.knestcrm.com/private/backups/20221203_173003-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221203_173003-erp_knestcrm_com-database.sql.gz         5.5MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221203_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-03 23:30:05.871295
+Config  : ./erp.knestcrm.com/private/backups/20221203_233002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221203_233002-erp_knestcrm_com-database.sql.gz         5.4MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221204_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-04 05:30:05.400840
+Config  : ./erp.knestcrm.com/private/backups/20221204_053002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221204_053002-erp_knestcrm_com-database.sql.gz         5.4MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221204_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-04 11:30:05.946186
+Config  : ./erp.knestcrm.com/private/backups/20221204_113002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221204_113002-erp_knestcrm_com-database.sql.gz         5.4MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221204_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-04 17:30:05.478962
+Config  : ./erp.knestcrm.com/private/backups/20221204_173002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221204_173002-erp_knestcrm_com-database.sql.gz         5.4MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221204_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-04 23:30:06.004867
+Config  : ./erp.knestcrm.com/private/backups/20221204_233002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221204_233002-erp_knestcrm_com-database.sql.gz         5.4MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221205_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-05 05:30:05.529323
+Config  : ./erp.knestcrm.com/private/backups/20221205_053002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221205_053002-erp_knestcrm_com-database.sql.gz         5.4MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221205_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-05 11:30:06.058041
+Config  : ./erp.knestcrm.com/private/backups/20221205_113002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221205_113002-erp_knestcrm_com-database.sql.gz         5.4MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221205_173003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-05 17:30:08.206504
+Config  : ./erp.knestcrm.com/private/backups/20221205_173003-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221205_173003-erp_knestcrm_com-database.sql.gz         5.6MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221205_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-05 23:30:05.778560
+Config  : ./erp.knestcrm.com/private/backups/20221205_233002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221205_233002-erp_knestcrm_com-database.sql.gz         5.6MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221206_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-06 05:30:06.392623
+Config  : ./erp.knestcrm.com/private/backups/20221206_053003-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221206_053003-erp_knestcrm_com-database.sql.gz         5.6MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221206_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-06 11:30:06.035022
+Config  : ./erp.knestcrm.com/private/backups/20221206_113002-erp_knestcrm_com-site_config_backup.json 249.0B
+Database: ./erp.knestcrm.com/private/backups/20221206_113002-erp_knestcrm_com-database.sql.gz         5.6MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221206_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-06 17:30:07.128512
+Config  : ./erp.knestcrm.com/private/backups/20221206_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221206_173002-erp_knestcrm_com-database.sql.gz         5.7MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221206_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-06 23:30:05.754307
+Config  : ./erp.knestcrm.com/private/backups/20221206_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221206_233002-erp_knestcrm_com-database.sql.gz         5.7MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221207_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-07 05:30:06.358271
+Config  : ./erp.knestcrm.com/private/backups/20221207_053003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221207_053003-erp_knestcrm_com-database.sql.gz         5.7MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221207_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-07 11:30:05.982481
+Config  : ./erp.knestcrm.com/private/backups/20221207_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221207_113002-erp_knestcrm_com-database.sql.gz         5.7MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221207_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-07 17:30:05.662385
+Config  : ./erp.knestcrm.com/private/backups/20221207_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221207_173002-erp_knestcrm_com-database.sql.gz         5.7MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221207_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-07 23:30:06.278830
+Config  : ./erp.knestcrm.com/private/backups/20221207_233003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221207_233003-erp_knestcrm_com-database.sql.gz         5.7MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221208_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-08 05:30:05.898089
+Config  : ./erp.knestcrm.com/private/backups/20221208_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221208_053002-erp_knestcrm_com-database.sql.gz         5.7MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221208_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-08 11:30:05.593180
+Config  : ./erp.knestcrm.com/private/backups/20221208_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221208_113002-erp_knestcrm_com-database.sql.gz         5.7MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221208_173004-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-08 17:30:08.044776
+Config  : ./erp.knestcrm.com/private/backups/20221208_173004-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221208_173004-erp_knestcrm_com-database.sql.gz         5.7MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221208_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-08 23:30:05.701983
+Config  : ./erp.knestcrm.com/private/backups/20221208_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221208_233002-erp_knestcrm_com-database.sql.gz         5.7MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221209_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-09 05:30:06.340091
+Config  : ./erp.knestcrm.com/private/backups/20221209_053003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221209_053003-erp_knestcrm_com-database.sql.gz         5.7MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221209_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-09 11:30:06.078178
+Config  : ./erp.knestcrm.com/private/backups/20221209_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221209_113002-erp_knestcrm_com-database.sql.gz         5.8MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221209_173004-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-09 17:30:11.209384
+Config  : ./erp.knestcrm.com/private/backups/20221209_173004-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221209_173004-erp_knestcrm_com-database.sql.gz         5.8MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221209_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-09 23:30:05.800472
+Config  : ./erp.knestcrm.com/private/backups/20221209_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221209_233002-erp_knestcrm_com-database.sql.gz         5.8MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221210_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-10 05:30:06.539407
+Config  : ./erp.knestcrm.com/private/backups/20221210_053003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221210_053003-erp_knestcrm_com-database.sql.gz         5.8MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221210_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-10 11:30:06.138358
+Config  : ./erp.knestcrm.com/private/backups/20221210_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221210_113002-erp_knestcrm_com-database.sql.gz         5.8MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221210_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-10 17:30:05.698372
+Config  : ./erp.knestcrm.com/private/backups/20221210_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221210_173002-erp_knestcrm_com-database.sql.gz         5.8MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221210_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-10 23:30:06.250675
+Config  : ./erp.knestcrm.com/private/backups/20221210_233003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221210_233003-erp_knestcrm_com-database.sql.gz         5.8MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221211_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-11 05:30:05.878680
+Config  : ./erp.knestcrm.com/private/backups/20221211_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221211_053002-erp_knestcrm_com-database.sql.gz         5.8MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221211_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-11 11:30:05.449022
+Config  : ./erp.knestcrm.com/private/backups/20221211_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221211_113002-erp_knestcrm_com-database.sql.gz         5.8MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221211_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-11 17:30:06.027308
+Config  : ./erp.knestcrm.com/private/backups/20221211_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221211_173002-erp_knestcrm_com-database.sql.gz         5.8MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221211_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-11 23:30:05.965104
+Config  : ./erp.knestcrm.com/private/backups/20221211_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221211_233002-erp_knestcrm_com-database.sql.gz         5.8MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221212_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-12 05:30:05.548389
+Config  : ./erp.knestcrm.com/private/backups/20221212_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221212_053002-erp_knestcrm_com-database.sql.gz         5.8MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221212_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-12 11:30:06.179591
+Config  : ./erp.knestcrm.com/private/backups/20221212_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221212_113002-erp_knestcrm_com-database.sql.gz         5.8MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221212_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-12 17:30:05.780096
+Config  : ./erp.knestcrm.com/private/backups/20221212_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221212_173002-erp_knestcrm_com-database.sql.gz         5.9MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221212_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-12 23:30:06.388787
+Config  : ./erp.knestcrm.com/private/backups/20221212_233003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221212_233003-erp_knestcrm_com-database.sql.gz         5.9MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221213_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-13 05:30:06.033674
+Config  : ./erp.knestcrm.com/private/backups/20221213_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221213_053002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221213_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-13 11:30:05.662652
+Config  : ./erp.knestcrm.com/private/backups/20221213_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221213_113002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221213_173003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-13 17:30:06.392486
+Config  : ./erp.knestcrm.com/private/backups/20221213_173003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221213_173003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221213_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-13 23:30:06.126121
+Config  : ./erp.knestcrm.com/private/backups/20221213_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221213_233002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221214_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-14 05:30:05.805616
+Config  : ./erp.knestcrm.com/private/backups/20221214_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221214_053002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221214_113003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-14 11:30:06.552144
+Config  : ./erp.knestcrm.com/private/backups/20221214_113003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221214_113003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221214_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-14 17:30:06.773474
+Config  : ./erp.knestcrm.com/private/backups/20221214_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221214_173002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221214_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-14 23:30:06.434122
+Config  : ./erp.knestcrm.com/private/backups/20221214_233003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221214_233003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221215_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-15 05:30:06.290436
+Config  : ./erp.knestcrm.com/private/backups/20221215_053003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221215_053003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221215_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-15 11:30:05.965032
+Config  : ./erp.knestcrm.com/private/backups/20221215_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221215_113002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221215_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-15 17:30:05.640319
+Config  : ./erp.knestcrm.com/private/backups/20221215_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221215_173002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221215_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-15 23:30:06.314285
+Config  : ./erp.knestcrm.com/private/backups/20221215_233003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221215_233003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221216_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-16 05:30:06.027457
+Config  : ./erp.knestcrm.com/private/backups/20221216_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221216_053002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221216_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-16 11:30:05.727328
+Config  : ./erp.knestcrm.com/private/backups/20221216_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221216_113002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221216_173003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-16 17:30:06.408926
+Config  : ./erp.knestcrm.com/private/backups/20221216_173003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221216_173003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221216_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-16 23:30:06.079337
+Config  : ./erp.knestcrm.com/private/backups/20221216_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221216_233002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221217_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-17 05:30:05.805845
+Config  : ./erp.knestcrm.com/private/backups/20221217_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221217_053002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221217_113003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-17 11:30:06.830380
+Config  : ./erp.knestcrm.com/private/backups/20221217_113003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221217_113003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221217_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-17 17:30:05.540610
+Config  : ./erp.knestcrm.com/private/backups/20221217_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221217_173002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221217_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-17 23:30:06.253382
+Config  : ./erp.knestcrm.com/private/backups/20221217_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221217_233002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221218_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-18 05:30:05.973787
+Config  : ./erp.knestcrm.com/private/backups/20221218_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221218_053002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221218_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-18 11:30:05.753452
+Config  : ./erp.knestcrm.com/private/backups/20221218_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221218_113002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221218_173003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-18 17:30:06.450293
+Config  : ./erp.knestcrm.com/private/backups/20221218_173003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221218_173003-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221218_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-18 23:30:06.107360
+Config  : ./erp.knestcrm.com/private/backups/20221218_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221218_233002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221219_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-19 05:30:05.799244
+Config  : ./erp.knestcrm.com/private/backups/20221219_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221219_053002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221219_113003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-19 11:30:06.521616
+Config  : ./erp.knestcrm.com/private/backups/20221219_113003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221219_113003-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221219_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-19 17:30:06.262006
+Config  : ./erp.knestcrm.com/private/backups/20221219_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221219_173002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221219_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-19 23:30:05.971623
+Config  : ./erp.knestcrm.com/private/backups/20221219_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221219_233002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221220_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-20 05:30:05.727658
+Config  : ./erp.knestcrm.com/private/backups/20221220_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221220_053002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221220_113003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-20 11:30:06.498663
+Config  : ./erp.knestcrm.com/private/backups/20221220_113003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221220_113003-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221220_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-20 17:30:06.275649
+Config  : ./erp.knestcrm.com/private/backups/20221220_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221220_173002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221220_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-20 23:30:06.286406
+Config  : ./erp.knestcrm.com/private/backups/20221220_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221220_233002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221221_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-21 05:30:06.047069
+Config  : ./erp.knestcrm.com/private/backups/20221221_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221221_053002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221221_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-21 11:30:05.890317
+Config  : ./erp.knestcrm.com/private/backups/20221221_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221221_113002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221221_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-21 17:30:05.656370
+Config  : ./erp.knestcrm.com/private/backups/20221221_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221221_173002-erp_knestcrm_com-database.sql.gz         6.2MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221221_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-21 23:30:06.431086
+Config  : ./erp.knestcrm.com/private/backups/20221221_233003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221221_233003-erp_knestcrm_com-database.sql.gz         6.2MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221222_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-22 05:30:06.176663
+Config  : ./erp.knestcrm.com/private/backups/20221222_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221222_053002-erp_knestcrm_com-database.sql.gz         6.2MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221222_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-22 11:30:05.887440
+Config  : ./erp.knestcrm.com/private/backups/20221222_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221222_113002-erp_knestcrm_com-database.sql.gz         6.2MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221222_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-22 17:30:05.638396
+Config  : ./erp.knestcrm.com/private/backups/20221222_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221222_173002-erp_knestcrm_com-database.sql.gz         6.2MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221222_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-22 23:30:06.389828
+Config  : ./erp.knestcrm.com/private/backups/20221222_233003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221222_233003-erp_knestcrm_com-database.sql.gz         6.2MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221223_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-23 05:30:06.187761
+Config  : ./erp.knestcrm.com/private/backups/20221223_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221223_053002-erp_knestcrm_com-database.sql.gz         6.2MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221223_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-23 11:30:06.322498
+Config  : ./erp.knestcrm.com/private/backups/20221223_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221223_113002-erp_knestcrm_com-database.sql.gz         6.2MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221223_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-23 17:30:06.116218
+Config  : ./erp.knestcrm.com/private/backups/20221223_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221223_173002-erp_knestcrm_com-database.sql.gz         6.2MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221223_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-23 23:30:06.500616
+Config  : ./erp.knestcrm.com/private/backups/20221223_233003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221223_233003-erp_knestcrm_com-database.sql.gz         6.2MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221224_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-24 05:30:06.282130
+Config  : ./erp.knestcrm.com/private/backups/20221224_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221224_053002-erp_knestcrm_com-database.sql.gz         6.2MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221224_113003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-24 11:30:06.445612
+Config  : ./erp.knestcrm.com/private/backups/20221224_113003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221224_113003-erp_knestcrm_com-database.sql.gz         6.2MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221224_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-24 17:30:06.212072
+Config  : ./erp.knestcrm.com/private/backups/20221224_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221224_173002-erp_knestcrm_com-database.sql.gz         6.2MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221224_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-24 23:30:05.943251
+Config  : ./erp.knestcrm.com/private/backups/20221224_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221224_233002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221225_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-25 05:30:05.729517
+Config  : ./erp.knestcrm.com/private/backups/20221225_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221225_053002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221225_113003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-25 11:30:06.521083
+Config  : ./erp.knestcrm.com/private/backups/20221225_113003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221225_113003-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221225_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-25 17:30:06.295445
+Config  : ./erp.knestcrm.com/private/backups/20221225_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221225_173002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221225_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-25 23:30:06.035770
+Config  : ./erp.knestcrm.com/private/backups/20221225_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221225_233002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221226_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-26 05:30:05.825291
+Config  : ./erp.knestcrm.com/private/backups/20221226_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221226_053002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221226_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-26 11:30:05.597287
+Config  : ./erp.knestcrm.com/private/backups/20221226_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221226_113002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221226_173003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-26 17:30:06.454529
+Config  : ./erp.knestcrm.com/private/backups/20221226_173003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221226_173003-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221226_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-26 23:30:06.218009
+Config  : ./erp.knestcrm.com/private/backups/20221226_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221226_233002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221227_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-27 05:30:06.088271
+Config  : ./erp.knestcrm.com/private/backups/20221227_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221227_053002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221227_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-27 11:30:05.943702
+Config  : ./erp.knestcrm.com/private/backups/20221227_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221227_113002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221227_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-27 17:30:05.733608
+Config  : ./erp.knestcrm.com/private/backups/20221227_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221227_173002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221227_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-27 23:30:06.515964
+Config  : ./erp.knestcrm.com/private/backups/20221227_233003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221227_233003-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221228_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-28 05:30:06.311845
+Config  : ./erp.knestcrm.com/private/backups/20221228_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221228_053002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221228_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-28 11:30:06.155302
+Config  : ./erp.knestcrm.com/private/backups/20221228_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221228_113002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221228_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-28 17:30:06.110491
+Config  : ./erp.knestcrm.com/private/backups/20221228_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221228_173002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221228_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-28 23:30:05.935072
+Config  : ./erp.knestcrm.com/private/backups/20221228_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221228_233002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221229_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-29 05:30:05.743871
+Config  : ./erp.knestcrm.com/private/backups/20221229_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221229_053002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221229_113003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-29 11:30:07.137088
+Config  : ./erp.knestcrm.com/private/backups/20221229_113003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221229_113003-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221229_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-29 17:30:06.015548
+Config  : ./erp.knestcrm.com/private/backups/20221229_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221229_173002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221229_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-29 23:30:05.797617
+Config  : ./erp.knestcrm.com/private/backups/20221229_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221229_233002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221230_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-30 05:30:06.591354
+Config  : ./erp.knestcrm.com/private/backups/20221230_053003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221230_053003-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221230_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-30 11:30:06.386680
+Config  : ./erp.knestcrm.com/private/backups/20221230_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221230_113002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221230_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-30 17:30:06.239966
+Config  : ./erp.knestcrm.com/private/backups/20221230_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221230_173002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221230_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-30 23:30:06.101410
+Config  : ./erp.knestcrm.com/private/backups/20221230_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221230_233002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221231_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-31 05:30:05.894043
+Config  : ./erp.knestcrm.com/private/backups/20221231_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221231_053002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221231_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-31 11:30:05.668141
+Config  : ./erp.knestcrm.com/private/backups/20221231_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221231_113002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221231_173003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-31 17:30:06.467113
+Config  : ./erp.knestcrm.com/private/backups/20221231_173003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221231_173003-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20221231_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2022-12-31 23:30:06.235052
+Config  : ./erp.knestcrm.com/private/backups/20221231_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20221231_233002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230101_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-01 05:30:06.498884
+Config  : ./erp.knestcrm.com/private/backups/20230101_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230101_053002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230101_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-01 11:30:06.304609
+Config  : ./erp.knestcrm.com/private/backups/20230101_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230101_113002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230101_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-01 17:30:06.097046
+Config  : ./erp.knestcrm.com/private/backups/20230101_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230101_173002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230101_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-01 23:30:05.869755
+Config  : ./erp.knestcrm.com/private/backups/20230101_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230101_233002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230102_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-02 05:30:05.650238
+Config  : ./erp.knestcrm.com/private/backups/20230102_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230102_053002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230102_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-02 11:30:05.685057
+Config  : ./erp.knestcrm.com/private/backups/20230102_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230102_113002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230102_173003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-02 17:30:06.428503
+Config  : ./erp.knestcrm.com/private/backups/20230102_173003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230102_173003-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230102_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-02 23:30:06.190531
+Config  : ./erp.knestcrm.com/private/backups/20230102_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230102_233002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230103_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-03 05:30:05.974744
+Config  : ./erp.knestcrm.com/private/backups/20230103_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230103_053002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230103_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-03 11:30:05.802987
+Config  : ./erp.knestcrm.com/private/backups/20230103_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230103_113002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230103_173003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-03 17:30:06.645913
+Config  : ./erp.knestcrm.com/private/backups/20230103_173003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230103_173003-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230103_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-03 23:30:06.851068
+Config  : ./erp.knestcrm.com/private/backups/20230103_233003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230103_233003-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230104_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-04 05:30:05.605219
+Config  : ./erp.knestcrm.com/private/backups/20230104_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230104_053002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230104_113003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-04 11:30:06.423266
+Config  : ./erp.knestcrm.com/private/backups/20230104_113003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230104_113003-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230104_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-04 17:30:06.272499
+Config  : ./erp.knestcrm.com/private/backups/20230104_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230104_173002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230104_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-04 23:30:06.029118
+Config  : ./erp.knestcrm.com/private/backups/20230104_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230104_233002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230105_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-05 05:30:05.843156
+Config  : ./erp.knestcrm.com/private/backups/20230105_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230105_053002-erp_knestcrm_com-database.sql.gz         6.2MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230105_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-05 11:30:05.786826
+Config  : ./erp.knestcrm.com/private/backups/20230105_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230105_113002-erp_knestcrm_com-database.sql.gz         6.2MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230105_173003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-05 17:30:06.623257
+Config  : ./erp.knestcrm.com/private/backups/20230105_173003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230105_173003-erp_knestcrm_com-database.sql.gz         6.2MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230105_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-05 23:30:06.391545
+Config  : ./erp.knestcrm.com/private/backups/20230105_233003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230105_233003-erp_knestcrm_com-database.sql.gz         6.2MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230106_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-06 05:30:06.161555
+Config  : ./erp.knestcrm.com/private/backups/20230106_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230106_053002-erp_knestcrm_com-database.sql.gz         6.2MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230106_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-06 11:30:06.162297
+Config  : ./erp.knestcrm.com/private/backups/20230106_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230106_113002-erp_knestcrm_com-database.sql.gz         6.2MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230106_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-06 17:30:06.304795
+Config  : ./erp.knestcrm.com/private/backups/20230106_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230106_173002-erp_knestcrm_com-database.sql.gz         6.2MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230106_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-06 23:30:06.038135
+Config  : ./erp.knestcrm.com/private/backups/20230106_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230106_233002-erp_knestcrm_com-database.sql.gz         6.2MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230107_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-07 05:30:05.769812
+Config  : ./erp.knestcrm.com/private/backups/20230107_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230107_053002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230107_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-07 11:30:06.210307
+Config  : ./erp.knestcrm.com/private/backups/20230107_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230107_113002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230107_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-07 17:30:05.918542
+Config  : ./erp.knestcrm.com/private/backups/20230107_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230107_173002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230107_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-07 23:30:05.619606
+Config  : ./erp.knestcrm.com/private/backups/20230107_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230107_233002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230108_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-08 05:30:06.362877
+Config  : ./erp.knestcrm.com/private/backups/20230108_053003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230108_053003-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230108_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-08 11:30:06.106239
+Config  : ./erp.knestcrm.com/private/backups/20230108_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230108_113002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230108_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-08 17:30:05.822434
+Config  : ./erp.knestcrm.com/private/backups/20230108_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230108_173002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230108_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-08 23:30:06.516251
+Config  : ./erp.knestcrm.com/private/backups/20230108_233003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230108_233003-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230109_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-09 05:30:06.222732
+Config  : ./erp.knestcrm.com/private/backups/20230109_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230109_053002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230109_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-09 11:30:05.980284
+Config  : ./erp.knestcrm.com/private/backups/20230109_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230109_113002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230109_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-09 17:30:05.682479
+Config  : ./erp.knestcrm.com/private/backups/20230109_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230109_173002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230109_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-09 23:30:06.355985
+Config  : ./erp.knestcrm.com/private/backups/20230109_233003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230109_233003-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230110_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-10 05:30:06.090935
+Config  : ./erp.knestcrm.com/private/backups/20230110_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230110_053002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230110_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-10 11:30:05.867726
+Config  : ./erp.knestcrm.com/private/backups/20230110_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230110_113002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230110_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-10 17:30:05.679128
+Config  : ./erp.knestcrm.com/private/backups/20230110_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230110_173002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230110_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-10 23:30:06.357150
+Config  : ./erp.knestcrm.com/private/backups/20230110_233003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230110_233003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230111_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-11 05:30:05.586584
+Config  : ./erp.knestcrm.com/private/backups/20230111_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230111_053002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230111_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-11 11:30:09.160961
+Config  : ./erp.knestcrm.com/private/backups/20230111_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230111_113002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230111_173004-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-11 17:30:07.877398
+Config  : ./erp.knestcrm.com/private/backups/20230111_173004-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230111_173004-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230111_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-11 23:30:05.638190
+Config  : ./erp.knestcrm.com/private/backups/20230111_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230111_233002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230112_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-12 05:30:06.865527
+Config  : ./erp.knestcrm.com/private/backups/20230112_053003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230112_053003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230112_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-12 11:30:05.634563
+Config  : ./erp.knestcrm.com/private/backups/20230112_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230112_113002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230112_173003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-12 17:30:06.399674
+Config  : ./erp.knestcrm.com/private/backups/20230112_173003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230112_173003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230112_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-12 23:30:06.128425
+Config  : ./erp.knestcrm.com/private/backups/20230112_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230112_233002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230113_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-13 05:30:05.919899
+Config  : ./erp.knestcrm.com/private/backups/20230113_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230113_053002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230113_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-13 11:30:05.652962
+Config  : ./erp.knestcrm.com/private/backups/20230113_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230113_113002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230113_173004-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-13 17:30:08.128039
+Config  : ./erp.knestcrm.com/private/backups/20230113_173004-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230113_173004-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230113_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-13 23:30:05.930290
+Config  : ./erp.knestcrm.com/private/backups/20230113_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230113_233002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230114_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-14 05:30:05.703660
+Config  : ./erp.knestcrm.com/private/backups/20230114_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230114_053002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230114_113003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-14 11:30:06.440886
+Config  : ./erp.knestcrm.com/private/backups/20230114_113003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230114_113003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230114_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-14 17:30:06.221688
+Config  : ./erp.knestcrm.com/private/backups/20230114_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230114_173002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230114_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-14 23:30:06.000794
+Config  : ./erp.knestcrm.com/private/backups/20230114_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230114_233002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230115_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-15 05:30:05.697407
+Config  : ./erp.knestcrm.com/private/backups/20230115_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230115_053002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230115_113003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-15 11:30:06.462246
+Config  : ./erp.knestcrm.com/private/backups/20230115_113003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230115_113003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230115_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-15 17:30:06.191745
+Config  : ./erp.knestcrm.com/private/backups/20230115_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230115_173002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230115_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-15 23:30:06.297897
+Config  : ./erp.knestcrm.com/private/backups/20230115_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230115_233002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230116_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-16 05:30:06.079606
+Config  : ./erp.knestcrm.com/private/backups/20230116_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230116_053002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230116_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-16 11:30:06.241774
+Config  : ./erp.knestcrm.com/private/backups/20230116_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230116_113002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230116_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-16 17:30:05.670439
+Config  : ./erp.knestcrm.com/private/backups/20230116_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230116_173002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230116_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-16 23:30:06.345917
+Config  : ./erp.knestcrm.com/private/backups/20230116_233003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230116_233003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230117_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-17 05:30:06.071162
+Config  : ./erp.knestcrm.com/private/backups/20230117_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230117_053002-erp_knestcrm_com-database.sql.gz         5.9MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230117_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-17 11:30:05.835960
+Config  : ./erp.knestcrm.com/private/backups/20230117_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230117_113002-erp_knestcrm_com-database.sql.gz         5.9MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230117_173003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-17 17:30:07.981446
+Config  : ./erp.knestcrm.com/private/backups/20230117_173003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230117_173003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230117_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-17 23:30:05.676232
+Config  : ./erp.knestcrm.com/private/backups/20230117_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230117_233002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230118_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-18 05:30:06.374951
+Config  : ./erp.knestcrm.com/private/backups/20230118_053003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230118_053003-erp_knestcrm_com-database.sql.gz         5.9MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230118_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-18 11:30:06.223722
+Config  : ./erp.knestcrm.com/private/backups/20230118_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230118_113002-erp_knestcrm_com-database.sql.gz         5.9MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230118_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-18 17:30:05.948969
+Config  : ./erp.knestcrm.com/private/backups/20230118_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230118_173002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230118_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-18 23:30:05.639273
+Config  : ./erp.knestcrm.com/private/backups/20230118_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230118_233002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230119_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-19 05:30:06.354350
+Config  : ./erp.knestcrm.com/private/backups/20230119_053003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230119_053003-erp_knestcrm_com-database.sql.gz         5.9MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230119_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-19 11:30:06.149282
+Config  : ./erp.knestcrm.com/private/backups/20230119_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230119_113002-erp_knestcrm_com-database.sql.gz         5.9MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230119_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-19 17:30:06.304039
+Config  : ./erp.knestcrm.com/private/backups/20230119_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230119_173002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230119_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-19 23:30:06.025743
+Config  : ./erp.knestcrm.com/private/backups/20230119_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230119_233002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230120_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-20 05:30:05.753218
+Config  : ./erp.knestcrm.com/private/backups/20230120_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230120_053002-erp_knestcrm_com-database.sql.gz         5.9MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230120_113003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-20 11:30:06.520765
+Config  : ./erp.knestcrm.com/private/backups/20230120_113003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230120_113003-erp_knestcrm_com-database.sql.gz         5.9MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230120_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-20 17:30:06.281384
+Config  : ./erp.knestcrm.com/private/backups/20230120_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230120_173002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230120_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-20 23:30:06.014537
+Config  : ./erp.knestcrm.com/private/backups/20230120_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230120_233002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230121_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-21 05:30:05.722626
+Config  : ./erp.knestcrm.com/private/backups/20230121_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230121_053002-erp_knestcrm_com-database.sql.gz         5.9MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230121_113003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-21 11:30:06.391115
+Config  : ./erp.knestcrm.com/private/backups/20230121_113003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230121_113003-erp_knestcrm_com-database.sql.gz         5.9MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230121_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-21 17:30:06.044921
+Config  : ./erp.knestcrm.com/private/backups/20230121_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230121_173002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230121_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-21 23:30:05.675025
+Config  : ./erp.knestcrm.com/private/backups/20230121_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230121_233002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230122_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-22 05:30:06.351373
+Config  : ./erp.knestcrm.com/private/backups/20230122_053003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230122_053003-erp_knestcrm_com-database.sql.gz         5.9MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230122_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-22 11:30:06.246319
+Config  : ./erp.knestcrm.com/private/backups/20230122_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230122_113002-erp_knestcrm_com-database.sql.gz         5.9MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230122_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-22 17:30:05.914880
+Config  : ./erp.knestcrm.com/private/backups/20230122_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230122_173002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230122_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-22 23:30:05.611963
+Config  : ./erp.knestcrm.com/private/backups/20230122_233002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230122_233002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230123_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-23 05:30:06.263716
+Config  : ./erp.knestcrm.com/private/backups/20230123_053003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230123_053003-erp_knestcrm_com-database.sql.gz         5.9MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230123_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-23 11:30:06.001801
+Config  : ./erp.knestcrm.com/private/backups/20230123_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230123_113002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230123_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-23 17:30:05.740791
+Config  : ./erp.knestcrm.com/private/backups/20230123_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230123_173002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230123_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-23 23:30:06.342285
+Config  : ./erp.knestcrm.com/private/backups/20230123_233003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230123_233003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230124_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-24 05:30:06.010833
+Config  : ./erp.knestcrm.com/private/backups/20230124_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230124_053002-erp_knestcrm_com-database.sql.gz         5.9MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230124_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-24 11:30:05.924975
+Config  : ./erp.knestcrm.com/private/backups/20230124_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230124_113002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230124_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-24 17:30:05.620053
+Config  : ./erp.knestcrm.com/private/backups/20230124_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230124_173002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230124_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-24 23:30:06.383793
+Config  : ./erp.knestcrm.com/private/backups/20230124_233003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230124_233003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230125_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-25 05:30:06.588546
+Config  : ./erp.knestcrm.com/private/backups/20230125_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230125_053002-erp_knestcrm_com-database.sql.gz         5.9MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230125_113003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-25 11:30:06.318624
+Config  : ./erp.knestcrm.com/private/backups/20230125_113003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230125_113003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230125_173003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-25 17:30:08.683584
+Config  : ./erp.knestcrm.com/private/backups/20230125_173003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230125_173003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230125_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-25 23:30:06.431605
+Config  : ./erp.knestcrm.com/private/backups/20230125_233003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230125_233003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230126_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-26 05:30:06.124774
+Config  : ./erp.knestcrm.com/private/backups/20230126_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230126_053002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230126_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-26 11:30:05.912700
+Config  : ./erp.knestcrm.com/private/backups/20230126_113002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230126_113002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230126_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-26 17:30:05.681207
+Config  : ./erp.knestcrm.com/private/backups/20230126_173002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230126_173002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230126_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-26 23:30:06.451509
+Config  : ./erp.knestcrm.com/private/backups/20230126_233003-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230126_233003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230127_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-27 05:30:06.257455
+Config  : ./erp.knestcrm.com/private/backups/20230127_053002-erp_knestcrm_com-site_config_backup.json 268.0B
+Database: ./erp.knestcrm.com/private/backups/20230127_053002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed

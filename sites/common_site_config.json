@@ -1,5 +1,6 @@
 {
  "background_workers": 1,
+ "dns_multitenant": true,
  "file_watcher_port": 6787,
  "frappe_user": "ubuntu",
  "gunicorn_workers": 5,

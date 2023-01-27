@@ -905,7 +905,7 @@ export default class Grid {
 
 		// redistribute if total-col size is less than 12
 		var passes = 0;
-		while (total_colsize < 11 && passes < 12) {
+		while (total_colsize < 14 && passes < 15) {
 			for (var i in this.visible_columns) {
 				var df = this.visible_columns[i][0];
 				var colsize = this.visible_columns[i][1];

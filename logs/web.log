@@ -744,3 +744,3097 @@ Uploading file: ./erp.knestcrm.com/private/backups/20221028_132823-erp_knestcrm_
 Uploading file: ./erp.knestcrm.com/private/backups/20221028_132823-erp_knestcrm_com-site_config_backup.json
 Uploading file: ./erp.knestcrm.com/private/backups/20221028_132823-erp_knestcrm_com-private-files.tar
 Uploading file: ./erp.knestcrm.com/private/backups/20221028_132823-erp_knestcrm_com-files.tar
+Traceback (most recent call last):
+  File "apps/frappe/frappe/database/database.py", line 207, in sql
+    self._cursor.execute(query, values)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "env/lib/python3.10/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "env/lib/python3.10/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1213, 'Deadlock found when trying to get lock; try restarting transaction')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 55, in application
+    init_request(request)
+  File "apps/frappe/frappe/app.py", line 132, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "apps/frappe/frappe/auth.py", line 34, in __init__
+    self.set_session()
+  File "apps/frappe/frappe/auth.py", line 68, in set_session
+    frappe.local.login_manager = LoginManager()
+  File "apps/frappe/frappe/auth.py", line 117, in __init__
+    self.make_session(resume=True)
+  File "apps/frappe/frappe/auth.py", line 205, in make_sTraceback (most recent call last):
+  File "apps/frappe/frappe/www/app.py", line 28, in get_context
+    boot = frappe.sessions.get()
+  File "apps/frappe/frappe/sessions.py", line 166, in get
+    bootinfo = get_bootinfo()
+  File "apps/frappe/frappe/boot.py", line 36, in get_bootinfo
+    get_user(bootinfo)
+  File "apps/frappe/frappe/boot.py", line 268, in get_user
+    bootinfo.user = frappe.get_user().load_user()
+  File "apps/frappe/frappe/utils/user.py", line 230, in load_user
+    self.build_permissions()
+  File "apps/frappe/frappe/utils/user.py", line 115, in build_permissions
+    self.build_perm_map()
+  File "apps/frappe/frappe/utils/user.py", line 98, in build_perm_map
+    for r in get_valid_perms():
+  File "apps/frappe/frappe/permissions.py", line 389, in get_valid_perms
+    perms = get_perms_for(roles)
+  File "apps/frappe/frappe/permissions.py", line 454, in get_perms_for
+    return frappe.get_all(perm_doctype, fields=["*"], filters=filters)
+  File "apps/frappe/frappe/__init__.py", line 1902, in get_all
+    return get_list(doctype, *args, **kwargs)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 172, in execute
+    result = self.build_and_run()
+  File "apps/frappe/frappe/model/db_query.py", line 212, in build_and_run
+    return frappe.db.sql(
+  File "apps/frappe/frappe/database/database.py", line 207, in sql
+    self._cursor.execute(query, values)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 1163, in read
+    self._read_result_packet(first_packet)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 1236, in _read_result_packet
+    self._read_rowdata_packet()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 1270, in _read_rowdata_packet
+    packet = self.connection._read_packet()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "env/lib/python3.10/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "env/lib/python3.10/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (3, 'Error writing file \'/tmp/#sql/fd=685\' (Errcode: 28 "No space left on device")')
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/www/app.py", line 28, in get_context
+    boot = frappe.sessions.get()
+  File "apps/frappe/frappe/sessions.py", line 166, in get
+    bootinfo = get_bootinfo()
+  File "apps/frappe/frappe/boot.py", line 36, in get_bootinfo
+    get_user(bootinfo)
+  File "apps/frappe/frappe/boot.py", line 268, in get_user
+    bootinfo.user = frappe.get_user().load_user()
+  File "apps/frappe/frappe/utils/user.py", line 230, in load_user
+    self.build_permissions()
+  File "apps/frappe/frappe/utils/user.py", line 115, in build_permissions
+    self.build_perm_map()
+  File "apps/frappe/frappe/utils/user.py", line 98, in build_perm_map
+    for r in get_valid_perms():
+  File "apps/frappe/frappe/permissions.py", line 389, in get_valid_perms
+    perms = get_perms_for(roles)
+  File "apps/frappe/frappe/permissions.py", line 454, in get_perms_for
+    return frappe.get_all(perm_doctype, fields=["*"], filters=filters)
+  File "apps/frappe/frappe/__init__.py", line 1902, in get_all
+    return get_list(doctype, *args, **kwargs)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 172, in execute
+    result = self.build_and_run()
+  File "apps/frappe/frappe/model/db_query.py", line 212, in build_and_run
+    return frappe.db.sql(
+  File "apps/frappe/frappe/database/database.py", line 207, in sql
+    self._cursor.execute(query, values)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 1163, in read
+    self._read_result_packet(first_packet)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 1236, in _read_result_packet
+    self._read_rowdata_packet()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 1270, in _read_rowdata_packet
+    packet = self.connection._read_packet()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "env/lib/python3.10/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "env/lib/python3.10/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (3, 'Error writing file \'/tmp/#sql/fd=685\' (Errcode: 28 "No space left on device")')
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/www/app.py", line 28, in get_context
+    boot = frappe.sessions.get()
+  File "apps/frappe/frappe/sessions.py", line 166, in get
+    bootinfo = get_bootinfo()
+  File "apps/frappe/frappe/boot.py", line 36, in get_bootinfo
+    get_user(bootinfo)
+  File "apps/frappe/frappe/boot.py", line 268, in get_user
+    bootinfo.user = frappe.get_user().load_user()
+  File "apps/frappe/frappe/utils/user.py", line 230, in load_user
+    self.build_permissions()
+  File "apps/frappe/frappe/utils/user.py", line 115, in build_permissions
+    self.build_perm_map()
+  File "apps/frappe/frappe/utils/user.py", line 98, in build_perm_map
+    for r in get_valid_perms():
+  File "apps/frappe/frappe/permissions.py", line 389, in get_valid_perms
+    perms = get_perms_for(roles)
+  File "apps/frappe/frappe/permissions.py", line 454, in get_perms_for
+    return frappe.get_all(perm_doctype, fields=["*"], filters=filters)
+  File "apps/frappe/frappe/__init__.py", line 1902, in get_all
+    return get_list(doctype, *args, **kwargs)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 172, in execute
+    result = self.build_and_run()
+  File "apps/frappe/frappe/model/db_query.py", line 212, in build_and_run
+    return frappe.db.sql(
+  File "apps/frappe/frappe/database/database.py", line 207, in sql
+    self._cursor.execute(query, values)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 1163, in read
+    self._read_result_packet(first_packet)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 1236, in _read_result_packet
+    self._read_rowdata_packet()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 1270, in _read_rowdata_packet
+    packet = self.connection._read_packet()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "env/lib/python3.10/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "env/lib/python3.10/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (3, 'Error writing file \'/tmp/#sql/fd=685\' (Errcode: 28 "No space left on device")')
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/www/app.py", line 28, in get_context
+    boot = frappe.sessions.get()
+  File "apps/frappe/frappe/sessions.py", line 166, in get
+    bootinfo = get_bootinfo()
+  File "apps/frappe/frappe/boot.py", line 36, in get_bootinfo
+    get_user(bootinfo)
+  File "apps/frappe/frappe/boot.py", line 268, in get_user
+    bootinfo.user = frappe.get_user().load_user()
+  File "apps/frappe/frappe/utils/user.py", line 230, in load_user
+    self.build_permissions()
+  File "apps/frappe/frappe/utils/user.py", line 115, in build_permissions
+    self.build_perm_map()
+  File "apps/frappe/frappe/utils/user.py", line 98, in build_perm_map
+    for r in get_valid_perms():
+  File "apps/frappe/frappe/permissions.py", line 389, in get_valid_perms
+    perms = get_perms_for(roles)
+  File "apps/frappe/frappe/permissions.py", line 454, in get_perms_for
+    return frappe.get_all(perm_doctype, fields=["*"], filters=filters)
+  File "apps/frappe/frappe/__init__.py", line 1902, in get_all
+    return get_list(doctype, *args, **kwargs)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 172, in execute
+    result = self.build_and_run()
+  File "apps/frappe/frappe/model/db_query.py", line 212, in build_and_run
+    return frappe.db.sql(
+  File "apps/frappe/frappe/database/database.py", line 207, in sql
+    self._cursor.execute(query, values)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 1163, in read
+    self._read_result_packet(first_packet)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 1236, in _read_result_packet
+    self._read_rowdata_packet()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 1270, in _read_rowdata_packet
+    packet = self.connection._read_packet()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "env/lib/python3.10/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "env/lib/python3.10/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (3, 'Error writing file \'/tmp/#sql/fd=685\' (Errcode: 28 "No space left on device")')
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/www/app.py", line 28, in get_context
+    boot = frappe.sessions.get()
+  File "apps/frappe/frappe/sessions.py", line 166, in get
+    bootinfo = get_bootinfo()
+  File "apps/frappe/frappe/boot.py", line 36, in get_bootinfo
+    get_user(bootinfo)
+  File "apps/frappe/frappe/boot.py", line 268, in get_user
+    bootinfo.user = frappe.get_user().load_user()
+  File "apps/frappe/frappe/utils/user.py", line 230, in load_user
+    self.build_permissions()
+  File "apps/frappe/frappe/utils/user.py", line 115, in build_permissions
+    self.build_perm_map()
+  File "apps/frappe/frappe/utils/user.py", line 98, in build_perm_map
+    for r in get_valid_perms():
+  File "apps/frappe/frappe/permissions.py", line 389, in get_valid_perms
+    perms = get_perms_for(roles)
+  File "apps/frappe/frappe/permissions.py", line 454, in get_perms_for
+    return frappe.get_all(perm_doctype, fields=["*"], filters=filters)
+  File "apps/frappe/frappe/__init__.py", line 1902, in get_all
+    return get_list(doctype, *args, **kwargs)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 172, in execute
+    result = self.build_and_run()
+  File "apps/frappe/frappe/model/db_query.py", line 212, in build_and_run
+    return frappe.db.sql(
+  File "apps/frappe/frappe/database/database.py", line 207, in sql
+    self._cursor.execute(query, values)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 1163, in read
+    self._read_result_packet(first_packet)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 1236, in _read_result_packet
+    self._read_rowdata_packet()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 1270, in _read_rowdata_packet
+    packet = self.connection._read_packet()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "env/lib/python3.10/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "env/lib/python3.10/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (3, 'Error writing file \'/tmp/#sql/fd=685\' (Errcode: 28 "No space left on device")')
+
+Uploading file: ./erp.knestcrm.com/private/backups/20221123_113433-erp_knestcrm_com-database.sql.gz
+Error uploading: Could not connect to the endpoint URL: "https://s3.amazonaws.com/knesterp/20221123_113433/20221123_113433-erp_knestcrm_com-database.sql.gz"
+Uploading file: ./erp.knestcrm.com/private/backups/20221123_113433-erp_knestcrm_com-site_config_backup.json
+Error uploading: Could not connect to the endpoint URL: "https://s3.amazonaws.com/knesterp/20221123_113433/20221123_113433-erp_knestcrm_com-site_config_backup.json"
+Uploading file: ./erp.knestcrm.com/private/backups/20221123_113433-erp_knestcrm_com-private-files.tar
+Error uploading: Could not connect to the endpoint URL: "https://s3.amazonaws.com/knesterp/20221123_113433/20221123_113433-erp_knestcrm_com-private-files.tar"
+Uploading file: ./erp.knestcrm.com/private/backups/20221123_113433-erp_knestcrm_com-files.tar
+Error uploading: Could not connect to the endpoint URL: "https://s3.amazonaws.com/knesterp/20221123_113433/20221123_113433-erp_knestcrm_com-files.tar"
+Traceback (most recent call last):
+  File "apps/frappe/frappe/www/app.py", line 28, in get_context
+    boot = frappe.sessions.get()
+  File "apps/frappe/frappe/sessions.py", line 166, in get
+    bootinfo = get_bootinfo()
+  File "apps/frappe/frappe/boot.py", line 36, in get_bootinfo
+    get_user(bootinfo)
+  File "apps/frappe/frappe/boot.py", line 268, in get_user
+    bootinfo.user = frappe.get_user().load_user()
+  File "apps/frappe/frappe/utils/user.py", line 230, in load_user
+    self.build_permissions()
+  File "apps/frappe/frappe/utils/user.py", line 115, in build_permissions
+    self.build_perm_map()
+  File "apps/frappe/frappe/utils/user.py", line 98, in build_perm_map
+    for r in get_valid_perms():
+  File "apps/frappe/frappe/permissions.py", line 389, in get_valid_perms
+    perms = get_perms_for(roles)
+  File "apps/frappe/frappe/permissions.py", line 454, in get_perms_for
+    return frappe.get_all(perm_doctype, fields=["*"], filters=filters)
+  File "apps/frappe/frappe/__init__.py", line 1902, in get_all
+    return get_list(doctype, *args, **kwargs)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 172, in execute
+    result = self.build_and_run()
+  File "apps/frappe/frappe/model/db_query.py", line 212, in build_and_run
+    return frappe.db.sql(
+  File "apps/frappe/frappe/database/database.py", line 207, in sql
+    self._cursor.execute(query, values)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 1163, in read
+    self._read_result_packet(first_packet)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 1236, in _read_result_packet
+    self._read_rowdata_packet()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 1270, in _read_rowdata_packet
+    packet = self.connection._read_packet()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "env/lib/python3.10/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "env/lib/python3.10/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (3, 'Error writing file \'/tmp/#sql/fd=685\' (Errcode: 28 "No space left on device")')
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/database/database.py", line 207, in sql
+    self._cursor.execute(query, values)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "env/lib/python3.10/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "env/lib/python3.10/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1213, 'Deadlock found when trying to get lock; try restarting transaction')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 55, in application
+    init_request(request)
+  File "apps/frappe/frappe/app.py", line 132, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "apps/frappe/frappe/auth.py", line 34, in __init__
+    self.set_session()
+  File "apps/frappe/frappe/auth.py", line 68, in set_session
+    frappe.local.login_manager = LoginManager()
+  File "apps/frappe/frappe/auth.py", line 117, in __init__
+    self.make_session(resume=True)
+  File "apps/frappe/frappe/auth.py", line 205, in make_session
+    frappe.local.session_obj = Session(
+  File "apps/frappe/frappe/sessions.py", line 238, in __init__
+    self.resume()
+  File "apps/frappe/frappe/sessions.py", line 305, in resume
+    data = self.get_session_record()
+  File "apps/frappe/frappe/sessions.py", line 323, in get_session_record
+    r = self.get_session_data()
+  File "apps/frappe/frappe/sessions.py", line 337, in get_session_data
+    data = self.get_session_data_from_cache()
+  File "apps/frappe/frappe/sessions.py", line 355, in get_session_data_from_cache
+    self._delete_session()
+  File "apps/frappe/frappe/sessions.py", line 393, in _delete_session
+    delete_session(self.sid, reason="Session Expired")
+  File "apps/frappe/frappe/sessions.py", line 108, in delete_session
+    logout_feed(user, reason)
+  File "apps/frappe/frappe/core/doctype/activity_log/feed.py", line 61, in logout_feed
+    add_authentication_log(subject, user, operation="Logout")
+  File "apps/frappe/frappe/core/doctype/activity_log/activity_log.py", line 43, in add_authentication_log
+    frappe.get_doc(
+  File "apps/frappe/frappe/model/document.py", line 266, in insert
+    self.db_insert(ignore_if_duplicate=ignore_if_duplicate)
+  File "apps/frappe/frappe/model/base_document.py", line 498, in db_insert
+    frappe.db.sql(
+  File "apps/frappe/frappe/database/database.py", line 213, in sql
+    raise frappe.QueryDeadlockError(e) from e
+frappe.exceptions.QueryDeadlockError: (1213, 'Deadlock found when trying to get lock; try restarting transaction')
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 112, in execute
+    raise frappe.PermissionError(self.doctype)
+frappe.exceptions.PermissionError: item
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 112, in execute
+    raise frappe.PermissionError(self.doctype)
+frappe.exceptions.PermissionError: item
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 112, in execute
+    raise frappe.PermissionError(self.doctype)
+frappe.exceptions.PermissionError: item
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 112, in execute
+    raise frappe.PermissionError(self.doctype)
+frappe.exceptions.PermissionError: item
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 60, in application
+    frappe.api.validate_auth()
+  File "apps/frappe/frappe/api.py", line 174, in validate_auth
+    validate_auth_via_api_keys(authorization_header)
+  File "apps/frappe/frappe/api.py", line 231, in validate_auth_via_api_keys
+    validate_api_key_secret(api_key, api_secret, authorization_source)
+  File "apps/frappe/frappe/api.py", line 249, in validate_api_key_secret
+    doc_secret = frappe.utils.password.get_decrypted_password(doctype, doc, fieldname="api_secret")
+  File "apps/frappe/frappe/utils/password.py", line 65, in get_decrypted_password
+    frappe.throw(_("Password not found"), frappe.AuthenticationError)
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.AuthenticationError: Password not found
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 60, in application
+    frappe.api.validate_auth()
+  File "apps/frappe/frappe/api.py", line 174, in validate_auth
+    validate_auth_via_api_keys(authorization_header)
+  File "apps/frappe/frappe/api.py", line 231, in validate_auth_via_api_keys
+    validate_api_key_secret(api_key, api_secret, authorization_source)
+  File "apps/frappe/frappe/api.py", line 249, in validate_api_key_secret
+    doc_secret = frappe.utils.password.get_decrypted_password(doctype, doc, fieldname="api_secret")
+  File "apps/frappe/frappe/utils/password.py", line 65, in get_decrypted_password
+    frappe.throw(_("Password not found"), frappe.AuthenticationError)
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.AuthenticationError: Password not found
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 60, in application
+    frappe.api.validate_auth()
+  File "apps/frappe/frappe/api.py", line 174, in validate_auth
+    validate_auth_via_api_keys(authorization_header)
+  File "apps/frappe/frappe/api.py", line 231, in validate_auth_via_api_keys
+    validate_api_key_secret(api_key, api_secret, authorization_source)
+  File "apps/frappe/frappe/api.py", line 249, in validate_api_key_secret
+    doc_secret = frappe.utils.password.get_decrypted_password(doctype, doc, fieldname="api_secret")
+  File "apps/frappe/frappe/utils/password.py", line 65, in get_decrypted_password
+    frappe.throw(_("Password not found"), frappe.AuthenticationError)
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.AuthenticationError: Password not found
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 60, in application
+    frappe.api.validate_auth()
+  File "apps/frappe/frappe/api.py", line 174, in validate_auth
+    validate_auth_via_api_keys(authorization_header)
+  File "apps/frappe/frappe/api.py", line 231, in validate_auth_via_api_keys
+    validate_api_key_secret(api_key, api_secret, authorization_source)
+  File "apps/frappe/frappe/api.py", line 249, in validate_api_key_secret
+    doc_secret = frappe.utils.password.get_decrypted_password(doctype, doc, fieldname="api_secret")
+  File "apps/frappe/frappe/utils/password.py", line 65, in get_decrypted_password
+    frappe.throw(_("Password not found"), frappe.AuthenticationError)
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.AuthenticationError: Password not found
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 60, in application
+    frappe.api.validate_auth()
+  File "apps/frappe/frappe/api.py", line 174, in validate_auth
+    validate_auth_via_api_keys(authorization_header)
+  File "apps/frappe/frappe/api.py", line 231, in validate_auth_via_api_keys
+    validate_api_key_secret(api_key, api_secret, authorization_source)
+  File "apps/frappe/frappe/api.py", line 249, in validate_api_key_secret
+    doc_secret = frappe.utils.password.get_decrypted_password(doctype, doc, fieldname="api_secret")
+  File "apps/frappe/frappe/utils/password.py", line 65, in get_decrypted_password
+    frappe.throw(_("Password not found"), frappe.AuthenticationError)
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.AuthenticationError: Password not found
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 60, in application
+    frappe.api.validate_auth()
+  File "apps/frappe/frappe/api.py", line 174, in validate_auth
+    validate_auth_via_api_keys(authorization_header)
+  File "apps/frappe/frappe/api.py", line 231, in validate_auth_via_api_keys
+    validate_api_key_secret(api_key, api_secret, authorization_source)
+  File "apps/frappe/frappe/api.py", line 249, in validate_api_key_secret
+    doc_secret = frappe.utils.password.get_decrypted_password(doctype, doc, fieldname="api_secret")
+  File "apps/frappe/frappe/utils/password.py", line 65, in get_decrypted_password
+    frappe.throw(_("Password not found"), frappe.AuthenticationError)
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.AuthenticationError: Password not found
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 60, in application
+    frappe.api.validate_auth()
+  File "apps/frappe/frappe/api.py", line 174, in validate_auth
+    validate_auth_via_api_keys(authorization_header)
+  File "apps/frappe/frappe/api.py", line 231, in validate_auth_via_api_keys
+    validate_api_key_secret(api_key, api_secret, authorization_source)
+  File "apps/frappe/frappe/api.py", line 249, in validate_api_key_secret
+    doc_secret = frappe.utils.password.get_decrypted_password(doctype, doc, fieldname="api_secret")
+  File "apps/frappe/frappe/utils/password.py", line 65, in get_decrypted_password
+    frappe.throw(_("Password not found"), frappe.AuthenticationError)
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.AuthenticationError: Password not found
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 60, in application
+    frappe.api.validate_auth()
+  File "apps/frappe/frappe/api.py", line 174, in validate_auth
+    validate_auth_via_api_keys(authorization_header)
+  File "apps/frappe/frappe/api.py", line 231, in validate_auth_via_api_keys
+    validate_api_key_secret(api_key, api_secret, authorization_source)
+  File "apps/frappe/frappe/api.py", line 249, in validate_api_key_secret
+    doc_secret = frappe.utils.password.get_decrypted_password(doctype, doc, fieldname="api_secret")
+  File "apps/frappe/frappe/utils/password.py", line 65, in get_decrypted_password
+    frappe.throw(_("Password not found"), frappe.AuthenticationError)
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.AuthenticationError: Password not found
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 60, in application
+    frappe.api.validate_auth()
+  File "apps/frappe/frappe/api.py", line 174, in validate_auth
+    validate_auth_via_api_keys(authorization_header)
+  File "apps/frappe/frappe/api.py", line 231, in validate_auth_via_api_keys
+    validate_api_key_secret(api_key, api_secret, authorization_source)
+  File "apps/frappe/frappe/api.py", line 249, in validate_api_key_secret
+    doc_secret = frappe.utils.password.get_decrypted_password(doctype, doc, fieldname="api_secret")
+  File "apps/frappe/frappe/utils/password.py", line 65, in get_decrypted_password
+    frappe.throw(_("Password not found"), frappe.AuthenticationError)
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.AuthenticationError: Password not found
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 60, in application
+    frappe.api.validate_auth()
+  File "apps/frappe/frappe/api.py", line 174, in validate_auth
+    validate_auth_via_api_keys(authorization_header)
+  File "apps/frappe/frappe/api.py", line 231, in validate_auth_via_api_keys
+    validate_api_key_secret(api_key, api_secret, authorization_source)
+  File "apps/frappe/frappe/api.py", line 249, in validate_api_key_secret
+    doc_secret = frappe.utils.password.get_decrypted_password(doctype, doc, fieldname="api_secret")
+  File "apps/frappe/frappe/utils/password.py", line 65, in get_decrypted_password
+    frappe.throw(_("Password not found"), frappe.AuthenticationError)
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.AuthenticationError: Password not found
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 60, in application
+    frappe.api.validate_auth()
+  File "apps/frappe/frappe/api.py", line 174, in validate_auth
+    validate_auth_via_api_keys(authorization_header)
+  File "apps/frappe/frappe/api.py", line 231, in validate_auth_via_api_keys
+    validate_api_key_secret(api_key, api_secret, authorization_source)
+  File "apps/frappe/frappe/api.py", line 249, in validate_api_key_secret
+    doc_secret = frappe.utils.password.get_decrypted_password(doctype, doc, fieldname="api_secret")
+  File "apps/frappe/frappe/utils/password.py", line 65, in get_decrypted_password
+    frappe.throw(_("Password not found"), frappe.AuthenticationError)
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.AuthenticationError: Password not found
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 60, in application
+    frappe.api.validate_auth()
+  File "apps/frappe/frappe/api.py", line 174, in validate_auth
+    validate_auth_via_api_keys(authorization_header)
+  File "apps/frappe/frappe/api.py", line 231, in validate_auth_via_api_keys
+    validate_api_key_secret(api_key, api_secret, authorization_source)
+  File "apps/frappe/frappe/api.py", line 249, in validate_api_key_secret
+    doc_secret = frappe.utils.password.get_decrypted_password(doctype, doc, fieldname="api_secret")
+  File "apps/frappe/frappe/utils/password.py", line 65, in get_decrypted_password
+    frappe.throw(_("Password not found"), frappe.AuthenticationError)
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.AuthenticationError: Password not found
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 60, in application
+    frappe.api.validate_auth()
+  File "apps/frappe/frappe/api.py", line 174, in validate_auth
+    validate_auth_via_api_keys(authorization_header)
+  File "apps/frappe/frappe/api.py", line 231, in validate_auth_via_api_keys
+    validate_api_key_secret(api_key, api_secret, authorization_source)
+  File "apps/frappe/frappe/api.py", line 249, in validate_api_key_secret
+    doc_secret = frappe.utils.password.get_decrypted_password(doctype, doc, fieldname="api_secret")
+  File "apps/frappe/frappe/utils/password.py", line 65, in get_decrypted_password
+    frappe.throw(_("Password not found"), frappe.AuthenticationError)
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.AuthenticationError: Password not found
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 60, in application
+    frappe.api.validate_auth()
+  File "apps/frappe/frappe/api.py", line 174, in validate_auth
+    validate_auth_via_api_keys(authorization_header)
+  File "apps/frappe/frappe/api.py", line 231, in validate_auth_via_api_keys
+    validate_api_key_secret(api_key, api_secret, authorization_source)
+  File "apps/frappe/frappe/api.py", line 249, in validate_api_key_secret
+    doc_secret = frappe.utils.password.get_decrypted_password(doctype, doc, fieldname="api_secret")
+  File "apps/frappe/frappe/utils/password.py", line 65, in get_decrypted_password
+    frappe.throw(_("Password not found"), frappe.AuthenticationError)
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.AuthenticationError: Password not found
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 60, in application
+    frappe.api.validate_auth()
+  File "apps/frappe/frappe/api.py", line 174, in validate_auth
+    validate_auth_via_api_keys(authorization_header)
+  File "apps/frappe/frappe/api.py", line 231, in validate_auth_via_api_keys
+    validate_api_key_secret(api_key, api_secret, authorization_source)
+  File "apps/frappe/frappe/api.py", line 249, in validate_api_key_secret
+    doc_secret = frappe.utils.password.get_decrypted_password(doctype, doc, fieldname="api_secret")
+  File "apps/frappe/frappe/utils/password.py", line 65, in get_decrypted_password
+    frappe.throw(_("Password not found"), frappe.AuthenticationError)
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.AuthenticationError: Password not found
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 60, in application
+    frappe.api.validate_auth()
+  File "apps/frappe/frappe/api.py", line 174, in validate_auth
+    validate_auth_via_api_keys(authorization_header)
+  File "apps/frappe/frappe/api.py", line 231, in validate_auth_via_api_keys
+    validate_api_key_secret(api_key, api_secret, authorization_source)
+  File "apps/frappe/frappe/api.py", line 249, in validate_api_key_secret
+    doc_secret = frappe.utils.password.get_decrypted_password(doctype, doc, fieldname="api_secret")
+  File "apps/frappe/frappe/utils/password.py", line 65, in get_decrypted_password
+    frappe.throw(_("Password not found"), frappe.AuthenticationError)
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.AuthenticationError: Password not found
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 60, in application
+    frappe.api.validate_auth()
+  File "apps/frappe/frappe/api.py", line 174, in validate_auth
+    validate_auth_via_api_keys(authorization_header)
+  File "apps/frappe/frappe/api.py", line 231, in validate_auth_via_api_keys
+    validate_api_key_secret(api_key, api_secret, authorization_source)
+  File "apps/frappe/frappe/api.py", line 249, in validate_api_key_secret
+    doc_secret = frappe.utils.password.get_decrypted_password(doctype, doc, fieldname="api_secret")
+  File "apps/frappe/frappe/utils/password.py", line 65, in get_decrypted_password
+    frappe.throw(_("Password not found"), frappe.AuthenticationError)
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.AuthenticationError: Password not found
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 60, in application
+    frappe.api.validate_auth()
+  File "apps/frappe/frappe/api.py", line 174, in validate_auth
+    validate_auth_via_api_keys(authorization_header)
+  File "apps/frappe/frappe/api.py", line 231, in validate_auth_via_api_keys
+    validate_api_key_secret(api_key, api_secret, authorization_source)
+  File "apps/frappe/frappe/api.py", line 249, in validate_api_key_secret
+    doc_secret = frappe.utils.password.get_decrypted_password(doctype, doc, fieldname="api_secret")
+  File "apps/frappe/frappe/utils/password.py", line 65, in get_decrypted_password
+    frappe.throw(_("Password not found"), frappe.AuthenticationError)
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.AuthenticationError: Password not found
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 60, in application
+    frappe.api.validate_auth()
+  File "apps/frappe/frappe/api.py", line 174, in validate_auth
+    validate_auth_via_api_keys(authorization_header)
+  File "apps/frappe/frappe/api.py", line 231, in validate_auth_via_api_keys
+    validate_api_key_secret(api_key, api_secret, authorization_source)
+  File "apps/frappe/frappe/api.py", line 249, in validate_api_key_secret
+    doc_secret = frappe.utils.password.get_decrypted_password(doctype, doc, fieldname="api_secret")
+  File "apps/frappe/frappe/utils/password.py", line 65, in get_decrypted_password
+    frappe.throw(_("Password not found"), frappe.AuthenticationError)
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.AuthenticationError: Password not found
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/modules/utils.py", line 240, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'frappe.core.doctype.:doctype'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 77, in handle
+    doc = frappe.get_doc(doctype, name)
+  File "apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "apps/frappe/frappe/model/base_document.py", line 63, in _get_controller
+    module = load_doctype_module(doctype, module_name)
+  File "apps/frappe/frappe/modules/utils.py", line 244, in load_doctype_module
+    raise ImportError(msg) from e
+ImportError: Module import failed for :doctype, the DocType you're trying to open might be deleted.<br> Error: No module named 'frappe.core.doctype.:doctype'
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/modules/utils.py", line 240, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'frappe.core.doctype.:item'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "apps/frappe/frappe/model/base_document.py", line 63, in _get_controller
+    module = load_doctype_module(doctype, module_name)
+  File "apps/frappe/frappe/modules/utils.py", line 244, in load_doctype_module
+    raise ImportError(msg) from e
+ImportError: Module import failed for :item, the DocType you're trying to open might be deleted.<br> Error: No module named 'frappe.core.doctype.:item'
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/modules/utils.py", line 240, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'frappe.core.doctype.:items'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "apps/frappe/frappe/model/base_document.py", line 63, in _get_controller
+    module = load_doctype_module(doctype, module_name)
+  File "apps/frappe/frappe/modules/utils.py", line 244, in load_doctype_module
+    raise ImportError(msg) from e
+ImportError: Module import failed for :items, the DocType you're trying to open might be deleted.<br> Error: No module named 'frappe.core.doctype.:items'
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/modules/utils.py", line 240, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'frappe.core.doctype.:doctype'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 77, in handle
+    doc = frappe.get_doc(doctype, name)
+  File "apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "apps/frappe/frappe/model/base_document.py", line 63, in _get_controller
+    module = load_doctype_module(doctype, module_name)
+  File "apps/frappe/frappe/modules/utils.py", line 244, in load_doctype_module
+    raise ImportError(msg) from e
+ImportError: Module import failed for :doctype, the DocType you're trying to open might be deleted.<br> Error: No module named 'frappe.core.doctype.:doctype'
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 166, in execute
+    self.columns = self.get_table_columns()
+  File "apps/frappe/frappe/model/db_query.py", line 485, in get_table_columns
+    return get_table_columns(self.doctype)
+  File "apps/frappe/frappe/model/meta.py", line 75, in get_table_columns
+    return frappe.db.get_table_columns(doctype)
+  File "apps/frappe/frappe/database/database.py", line 1141, in get_table_columns
+    raise self.TableMissingError("DocType", doctype)
+pymysql.err.ProgrammingError: ('DocType', ':getitem')
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 166, in execute
+    self.columns = self.get_table_columns()
+  File "apps/frappe/frappe/model/db_query.py", line 485, in get_table_columns
+    return get_table_columns(self.doctype)
+  File "apps/frappe/frappe/model/meta.py", line 75, in get_table_columns
+    return frappe.db.get_table_columns(doctype)
+  File "apps/frappe/frappe/database/database.py", line 1141, in get_table_columns
+    raise self.TableMissingError("DocType", doctype)
+pymysql.err.ProgrammingError: ('DocType', ':items')
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 166, in execute
+    self.columns = self.get_table_columns()
+  File "apps/frappe/frappe/model/db_query.py", line 485, in get_table_columns
+    return get_table_columns(self.doctype)
+  File "apps/frappe/frappe/model/meta.py", line 75, in get_table_columns
+    return frappe.db.get_table_columns(doctype)
+  File "apps/frappe/frappe/database/database.py", line 1141, in get_table_columns
+    raise self.TableMissingError("DocType", doctype)
+pymysql.err.ProgrammingError: ('DocType', 'items')
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 166, in execute
+    self.columns = self.get_table_columns()
+  File "apps/frappe/frappe/model/db_query.py", line 485, in get_table_columns
+    return get_table_columns(self.doctype)
+  File "apps/frappe/frappe/model/meta.py", line 75, in get_table_columns
+    return frappe.db.get_table_columns(doctype)
+  File "apps/frappe/frappe/database/database.py", line 1141, in get_table_columns
+    raise self.TableMissingError("DocType", doctype)
+pymysql.err.ProgrammingError: ('DocType', 'item')
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/modules/utils.py", line 240, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'frappe.core.doctype.:doctype'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "apps/frappe/frappe/model/base_document.py", line 63, in _get_controller
+    module = load_doctype_module(doctype, module_name)
+  File "apps/frappe/frappe/modules/utils.py", line 244, in load_doctype_module
+    raise ImportError(msg) from e
+ImportError: Module import failed for :doctype, the DocType you're trying to open might be deleted.<br> Error: No module named 'frappe.core.doctype.:doctype'
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/modules/utils.py", line 240, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'frappe.core.doctype.:doctype'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "apps/frappe/frappe/model/base_document.py", line 63, in _get_controller
+    module = load_doctype_module(doctype, module_name)
+  File "apps/frappe/frappe/modules/utils.py", line 244, in load_doctype_module
+    raise ImportError(msg) from e
+ImportError: Module import failed for :doctype, the DocType you're trying to open might be deleted.<br> Error: No module named 'frappe.core.doctype.:doctype'
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 166, in execute
+    self.columns = self.get_table_columns()
+  File "apps/frappe/frappe/model/db_query.py", line 485, in get_table_columns
+    return get_table_columns(self.doctype)
+  File "apps/frappe/frappe/model/meta.py", line 75, in get_table_columns
+    return frappe.db.get_table_columns(doctype)
+  File "apps/frappe/frappe/database/database.py", line 1141, in get_table_columns
+    raise self.TableMissingError("DocType", doctype)
+pymysql.err.ProgrammingError: ('DocType', 'Items')
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 166, in execute
+    self.columns = self.get_table_columns()
+  File "apps/frappe/frappe/model/db_query.py", line 485, in get_table_columns
+    return get_table_columns(self.doctype)
+  File "apps/frappe/frappe/model/meta.py", line 75, in get_table_columns
+    return frappe.db.get_table_columns(doctype)
+  File "apps/frappe/frappe/database/database.py", line 1141, in get_table_columns
+    raise self.TableMissingError("DocType", doctype)
+pymysql.err.ProgrammingError: ('DocType', ':items')
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 166, in execute
+    self.columns = self.get_table_columns()
+  File "apps/frappe/frappe/model/db_query.py", line 485, in get_table_columns
+    return get_table_columns(self.doctype)
+  File "apps/frappe/frappe/model/meta.py", line 75, in get_table_columns
+    return frappe.db.get_table_columns(doctype)
+  File "apps/frappe/frappe/database/database.py", line 1141, in get_table_columns
+    raise self.TableMissingError("DocType", doctype)
+pymysql.err.ProgrammingError: ('DocType', ':item')
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 60, in application
+    frappe.api.validate_auth()
+  File "apps/frappe/frappe/api.py", line 174, in validate_auth
+    validate_auth_via_api_keys(authorization_header)
+  File "apps/frappe/frappe/api.py", line 231, in validate_auth_via_api_keys
+    validate_api_key_secret(api_key, api_secret, authorization_source)
+  File "apps/frappe/frappe/api.py", line 249, in validate_api_key_secret
+    doc_secret = frappe.utils.password.get_decrypted_password(doctype, doc, fieldname="api_secret")
+  File "apps/frappe/frappe/utils/password.py", line 65, in get_decrypted_password
+    frappe.throw(_("Password not found"), frappe.AuthenticationError)
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.AuthenticationError: Password not found
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 166, in execute
+    self.columns = self.get_table_columns()
+  File "apps/frappe/frappe/model/db_query.py", line 485, in get_table_columns
+    return get_table_columns(self.doctype)
+  File "apps/frappe/frappe/model/meta.py", line 75, in get_table_columns
+    return frappe.db.get_table_columns(doctype)
+  File "apps/frappe/frappe/database/database.py", line 1141, in get_table_columns
+    raise self.TableMissingError("DocType", doctype)
+pymysql.err.ProgrammingError: ('DocType', ':getitems')
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/modules/utils.py", line 240, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'frappe.core.doctype.:doctype'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "apps/frappe/frappe/model/base_document.py", line 63, in _get_controller
+    module = load_doctype_module(doctype, module_name)
+  File "apps/frappe/frappe/modules/utils.py", line 244, in load_doctype_module
+    raise ImportError(msg) from e
+ImportError: Module import failed for :doctype, the DocType you're trying to open might be deleted.<br> Error: No module named 'frappe.core.doctype.:doctype'
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 166, in execute
+    self.columns = self.get_table_columns()
+  File "apps/frappe/frappe/model/db_query.py", line 485, in get_table_columns
+    return get_table_columns(self.doctype)
+  File "apps/frappe/frappe/model/meta.py", line 75, in get_table_columns
+    return frappe.db.get_table_columns(doctype)
+  File "apps/frappe/frappe/database/database.py", line 1141, in get_table_columns
+    raise self.TableMissingError("DocType", doctype)
+pymysql.err.ProgrammingError: ('DocType', 'Items')
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/modules/utils.py", line 240, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'frappe.core.doctype.:item'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 77, in handle
+    doc = frappe.get_doc(doctype, name)
+  File "apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "apps/frappe/frappe/model/base_document.py", line 63, in _get_controller
+    module = load_doctype_module(doctype, module_name)
+  File "apps/frappe/frappe/modules/utils.py", line 244, in load_doctype_module
+    raise ImportError(msg) from e
+ImportError: Module import failed for :item, the DocType you're trying to open might be deleted.<br> Error: No module named 'frappe.core.doctype.:item'
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 166, in execute
+    self.columns = self.get_table_columns()
+  File "apps/frappe/frappe/model/db_query.py", line 485, in get_table_columns
+    return get_table_columns(self.doctype)
+  File "apps/frappe/frappe/model/meta.py", line 75, in get_table_columns
+    return frappe.db.get_table_columns(doctype)
+  File "apps/frappe/frappe/database/database.py", line 1141, in get_table_columns
+    raise self.TableMissingError("DocType", doctype)
+pymysql.err.ProgrammingError: ('DocType', ':item')
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 166, in execute
+    self.columns = self.get_table_columns()
+  File "apps/frappe/frappe/model/db_query.py", line 485, in get_table_columns
+    return get_table_columns(self.doctype)
+  File "apps/frappe/frappe/model/meta.py", line 75, in get_table_columns
+    return frappe.db.get_table_columns(doctype)
+  File "apps/frappe/frappe/database/database.py", line 1141, in get_table_columns
+    raise self.TableMissingError("DocType", doctype)
+pymysql.err.ProgrammingError: ('DocType', ':items')
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 166, in execute
+    self.columns = self.get_table_columns()
+  File "apps/frappe/frappe/model/db_query.py", line 485, in get_table_columns
+    return get_table_columns(self.doctype)
+  File "apps/frappe/frappe/model/meta.py", line 75, in get_table_columns
+    return frappe.db.get_table_columns(doctype)
+  File "apps/frappe/frappe/database/database.py", line 1141, in get_table_columns
+    raise self.TableMissingError("DocType", doctype)
+pymysql.err.ProgrammingError: ('DocType', 'items')
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/modules/utils.py", line 240, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'frappe.core.doctype.:item'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "apps/frappe/frappe/model/base_document.py", line 63, in _get_controller
+    module = load_doctype_module(doctype, module_name)
+  File "apps/frappe/frappe/modules/utils.py", line 244, in load_doctype_module
+    raise ImportError(msg) from e
+ImportError: Module import failed for :item, the DocType you're trying to open might be deleted.<br> Error: No module named 'frappe.core.doctype.:item'
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 166, in execute
+    self.columns = self.get_table_columns()
+  File "apps/frappe/frappe/model/db_query.py", line 485, in get_table_columns
+    return get_table_columns(self.doctype)
+  File "apps/frappe/frappe/model/meta.py", line 75, in get_table_columns
+    return frappe.db.get_table_columns(doctype)
+  File "apps/frappe/frappe/database/database.py", line 1141, in get_table_columns
+    raise self.TableMissingError("DocType", doctype)
+pymysql.err.ProgrammingError: ('DocType', ':doctype')
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 166, in execute
+    self.columns = self.get_table_columns()
+  File "apps/frappe/frappe/model/db_query.py", line 485, in get_table_columns
+    return get_table_columns(self.doctype)
+  File "apps/frappe/frappe/model/meta.py", line 75, in get_table_columns
+    return frappe.db.get_table_columns(doctype)
+  File "apps/frappe/frappe/database/database.py", line 1141, in get_table_columns
+    raise self.TableMissingError("DocType", doctype)
+pymysql.err.ProgrammingError: ('DocType', ':doctype')
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/modules/utils.py", line 240, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'frappe.core.doctype.:doctype'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "apps/frappe/frappe/model/base_document.py", line 63, in _get_controller
+    module = load_doctype_module(doctype, module_name)
+  File "apps/frappe/frappe/modules/utils.py", line 244, in load_doctype_module
+    raise ImportError(msg) from e
+ImportError: Module import failed for :doctype, the DocType you're trying to open might be deleted.<br> Error: No module named 'frappe.core.doctype.:doctype'
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/modules/utils.py", line 240, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'frappe.core.doctype.:doctype'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 77, in handle
+    doc = frappe.get_doc(doctype, name)
+  File "apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "apps/frappe/frappe/model/base_document.py", line 63, in _get_controller
+    module = load_doctype_module(doctype, module_name)
+  File "apps/frappe/frappe/modules/utils.py", line 244, in load_doctype_module
+    raise ImportError(msg) from e
+ImportError: Module import failed for :doctype, the DocType you're trying to open might be deleted.<br> Error: No module named 'frappe.core.doctype.:doctype'
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/modules/utils.py", line 240, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'frappe.core.doctype.:doctype'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "apps/frappe/frappe/model/base_document.py", line 63, in _get_controller
+    module = load_doctype_module(doctype, module_name)
+  File "apps/frappe/frappe/modules/utils.py", line 244, in load_doctype_module
+    raise ImportError(msg) from e
+ImportError: Module import failed for :doctype, the DocType you're trying to open might be deleted.<br> Error: No module named 'frappe.core.doctype.:doctype'
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 166, in execute
+    self.columns = self.get_table_columns()
+  File "apps/frappe/frappe/model/db_query.py", line 485, in get_table_columns
+    return get_table_columns(self.doctype)
+  File "apps/frappe/frappe/model/meta.py", line 75, in get_table_columns
+    return frappe.db.get_table_columns(doctype)
+  File "apps/frappe/frappe/database/database.py", line 1141, in get_table_columns
+    raise self.TableMissingError("DocType", doctype)
+pymysql.err.ProgrammingError: ('DocType', ':doctype')
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 112, in handle
+    frappe.local.form_dict["fields"] = json.loads(frappe.local.form_dict["fields"])
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/modules/utils.py", line 240, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'frappe.core.doctype.:item'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "apps/frappe/frappe/model/base_document.py", line 63, in _get_controller
+    module = load_doctype_module(doctype, module_name)
+  File "apps/frappe/frappe/modules/utils.py", line 244, in load_doctype_module
+    raise ImportError(msg) from e
+ImportError: Module import failed for :item, the DocType you're trying to open might be deleted.<br> Error: No module named 'frappe.core.doctype.:item'
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/modules/utils.py", line 240, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'frappe.core.doctype.:items'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "apps/frappe/frappe/model/base_document.py", line 63, in _get_controller
+    module = load_doctype_module(doctype, module_name)
+  File "apps/frappe/frappe/modules/utils.py", line 244, in load_doctype_module
+    raise ImportError(msg) from e
+ImportError: Module import failed for :items, the DocType you're trying to open might be deleted.<br> Error: No module named 'frappe.core.doctype.:items'
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/modules/utils.py", line 240, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'frappe.core.doctype.:items'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "apps/frappe/frappe/model/base_document.py", line 63, in _get_controller
+    module = load_doctype_module(doctype, module_name)
+  File "apps/frappe/frappe/modules/utils.py", line 244, in load_doctype_module
+    raise ImportError(msg) from e
+ImportError: Module import failed for :items, the DocType you're trying to open might be deleted.<br> Error: No module named 'frappe.core.doctype.:items'
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/modules/utils.py", line 240, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'frappe.core.doctype.:doctype'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "apps/frappe/frappe/model/base_document.py", line 63, in _get_controller
+    module = load_doctype_module(doctype, module_name)
+  File "apps/frappe/frappe/modules/utils.py", line 244, in load_doctype_module
+    raise ImportError(msg) from e
+ImportError: Module import failed for :doctype, the DocType you're trying to open might be deleted.<br> Error: No module named 'frappe.core.doctype.:doctype'
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 166, in execute
+    self.columns = self.get_table_columns()
+  File "apps/frappe/frappe/model/db_query.py", line 485, in get_table_columns
+    return get_table_columns(self.doctype)
+  File "apps/frappe/frappe/model/meta.py", line 75, in get_table_columns
+    return frappe.db.get_table_columns(doctype)
+  File "apps/frappe/frappe/database/database.py", line 1141, in get_table_columns
+    raise self.TableMissingError("DocType", doctype)
+pymysql.err.ProgrammingError: ('DocType', 'Items')
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/modules/utils.py", line 240, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'frappe.core.doctype.:items'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "apps/frappe/frappe/model/base_document.py", line 63, in _get_controller
+    module = load_doctype_module(doctype, module_name)
+  File "apps/frappe/frappe/modules/utils.py", line 244, in load_doctype_module
+    raise ImportError(msg) from e
+ImportError: Module import failed for :items, the DocType you're trying to open might be deleted.<br> Error: No module named 'frappe.core.doctype.:items'
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "apps/frappe/frappe/model/base_document.py", line 73, in _get_controller
+    raise ImportError(doctype)
+ImportError: Doctype
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 112, in execute
+    raise frappe.PermissionError(self.doctype)
+frappe.exceptions.PermissionError: Item Price
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 112, in execute
+    raise frappe.PermissionError(self.doctype)
+frappe.exceptions.PermissionError: Item Price
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/modules/utils.py", line 240, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'frappe.core.doctype.:items'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 77, in handle
+    doc = frappe.get_doc(doctype, name)
+  File "apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "apps/frappe/frappe/model/base_document.py", line 63, in _get_controller
+    module = load_doctype_module(doctype, module_name)
+  File "apps/frappe/frappe/modules/utils.py", line 244, in load_doctype_module
+    raise ImportError(msg) from e
+ImportError: Module import failed for :items, the DocType you're trying to open might be deleted.<br> Error: No module named 'frappe.core.doctype.:items'
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/modules/utils.py", line 240, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'frappe.core.doctype.:getitems'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 77, in handle
+    doc = frappe.get_doc(doctype, name)
+  File "apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "apps/frappe/frappe/model/base_document.py", line 63, in _get_controller
+    module = load_doctype_module(doctype, module_name)
+  File "apps/frappe/frappe/modules/utils.py", line 244, in load_doctype_module
+    raise ImportError(msg) from e
+ImportError: Module import failed for :getitems, the DocType you're trying to open might be deleted.<br> Error: No module named 'frappe.core.doctype.:getitems'
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 112, in execute
+    raise frappe.PermissionError(self.doctype)
+frappe.exceptions.PermissionError: Item Price
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 112, in execute
+    raise frappe.PermissionError(self.doctype)
+frappe.exceptions.PermissionError: Item
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/modules/utils.py", line 240, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'frappe.core.doctype.:doctype'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "apps/frappe/frappe/model/base_document.py", line 63, in _get_controller
+    module = load_doctype_module(doctype, module_name)
+  File "apps/frappe/frappe/modules/utils.py", line 244, in load_doctype_module
+    raise ImportError(msg) from e
+ImportError: Module import failed for :doctype, the DocType you're trying to open might be deleted.<br> Error: No module named 'frappe.core.doctype.:doctype'
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/modules/utils.py", line 240, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'frappe.core.doctype.:doctype'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "apps/frappe/frappe/model/base_document.py", line 63, in _get_controller
+    module = load_doctype_module(doctype, module_name)
+  File "apps/frappe/frappe/modules/utils.py", line 244, in load_doctype_module
+    raise ImportError(msg) from e
+ImportError: Module import failed for :doctype, the DocType you're trying to open might be deleted.<br> Error: No module named 'frappe.core.doctype.:doctype'
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "apps/frappe/frappe/model/base_document.py", line 73, in _get_controller
+    raise ImportError(doctype)
+ImportError: doctype
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/model/document.py", line 248, in insert
+    self.check_permission("create")
+  File "apps/frappe/frappe/model/document.py", line 191, in check_permission
+    self.raise_no_permission_to(permlevel or permtype)
+  File "apps/frappe/frappe/model/document.py", line 211, in raise_no_permission_to
+    raise frappe.PermissionError
+frappe.exceptions.PermissionError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/model/document.py", line 248, in insert
+    self.check_permission("create")
+  File "apps/frappe/frappe/model/document.py", line 191, in check_permission
+    self.raise_no_permission_to(permlevel or permtype)
+  File "apps/frappe/frappe/model/document.py", line 211, in raise_no_permission_to
+    raise frappe.PermissionError
+frappe.exceptions.PermissionError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 112, in execute
+    raise frappe.PermissionError(self.doctype)
+frappe.exceptions.PermissionError: Item
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 93, in handle
+    frappe.local.response.update({"data": doc.save().as_dict()})
+  File "apps/frappe/frappe/model/document.py", line 301, in save
+    return self._save(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 334, in _save
+    self._validate_links()
+  File "apps/frappe/frappe/model/document.py", line 896, in _validate_links
+    frappe.throw(_("Could not find {0}").format(msg), frappe.LinkValidationError)
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.LinkValidationError: Could not find Default Unit of Measure: gm
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 93, in handle
+    frappe.local.response.update({"data": doc.save().as_dict()})
+  File "apps/frappe/frappe/model/document.py", line 301, in save
+    return self._save(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 338, in _save
+    self._validate()
+  File "apps/frappe/frappe/model/document.py", line 524, in _validate
+    self._validate_mandatory()
+  File "apps/frappe/frappe/model/document.py", line 877, in _validate_mandatory
+    raise frappe.MandatoryError(
+frappe.exceptions.MandatoryError: [Item, PIPE 60.3 OD X 3.2 THK]: stock_uom
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 166, in execute
+    self.columns = self.get_table_columns()
+  File "apps/frappe/frappe/model/db_query.py", line 485, in get_table_columns
+    return get_table_columns(self.doctype)
+  File "apps/frappe/frappe/model/meta.py", line 75, in get_table_columns
+    return frappe.db.get_table_columns(doctype)
+  File "apps/frappe/frappe/database/database.py", line 1141, in get_table_columns
+    raise self.TableMissingError("DocType", doctype)
+pymysql.err.ProgrammingError: ('DocType', 'Items')
+
+Clearing frappe.message_log...
+Clearing frappe.message_log...
+Traceback (most recent call last):
+  File "apps/frappe/frappe/modules/utils.py", line 240, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'frappe.core.doctype.:doctype'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 77, in handle
+    doc = frappe.get_doc(doctype, name)
+  File "apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "apps/frappe/frappe/model/base_document.py", line 63, in _get_controller
+    module = load_doctype_module(doctype, module_name)
+  File "apps/frappe/frappe/modules/utils.py", line 244, in load_doctype_module
+    raise ImportError(msg) from e
+ImportError: Module import failed for :Doctype, the DocType you're trying to open might be deleted.<br> Error: No module named 'frappe.core.doctype.:doctype'
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 112, in execute
+    raise frappe.PermissionError(self.doctype)
+frappe.exceptions.PermissionError: Material Request
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 93, in handle
+    frappe.local.response.update({"data": doc.save().as_dict()})
+  File "apps/frappe/frappe/model/document.py", line 301, in save
+    return self._save(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 338, in _save
+    self._validate()
+  File "apps/frappe/frappe/model/document.py", line 526, in _validate
+    self._validate_selects()
+  File "apps/frappe/frappe/model/base_document.py", line 821, in _validate_selects
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ValidationError:  Alloy cannot be "yes". It should be one of "6061/T6", "ALUMINIUM", "COPPER", "NA"
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 112, in execute
+    raise frappe.PermissionError(self.doctype)
+frappe.exceptions.PermissionError: Material Request
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 112, in execute
+    raise frappe.PermissionError(self.doctype)
+frappe.exceptions.PermissionError: Item
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 93, in handle
+    frappe.local.response.update({"data": doc.save().as_dict()})
+  File "apps/frappe/frappe/model/document.py", line 301, in save
+    return self._save(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 338, in _save
+    self._validate()
+  File "apps/frappe/frappe/model/document.py", line 526, in _validate
+    self._validate_selects()
+  File "apps/frappe/frappe/model/base_document.py", line 821, in _validate_selects
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ValidationError:  Finish Type cannot be "Finished". It should be one of "FINISHED", "MILL", "SEMI FINISH", "NA"
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 93, in handle
+    frappe.local.response.update({"data": doc.save().as_dict()})
+  File "apps/frappe/frappe/model/document.py", line 301, in save
+    return self._save(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 338, in _save
+    self._validate()
+  File "apps/frappe/frappe/model/document.py", line 526, in _validate
+    self._validate_selects()
+  File "apps/frappe/frappe/model/base_document.py", line 821, in _validate_selects
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ValidationError:  Finish Type cannot be "Finished". It should be one of "FINISHED", "MILL", "SEMI FINISH", "NA"
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/model/document.py", line 256, in insert
+    self._validate()
+  File "apps/frappe/frappe/model/document.py", line 524, in _validate
+    self._validate_mandatory()
+  File "apps/frappe/frappe/model/document.py", line 877, in _validate_mandatory
+    raise frappe.MandatoryError(
+frappe.exceptions.MandatoryError: [Material Request, MAT-MR-2022-00022]: items
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 93, in handle
+    frappe.local.response.update({"data": doc.save().as_dict()})
+  File "apps/frappe/frappe/model/document.py", line 301, in save
+    return self._save(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 325, in _save
+    self.check_permission("write", "save")
+  File "apps/frappe/frappe/model/document.py", line 191, in check_permission
+    self.raise_no_permission_to(permlevel or permtype)
+  File "apps/frappe/frappe/model/document.py", line 211, in raise_no_permission_to
+    raise frappe.PermissionError
+frappe.exceptions.PermissionError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 112, in execute
+    raise frappe.PermissionError(self.doctype)
+frappe.exceptions.PermissionError: Material Request
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 93, in handle
+    frappe.local.response.update({"data": doc.save().as_dict()})
+  File "apps/frappe/frappe/model/document.py", line 301, in save
+    return self._save(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 338, in _save
+    self._validate()
+  File "apps/frappe/frappe/model/document.py", line 526, in _validate
+    self._validate_selects()
+  File "apps/frappe/frappe/model/base_document.py", line 821, in _validate_selects
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ValidationError:  Finish Type cannot be "Finished". It should be one of "FINISHED", "MILL", "SEMI FINISH", "NA"
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 112, in execute
+    raise frappe.PermissionError(self.doctype)
+frappe.exceptions.PermissionError: Item
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 112, in execute
+    raise frappe.PermissionError(self.doctype)
+frappe.exceptions.PermissionError: Item
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/model/document.py", line 248, in insert
+    self.check_permission("create")
+  File "apps/frappe/frappe/model/document.py", line 191, in check_permission
+    self.raise_no_permission_to(permlevel or permtype)
+  File "apps/frappe/frappe/model/document.py", line 211, in raise_no_permission_to
+    raise frappe.PermissionError
+frappe.exceptions.PermissionError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/model/base_document.py", line 498, in db_insert
+    frappe.db.sql(
+  File "apps/frappe/frappe/database/database.py", line 207, in sql
+    self._cursor.execute(query, values)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "env/lib/python3.10/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "env/lib/python3.10/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '200YuMM' for key 'PRIMARY'")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/model/document.py", line 266, in insert
+    self.db_insert(ignore_if_duplicate=ignore_if_duplicate)
+  File "apps/frappe/frappe/model/base_document.py", line 525, in db_insert
+    raise frappe.DuplicateEntryError(self.doctype, self.name, e)
+frappe.exceptions.DuplicateEntryError: ('Item', '200YuMM', IntegrityError(1062, "Duplicate entry '200YuMM' for key 'PRIMARY'"))
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/modules/utils.py", line 240, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'frappe.core.doctype.:getitem'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 77, in handle
+    doc = frappe.get_doc(doctype, name)
+  File "apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "apps/frappe/frappe/model/base_document.py", line 63, in _get_controller
+    module = load_doctype_module(doctype, module_name)
+  File "apps/frappe/frappe/modules/utils.py", line 244, in load_doctype_module
+    raise ImportError(msg) from e
+ImportError: Module import failed for :getitem, the DocType you're trying to open might be deleted.<br> Error: No module named 'frappe.core.doctype.:getitem'
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/modules/utils.py", line 240, in load_doctype_module
+    doctype_python_modules[key] = frappe.get_module(module_name)
+  File "apps/frappe/frappe/__init__.py", line 1323, in get_module
+    return importlib.import_module(modulename)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'frappe.core.doctype.:getitems'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 77, in handle
+    doc = frappe.get_doc(doctype, name)
+  File "apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "apps/frappe/frappe/model/base_document.py", line 63, in _get_controller
+    module = load_doctype_module(doctype, module_name)
+  File "apps/frappe/frappe/modules/utils.py", line 244, in load_doctype_module
+    raise ImportError(msg) from e
+ImportError: Module import failed for :getitems, the DocType you're trying to open might be deleted.<br> Error: No module named 'frappe.core.doctype.:getitems'
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/__init__.py", line 1180, in get_doc
+    doc = frappe.model.document.get_doc(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 72, in get_doc
+    controller = get_controller(doctype)
+  File "apps/frappe/frappe/model/base_document.py", line 81, in get_controller
+    site_controllers[doctype] = _get_controller()
+  File "apps/frappe/frappe/model/base_document.py", line 73, in _get_controller
+    raise ImportError(doctype)
+ImportError: Doctype
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 93, in handle
+    frappe.local.response.update({"data": doc.save().as_dict()})
+  File "apps/frappe/frappe/model/document.py", line 301, in save
+    return self._save(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 334, in _save
+    self._validate_links()
+  File "apps/frappe/frappe/model/document.py", line 896, in _validate_links
+    frappe.throw(_("Could not find {0}").format(msg), frappe.LinkValidationError)
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.LinkValidationError: Could not find Default Unit of Measure: g
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 112, in execute
+    raise frappe.PermissionError(self.doctype)
+frappe.exceptions.PermissionError: Material Request
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/model/document.py", line 248, in insert
+    self.check_permission("create")
+  File "apps/frappe/frappe/model/document.py", line 191, in check_permission
+    self.raise_no_permission_to(permlevel or permtype)
+  File "apps/frappe/frappe/model/document.py", line 211, in raise_no_permission_to
+    raise frappe.PermissionError
+frappe.exceptions.PermissionError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/model/document.py", line 248, in insert
+    self.check_permission("create")
+  File "apps/frappe/frappe/model/document.py", line 191, in check_permission
+    self.raise_no_permission_to(permlevel or permtype)
+  File "apps/frappe/frappe/model/document.py", line 211, in raise_no_permission_to
+    raise frappe.PermissionError
+frappe.exceptions.PermissionError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 112, in execute
+    raise frappe.PermissionError(self.doctype)
+frappe.exceptions.PermissionError: Item
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 112, in execute
+    raise frappe.PermissionError(self.doctype)
+frappe.exceptions.PermissionError: Item
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 112, in execute
+    raise frappe.PermissionError(self.doctype)
+frappe.exceptions.PermissionError: Item
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 112, in execute
+    raise frappe.PermissionError(self.doctype)
+frappe.exceptions.PermissionError: Item
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/model/document.py", line 247, in insert
+    self._validate_links()
+  File "apps/frappe/frappe/model/document.py", line 896, in _validate_links
+    frappe.throw(_("Could not find {0}").format(msg), frappe.LinkValidationError)
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.LinkValidationError: Could not find HSN/SAC: 76121031
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/model/base_document.py", line 498, in db_insert
+    frappe.db.sql(
+  File "apps/frappe/frappe/database/database.py", line 207, in sql
+    self._cursor.execute(query, values)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "env/lib/python3.10/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "env/lib/python3.10/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '200YuMM' for key 'PRIMARY'")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/model/document.py", line 266, in insert
+    self.db_insert(ignore_if_duplicate=ignore_if_duplicate)
+  File "apps/frappe/frappe/model/base_document.py", line 525, in db_insert
+    raise frappe.DuplicateEntryError(self.doctype, self.name, e)
+frappe.exceptions.DuplicateEntryError: ('Item', '200YuMM', IntegrityError(1062, "Duplicate entry '200YuMM' for key 'PRIMARY'"))
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 112, in execute
+    raise frappe.PermissionError(self.doctype)
+frappe.exceptions.PermissionError: Material Request
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 112, in execute
+    raise frappe.PermissionError(self.doctype)
+frappe.exceptions.PermissionError: Indent Transport
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 112, in execute
+    raise frappe.PermissionError(self.doctype)
+frappe.exceptions.PermissionError: Material Request
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 112, in execute
+    raise frappe.PermissionError(self.doctype)
+frappe.exceptions.PermissionError: Item
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 112, in execute
+    raise frappe.PermissionError(self.doctype)
+frappe.exceptions.PermissionError: Item
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 79, in handle
+    raise frappe.PermissionError
+frappe.exceptions.PermissionError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/model/document.py", line 255, in insert
+    self.run_before_save_methods()
+  File "apps/frappe/frappe/model/document.py", line 1056, in run_before_save_methods
+    self.run_method("validate")
+  File "apps/frappe/frappe/model/document.py", line 928, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 1268, in composer
+    return composed(self, method, *args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 1252, in runner
+    add_to_return_value(self, f(self, method, *args, **kwargs))
+  File "apps/india_compliance/india_compliance/gst_india/overrides/item.py", line 28, in validate_hsn_code
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ValidationError: HSN/SAC Code should be at least 6 digits long. Please enter a valid HSN/SAC code.
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 60, in application
+    frappe.api.validate_auth()
+  File "apps/frappe/frappe/api.py", line 174, in validate_auth
+    validate_auth_via_api_keys(authorization_header)
+  File "apps/frappe/frappe/api.py", line 234, in validate_auth_via_api_keys
+    validate_api_key_secret(api_key, api_secret, authorization_source)
+  File "apps/frappe/frappe/api.py", line 249, in validate_api_key_secret
+    doc_secret = frappe.utils.password.get_decrypted_password(doctype, doc, fieldname="api_secret")
+  File "apps/frappe/frappe/utils/password.py", line 65, in get_decrypted_password
+    frappe.throw(_("Password not found"), frappe.AuthenticationError)
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.AuthenticationError: Password not found
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 60, in application
+    frappe.api.validate_auth()
+  File "apps/frappe/frappe/api.py", line 174, in validate_auth
+    validate_auth_via_api_keys(authorization_header)
+  File "apps/frappe/frappe/api.py", line 231, in validate_auth_via_api_keys
+    validate_api_key_secret(api_key, api_secret, authorization_source)
+  File "apps/frappe/frappe/api.py", line 249, in validate_api_key_secret
+    doc_secret = frappe.utils.password.get_decrypted_password(doctype, doc, fieldname="api_secret")
+  File "apps/frappe/frappe/utils/password.py", line 65, in get_decrypted_password
+    frappe.throw(_("Password not found"), frappe.AuthenticationError)
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.AuthenticationError: Password not found
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/model/document.py", line 250, in insert
+    self.set_new_name(set_name=set_name, set_child_names=set_child_names)
+  File "apps/frappe/frappe/model/document.py", line 446, in set_new_name
+    set_new_name(self)
+  File "apps/frappe/frappe/model/naming.py", line 172, in set_new_name
+    frappe.throw(_("{0} is required").format(doc.meta.get_label(fieldname)))
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ValidationError: Item Code is required
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 55, in application
+    init_request(request)
+  File "apps/frappe/frappe/app.py", line 129, in init_request
+    make_form_dict(request)
+  File "apps/frappe/frappe/app.py", line 227, in make_form_dict
+    args = json.loads(request_data)
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 5 column 9 (char 82)
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/model/document.py", line 256, in insert
+    self._validate()
+  File "apps/frappe/frappe/model/document.py", line 526, in _validate
+    self._validate_selects()
+  File "apps/frappe/frappe/model/base_document.py", line 821, in _validate_selects
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ValidationError:  Finish Type cannot be "Semi-Finished". It should be one of "FINISHED", "MILL", "SEMI FINISH", "NA"
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 112, in execute
+    raise frappe.PermissionError(self.doctype)
+frappe.exceptions.PermissionError: Item
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 79, in handle
+    raise frappe.PermissionError
+frappe.exceptions.PermissionError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/model/document.py", line 248, in insert
+    self.check_permission("create")
+  File "apps/frappe/frappe/model/document.py", line 191, in check_permission
+    self.raise_no_permission_to(permlevel or permtype)
+  File "apps/frappe/frappe/model/document.py", line 211, in raise_no_permission_to
+    raise frappe.PermissionError
+frappe.exceptions.PermissionError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/model/base_document.py", line 498, in db_insert
+    frappe.db.sql(
+  File "apps/frappe/frappe/database/database.py", line 207, in sql
+    self._cursor.execute(query, values)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "env/lib/python3.10/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "env/lib/python3.10/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '400YuMM' for key 'PRIMARY'")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/model/document.py", line 266, in insert
+    self.db_insert(ignore_if_duplicate=ignore_if_duplicate)
+  File "apps/frappe/frappe/model/base_document.py", line 525, in db_insert
+    raise frappe.DuplicateEntryError(self.doctype, self.name, e)
+frappe.exceptions.DuplicateEntryError: ('Item', '400YuMM', IntegrityError(1062, "Duplicate entry '400YuMM' for key 'PRIMARY'"))
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 55, in application
+    init_request(request)
+  File "apps/frappe/frappe/app.py", line 132, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "apps/frappe/frappe/auth.py", line 34, in __init__
+    self.set_session()
+  File "apps/frappe/frappe/auth.py", line 68, in set_session
+    frappe.local.login_manager = LoginManager()
+  File "apps/frappe/frappe/auth.py", line 108, in __init__
+    if self.login() is False:
+  File "apps/frappe/frappe/auth.py", line 133, in login
+    self.authenticate(user=user, pwd=pwd)
+  File "apps/frappe/frappe/auth.py", line 233, in authenticate
+    self.fail(_("Incomplete login details"), user=user)
+  File "apps/frappe/frappe/auth.py", line 291, in fail
+    raise frappe.AuthenticationError
+frappe.exceptions.AuthenticationError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 60, in application
+    frappe.api.validate_auth()
+  File "apps/frappe/frappe/api.py", line 174, in validate_auth
+    validate_auth_via_api_keys(authorization_header)
+  File "apps/frappe/frappe/api.py", line 234, in validate_auth_via_api_keys
+    validate_api_key_secret(api_key, api_secret, authorization_source)
+  File "apps/frappe/frappe/api.py", line 249, in validate_api_key_secret
+    doc_secret = frappe.utils.password.get_decrypted_password(doctype, doc, fieldname="api_secret")
+  File "apps/frappe/frappe/utils/password.py", line 65, in get_decrypted_password
+    frappe.throw(_("Password not found"), frappe.AuthenticationError)
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.AuthenticationError: Password not found
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 55, in application
+    init_request(request)
+  File "apps/frappe/frappe/app.py", line 132, in init_request
+    frappe.local.http_request = frappe.auth.HTTPRequest()
+  File "apps/frappe/frappe/auth.py", line 34, in __init__
+    self.set_session()
+  File "apps/frappe/frappe/auth.py", line 68, in set_session
+    frappe.local.login_manager = LoginManager()
+  File "apps/frappe/frappe/auth.py", line 108, in __init__
+    if self.login() is False:
+  File "apps/frappe/frappe/auth.py", line 133, in login
+    self.authenticate(user=user, pwd=pwd)
+  File "apps/frappe/frappe/auth.py", line 233, in authenticate
+    self.fail(_("Incomplete login details"), user=user)
+  File "apps/frappe/frappe/auth.py", line 291, in fail
+    raise frappe.AuthenticationError
+frappe.exceptions.AuthenticationError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/model/base_document.py", line 498, in db_insert
+    frappe.db.sql(
+  File "apps/frappe/frappe/database/database.py", line 207, in sql
+    self._cursor.execute(query, values)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 148, in execute
+    result = self._query(query)
+  File "env/lib/python3.10/site-packages/pymysql/cursors.py", line 310, in _query
+    conn.query(q)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 548, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 775, in _read_query_result
+    result.read()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 1156, in read
+    first_packet = self.connection._read_packet()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "env/lib/python3.10/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "env/lib/python3.10/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.IntegrityError: (1062, "Duplicate entry '300YuMM' for key 'PRIMARY'")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/model/document.py", line 266, in insert
+    self.db_insert(ignore_if_duplicate=ignore_if_duplicate)
+  File "apps/frappe/frappe/model/base_document.py", line 525, in db_insert
+    raise frappe.DuplicateEntryError(self.doctype, self.name, e)
+frappe.exceptions.DuplicateEntryError: ('Item', '300YuMM', IntegrityError(1062, "Duplicate entry '300YuMM' for key 'PRIMARY'"))
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 60, in application
+    frappe.api.validate_auth()
+  File "apps/frappe/frappe/api.py", line 174, in validate_auth
+    validate_auth_via_api_keys(authorization_header)
+  File "apps/frappe/frappe/api.py", line 231, in validate_auth_via_api_keys
+    validate_api_key_secret(api_key, api_secret, authorization_source)
+  File "apps/frappe/frappe/api.py", line 249, in validate_api_key_secret
+    doc_secret = frappe.utils.password.get_decrypted_password(doctype, doc, fieldname="api_secret")
+  File "apps/frappe/frappe/utils/password.py", line 65, in get_decrypted_password
+    frappe.throw(_("Password not found"), frappe.AuthenticationError)
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.AuthenticationError: Password not found
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/model/document.py", line 248, in insert
+    self.check_permission("create")
+  File "apps/frappe/frappe/model/document.py", line 191, in check_permission
+    self.raise_no_permission_to(permlevel or permtype)
+  File "apps/frappe/frappe/model/document.py", line 211, in raise_no_permission_to
+    raise frappe.PermissionError
+frappe.exceptions.PermissionError
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 138, in handle
+    doc = frappe.get_doc(data).insert()
+  File "apps/frappe/frappe/model/document.py", line 250, in insert
+    self.set_new_name(set_name=set_name, set_child_names=set_child_names)
+  File "apps/frappe/frappe/model/document.py", line 446, in set_new_name
+    set_new_name(self)
+  File "apps/frappe/frappe/model/naming.py", line 172, in set_new_name
+    frappe.throw(_("{0} is required").format(doc.meta.get_label(fieldname)))
+  File "apps/frappe/frappe/__init__.py", line 522, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 490, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 442, in _raise_exception
+    raise raise_exception(msg)
+frappe.exceptions.ValidationError: Item Code is required
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "apps/frappe/frappe/api.py", line 127, in handle
+    data = frappe.call(frappe.client.get_list, doctype, **frappe.local.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1585, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/client.py", line 63, in get_list
+    return frappe.get_list(**args)
+  File "apps/frappe/frappe/__init__.py", line 1874, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(*args, **kwargs)
+  File "apps/frappe/frappe/model/db_query.py", line 112, in execute
+    raise frappe.PermissionError(self.doctype)
+frappe.exceptions.PermissionError: Indent Transport
+
