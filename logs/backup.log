@@ -2903,3 +2903,1783 @@ Backup Summary for erp.knestcrm.com at 2023-01-27 05:30:06.257455
 Config  : ./erp.knestcrm.com/private/backups/20230127_053002-erp_knestcrm_com-site_config_backup.json 268.0B
 Database: ./erp.knestcrm.com/private/backups/20230127_053002-erp_knestcrm_com-database.sql.gz         6.0MiB
 Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230127_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-27 17:30:07.998397
+Config  : ./erp.knestcrm.com/private/backups/20230127_173002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230127_173002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230127_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-27 23:30:05.707491
+Config  : ./erp.knestcrm.com/private/backups/20230127_233002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230127_233002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230128_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-28 05:30:06.492801
+Config  : ./erp.knestcrm.com/private/backups/20230128_053003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230128_053003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230128_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-28 11:30:06.656800
+Config  : ./erp.knestcrm.com/private/backups/20230128_113002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230128_113002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230128_173003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-28 17:30:06.404063
+Config  : ./erp.knestcrm.com/private/backups/20230128_173003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230128_173003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230128_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-28 23:30:06.100589
+Config  : ./erp.knestcrm.com/private/backups/20230128_233002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230128_233002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230129_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-29 05:30:05.805372
+Config  : ./erp.knestcrm.com/private/backups/20230129_053002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230129_053002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230129_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-29 11:30:05.679347
+Config  : ./erp.knestcrm.com/private/backups/20230129_113002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230129_113002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230129_173003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-29 17:30:06.457715
+Config  : ./erp.knestcrm.com/private/backups/20230129_173003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230129_173003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230129_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-29 23:30:06.167791
+Config  : ./erp.knestcrm.com/private/backups/20230129_233002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230129_233002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230130_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-30 05:30:05.888343
+Config  : ./erp.knestcrm.com/private/backups/20230130_053002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230130_053002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230130_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-30 11:30:05.650816
+Config  : ./erp.knestcrm.com/private/backups/20230130_113002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230130_113002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230130_173004-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-30 17:30:08.320939
+Config  : ./erp.knestcrm.com/private/backups/20230130_173004-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230130_173004-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230130_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-30 23:30:06.085105
+Config  : ./erp.knestcrm.com/private/backups/20230130_233002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230130_233002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230131_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-31 05:30:05.959812
+Config  : ./erp.knestcrm.com/private/backups/20230131_053002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230131_053002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230131_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-31 11:30:05.717843
+Config  : ./erp.knestcrm.com/private/backups/20230131_113002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230131_113002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230131_173003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-31 17:30:06.909314
+Config  : ./erp.knestcrm.com/private/backups/20230131_173003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230131_173003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230131_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-01-31 23:30:05.650935
+Config  : ./erp.knestcrm.com/private/backups/20230131_233002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230131_233002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230201_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-01 05:30:06.849428
+Config  : ./erp.knestcrm.com/private/backups/20230201_053003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230201_053003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230201_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-01 11:30:05.612917
+Config  : ./erp.knestcrm.com/private/backups/20230201_113002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230201_113002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230201_173003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-01 17:30:06.364740
+Config  : ./erp.knestcrm.com/private/backups/20230201_173003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230201_173003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230201_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-01 23:30:06.095786
+Config  : ./erp.knestcrm.com/private/backups/20230201_233002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230201_233002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230202_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-02 05:30:05.843975
+Config  : ./erp.knestcrm.com/private/backups/20230202_053002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230202_053002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230202_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-02 11:30:05.585346
+Config  : ./erp.knestcrm.com/private/backups/20230202_113002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230202_113002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230202_173003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-02 17:30:06.293382
+Config  : ./erp.knestcrm.com/private/backups/20230202_173003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230202_173003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230202_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-02 23:30:06.077520
+Config  : ./erp.knestcrm.com/private/backups/20230202_233002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230202_233002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230203_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-03 05:30:05.852739
+Config  : ./erp.knestcrm.com/private/backups/20230203_053002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230203_053002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230203_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-03 11:30:05.635479
+Config  : ./erp.knestcrm.com/private/backups/20230203_113002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230203_113002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230203_173003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-03 17:30:06.413205
+Config  : ./erp.knestcrm.com/private/backups/20230203_173003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230203_173003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230203_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-03 23:30:06.152778
+Config  : ./erp.knestcrm.com/private/backups/20230203_233002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230203_233002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230204_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-04 05:30:05.927386
+Config  : ./erp.knestcrm.com/private/backups/20230204_053002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230204_053002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230204_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-04 11:30:06.108630
+Config  : ./erp.knestcrm.com/private/backups/20230204_113002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230204_113002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230204_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-04 17:30:05.951569
+Config  : ./erp.knestcrm.com/private/backups/20230204_173002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230204_173002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230204_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-04 23:30:05.695625
+Config  : ./erp.knestcrm.com/private/backups/20230204_233002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230204_233002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230205_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-05 05:30:06.482122
+Config  : ./erp.knestcrm.com/private/backups/20230205_053003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230205_053003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230205_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-05 11:30:06.255981
+Config  : ./erp.knestcrm.com/private/backups/20230205_113002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230205_113002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230205_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-05 17:30:06.012514
+Config  : ./erp.knestcrm.com/private/backups/20230205_173002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230205_173002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230205_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-05 23:30:05.753164
+Config  : ./erp.knestcrm.com/private/backups/20230205_233002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230205_233002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230206_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-06 05:30:06.481080
+Config  : ./erp.knestcrm.com/private/backups/20230206_053003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230206_053003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230206_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-06 11:30:06.259781
+Config  : ./erp.knestcrm.com/private/backups/20230206_113002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230206_113002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230206_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-06 17:30:06.056785
+Config  : ./erp.knestcrm.com/private/backups/20230206_173002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230206_173002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230206_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-06 23:30:05.841786
+Config  : ./erp.knestcrm.com/private/backups/20230206_233002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230206_233002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230207_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-07 05:30:05.651189
+Config  : ./erp.knestcrm.com/private/backups/20230207_053002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230207_053002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230207_113003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-07 11:30:06.446547
+Config  : ./erp.knestcrm.com/private/backups/20230207_113003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230207_113003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230207_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-07 17:30:06.338050
+Config  : ./erp.knestcrm.com/private/backups/20230207_173002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230207_173002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230207_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-07 23:30:06.105958
+Config  : ./erp.knestcrm.com/private/backups/20230207_233002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230207_233002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230208_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-08 05:30:05.896660
+Config  : ./erp.knestcrm.com/private/backups/20230208_053002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230208_053002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230208_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-08 11:30:05.914527
+Config  : ./erp.knestcrm.com/private/backups/20230208_113002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230208_113002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230208_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-08 17:30:05.879159
+Config  : ./erp.knestcrm.com/private/backups/20230208_173002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230208_173002-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230208_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-08 23:30:05.704727
+Config  : ./erp.knestcrm.com/private/backups/20230208_233002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230208_233002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230209_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-09 05:30:06.540800
+Config  : ./erp.knestcrm.com/private/backups/20230209_053003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230209_053003-erp_knestcrm_com-database.sql.gz         6.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230209_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-09 11:30:06.337392
+Config  : ./erp.knestcrm.com/private/backups/20230209_113002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230209_113002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230209_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-09 17:30:06.188021
+Config  : ./erp.knestcrm.com/private/backups/20230209_173002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230209_173002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230209_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-09 23:30:06.008596
+Config  : ./erp.knestcrm.com/private/backups/20230209_233002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230209_233002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230210_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-10 05:30:05.813243
+Config  : ./erp.knestcrm.com/private/backups/20230210_053002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230210_053002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230210_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-10 11:30:06.119507
+Config  : ./erp.knestcrm.com/private/backups/20230210_113002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230210_113002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230210_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-10 17:30:06.196449
+Config  : ./erp.knestcrm.com/private/backups/20230210_173002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230210_173002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+Backup failed for Site verticals.knestcrm.com. Database or site_config.json may be corrupted
+Traceback (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 714, in backup
+    odb = scheduled_backup(
+  File "apps/frappe/frappe/utils/backups.py", line 529, in scheduled_backup
+    odb = new_backup(
+  File "apps/frappe/frappe/utils/backups.py", line 563, in new_backup
+    odb = BackupGenerator(
+  File "apps/frappe/frappe/utils/backups.py", line 84, in __init__
+    self.setup_backup_tables()
+  File "apps/frappe/frappe/utils/backups.py", line 116, in setup_backup_tables
+    existing_tables = frappe.db.get_tables()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 387, in get_tables
+    frappe.qb.from_(information_schema.tables)
+  File "apps/frappe/frappe/query_builder/utils.py", line 76, in execute_query
+    return frappe.db.sql(query, params, *args, **kwargs)  # nosemgrep
+  File "apps/frappe/frappe/database/database.py", line 188, in sql
+    self.connect()
+  File "apps/frappe/frappe/database/database.py", line 113, in connect
+    self._conn = self.get_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 94, in get_connection
+    conn = self._get_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 100, in _get_connection
+    return self.create_connection()
+  File "apps/frappe/frappe/database/mariadb/database.py", line 103, in create_connection
+    return pymysql.connect(**self.get_connection_settings())
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 353, in __init__
+    self.connect()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 633, in connect
+    self._request_authentication()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 907, in _request_authentication
+    auth_packet = self._read_packet()
+  File "env/lib/python3.10/site-packages/pymysql/connections.py", line 725, in _read_packet
+    packet.raise_for_error()
+  File "env/lib/python3.10/site-packages/pymysql/protocol.py", line 221, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "env/lib/python3.10/site-packages/pymysql/err.py", line 143, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1698, "Access denied for user '_5d11548d6c1cccf4'@'localhost'")
+
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230210_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-10 23:30:09.519928
+Config  : ./erp.knestcrm.com/private/backups/20230210_233003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230210_233003-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230210_233009-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-10 23:30:10.207745
+Config  : ./vertical.knestcrm.com/private/backups/20230210_233009-vertical_knestcrm_com-site_config_backup.json 94.0B
+Database: ./vertical.knestcrm.com/private/backups/20230210_233009-vertical_knestcrm_com-database.sql.gz         244.3KiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230211_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-11 05:30:10.087473
+Config  : ./erp.knestcrm.com/private/backups/20230211_053003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230211_053003-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230210_233009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230210_233009-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230211_053010-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-11 05:30:10.601743
+Config  : ./vertical.knestcrm.com/private/backups/20230211_053010-vertical_knestcrm_com-site_config_backup.json 94.0B
+Database: ./vertical.knestcrm.com/private/backups/20230211_053010-vertical_knestcrm_com-database.sql.gz         244.3KiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230211_113003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-11 11:30:11.595728
+Config  : ./erp.knestcrm.com/private/backups/20230211_113003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230211_113003-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230211_053010-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230211_053010-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230210_233009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230210_233009-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230211_113011-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-11 11:30:13.591390
+Config  : ./vertical.knestcrm.com/private/backups/20230211_113011-vertical_knestcrm_com-site_config_backup.json 182.0B
+Database: ./vertical.knestcrm.com/private/backups/20230211_113011-vertical_knestcrm_com-database.sql.gz         1.2MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230211_173003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-11 17:30:10.219255
+Config  : ./erp.knestcrm.com/private/backups/20230211_173003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230211_173003-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230211_053010-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230211_113011-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230211_053010-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230210_233009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230210_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230211_113011-vertical_knestcrm_com-database.sql.gz is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230211_173010-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-11 17:30:12.279934
+Config  : ./vertical.knestcrm.com/private/backups/20230211_173010-vertical_knestcrm_com-site_config_backup.json 182.0B
+Database: ./vertical.knestcrm.com/private/backups/20230211_173010-vertical_knestcrm_com-database.sql.gz         1.2MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230211_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-11 23:30:09.025368
+Config  : ./erp.knestcrm.com/private/backups/20230211_233002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230211_233002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230211_173010-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230211_053010-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230211_173010-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230211_113011-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230211_053010-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230210_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230211_113011-vertical_knestcrm_com-database.sql.gz is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230211_233009-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-11 23:30:11.135599
+Config  : ./vertical.knestcrm.com/private/backups/20230211_233009-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230211_233009-vertical_knestcrm_com-database.sql.gz         1.2MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230212_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-12 05:30:09.290271
+Config  : ./erp.knestcrm.com/private/backups/20230212_053002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230212_053002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230211_173010-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230211_233009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230211_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230211_173010-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230211_113011-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230211_053010-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230210_233009-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230211_113011-vertical_knestcrm_com-database.sql.gz is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230212_053009-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-12 05:30:11.381208
+Config  : ./vertical.knestcrm.com/private/backups/20230212_053009-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230212_053009-vertical_knestcrm_com-database.sql.gz         1.2MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230212_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-12 11:30:09.707297
+Config  : ./erp.knestcrm.com/private/backups/20230212_113002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230212_113002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230211_173010-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230211_233009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230212_053009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230211_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230212_053009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230211_173010-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230211_113011-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230211_053010-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230212_113009-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-12 11:30:11.765082
+Config  : ./vertical.knestcrm.com/private/backups/20230212_113009-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230212_113009-vertical_knestcrm_com-database.sql.gz         1.2MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230212_173003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-12 17:30:09.398614
+Config  : ./erp.knestcrm.com/private/backups/20230212_173003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230212_173003-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230211_173010-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230211_233009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230212_053009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230212_113009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230211_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230212_053009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230212_113009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230211_113011-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230212_173009-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-12 17:30:11.158186
+Config  : ./vertical.knestcrm.com/private/backups/20230212_173009-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230212_173009-vertical_knestcrm_com-database.sql.gz         1.2MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230212_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-12 23:30:08.850948
+Config  : ./erp.knestcrm.com/private/backups/20230212_233002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230212_233002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230211_173010-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230212_173009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230212_053009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230212_113009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230211_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230212_053009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230212_113009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230212_173009-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230212_233008-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-12 23:30:10.889186
+Config  : ./vertical.knestcrm.com/private/backups/20230212_233008-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230212_233008-vertical_knestcrm_com-database.sql.gz         1.2MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230213_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-13 05:30:08.621112
+Config  : ./erp.knestcrm.com/private/backups/20230213_053002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230213_053002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230212_173009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230212_053009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230212_113009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230211_233009-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230212_113009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230212_173009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230212_233008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230212_233008-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230213_053008-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-13 05:30:10.664046
+Config  : ./vertical.knestcrm.com/private/backups/20230213_053008-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230213_053008-vertical_knestcrm_com-database.sql.gz         1.2MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230213_113003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-13 11:30:09.400427
+Config  : ./erp.knestcrm.com/private/backups/20230213_113003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230213_113003-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230212_173009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230212_053009-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230212_113009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230213_053008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230212_173009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230212_233008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230213_053008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230212_233008-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230213_113009-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-13 11:30:11.531301
+Config  : ./vertical.knestcrm.com/private/backups/20230213_113009-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230213_113009-vertical_knestcrm_com-database.sql.gz         1.2MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230213_173003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-13 17:30:09.067508
+Config  : ./erp.knestcrm.com/private/backups/20230213_173003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230213_173003-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230212_113009-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230213_053008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230213_113009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230212_173009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230212_233008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230213_113009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230213_053008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230212_233008-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230213_173009-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-13 17:30:11.083308
+Config  : ./vertical.knestcrm.com/private/backups/20230213_173009-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230213_173009-vertical_knestcrm_com-database.sql.gz         1.3MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230213_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-13 23:30:08.680486
+Config  : ./erp.knestcrm.com/private/backups/20230213_233002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230213_233002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230213_173009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230213_053008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230213_113009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230212_173009-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230213_113009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230213_173009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230213_053008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230212_233008-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230213_233008-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-13 23:30:10.687745
+Config  : ./vertical.knestcrm.com/private/backups/20230213_233008-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230213_233008-vertical_knestcrm_com-database.sql.gz         1.3MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230214_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-14 05:30:09.247063
+Config  : ./erp.knestcrm.com/private/backups/20230214_053003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230214_053003-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230213_173009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230213_233008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230213_053008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230213_113009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230213_233008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230213_113009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230213_173009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230212_233008-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230214_053009-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-14 05:30:11.284998
+Config  : ./vertical.knestcrm.com/private/backups/20230214_053009-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230214_053009-vertical_knestcrm_com-database.sql.gz         1.3MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230214_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-14 11:30:09.039350
+Config  : ./erp.knestcrm.com/private/backups/20230214_113002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230214_113002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230213_173009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230213_233008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230213_053008-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230213_233008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230213_113009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230213_173009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230214_053009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230214_053009-vertical_knestcrm_com-database.sql.gz is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230214_113009-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-14 11:30:11.084314
+Config  : ./vertical.knestcrm.com/private/backups/20230214_113009-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230214_113009-vertical_knestcrm_com-database.sql.gz         1.3MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230214_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-14 17:30:08.403124
+Config  : ./erp.knestcrm.com/private/backups/20230214_173002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230214_173002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230214_113009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230213_233008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230213_233008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230214_113009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230213_113009-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230213_173009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230214_053009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230214_053009-vertical_knestcrm_com-database.sql.gz is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230214_173008-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-14 17:30:10.376855
+Config  : ./vertical.knestcrm.com/private/backups/20230214_173008-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230214_173008-vertical_knestcrm_com-database.sql.gz         1.3MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230214_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-14 23:30:09.191003
+Config  : ./erp.knestcrm.com/private/backups/20230214_233002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230214_233002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230214_113009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230213_233008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230214_173008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230214_113009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230213_173009-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230214_053009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230214_173008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230214_053009-vertical_knestcrm_com-database.sql.gz is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230214_233009-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-14 23:30:11.104025
+Config  : ./vertical.knestcrm.com/private/backups/20230214_233009-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230214_233009-vertical_knestcrm_com-database.sql.gz         1.3MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230215_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-15 05:30:08.512824
+Config  : ./erp.knestcrm.com/private/backups/20230215_053002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230215_053002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230214_113009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230213_233008-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230214_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230214_173008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230214_113009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230214_233009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230214_053009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230214_173008-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230215_053008-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-15 05:30:10.526695
+Config  : ./vertical.knestcrm.com/private/backups/20230215_053008-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230215_053008-vertical_knestcrm_com-database.sql.gz         1.3MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230215_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-15 11:30:08.922628
+Config  : ./erp.knestcrm.com/private/backups/20230215_113002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230215_113002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230214_113009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230214_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230214_173008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230214_233009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230215_053008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230215_053008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230214_053009-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230214_173008-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230215_113008-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-15 11:30:10.979630
+Config  : ./vertical.knestcrm.com/private/backups/20230215_113008-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230215_113008-vertical_knestcrm_com-database.sql.gz         1.3MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230215_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-15 17:30:08.622283
+Config  : ./erp.knestcrm.com/private/backups/20230215_173002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230215_173002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230214_113009-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230214_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230215_113008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230214_233009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230215_053008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230215_053008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230215_113008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230214_173008-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230215_173008-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-15 17:30:10.658188
+Config  : ./vertical.knestcrm.com/private/backups/20230215_173008-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230215_173008-vertical_knestcrm_com-database.sql.gz         1.3MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230215_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-15 23:30:09.568019
+Config  : ./erp.knestcrm.com/private/backups/20230215_233003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230215_233003-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230215_173008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230215_173008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230214_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230215_113008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230215_053008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230215_053008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230215_113008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230214_173008-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230215_233009-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-15 23:30:11.616770
+Config  : ./vertical.knestcrm.com/private/backups/20230215_233009-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230215_233009-vertical_knestcrm_com-database.sql.gz         1.3MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230216_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-16 05:30:09.543412
+Config  : ./erp.knestcrm.com/private/backups/20230216_053003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230216_053003-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230215_173008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230215_173008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230214_233009-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230215_113008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230215_233009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230215_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230215_053008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230215_113008-vertical_knestcrm_com-database.sql.gz is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230216_053009-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-16 05:30:11.531628
+Config  : ./vertical.knestcrm.com/private/backups/20230216_053009-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230216_053009-vertical_knestcrm_com-database.sql.gz         1.3MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230216_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-16 11:30:08.859535
+Config  : ./erp.knestcrm.com/private/backups/20230216_113002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230216_113002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230215_173008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230216_053009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230215_173008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230215_113008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230215_233009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230216_053009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230215_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230215_053008-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230216_113008-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-16 11:30:10.901181
+Config  : ./vertical.knestcrm.com/private/backups/20230216_113008-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230216_113008-vertical_knestcrm_com-database.sql.gz         1.3MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230216_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-16 17:30:08.380719
+Config  : ./erp.knestcrm.com/private/backups/20230216_173002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230216_173002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230216_053009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230215_173008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230216_113008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230215_113008-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230215_233009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230216_053009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230215_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230216_113008-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230216_173008-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-16 17:30:10.371362
+Config  : ./vertical.knestcrm.com/private/backups/20230216_173008-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230216_173008-vertical_knestcrm_com-database.sql.gz         1.3MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230216_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-16 23:30:09.183223
+Config  : ./erp.knestcrm.com/private/backups/20230216_233002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230216_233002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230216_173008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230216_173008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230216_053009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230215_173008-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230216_113008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230216_053009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230215_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230216_113008-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230216_233009-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-16 23:30:11.227495
+Config  : ./vertical.knestcrm.com/private/backups/20230216_233009-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230216_233009-vertical_knestcrm_com-database.sql.gz         1.3MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230217_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-17 05:30:08.647038
+Config  : ./erp.knestcrm.com/private/backups/20230217_053002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230217_053002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230216_173008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230216_173008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230216_053009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230216_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230216_113008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230215_233009-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230216_233009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230216_113008-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230217_053008-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-17 05:30:10.684583
+Config  : ./vertical.knestcrm.com/private/backups/20230217_053008-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230217_053008-vertical_knestcrm_com-database.sql.gz         1.3MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230217_113003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-17 11:30:09.794758
+Config  : ./erp.knestcrm.com/private/backups/20230217_113003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230217_113003-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230216_173008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230216_173008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230217_053008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230216_053009-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230216_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230217_053008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230216_233009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230216_113008-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230217_113009-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-17 11:30:11.878582
+Config  : ./vertical.knestcrm.com/private/backups/20230217_113009-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230217_113009-vertical_knestcrm_com-database.sql.gz         1.3MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230217_173004-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-17 17:30:10.447088
+Config  : ./erp.knestcrm.com/private/backups/20230217_173004-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230217_173004-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230216_173008-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230217_053008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230216_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230217_113009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230217_113009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230217_053008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230216_233009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230216_113008-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230217_173010-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-17 17:30:12.553643
+Config  : ./vertical.knestcrm.com/private/backups/20230217_173010-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230217_173010-vertical_knestcrm_com-database.sql.gz         1.3MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230217_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-17 23:30:08.923631
+Config  : ./erp.knestcrm.com/private/backups/20230217_233002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230217_233002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230217_173010-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230217_053008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230216_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230217_173010-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230217_113009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230217_113009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230217_053008-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230217_233008-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-17 23:30:10.914030
+Config  : ./vertical.knestcrm.com/private/backups/20230217_233008-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230217_233008-vertical_knestcrm_com-database.sql.gz         1.4MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230218_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-18 05:30:08.194743
+Config  : ./erp.knestcrm.com/private/backups/20230218_053002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230218_053002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230217_173010-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230217_233008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230216_233009-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230217_233008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230217_173010-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230217_113009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230217_113009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230217_053008-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230218_053008-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-18 05:30:10.235909
+Config  : ./vertical.knestcrm.com/private/backups/20230218_053008-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230218_053008-vertical_knestcrm_com-database.sql.gz         1.4MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230218_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-18 11:30:08.758960
+Config  : ./erp.knestcrm.com/private/backups/20230218_113002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230218_113002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230218_053008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230217_173010-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230217_233008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230217_233008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230217_173010-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230217_113009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230218_053008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230217_053008-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230218_113008-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-18 11:30:10.532703
+Config  : ./vertical.knestcrm.com/private/backups/20230218_113008-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230218_113008-vertical_knestcrm_com-database.sql.gz         1.4MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230218_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-18 17:30:09.433421
+Config  : ./erp.knestcrm.com/private/backups/20230218_173002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230218_173002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230218_053008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230217_173010-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230218_113008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230217_233008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230217_233008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230217_113009-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230218_053008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230218_113008-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230218_173009-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-18 17:30:11.596825
+Config  : ./vertical.knestcrm.com/private/backups/20230218_173009-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230218_173009-vertical_knestcrm_com-database.sql.gz         1.7MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230218_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-18 23:30:09.316964
+Config  : ./erp.knestcrm.com/private/backups/20230218_233003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230218_233003-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230218_173009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230218_053008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230217_173010-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230218_113008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230218_173009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230217_233008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230218_053008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230218_113008-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230218_233009-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-18 23:30:11.417865
+Config  : ./vertical.knestcrm.com/private/backups/20230218_233009-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230218_233009-vertical_knestcrm_com-database.sql.gz         1.7MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230219_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-19 05:30:08.836115
+Config  : ./erp.knestcrm.com/private/backups/20230219_053002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230219_053002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230218_233009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230218_173009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230218_053008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230218_113008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230218_173009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230217_233008-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230218_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230218_113008-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230219_053008-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-19 05:30:10.975224
+Config  : ./vertical.knestcrm.com/private/backups/20230219_053008-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230219_053008-vertical_knestcrm_com-database.sql.gz         1.8MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230219_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-19 11:30:08.458439
+Config  : ./erp.knestcrm.com/private/backups/20230219_113002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230219_113002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230218_233009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230218_173009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230218_053008-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230218_173009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230219_053008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230218_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230218_113008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230219_053008-vertical_knestcrm_com-database.sql.gz is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230219_113008-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-19 11:30:10.615801
+Config  : ./vertical.knestcrm.com/private/backups/20230219_113008-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230219_113008-vertical_knestcrm_com-database.sql.gz         1.8MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230219_173003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-19 17:30:09.364481
+Config  : ./erp.knestcrm.com/private/backups/20230219_173003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230219_173003-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230219_113008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230218_233009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230218_173009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230219_053008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230219_113008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230218_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230218_113008-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230219_053008-vertical_knestcrm_com-database.sql.gz is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230219_173009-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-19 17:30:11.646109
+Config  : ./vertical.knestcrm.com/private/backups/20230219_173009-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230219_173009-vertical_knestcrm_com-database.sql.gz         1.8MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230219_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-19 23:30:08.968367
+Config  : ./erp.knestcrm.com/private/backups/20230219_233003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230219_233003-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230219_113008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230219_173009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230219_173009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230218_173009-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230219_053008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230219_113008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230218_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230219_053008-vertical_knestcrm_com-database.sql.gz is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230219_233008-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-19 23:30:10.993507
+Config  : ./vertical.knestcrm.com/private/backups/20230219_233008-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230219_233008-vertical_knestcrm_com-database.sql.gz         1.8MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230220_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-20 05:30:09.003446
+Config  : ./erp.knestcrm.com/private/backups/20230220_053003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230220_053003-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230219_113008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230219_173009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230219_173009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230219_053008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230219_113008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230219_233008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230219_233008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230218_233009-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230220_053009-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-20 05:30:11.163583
+Config  : ./vertical.knestcrm.com/private/backups/20230220_053009-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230220_053009-vertical_knestcrm_com-database.sql.gz         1.8MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230220_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-20 11:30:08.640663
+Config  : ./erp.knestcrm.com/private/backups/20230220_113002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230220_113002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230220_053009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230219_173009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230219_173009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230219_053008-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230219_113008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230219_233008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230219_233008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230220_053009-vertical_knestcrm_com-database.sql.gz is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230220_113008-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-20 11:30:10.789044
+Config  : ./vertical.knestcrm.com/private/backups/20230220_113008-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230220_113008-vertical_knestcrm_com-database.sql.gz         1.8MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230220_173003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-20 17:30:09.886055
+Config  : ./erp.knestcrm.com/private/backups/20230220_173003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230220_173003-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230220_113008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230220_053009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230219_173009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230220_113008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230219_113008-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230219_233008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230219_233008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230220_053009-vertical_knestcrm_com-database.sql.gz is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230220_173009-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-20 17:30:12.058237
+Config  : ./vertical.knestcrm.com/private/backups/20230220_173009-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230220_173009-vertical_knestcrm_com-database.sql.gz         1.8MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230220_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-20 23:30:08.921832
+Config  : ./erp.knestcrm.com/private/backups/20230220_233002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230220_233002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230220_113008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230220_053009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230220_173009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230219_173009-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230220_113008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230219_233008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230220_053009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230220_173009-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230220_233008-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-20 23:30:11.056300
+Config  : ./vertical.knestcrm.com/private/backups/20230220_233008-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230220_233008-vertical_knestcrm_com-database.sql.gz         1.8MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230221_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-21 05:30:09.801227
+Config  : ./erp.knestcrm.com/private/backups/20230221_053002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230221_053002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230220_113008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230220_053009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230220_173009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230220_113008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230219_233008-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230220_233008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230220_233008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230220_173009-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230221_053009-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-21 05:30:12.015128
+Config  : ./vertical.knestcrm.com/private/backups/20230221_053009-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230221_053009-vertical_knestcrm_com-database.sql.gz         1.8MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230221_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-21 11:30:08.303881
+Config  : ./erp.knestcrm.com/private/backups/20230221_113002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230221_113002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230220_113008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230220_053009-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230220_173009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230220_233008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230221_053009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230221_053009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230220_233008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230220_173009-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230221_113008-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-21 11:30:10.443986
+Config  : ./vertical.knestcrm.com/private/backups/20230221_113008-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230221_113008-vertical_knestcrm_com-database.sql.gz         1.8MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230221_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-21 17:30:09.150745
+Config  : ./erp.knestcrm.com/private/backups/20230221_173002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230221_173002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230220_113008-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230221_113008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230221_113008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230220_233008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230221_053009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230221_053009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230220_233008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230220_173009-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230221_173009-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-21 17:30:11.172153
+Config  : ./vertical.knestcrm.com/private/backups/20230221_173009-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230221_173009-vertical_knestcrm_com-database.sql.gz         1.8MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230221_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-21 23:30:08.614027
+Config  : ./erp.knestcrm.com/private/backups/20230221_233002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230221_233002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230221_113008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230221_113008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230221_053009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230221_173009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230221_173009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230221_053009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230220_233008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230220_173009-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230221_233008-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-21 23:30:10.879000
+Config  : ./vertical.knestcrm.com/private/backups/20230221_233008-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230221_233008-vertical_knestcrm_com-database.sql.gz         1.8MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230222_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-22 05:30:09.088578
+Config  : ./erp.knestcrm.com/private/backups/20230222_053002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230222_053002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230221_113008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230221_113008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230221_233008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230221_053009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230221_233008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230221_173009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230221_173009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230220_233008-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230222_053009-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-22 05:30:11.387575
+Config  : ./vertical.knestcrm.com/private/backups/20230222_053009-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230222_053009-vertical_knestcrm_com-database.sql.gz         1.8MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230222_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-22 11:30:09.134053
+Config  : ./erp.knestcrm.com/private/backups/20230222_113002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230222_113002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230222_053009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230221_113008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230221_233008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230222_053009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230221_053009-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230221_233008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230221_173009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230221_173009-vertical_knestcrm_com-database.sql.gz is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230222_113009-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-22 11:30:11.397924
+Config  : ./vertical.knestcrm.com/private/backups/20230222_113009-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230222_113009-vertical_knestcrm_com-database.sql.gz         1.8MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230222_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-22 17:30:09.307449
+Config  : ./erp.knestcrm.com/private/backups/20230222_173002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230222_173002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230222_053009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230221_113008-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230221_233008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230222_053009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230222_113009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230221_233008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230221_173009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230222_113009-vertical_knestcrm_com-database.sql.gz is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230222_173009-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-22 17:30:11.518039
+Config  : ./vertical.knestcrm.com/private/backups/20230222_173009-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230222_173009-vertical_knestcrm_com-database.sql.gz         1.8MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230222_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-22 23:30:09.224721
+Config  : ./erp.knestcrm.com/private/backups/20230222_233003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230222_233003-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230222_053009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230222_173009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230222_053009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230222_113009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230222_173009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230221_233008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230221_173009-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230222_113009-vertical_knestcrm_com-database.sql.gz is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230222_233009-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-22 23:30:11.362127
+Config  : ./vertical.knestcrm.com/private/backups/20230222_233009-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230222_233009-vertical_knestcrm_com-database.sql.gz         1.8MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230223_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-23 05:30:08.851824
+Config  : ./erp.knestcrm.com/private/backups/20230223_053002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230223_053002-erp_knestcrm_com-database.sql.gz         6.1MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230222_053009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230222_173009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230222_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230222_233009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230222_113009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230222_173009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230221_233008-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230222_113009-vertical_knestcrm_com-database.sql.gz is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230223_053008-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-23 05:30:11.011875
+Config  : ./vertical.knestcrm.com/private/backups/20230223_053008-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230223_053008-vertical_knestcrm_com-database.sql.gz         1.9MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230223_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-23 11:30:08.861352
+Config  : ./erp.knestcrm.com/private/backups/20230223_113002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230223_113002-erp_knestcrm_com-database.sql.gz         6.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230222_053009-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230222_173009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230223_053008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230222_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230222_233009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230222_113009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230222_173009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230223_053008-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230223_113008-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-23 11:30:11.131133
+Config  : ./vertical.knestcrm.com/private/backups/20230223_113008-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230223_113008-vertical_knestcrm_com-database.sql.gz         1.9MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230223_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-23 17:30:08.461508
+Config  : ./erp.knestcrm.com/private/backups/20230223_173002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230223_173002-erp_knestcrm_com-database.sql.gz         6.6MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230223_113008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230223_053008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230222_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230222_233009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230222_113009-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230222_173009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230223_113008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230223_053008-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230223_173008-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-23 17:30:10.620966
+Config  : ./vertical.knestcrm.com/private/backups/20230223_173008-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230223_173008-vertical_knestcrm_com-database.sql.gz         1.9MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230223_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-23 23:30:09.204210
+Config  : ./erp.knestcrm.com/private/backups/20230223_233003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230223_233003-erp_knestcrm_com-database.sql.gz         6.6MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230223_113008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230223_053008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230222_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230223_173008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230222_173009-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230223_173008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230223_113008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230223_053008-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230223_233009-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-23 23:30:11.362901
+Config  : ./vertical.knestcrm.com/private/backups/20230223_233009-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230223_233009-vertical_knestcrm_com-database.sql.gz         1.9MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230224_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-24 05:30:08.447839
+Config  : ./erp.knestcrm.com/private/backups/20230224_053002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230224_053002-erp_knestcrm_com-database.sql.gz         6.6MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230223_233009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230223_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230223_113008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230222_233009-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230223_173008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230223_173008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230223_113008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230223_053008-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230224_053008-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-24 05:30:10.575144
+Config  : ./vertical.knestcrm.com/private/backups/20230224_053008-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230224_053008-vertical_knestcrm_com-database.sql.gz         1.9MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230224_113003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-24 11:30:08.891182
+Config  : ./erp.knestcrm.com/private/backups/20230224_113003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230224_113003-erp_knestcrm_com-database.sql.gz         6.6MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230224_053008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230223_233009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230224_053008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230223_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230223_113008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230223_173008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230223_173008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230223_053008-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230224_113008-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-24 11:30:11.229697
+Config  : ./vertical.knestcrm.com/private/backups/20230224_113008-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230224_113008-vertical_knestcrm_com-database.sql.gz         1.9MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230224_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-24 17:30:08.293008
+Config  : ./erp.knestcrm.com/private/backups/20230224_173002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230224_173002-erp_knestcrm_com-database.sql.gz         6.8MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230224_113008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230224_053008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230223_233009-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230224_053008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230223_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230223_113008-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230224_113008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230223_173008-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230224_173008-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-24 17:30:11.099293
+Config  : ./vertical.knestcrm.com/private/backups/20230224_173008-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230224_173008-vertical_knestcrm_com-database.sql.gz         1.9MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230224_233002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-24 23:30:07.554598
+Config  : ./erp.knestcrm.com/private/backups/20230224_233002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230224_233002-erp_knestcrm_com-database.sql.gz         6.9MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230224_113008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230224_173008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230224_053008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230224_053008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230223_233009-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230224_113008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230223_173008-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230224_173008-vertical_knestcrm_com-database.sql.gz is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230224_233007-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-24 23:30:10.235572
+Config  : ./vertical.knestcrm.com/private/backups/20230224_233007-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230224_233007-vertical_knestcrm_com-database.sql.gz         1.9MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230225_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-25 05:30:06.270897
+Config  : ./erp.knestcrm.com/private/backups/20230225_053002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230225_053002-erp_knestcrm_com-database.sql.gz         6.9MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230224_113008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230224_173008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230224_053008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230223_233009-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230224_233007-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230224_113008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230224_233007-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230224_173008-vertical_knestcrm_com-database.sql.gz is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230225_053006-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-25 05:30:09.149662
+Config  : ./vertical.knestcrm.com/private/backups/20230225_053006-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230225_053006-vertical_knestcrm_com-database.sql.gz         1.9MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230225_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-25 11:30:06.510140
+Config  : ./erp.knestcrm.com/private/backups/20230225_113002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230225_113002-erp_knestcrm_com-database.sql.gz         7.0MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230224_113008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230224_173008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230224_053008-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230224_233007-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230225_053006-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230224_233007-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230225_053006-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230224_173008-vertical_knestcrm_com-database.sql.gz is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230225_113006-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-25 11:30:09.211071
+Config  : ./vertical.knestcrm.com/private/backups/20230225_113006-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230225_113006-vertical_knestcrm_com-database.sql.gz         1.9MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230225_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-25 17:30:06.537269
+Config  : ./erp.knestcrm.com/private/backups/20230225_173002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230225_173002-erp_knestcrm_com-database.sql.gz         7.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230224_113008-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230224_173008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230225_113006-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230224_233007-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230225_113006-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230225_053006-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230224_233007-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230225_053006-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230225_173006-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-25 17:30:09.648162
+Config  : ./vertical.knestcrm.com/private/backups/20230225_173006-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230225_173006-vertical_knestcrm_com-database.sql.gz         1.9MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230225_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-25 23:30:07.438633
+Config  : ./erp.knestcrm.com/private/backups/20230225_233003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230225_233003-erp_knestcrm_com-database.sql.gz         7.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230225_173006-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230224_173008-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230225_113006-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230225_173006-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230225_113006-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230225_053006-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230224_233007-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230225_053006-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230225_233007-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-25 23:30:10.611072
+Config  : ./vertical.knestcrm.com/private/backups/20230225_233007-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230225_233007-vertical_knestcrm_com-database.sql.gz         1.9MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230226_053003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-26 05:30:06.790507
+Config  : ./erp.knestcrm.com/private/backups/20230226_053003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230226_053003-erp_knestcrm_com-database.sql.gz         7.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230225_173006-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230225_233007-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230225_233007-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230225_113006-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230225_173006-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230225_113006-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230224_233007-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230225_053006-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230226_053006-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-26 05:30:10.093215
+Config  : ./vertical.knestcrm.com/private/backups/20230226_053006-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230226_053006-vertical_knestcrm_com-database.sql.gz         1.9MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230226_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-26 11:30:06.723147
+Config  : ./erp.knestcrm.com/private/backups/20230226_113002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230226_113002-erp_knestcrm_com-database.sql.gz         7.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230225_173006-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230225_233007-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230225_233007-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230225_113006-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230225_173006-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230226_053006-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230226_053006-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230225_053006-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230226_113006-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-26 11:30:09.782148
+Config  : ./vertical.knestcrm.com/private/backups/20230226_113006-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230226_113006-vertical_knestcrm_com-database.sql.gz         1.9MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230226_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-26 17:30:06.729571
+Config  : ./erp.knestcrm.com/private/backups/20230226_173002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230226_173002-erp_knestcrm_com-database.sql.gz         7.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230225_173006-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230225_233007-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230225_233007-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230225_113006-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230226_113006-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230226_113006-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230226_053006-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230226_053006-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230226_173006-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-26 17:30:09.627987
+Config  : ./vertical.knestcrm.com/private/backups/20230226_173006-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230226_173006-vertical_knestcrm_com-database.sql.gz         1.9MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230226_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-26 23:30:07.251955
+Config  : ./erp.knestcrm.com/private/backups/20230226_233003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230226_233003-erp_knestcrm_com-database.sql.gz         7.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230226_173006-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230225_173006-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230225_233007-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230226_113006-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230226_113006-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230226_053006-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230226_173006-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230226_053006-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230226_233007-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-26 23:30:10.217056
+Config  : ./vertical.knestcrm.com/private/backups/20230226_233007-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230226_233007-vertical_knestcrm_com-database.sql.gz         1.9MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230227_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-27 05:30:06.446870
+Config  : ./erp.knestcrm.com/private/backups/20230227_053002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230227_053002-erp_knestcrm_com-database.sql.gz         7.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230226_173006-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230225_233007-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230226_233007-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230226_233007-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230226_113006-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230226_113006-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230226_173006-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230226_053006-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230227_053006-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-27 05:30:09.525530
+Config  : ./vertical.knestcrm.com/private/backups/20230227_053006-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230227_053006-vertical_knestcrm_com-database.sql.gz         1.9MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230227_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-27 11:30:07.181031
+Config  : ./erp.knestcrm.com/private/backups/20230227_113002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230227_113002-erp_knestcrm_com-database.sql.gz         7.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230226_173006-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230226_233007-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230226_233007-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230226_113006-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230227_053006-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230227_053006-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230226_173006-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230226_053006-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230227_113007-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-27 11:30:10.118170
+Config  : ./vertical.knestcrm.com/private/backups/20230227_113007-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230227_113007-vertical_knestcrm_com-database.sql.gz         1.9MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230227_173002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-27 17:30:06.819068
+Config  : ./erp.knestcrm.com/private/backups/20230227_173002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230227_173002-erp_knestcrm_com-database.sql.gz         7.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230226_173006-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230227_113007-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230226_233007-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230226_233007-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230226_113006-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230227_053006-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230227_053006-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230227_113007-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230227_173006-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-27 17:30:09.715848
+Config  : ./vertical.knestcrm.com/private/backups/20230227_173006-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230227_173006-vertical_knestcrm_com-database.sql.gz         2.0MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230227_233003-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-27 23:30:08.159564
+Config  : ./erp.knestcrm.com/private/backups/20230227_233003-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230227_233003-erp_knestcrm_com-database.sql.gz         7.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230226_173006-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230227_173006-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230227_113007-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230226_233007-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230227_053006-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230227_053006-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230227_173006-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230227_113007-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230227_233008-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-27 23:30:11.096666
+Config  : ./vertical.knestcrm.com/private/backups/20230227_233008-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230227_233008-vertical_knestcrm_com-database.sql.gz         2.0MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230228_053002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-28 05:30:06.246004
+Config  : ./erp.knestcrm.com/private/backups/20230228_053002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230228_053002-erp_knestcrm_com-database.sql.gz         7.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230227_173006-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230227_113007-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230227_233008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230226_233007-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230227_053006-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230227_173006-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230227_233008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230227_113007-vertical_knestcrm_com-site_config_backup.json is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230228_053006-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-28 05:30:09.225767
+Config  : ./vertical.knestcrm.com/private/backups/20230228_053006-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230228_053006-vertical_knestcrm_com-database.sql.gz         2.0MiB
+Backup for Site vertical.knestcrm.com has been successfully completed
+mysqldump --single-transaction --quick --lock-tables=false -u _11b9c3adfe422cdb -p********** _11b9c3adfe422cdb -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./erp.knestcrm.com/private/backups/20230228_113002-erp_knestcrm_com-database.sql.gz
+
+Backup Summary for erp.knestcrm.com at 2023-02-28 11:30:07.031384
+Config  : ./erp.knestcrm.com/private/backups/20230228_113002-erp_knestcrm_com-site_config_backup.json 423.0B
+Database: ./erp.knestcrm.com/private/backups/20230228_113002-erp_knestcrm_com-database.sql.gz         7.3MiB
+Backup for Site erp.knestcrm.com has been successfully completed
+File ./vertical.knestcrm.com/private/backups/20230228_053006-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230227_173006-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230227_233008-vertical_knestcrm_com-database.sql.gz is recent
+File ./vertical.knestcrm.com/private/backups/20230227_053006-vertical_knestcrm_com-site_config_backup.json is older than 24 hours
+File ./vertical.knestcrm.com/private/backups/20230227_173006-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230227_233008-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230227_113007-vertical_knestcrm_com-site_config_backup.json is recent
+File ./vertical.knestcrm.com/private/backups/20230228_053006-vertical_knestcrm_com-database.sql.gz is recent
+mysqldump --single-transaction --quick --lock-tables=false -u _7e0cb6c7becccb5a -p********** _7e0cb6c7becccb5a -h 127.0.0.1 -P 3306   | /usr/bin/gzip >> ./vertical.knestcrm.com/private/backups/20230228_113007-vertical_knestcrm_com-database.sql.gz
+
+Backup Summary for vertical.knestcrm.com at 2023-02-28 11:30:09.898792
+Config  : ./vertical.knestcrm.com/private/backups/20230228_113007-vertical_knestcrm_com-site_config_backup.json 249.0B
+Database: ./vertical.knestcrm.com/private/backups/20230228_113007-vertical_knestcrm_com-database.sql.gz         2.0MiB
+Backup for Site vertical.knestcrm.com has been successfully completed

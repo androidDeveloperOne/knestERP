@@ -2208,3 +2208,464 @@
 2023-01-27 09:47:08,016 WARNING /home/ubuntu/.local/bin/bench update --patch executed with exit code 1
 2023-01-27 09:48:15,314 INFO /home/ubuntu/.local/bin/bench switch-to-branch develop
 2023-01-27 09:48:15,319 WARNING /home/ubuntu/.local/bin/bench switch-to-branch develop executed with exit code 1
+2023-01-27 10:12:30,375 INFO /home/ubuntu/.local/bin/bench version --format table
+2023-01-27 10:18:38,174 INFO /home/ubuntu/.local/bin/bench clear-cache
+2023-01-27 10:19:02,298 INFO /home/ubuntu/.local/bin/bench update
+2023-01-27 10:19:02,309 WARNING /home/ubuntu/.local/bin/bench update executed with exit code 1
+2023-01-27 10:19:08,537 INFO /home/ubuntu/.local/bin/bench clear-website-cache
+2023-01-27 10:19:13,937 INFO /home/ubuntu/.local/bin/bench restart
+2023-01-27 10:19:14,193 DEBUG cd /home/ubuntu/frappe-bench && supervisorctl restart frappe:
+2023-01-27 10:19:14,430 WARNING cd /home/ubuntu/frappe-bench && supervisorctl restart frappe: executed with exit code 1
+2023-01-27 10:19:14,430 WARNING /home/ubuntu/.local/bin/bench restart executed with exit code 1
+2023-01-27 10:19:38,188 INFO /home/ubuntu/.local/bin/bench update
+2023-01-27 10:19:38,199 WARNING /home/ubuntu/.local/bin/bench update executed with exit code 1
+2023-01-27 10:19:48,225 INFO /home/ubuntu/.local/bin/bench switch-to-branch develop
+2023-01-27 10:19:48,231 WARNING /home/ubuntu/.local/bin/bench switch-to-branch develop executed with exit code 1
+2023-01-27 10:22:15,972 INFO /home/ubuntu/.local/bin/bench switch-to-branch develop
+2023-01-27 10:22:15,978 WARNING /home/ubuntu/.local/bin/bench switch-to-branch develop executed with exit code 1
+2023-01-27 10:23:12,472 INFO /usr/local/bin/bench update --patch
+2023-01-27 10:23:12,485 WARNING /usr/local/bin/bench update --patch executed with exit code 1
+2023-01-27 10:23:12,645 INFO A newer version of bench is available: 5.14.4 → 5.16.0
+2023-01-27 10:23:23,225 INFO /usr/local/bin/bench switch-to-branch develop
+2023-01-27 10:23:23,230 WARNING /usr/local/bin/bench switch-to-branch develop executed with exit code 1
+2023-01-27 10:23:23,413 INFO A newer version of bench is available: 5.14.4 → 5.16.0
+2023-01-27 10:23:39,101 INFO /home/ubuntu/.local/bin/bench version --format table
+2023-01-27 12:00:01,351 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-27 18:00:01,298 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-28 00:00:02,015 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-28 06:00:01,812 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-28 12:00:01,995 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-28 18:00:01,705 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-29 00:00:01,409 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-29 06:00:01,132 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-29 12:00:02,017 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-29 18:00:01,761 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-30 00:00:01,474 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-30 06:00:01,200 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-30 12:00:01,994 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-30 18:00:01,638 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-31 00:00:01,400 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-31 06:00:01,279 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-31 12:00:02,046 INFO /usr/local/bin/bench --verbose --site all backup
+2023-01-31 18:00:01,219 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-01 00:00:02,029 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-01 06:00:01,161 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-01 12:00:01,956 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-01 18:00:01,668 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-02 00:00:01,399 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-02 06:00:01,154 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-02 12:00:01,907 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-02 18:00:01,599 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-03 00:00:01,382 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-03 06:00:01,169 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-03 12:00:01,959 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-03 18:00:01,716 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-04 00:00:01,458 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-04 06:00:01,245 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-04 12:00:01,429 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-04 18:00:01,248 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-05 00:00:02,008 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-05 06:00:01,807 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-05 12:00:01,587 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-05 18:00:01,312 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-06 00:00:02,061 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-06 06:00:01,797 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-06 12:00:01,573 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-06 18:00:01,361 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-07 00:00:01,144 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-07 06:00:01,966 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-07 12:00:01,763 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-07 18:00:01,640 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-08 00:00:01,418 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-08 06:00:01,218 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-08 12:00:01,238 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-08 18:00:01,180 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-09 00:00:02,013 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-09 06:00:01,861 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-09 12:00:01,658 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-09 18:00:01,486 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-10 00:00:01,313 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-10 06:00:01,135 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-10 11:47:54,912 INFO /home/ubuntu/.local/bin/bench update --requirements
+2023-02-10 11:47:54,923 WARNING /home/ubuntu/.local/bin/bench update --requirements executed with exit code 1
+2023-02-10 11:47:55,090 INFO A newer version of bench is available: 5.16.0 → 5.16.1
+2023-02-10 11:49:24,001 INFO /home/ubuntu/.local/bin/bench start
+2023-02-10 11:49:24,617 INFO /home/ubuntu/.local/bin/bench worker --queue default
+2023-02-10 11:49:24,721 INFO /home/ubuntu/.local/bin/bench serve --port 8000
+2023-02-10 11:49:24,728 INFO /home/ubuntu/.local/bin/bench watch
+2023-02-10 11:49:24,754 INFO /home/ubuntu/.local/bin/bench worker --queue long
+2023-02-10 11:49:24,759 INFO /home/ubuntu/.local/bin/bench worker --queue short
+2023-02-10 11:49:24,794 INFO /home/ubuntu/.local/bin/bench schedule
+2023-02-10 11:52:08,802 INFO /home/ubuntu/.local/bin/bench --site erp.knestcrm.com enable-scheduler
+2023-02-10 11:52:14,218 INFO /home/ubuntu/.local/bin/bench --site erp.knestcrm.com set-maintenance-mode off
+2023-02-10 11:52:19,864 INFO /usr/local/bin/bench setup production ubuntu
+2023-02-10 11:52:19,874 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2023-02-10 11:52:19,874 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2023-02-10 11:52:23,279 DEBUG /usr/bin/supervisorctl reread
+2023-02-10 11:52:23,527 WARNING /usr/bin/supervisorctl reread executed with exit code 1
+2023-02-10 11:52:23,527 DEBUG /usr/bin/supervisorctl reload
+2023-02-10 11:52:23,761 WARNING /usr/bin/supervisorctl reload executed with exit code 1
+2023-02-10 11:52:23,761 DEBUG sudo systemctl restart supervisord
+2023-02-10 11:52:23,797 WARNING sudo systemctl restart supervisord executed with exit code 5
+2023-02-10 11:52:23,797 DEBUG sudo systemctl restart supervisor
+2023-02-10 11:52:23,832 DEBUG sudo /usr/sbin/nginx -t
+2023-02-10 11:52:23,874 DEBUG sudo systemctl reload nginx
+2023-02-10 11:52:23,896 WARNING sudo systemctl reload nginx executed with exit code 1
+2023-02-10 11:52:23,896 WARNING /usr/local/bin/bench setup production ubuntu executed with exit code 1
+2023-02-10 11:52:24,101 INFO A newer version of bench is available: 5.14.4 → 5.16.1
+2023-02-10 11:52:25,408 INFO /usr/local/bin/bench schedule
+2023-02-10 11:52:25,457 INFO /usr/local/bin/bench worker --queue long
+2023-02-10 11:52:25,487 INFO /usr/local/bin/bench worker --queue default
+2023-02-10 11:52:25,555 INFO /usr/local/bin/bench worker --queue short
+2023-02-10 11:52:38,508 INFO /usr/local/bin/bench setup production ubuntu
+2023-02-10 11:52:38,515 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2023-02-10 11:52:38,516 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2023-02-10 11:52:40,647 DEBUG /usr/bin/supervisorctl reread
+2023-02-10 11:52:40,891 DEBUG /usr/bin/supervisorctl update
+2023-02-10 11:52:41,132 DEBUG sudo /usr/sbin/nginx -t
+2023-02-10 11:52:41,155 DEBUG sudo systemctl reload nginx
+2023-02-10 11:52:41,357 INFO A newer version of bench is available: 5.14.4 → 5.16.1
+2023-02-10 11:52:48,171 INFO /home/ubuntu/.local/bin/bench setup nginx
+2023-02-10 11:52:49,542 INFO A newer version of bench is available: 5.16.0 → 5.16.1
+2023-02-10 11:52:59,169 INFO /usr/local/bin/bench schedule
+2023-02-10 11:52:59,186 INFO /usr/local/bin/bench worker --queue short
+2023-02-10 11:52:59,198 INFO /usr/local/bin/bench worker --queue default
+2023-02-10 11:52:59,219 INFO /usr/local/bin/bench worker --queue long
+2023-02-10 11:53:04,809 INFO /usr/local/bin/bench setup production ubuntu
+2023-02-10 11:53:04,816 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2023-02-10 11:53:04,816 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2023-02-10 11:53:07,440 DEBUG /usr/bin/supervisorctl reread
+2023-02-10 11:53:07,679 DEBUG /usr/bin/supervisorctl update
+2023-02-10 11:53:07,921 DEBUG sudo /usr/sbin/nginx -t
+2023-02-10 11:53:07,945 DEBUG sudo systemctl reload nginx
+2023-02-10 11:53:08,148 INFO A newer version of bench is available: 5.14.4 → 5.16.1
+2023-02-10 11:54:48,513 INFO /home/ubuntu/.local/bin/bench start
+2023-02-10 11:54:49,129 INFO /home/ubuntu/.local/bin/bench serve --port 8000
+2023-02-10 11:54:49,160 INFO /home/ubuntu/.local/bin/bench worker --queue long
+2023-02-10 11:54:49,205 INFO /home/ubuntu/.local/bin/bench watch
+2023-02-10 11:54:49,227 INFO /home/ubuntu/.local/bin/bench schedule
+2023-02-10 11:54:49,234 INFO /home/ubuntu/.local/bin/bench worker --queue default
+2023-02-10 11:54:49,252 INFO /home/ubuntu/.local/bin/bench worker --queue short
+2023-02-10 11:57:45,122 INFO /home/ubuntu/.local/bin/bench --site verticals.knestsensors.in install-app erpnext
+2023-02-10 11:58:23,421 INFO /home/ubuntu/.local/bin/bench new-site verticals.knestcrm.com
+2023-02-10 11:59:18,723 INFO /home/ubuntu/.local/bin/bench new-site verticals.knestcrm.com
+2023-02-10 12:00:01,510 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-10 12:00:08,270 INFO /home/ubuntu/.local/bin/bench --site verticals.knestsensors.in install-app erpnext
+2023-02-10 12:00:20,258 INFO /home/ubuntu/.local/bin/bench --site verticals.knestsensors.in install-app erpnext
+2023-02-10 12:01:09,914 INFO /home/ubuntu/.local/bin/bench --site verticals.knestcrm.com install-app erpnext
+2023-02-10 12:05:32,350 INFO /home/ubuntu/.local/bin/bench drop-site verticals.knestcrm.com --no-backup
+2023-02-10 12:06:00,086 INFO /home/ubuntu/.local/bin/bench drop-site verticals.knestcrm.com --no-backup
+2023-02-10 12:06:04,833 INFO /home/ubuntu/.local/bin/bench drop-site verticals.knestcrm.com --no-backup
+2023-02-10 12:06:46,786 INFO /home/ubuntu/.local/bin/bench new-site verticals.knestcrm.com
+2023-02-10 12:10:26,496 INFO /home/ubuntu/.local/bin/bench --site verticals.knestcrm.com install-app erpnext
+2023-02-10 12:11:56,070 INFO /home/ubuntu/.local/bin/bench --site verticals.knestcrm.com install-app hrms
+2023-02-10 12:14:34,103 INFO /home/ubuntu/.local/bin/bench --site verticals.knestcrm.com install-app india_compliance
+2023-02-10 12:14:51,502 INFO /home/ubuntu/.local/bin/bench --site verticals.knestcrm.com install-app whatsapp_integration
+2023-02-10 12:16:03,121 INFO /home/ubuntu/.local/bin/bench --site verticals.knestcrm.com install-app whatsapp_integration
+2023-02-10 12:16:14,524 INFO /home/ubuntu/.local/bin/bench --site verticals.knestcrm.com migrate
+2023-02-10 12:17:06,949 INFO /home/ubuntu/.local/bin/bench --site erp.knestcrm.com enable-scheduler
+2023-02-10 12:17:14,941 INFO /home/ubuntu/.local/bin/bench --site verticals.knestcrm.com enable-scheduler
+2023-02-10 12:17:20,668 INFO /home/ubuntu/.local/bin/bench --site erp.knestcrm.com set-maintenance-mode off
+2023-02-10 12:17:25,815 INFO /home/ubuntu/.local/bin/bench --site verticals.knestcrm.com set-maintenance-mode off
+2023-02-10 12:17:42,525 INFO /usr/local/bin/bench setup production ubuntu
+2023-02-10 12:17:42,531 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2023-02-10 12:17:42,531 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2023-02-10 12:17:44,980 DEBUG /usr/bin/supervisorctl reread
+2023-02-10 12:17:45,215 WARNING /usr/bin/supervisorctl reread executed with exit code 1
+2023-02-10 12:17:45,215 DEBUG /usr/bin/supervisorctl reload
+2023-02-10 12:17:45,455 WARNING /usr/bin/supervisorctl reload executed with exit code 1
+2023-02-10 12:17:45,455 DEBUG sudo systemctl restart supervisord
+2023-02-10 12:17:45,469 WARNING sudo systemctl restart supervisord executed with exit code 5
+2023-02-10 12:17:45,470 DEBUG sudo systemctl restart supervisor
+2023-02-10 12:17:45,504 DEBUG sudo /usr/sbin/nginx -t
+2023-02-10 12:17:45,528 DEBUG sudo systemctl reload nginx
+2023-02-10 12:17:45,738 INFO A newer version of bench is available: 5.14.4 → 5.16.1
+2023-02-10 12:17:46,997 INFO /usr/local/bin/bench worker --queue short
+2023-02-10 12:17:47,223 INFO /usr/local/bin/bench schedule
+2023-02-10 12:17:47,231 INFO /usr/local/bin/bench worker --queue default
+2023-02-10 12:17:47,250 INFO /usr/local/bin/bench worker --queue long
+2023-02-10 12:17:52,264 INFO /home/ubuntu/.local/bin/bench setup nginx
+2023-02-10 12:17:54,242 INFO A newer version of bench is available: 5.16.0 → 5.16.1
+2023-02-10 12:18:00,564 INFO /usr/local/bin/bench schedule
+2023-02-10 12:18:00,580 INFO /usr/local/bin/bench worker --queue default
+2023-02-10 12:18:00,599 INFO /usr/local/bin/bench worker --queue short
+2023-02-10 12:18:00,642 INFO /usr/local/bin/bench worker --queue long
+2023-02-10 12:18:04,105 INFO /usr/local/bin/bench setup production ubuntu
+2023-02-10 12:18:04,112 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2023-02-10 12:18:04,112 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2023-02-10 12:18:05,884 DEBUG /usr/bin/supervisorctl reread
+2023-02-10 12:18:06,129 DEBUG /usr/bin/supervisorctl update
+2023-02-10 12:18:06,372 DEBUG sudo /usr/sbin/nginx -t
+2023-02-10 12:18:06,396 DEBUG sudo systemctl reload nginx
+2023-02-10 12:18:06,594 INFO A newer version of bench is available: 5.14.4 → 5.16.1
+2023-02-10 12:22:37,482 INFO /home/ubuntu/.local/bin/bench drop-site verticals.knestcrm.com --no-backup
+2023-02-10 12:23:43,752 INFO /home/ubuntu/.local/bin/bench new-site vertical.knestcrm.com
+2023-02-10 18:00:02,014 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-11 00:00:01,597 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-11 04:49:56,410 INFO /home/ubuntu/.local/bin/bench --site vertical.knestcrm.com install-app erpnext
+2023-02-11 04:51:27,831 INFO /home/ubuntu/.local/bin/bench --site vertical.knestcrm.com install-app hrms
+2023-02-11 04:52:34,313 INFO /home/ubuntu/.local/bin/bench --site vertical.knestcrm.com install-app whatsapp_integration
+2023-02-11 04:52:49,508 INFO /home/ubuntu/.local/bin/bench --site vertical.knestcrm.com migrate
+2023-02-11 04:53:14,179 INFO /home/ubuntu/.local/bin/bench --site vertical.knestcrm.com enable-scheduler
+2023-02-11 04:53:22,418 INFO /home/ubuntu/.local/bin/bench --site vertical.knestcrm.com set-maintenance-mode off
+2023-02-11 04:53:31,090 INFO /usr/local/bin/bench setup production ubuntu
+2023-02-11 04:53:31,096 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2023-02-11 04:53:31,097 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2023-02-11 04:53:36,655 DEBUG /usr/bin/supervisorctl reread
+2023-02-11 04:53:36,897 DEBUG /usr/bin/supervisorctl update
+2023-02-11 04:53:37,136 DEBUG sudo /usr/sbin/nginx -t
+2023-02-11 04:53:37,160 DEBUG sudo systemctl reload nginx
+2023-02-11 04:53:37,365 INFO A newer version of bench is available: 5.14.4 → 5.16.1
+2023-02-11 04:53:38,900 INFO /home/ubuntu/.local/bin/bench setup nginx
+2023-02-11 04:53:40,927 INFO A newer version of bench is available: 5.16.0 → 5.16.1
+2023-02-11 04:53:47,372 INFO /usr/local/bin/bench worker --queue short
+2023-02-11 04:53:47,385 INFO /usr/local/bin/bench worker --queue default
+2023-02-11 04:53:47,395 INFO /usr/local/bin/bench schedule
+2023-02-11 04:53:47,414 INFO /usr/local/bin/bench worker --queue long
+2023-02-11 04:53:50,038 INFO /usr/local/bin/bench setup production ubuntu
+2023-02-11 04:53:50,048 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2023-02-11 04:53:50,048 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2023-02-11 04:53:52,661 DEBUG /usr/bin/supervisorctl reread
+2023-02-11 04:53:52,904 DEBUG /usr/bin/supervisorctl update
+2023-02-11 04:53:53,146 DEBUG sudo /usr/sbin/nginx -t
+2023-02-11 04:53:53,170 DEBUG sudo systemctl reload nginx
+2023-02-11 04:53:53,395 INFO A newer version of bench is available: 5.14.4 → 5.16.1
+2023-02-11 06:00:01,924 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-11 12:00:01,941 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-11 18:00:01,593 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-12 00:00:01,447 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-12 06:00:01,723 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-12 12:00:02,119 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-12 18:00:01,470 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-13 00:00:01,199 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-13 06:00:01,992 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-13 12:00:01,871 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-13 18:00:01,395 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-14 00:00:02,015 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-14 06:00:01,606 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-14 12:00:01,404 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-14 18:00:01,687 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-15 00:00:01,423 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-15 06:00:01,850 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-15 12:00:01,299 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-15 18:00:01,970 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-16 00:00:01,933 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-16 06:00:01,853 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-16 12:00:01,250 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-16 18:00:01,694 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-17 00:00:01,547 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-17 06:00:02,008 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-17 12:00:01,283 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-17 18:00:01,873 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-18 00:00:01,222 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-18 06:00:01,587 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-18 08:04:36,759 INFO /home/ubuntu/.local/bin/bench start
+2023-02-18 08:04:39,529 INFO /home/ubuntu/.local/bin/bench start
+2023-02-18 08:04:51,364 INFO /home/ubuntu/.local/bin/bench start
+2023-02-18 08:05:36,414 INFO /home/ubuntu/.local/bin/bench start
+2023-02-18 08:06:47,733 INFO /home/ubuntu/.local/bin/bench start
+2023-02-18 08:09:42,441 INFO /home/ubuntu/.local/bin/bench start
+2023-02-18 08:10:21,188 INFO /home/ubuntu/.local/bin/bench --site erp.knestcrm.com enable-scheduler
+2023-02-18 08:10:28,762 INFO /home/ubuntu/.local/bin/bench --site vertical.knestcrm.com enable-scheduler
+2023-02-18 08:10:34,043 INFO /home/ubuntu/.local/bin/bench --site erp.knestcrm.com set-maintenance-mode off
+2023-02-18 08:10:40,416 INFO /home/ubuntu/.local/bin/bench --site vertical.knestcrm.com set-maintenance-mode off
+2023-02-18 08:10:48,960 INFO /usr/local/bin/bench setup production ubuntu
+2023-02-18 08:10:48,967 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2023-02-18 08:10:48,968 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2023-02-18 08:10:51,328 DEBUG /usr/bin/supervisorctl reread
+2023-02-18 08:10:51,566 WARNING /usr/bin/supervisorctl reread executed with exit code 1
+2023-02-18 08:10:51,566 DEBUG /usr/bin/supervisorctl reload
+2023-02-18 08:10:51,810 WARNING /usr/bin/supervisorctl reload executed with exit code 1
+2023-02-18 08:10:51,811 DEBUG sudo systemctl restart supervisord
+2023-02-18 08:10:51,825 WARNING sudo systemctl restart supervisord executed with exit code 5
+2023-02-18 08:10:51,826 DEBUG sudo systemctl restart supervisor
+2023-02-18 08:10:51,866 DEBUG sudo /usr/sbin/nginx -t
+2023-02-18 08:10:51,891 DEBUG sudo systemctl reload nginx
+2023-02-18 08:10:52,238 INFO A newer version of bench is available: 5.14.4 → 5.16.1
+2023-02-18 08:10:53,406 INFO /usr/local/bin/bench worker --queue short
+2023-02-18 08:10:53,518 INFO /usr/local/bin/bench worker --queue long
+2023-02-18 08:10:53,533 INFO /usr/local/bin/bench worker --queue default
+2023-02-18 08:10:53,536 INFO /usr/local/bin/bench schedule
+2023-02-18 08:10:56,132 INFO /home/ubuntu/.local/bin/bench setup nginx
+2023-02-18 08:10:57,633 INFO A newer version of bench is available: 5.16.0 → 5.16.1
+2023-02-18 08:11:05,553 INFO /usr/local/bin/bench schedule
+2023-02-18 08:11:05,570 INFO /usr/local/bin/bench worker --queue default
+2023-02-18 08:11:05,620 INFO /usr/local/bin/bench worker --queue long
+2023-02-18 08:11:05,633 INFO /usr/local/bin/bench worker --queue short
+2023-02-18 08:11:06,445 INFO /usr/local/bin/bench setup production ubuntu
+2023-02-18 08:11:06,452 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2023-02-18 08:11:06,452 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2023-02-18 08:11:09,380 DEBUG /usr/bin/supervisorctl reread
+2023-02-18 08:11:09,622 DEBUG /usr/bin/supervisorctl update
+2023-02-18 08:11:09,858 DEBUG sudo /usr/sbin/nginx -t
+2023-02-18 08:11:09,882 DEBUG sudo systemctl reload nginx
+2023-02-18 08:11:10,141 INFO A newer version of bench is available: 5.14.4 → 5.16.1
+2023-02-18 08:15:13,627 INFO /usr/local/bin/bench setup production ubuntu
+2023-02-18 08:15:13,634 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2023-02-18 08:15:13,634 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2023-02-18 08:15:15,977 DEBUG /usr/bin/supervisorctl reread
+2023-02-18 08:15:16,220 DEBUG /usr/bin/supervisorctl update
+2023-02-18 08:15:16,463 DEBUG sudo /usr/sbin/nginx -t
+2023-02-18 08:15:16,487 DEBUG sudo systemctl reload nginx
+2023-02-18 08:15:16,744 INFO A newer version of bench is available: 5.14.4 → 5.16.1
+2023-02-18 08:16:11,204 INFO /home/ubuntu/.local/bin/bench start
+2023-02-18 08:16:11,720 INFO /home/ubuntu/.local/bin/bench watch
+2023-02-18 08:16:11,871 INFO /home/ubuntu/.local/bin/bench schedule
+2023-02-18 08:16:11,942 INFO /home/ubuntu/.local/bin/bench serve --port 8000
+2023-02-18 08:16:11,942 INFO /home/ubuntu/.local/bin/bench worker --queue default
+2023-02-18 08:16:11,946 INFO /home/ubuntu/.local/bin/bench worker --queue short
+2023-02-18 08:16:11,951 INFO /home/ubuntu/.local/bin/bench worker --queue long
+2023-02-18 08:18:05,580 INFO /home/ubuntu/.local/bin/bench --site vertical.knestcrm.com install-app india_compliance
+2023-02-18 08:18:41,418 INFO /home/ubuntu/.local/bin/bench --site all list-apps
+2023-02-18 08:19:52,083 INFO /home/ubuntu/.local/bin/bench --site vertical.knestcrm.com install-app chat
+2023-02-18 08:20:07,347 INFO /home/ubuntu/.local/bin/bench --site vertical.knestcrm.com install-app barcode_shrdc
+2023-02-18 08:20:28,912 INFO /home/ubuntu/.local/bin/bench --site vertical.knestcrm.com migrate
+2023-02-18 08:20:45,196 INFO /home/ubuntu/.local/bin/bench --site erp.knestcrm.com enable-scheduler
+2023-02-18 08:20:56,046 INFO /home/ubuntu/.local/bin/bench --site vertical.knestcrm.com enable-scheduler
+2023-02-18 08:21:05,816 INFO /home/ubuntu/.local/bin/bench --site erp.knestcrm.com set-maintenance-mode off
+2023-02-18 08:21:13,703 INFO /home/ubuntu/.local/bin/bench --site vertical.knestcrm.com set-maintenance-mode off
+2023-02-18 08:21:26,609 INFO /usr/local/bin/bench setup production ubuntu
+2023-02-18 08:21:26,615 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2023-02-18 08:21:26,615 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2023-02-18 08:21:28,582 DEBUG /usr/bin/supervisorctl reread
+2023-02-18 08:21:28,829 WARNING /usr/bin/supervisorctl reread executed with exit code 1
+2023-02-18 08:21:28,829 DEBUG /usr/bin/supervisorctl reload
+2023-02-18 08:21:29,066 WARNING /usr/bin/supervisorctl reload executed with exit code 1
+2023-02-18 08:21:29,067 DEBUG sudo systemctl restart supervisord
+2023-02-18 08:21:29,080 WARNING sudo systemctl restart supervisord executed with exit code 5
+2023-02-18 08:21:29,081 DEBUG sudo systemctl restart supervisor
+2023-02-18 08:21:29,113 DEBUG sudo /usr/sbin/nginx -t
+2023-02-18 08:21:29,142 DEBUG sudo systemctl reload nginx
+2023-02-18 08:21:29,487 INFO A newer version of bench is available: 5.14.4 → 5.16.1
+2023-02-18 08:21:30,771 INFO /usr/local/bin/bench worker --queue short
+2023-02-18 08:21:30,772 INFO /usr/local/bin/bench worker --queue long
+2023-02-18 08:21:30,775 INFO /usr/local/bin/bench schedule
+2023-02-18 08:21:30,803 INFO /usr/local/bin/bench worker --queue default
+2023-02-18 08:21:47,056 INFO /usr/local/bin/bench schedule
+2023-02-18 08:21:47,058 INFO /usr/local/bin/bench worker --queue short
+2023-02-18 08:21:47,071 INFO /usr/local/bin/bench worker --queue long
+2023-02-18 08:21:47,126 INFO /usr/local/bin/bench worker --queue default
+2023-02-18 08:21:52,386 INFO /home/ubuntu/.local/bin/bench setup nginx
+2023-02-18 08:21:55,208 INFO A newer version of bench is available: 5.16.0 → 5.16.1
+2023-02-18 08:22:00,164 INFO /usr/local/bin/bench setup production ubuntu
+2023-02-18 08:22:00,171 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2023-02-18 08:22:00,171 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2023-02-18 08:22:02,258 DEBUG /usr/bin/supervisorctl reread
+2023-02-18 08:22:02,506 DEBUG /usr/bin/supervisorctl update
+2023-02-18 08:22:02,751 DEBUG sudo /usr/sbin/nginx -t
+2023-02-18 08:22:02,775 DEBUG sudo systemctl reload nginx
+2023-02-18 08:22:03,028 INFO A newer version of bench is available: 5.14.4 → 5.16.1
+2023-02-18 08:22:42,394 INFO /home/ubuntu/.local/bin/bench --site vertical.knestcrm.com enable-scheduler
+2023-02-18 08:22:47,539 INFO /home/ubuntu/.local/bin/bench --site vertical.knestcrm.com set-maintenance-mode off
+2023-02-18 08:22:57,510 INFO /usr/local/bin/bench setup production ubuntu
+2023-02-18 08:22:57,517 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2023-02-18 08:22:57,517 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2023-02-18 08:22:59,863 DEBUG /usr/bin/supervisorctl reread
+2023-02-18 08:23:00,105 DEBUG /usr/bin/supervisorctl update
+2023-02-18 08:23:00,346 DEBUG sudo /usr/sbin/nginx -t
+2023-02-18 08:23:00,370 DEBUG sudo systemctl reload nginx
+2023-02-18 08:23:00,620 INFO A newer version of bench is available: 5.14.4 → 5.16.1
+2023-02-18 08:23:07,207 INFO /home/ubuntu/.local/bin/bench setup nginx
+2023-02-18 08:23:08,825 INFO A newer version of bench is available: 5.16.0 → 5.16.1
+2023-02-18 08:23:14,783 INFO /usr/local/bin/bench worker --queue short
+2023-02-18 08:23:14,803 INFO /usr/local/bin/bench schedule
+2023-02-18 08:23:14,822 INFO /usr/local/bin/bench worker --queue long
+2023-02-18 08:23:14,835 INFO /usr/local/bin/bench worker --queue default
+2023-02-18 08:23:19,690 INFO /usr/local/bin/bench setup production ubuntu
+2023-02-18 08:23:19,697 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2023-02-18 08:23:19,697 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2023-02-18 08:23:21,869 DEBUG /usr/bin/supervisorctl reread
+2023-02-18 08:23:22,114 DEBUG /usr/bin/supervisorctl update
+2023-02-18 08:23:22,356 DEBUG sudo /usr/sbin/nginx -t
+2023-02-18 08:23:22,379 DEBUG sudo systemctl reload nginx
+2023-02-18 08:23:22,634 INFO A newer version of bench is available: 5.14.4 → 5.16.1
+2023-02-18 08:32:04,887 INFO /home/ubuntu/.local/bin/bench config dns_multitenant off
+2023-02-18 08:32:05,120 INFO A newer version of bench is available: 5.16.0 → 5.16.1
+2023-02-18 08:32:38,634 INFO /home/ubuntu/.local/bin/bench config dns_multitenant on
+2023-02-18 08:32:38,860 INFO A newer version of bench is available: 5.16.0 → 5.16.1
+2023-02-18 08:32:53,747 INFO /home/ubuntu/.local/bin/bench setup nginx
+2023-02-18 08:32:55,241 INFO A newer version of bench is available: 5.16.0 → 5.16.1
+2023-02-18 08:33:39,060 INFO /home/ubuntu/.local/bin/bench setup supervisor
+2023-02-18 08:33:39,301 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2023-02-18 08:33:39,301 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2023-02-18 08:33:40,775 INFO A newer version of bench is available: 5.16.0 → 5.16.1
+2023-02-18 08:33:55,153 INFO /home/ubuntu/.local/bin/bench setup nginx
+2023-02-18 08:33:56,635 INFO A newer version of bench is available: 5.16.0 → 5.16.1
+2023-02-18 08:34:28,839 INFO /home/ubuntu/.local/bin/bench start
+2023-02-18 08:34:29,420 INFO /home/ubuntu/.local/bin/bench worker --queue long
+2023-02-18 08:34:29,438 INFO /home/ubuntu/.local/bin/bench worker --queue short
+2023-02-18 08:34:29,534 INFO /home/ubuntu/.local/bin/bench serve --port 8000
+2023-02-18 08:34:29,536 INFO /home/ubuntu/.local/bin/bench watch
+2023-02-18 08:34:29,539 INFO /home/ubuntu/.local/bin/bench worker --queue default
+2023-02-18 08:34:29,567 INFO /home/ubuntu/.local/bin/bench schedule
+2023-02-18 08:34:49,029 INFO /usr/local/bin/bench setup production ubuntu
+2023-02-18 08:34:49,035 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2023-02-18 08:34:49,035 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2023-02-18 08:34:54,140 DEBUG /usr/bin/supervisorctl reread
+2023-02-18 08:34:54,375 WARNING /usr/bin/supervisorctl reread executed with exit code 1
+2023-02-18 08:34:54,375 DEBUG /usr/bin/supervisorctl reload
+2023-02-18 08:34:54,607 WARNING /usr/bin/supervisorctl reload executed with exit code 1
+2023-02-18 08:34:54,608 DEBUG sudo systemctl restart supervisord
+2023-02-18 08:34:54,622 WARNING sudo systemctl restart supervisord executed with exit code 5
+2023-02-18 08:34:54,622 DEBUG sudo systemctl restart supervisor
+2023-02-18 08:34:54,652 DEBUG sudo /usr/sbin/nginx -t
+2023-02-18 08:34:54,677 DEBUG sudo systemctl reload nginx
+2023-02-18 08:34:54,929 INFO A newer version of bench is available: 5.14.4 → 5.16.1
+2023-02-18 08:34:56,260 INFO /usr/local/bin/bench worker --queue long
+2023-02-18 08:34:56,278 INFO /usr/local/bin/bench schedule
+2023-02-18 08:34:56,331 INFO /usr/local/bin/bench worker --queue default
+2023-02-18 08:34:56,347 INFO /usr/local/bin/bench worker --queue short
+2023-02-18 08:35:06,041 INFO /home/ubuntu/.local/bin/bench setup nginx
+2023-02-18 08:35:08,426 INFO A newer version of bench is available: 5.16.0 → 5.16.1
+2023-02-18 08:35:42,567 INFO /usr/local/bin/bench worker --queue default
+2023-02-18 08:35:42,639 INFO /usr/local/bin/bench worker --queue short
+2023-02-18 08:35:42,683 INFO /usr/local/bin/bench schedule
+2023-02-18 08:35:42,715 INFO /usr/local/bin/bench worker --queue long
+2023-02-18 08:35:44,698 INFO /usr/local/bin/bench setup production ubuntu
+2023-02-18 08:35:44,705 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2023-02-18 08:35:44,705 LOG Updated supervisord.conf: 'chown' changed from '' to 'ubuntu:ubuntu'
+2023-02-18 08:35:46,759 DEBUG /usr/bin/supervisorctl reread
+2023-02-18 08:35:47,004 DEBUG /usr/bin/supervisorctl update
+2023-02-18 08:35:47,246 DEBUG sudo /usr/sbin/nginx -t
+2023-02-18 08:35:47,269 DEBUG sudo systemctl reload nginx
+2023-02-18 08:35:47,523 INFO A newer version of bench is available: 5.14.4 → 5.16.1
+2023-02-18 12:00:01,866 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-18 18:00:01,903 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-19 00:00:01,728 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-19 06:00:01,478 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-19 12:00:01,961 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-19 18:00:01,970 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-20 00:00:01,962 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-20 06:00:01,483 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-20 12:00:02,129 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-20 18:00:01,360 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-21 00:00:01,365 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-21 06:00:01,337 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-21 12:00:01,704 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-21 18:00:01,485 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-22 00:00:01,204 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-22 06:00:01,711 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-22 12:00:01,728 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-22 18:00:02,096 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-23 00:00:01,677 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-23 06:00:01,327 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-23 12:00:01,459 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-23 18:00:01,934 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-24 00:00:01,674 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-24 06:00:01,903 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-24 12:00:01,564 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-24 18:00:01,414 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-25 00:00:01,543 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-25 06:00:01,472 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-25 12:00:01,533 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-25 18:00:01,958 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-26 00:00:01,926 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-26 06:00:01,420 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-26 12:00:01,124 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-26 18:00:01,945 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-27 00:00:01,519 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-27 06:00:01,847 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-27 12:00:01,560 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-27 18:00:02,033 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-28 00:00:01,417 INFO /usr/local/bin/bench --verbose --site all backup
+2023-02-28 06:00:01,560 INFO /usr/local/bin/bench --verbose --site all backup

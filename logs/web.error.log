@@ -5635,3 +5635,443 @@ AttributeError: 'NoneType' object has no attribute 'full_name'
   warn(
 /home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
   warn(
+/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/bs4/__init__.py:417: MarkupResemblesLocatorWarning: "https://erp.knestcrm.com/oauth2/callback" looks like a URL. Beautiful Soup is not an HTTP client. You should probably use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  warnings.warn(
+/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/bs4/__init__.py:417: MarkupResemblesLocatorWarning: "https://erp.knestcrm.com/api/method/frappe.www.login.login_via_frappe" looks like a URL. Beautiful Soup is not an HTTP client. You should probably use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  warnings.warn(
+/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/bs4/__init__.py:417: MarkupResemblesLocatorWarning: "http://erp.knestcrm.com/oauth2/callback" looks like a URL. Beautiful Soup is not an HTTP client. You should probably use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  warnings.warn(
+/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/bs4/__init__.py:417: MarkupResemblesLocatorWarning: "http://erp.knestcrm.com/oauth2/callback" looks like a URL. Beautiful Soup is not an HTTP client. You should probably use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  warnings.warn(
+/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/bs4/__init__.py:417: MarkupResemblesLocatorWarning: "https://erp.knestcrm.com/oauth2/callback" looks like a URL. Beautiful Soup is not an HTTP client. You should probably use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  warnings.warn(
+/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/bs4/__init__.py:417: MarkupResemblesLocatorWarning: "https://erp.knestcrm.com/oauth2/callback" looks like a URL. Beautiful Soup is not an HTTP client. You should probably use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  warnings.warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/bs4/__init__.py:417: MarkupResemblesLocatorWarning: "https://erp.knestcrm.com/oauth2/callback" looks like a URL. Beautiful Soup is not an HTTP client. You should probably use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  warnings.warn(
+/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/bs4/__init__.py:417: MarkupResemblesLocatorWarning: "https://erp.knestcrm.com/oauth2/callback" looks like a URL. Beautiful Soup is not an HTTP client. You should probably use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  warnings.warn(
+/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/bs4/__init__.py:417: MarkupResemblesLocatorWarning: "https://erp.knestcrm.com/oauth2/callback" looks like a URL. Beautiful Soup is not an HTTP client. You should probably use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  warnings.warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+[2023-02-10 11:49:01 +0000] [830] [INFO] Handling signal: term
+[2023-02-10 11:49:01 +0000] [979] [INFO] Worker exiting (pid: 979)
+[2023-02-10 11:49:01 +0000] [978] [INFO] Worker exiting (pid: 978)
+[2023-02-10 11:49:01 +0000] [980] [INFO] Worker exiting (pid: 980)
+[2023-02-10 11:49:01 +0000] [981] [INFO] Worker exiting (pid: 981)
+[2023-02-10 11:49:01 +0000] [982] [INFO] Worker exiting (pid: 982)
+[2023-02-10 11:49:02 +0000] [830] [INFO] Shutting down: Master
+[2023-02-10 11:52:27 +0000] [163553] [INFO] Starting gunicorn 20.1.0
+[2023-02-10 11:52:27 +0000] [163553] [INFO] Listening at: http://127.0.0.1:8000 (163553)
+[2023-02-10 11:52:27 +0000] [163553] [INFO] Using worker: sync
+[2023-02-10 11:52:27 +0000] [163598] [INFO] Booting worker with pid: 163598
+[2023-02-10 11:52:27 +0000] [163599] [INFO] Booting worker with pid: 163599
+[2023-02-10 11:52:27 +0000] [163600] [INFO] Booting worker with pid: 163600
+[2023-02-10 11:52:27 +0000] [163601] [INFO] Booting worker with pid: 163601
+[2023-02-10 11:52:27 +0000] [163602] [INFO] Booting worker with pid: 163602
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+[2023-02-10 11:52:57 +0000] [163553] [INFO] Handling signal: term
+[2023-02-10 11:52:57 +0000] [163599] [INFO] Worker exiting (pid: 163599)
+[2023-02-10 11:52:57 +0000] [163598] [INFO] Worker exiting (pid: 163598)
+[2023-02-10 11:52:57 +0000] [163600] [INFO] Worker exiting (pid: 163600)
+[2023-02-10 11:52:57 +0000] [163602] [INFO] Worker exiting (pid: 163602)
+[2023-02-10 11:52:57 +0000] [163601] [INFO] Worker exiting (pid: 163601)
+[2023-02-10 11:52:58 +0000] [163553] [INFO] Shutting down: Master
+[2023-02-10 11:53:00 +0000] [163651] [INFO] Starting gunicorn 20.1.0
+[2023-02-10 11:53:00 +0000] [163651] [INFO] Listening at: http://127.0.0.1:8000 (163651)
+[2023-02-10 11:53:00 +0000] [163651] [INFO] Using worker: sync
+[2023-02-10 11:53:00 +0000] [163695] [INFO] Booting worker with pid: 163695
+[2023-02-10 11:53:01 +0000] [163696] [INFO] Booting worker with pid: 163696
+[2023-02-10 11:53:01 +0000] [163697] [INFO] Booting worker with pid: 163697
+[2023-02-10 11:53:01 +0000] [163698] [INFO] Booting worker with pid: 163698
+[2023-02-10 11:53:01 +0000] [163699] [INFO] Booting worker with pid: 163699
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+[2023-02-10 11:54:41 +0000] [163651] [INFO] Handling signal: term
+[2023-02-10 11:54:41 +0000] [163695] [INFO] Worker exiting (pid: 163695)
+[2023-02-10 11:54:41 +0000] [163697] [INFO] Worker exiting (pid: 163697)
+[2023-02-10 11:54:41 +0000] [163698] [INFO] Worker exiting (pid: 163698)
+[2023-02-10 11:54:41 +0000] [163696] [INFO] Worker exiting (pid: 163696)
+[2023-02-10 11:54:41 +0000] [163699] [INFO] Worker exiting (pid: 163699)
+[2023-02-10 11:54:41 +0000] [163651] [INFO] Shutting down: Master
+[2023-02-10 12:17:49 +0000] [164578] [INFO] Starting gunicorn 20.1.0
+[2023-02-10 12:17:49 +0000] [164578] [INFO] Listening at: http://127.0.0.1:8000 (164578)
+[2023-02-10 12:17:49 +0000] [164578] [INFO] Using worker: sync
+[2023-02-10 12:17:49 +0000] [164622] [INFO] Booting worker with pid: 164622
+[2023-02-10 12:17:49 +0000] [164624] [INFO] Booting worker with pid: 164624
+[2023-02-10 12:17:49 +0000] [164623] [INFO] Booting worker with pid: 164623
+[2023-02-10 12:17:49 +0000] [164625] [INFO] Booting worker with pid: 164625
+[2023-02-10 12:17:49 +0000] [164626] [INFO] Booting worker with pid: 164626
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+[2023-02-10 12:17:59 +0000] [164578] [INFO] Handling signal: term
+[2023-02-10 12:17:59 +0000] [164622] [INFO] Worker exiting (pid: 164622)
+[2023-02-10 12:17:59 +0000] [164624] [INFO] Worker exiting (pid: 164624)
+[2023-02-10 12:17:59 +0000] [164625] [INFO] Worker exiting (pid: 164625)
+[2023-02-10 12:17:59 +0000] [164623] [INFO] Worker exiting (pid: 164623)
+[2023-02-10 12:17:59 +0000] [164626] [INFO] Worker exiting (pid: 164626)
+[2023-02-10 12:17:59 +0000] [164578] [INFO] Shutting down: Master
+[2023-02-10 12:18:02 +0000] [164642] [INFO] Starting gunicorn 20.1.0
+[2023-02-10 12:18:02 +0000] [164642] [INFO] Listening at: http://127.0.0.1:8000 (164642)
+[2023-02-10 12:18:02 +0000] [164642] [INFO] Using worker: sync
+[2023-02-10 12:18:02 +0000] [164686] [INFO] Booting worker with pid: 164686
+[2023-02-10 12:18:02 +0000] [164687] [INFO] Booting worker with pid: 164687
+[2023-02-10 12:18:02 +0000] [164688] [INFO] Booting worker with pid: 164688
+[2023-02-10 12:18:02 +0000] [164689] [INFO] Booting worker with pid: 164689
+[2023-02-10 12:18:02 +0000] [164690] [INFO] Booting worker with pid: 164690
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+[2023-02-11 04:53:46 +0000] [164642] [INFO] Handling signal: term
+[2023-02-11 04:53:46 +0000] [164687] [INFO] Worker exiting (pid: 164687)
+[2023-02-11 04:53:46 +0000] [164686] [INFO] Worker exiting (pid: 164686)
+[2023-02-11 04:53:46 +0000] [164688] [INFO] Worker exiting (pid: 164688)
+[2023-02-11 04:53:46 +0000] [164690] [INFO] Worker exiting (pid: 164690)
+[2023-02-11 04:53:46 +0000] [164689] [INFO] Worker exiting (pid: 164689)
+[2023-02-11 04:53:46 +0000] [164642] [INFO] Shutting down: Master
+[2023-02-11 04:53:49 +0000] [173400] [INFO] Starting gunicorn 20.1.0
+[2023-02-11 04:53:49 +0000] [173400] [INFO] Listening at: http://127.0.0.1:8000 (173400)
+[2023-02-11 04:53:49 +0000] [173400] [INFO] Using worker: sync
+[2023-02-11 04:53:49 +0000] [173444] [INFO] Booting worker with pid: 173444
+[2023-02-11 04:53:49 +0000] [173445] [INFO] Booting worker with pid: 173445
+[2023-02-11 04:53:49 +0000] [173446] [INFO] Booting worker with pid: 173446
+[2023-02-11 04:53:49 +0000] [173447] [INFO] Booting worker with pid: 173447
+[2023-02-11 04:53:49 +0000] [173448] [INFO] Booting worker with pid: 173448
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/bs4/__init__.py:417: MarkupResemblesLocatorWarning: "https://erp.knestcrm.com/oauth2/callback" looks like a URL. Beautiful Soup is not an HTTP client. You should probably use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  warnings.warn(
+/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/bs4/__init__.py:417: MarkupResemblesLocatorWarning: "https://erp.knestcrm.com/oauth2/callback" looks like a URL. Beautiful Soup is not an HTTP client. You should probably use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  warnings.warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/bs4/__init__.py:417: MarkupResemblesLocatorWarning: "https://erp.knestcrm.com/oauth2/callback" looks like a URL. Beautiful Soup is not an HTTP client. You should probably use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  warnings.warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/bs4/__init__.py:417: MarkupResemblesLocatorWarning: "https://erp.knestcrm.com/oauth2/callback" looks like a URL. Beautiful Soup is not an HTTP client. You should probably use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  warnings.warn(
+/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/bs4/__init__.py:417: MarkupResemblesLocatorWarning: "https://erp.knestcrm.com/api/method/frappe.www.login.login_via_frappe" looks like a URL. Beautiful Soup is not an HTTP client. You should probably use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  warnings.warn(
+/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/bs4/__init__.py:417: MarkupResemblesLocatorWarning: "https://erp.knestcrm.com/oauth2/callback" looks like a URL. Beautiful Soup is not an HTTP client. You should probably use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  warnings.warn(
+/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/bs4/__init__.py:417: MarkupResemblesLocatorWarning: "https://erp.knestcrm.com/oauth2/callback" looks like a URL. Beautiful Soup is not an HTTP client. You should probably use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  warnings.warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/bs4/__init__.py:417: MarkupResemblesLocatorWarning: "https://erp.knestcrm.com/oauth2/callback" looks like a URL. Beautiful Soup is not an HTTP client. You should probably use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  warnings.warn(
+/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/bs4/__init__.py:417: MarkupResemblesLocatorWarning: "https://erp.knestcrm.com/oauth2/callback" looks like a URL. Beautiful Soup is not an HTTP client. You should probably use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  warnings.warn(
+[2023-02-18 08:04:34 +0000] [173400] [INFO] Handling signal: term
+[2023-02-18 08:04:34 +0000] [173444] [INFO] Worker exiting (pid: 173444)
+[2023-02-18 08:04:34 +0000] [173445] [INFO] Worker exiting (pid: 173445)
+[2023-02-18 08:04:34 +0000] [173446] [INFO] Worker exiting (pid: 173446)
+[2023-02-18 08:04:34 +0000] [173447] [INFO] Worker exiting (pid: 173447)
+[2023-02-18 08:04:34 +0000] [173448] [INFO] Worker exiting (pid: 173448)
+[2023-02-18 08:04:35 +0000] [173400] [INFO] Shutting down: Master
+[2023-02-18 08:10:55 +0000] [296535] [INFO] Starting gunicorn 20.1.0
+[2023-02-18 08:10:55 +0000] [296535] [INFO] Listening at: http://127.0.0.1:8000 (296535)
+[2023-02-18 08:10:55 +0000] [296535] [INFO] Using worker: sync
+[2023-02-18 08:10:55 +0000] [296579] [INFO] Booting worker with pid: 296579
+[2023-02-18 08:10:55 +0000] [296580] [INFO] Booting worker with pid: 296580
+[2023-02-18 08:10:55 +0000] [296581] [INFO] Booting worker with pid: 296581
+[2023-02-18 08:10:55 +0000] [296582] [INFO] Booting worker with pid: 296582
+[2023-02-18 08:10:55 +0000] [296583] [INFO] Booting worker with pid: 296583
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+[2023-02-18 08:11:04 +0000] [296535] [INFO] Handling signal: term
+[2023-02-18 08:11:04 +0000] [296581] [INFO] Worker exiting (pid: 296581)
+[2023-02-18 08:11:04 +0000] [296579] [INFO] Worker exiting (pid: 296579)
+[2023-02-18 08:11:04 +0000] [296583] [INFO] Worker exiting (pid: 296583)
+[2023-02-18 08:11:04 +0000] [296580] [INFO] Worker exiting (pid: 296580)
+[2023-02-18 08:11:04 +0000] [296582] [INFO] Worker exiting (pid: 296582)
+[2023-02-18 08:11:05 +0000] [296535] [INFO] Shutting down: Master
+[2023-02-18 08:11:07 +0000] [296608] [INFO] Starting gunicorn 20.1.0
+[2023-02-18 08:11:07 +0000] [296608] [INFO] Listening at: http://127.0.0.1:8000 (296608)
+[2023-02-18 08:11:07 +0000] [296608] [INFO] Using worker: sync
+[2023-02-18 08:11:07 +0000] [296659] [INFO] Booting worker with pid: 296659
+[2023-02-18 08:11:07 +0000] [296660] [INFO] Booting worker with pid: 296660
+[2023-02-18 08:11:07 +0000] [296661] [INFO] Booting worker with pid: 296661
+[2023-02-18 08:11:07 +0000] [296662] [INFO] Booting worker with pid: 296662
+[2023-02-18 08:11:07 +0000] [296663] [INFO] Booting worker with pid: 296663
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+[2023-02-18 08:16:02 +0000] [296608] [INFO] Handling signal: term
+[2023-02-18 08:16:02 +0000] [296659] [INFO] Worker exiting (pid: 296659)
+[2023-02-18 08:16:02 +0000] [296660] [INFO] Worker exiting (pid: 296660)
+[2023-02-18 08:16:02 +0000] [296663] [INFO] Worker exiting (pid: 296663)
+[2023-02-18 08:16:02 +0000] [296661] [INFO] Worker exiting (pid: 296661)
+[2023-02-18 08:16:02 +0000] [296662] [INFO] Worker exiting (pid: 296662)
+[2023-02-18 08:16:03 +0000] [296608] [INFO] Shutting down: Master
+[2023-02-18 08:21:33 +0000] [297801] [INFO] Starting gunicorn 20.1.0
+[2023-02-18 08:21:33 +0000] [297801] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-02-18 08:21:33 +0000] [297801] [ERROR] Retrying in 1 second.
+[2023-02-18 08:21:34 +0000] [297801] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-02-18 08:21:34 +0000] [297801] [ERROR] Retrying in 1 second.
+[2023-02-18 08:21:35 +0000] [297801] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-02-18 08:21:35 +0000] [297801] [ERROR] Retrying in 1 second.
+[2023-02-18 08:21:36 +0000] [297801] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-02-18 08:21:36 +0000] [297801] [ERROR] Retrying in 1 second.
+[2023-02-18 08:21:37 +0000] [297801] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-02-18 08:21:37 +0000] [297801] [ERROR] Retrying in 1 second.
+[2023-02-18 08:21:38 +0000] [297801] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-02-18 08:21:39 +0000] [297905] [INFO] Starting gunicorn 20.1.0
+[2023-02-18 08:21:39 +0000] [297905] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-02-18 08:21:39 +0000] [297905] [ERROR] Retrying in 1 second.
+[2023-02-18 08:21:40 +0000] [297905] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-02-18 08:21:40 +0000] [297905] [ERROR] Retrying in 1 second.
+[2023-02-18 08:21:41 +0000] [297905] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-02-18 08:21:41 +0000] [297905] [ERROR] Retrying in 1 second.
+[2023-02-18 08:21:42 +0000] [297905] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-02-18 08:21:42 +0000] [297905] [ERROR] Retrying in 1 second.
+[2023-02-18 08:21:43 +0000] [297905] [ERROR] Connection in use: ('127.0.0.1', 8000)
+[2023-02-18 08:21:43 +0000] [297905] [ERROR] Retrying in 1 second.
+[2023-02-18 08:21:44 +0000] [297905] [ERROR] Can't connect to ('127.0.0.1', 8000)
+[2023-02-18 08:21:45 +0000] [297917] [INFO] Starting gunicorn 20.1.0
+[2023-02-18 08:21:45 +0000] [297917] [INFO] Listening at: http://127.0.0.1:8000 (297917)
+[2023-02-18 08:21:45 +0000] [297917] [INFO] Using worker: sync
+[2023-02-18 08:21:45 +0000] [297918] [INFO] Booting worker with pid: 297918
+[2023-02-18 08:21:45 +0000] [297919] [INFO] Booting worker with pid: 297919
+[2023-02-18 08:21:45 +0000] [297920] [INFO] Booting worker with pid: 297920
+[2023-02-18 08:21:45 +0000] [297921] [INFO] Booting worker with pid: 297921
+[2023-02-18 08:21:45 +0000] [297922] [INFO] Booting worker with pid: 297922
+[2023-02-18 08:21:45 +0000] [297917] [INFO] Handling signal: term
+[2023-02-18 08:21:45 +0000] [297919] [INFO] Worker exiting (pid: 297919)
+[2023-02-18 08:21:45 +0000] [297920] [INFO] Worker exiting (pid: 297920)
+[2023-02-18 08:21:45 +0000] [297921] [INFO] Worker exiting (pid: 297921)
+[2023-02-18 08:21:45 +0000] [297918] [INFO] Worker exiting (pid: 297918)
+[2023-02-18 08:21:45 +0000] [297922] [INFO] Worker exiting (pid: 297922)
+[2023-02-18 08:21:46 +0000] [297917] [INFO] Shutting down: Master
+[2023-02-18 08:21:48 +0000] [297930] [INFO] Starting gunicorn 20.1.0
+[2023-02-18 08:21:48 +0000] [297930] [INFO] Listening at: http://127.0.0.1:8000 (297930)
+[2023-02-18 08:21:48 +0000] [297930] [INFO] Using worker: sync
+[2023-02-18 08:21:48 +0000] [297993] [INFO] Booting worker with pid: 297993
+[2023-02-18 08:21:48 +0000] [297994] [INFO] Booting worker with pid: 297994
+[2023-02-18 08:21:49 +0000] [297995] [INFO] Booting worker with pid: 297995
+[2023-02-18 08:21:49 +0000] [297996] [INFO] Booting worker with pid: 297996
+[2023-02-18 08:21:49 +0000] [297997] [INFO] Booting worker with pid: 297997
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+[2023-02-18 08:23:13 +0000] [297930] [INFO] Handling signal: term
+[2023-02-18 08:23:13 +0000] [297993] [INFO] Worker exiting (pid: 297993)
+[2023-02-18 08:23:13 +0000] [297996] [INFO] Worker exiting (pid: 297996)
+[2023-02-18 08:23:13 +0000] [297994] [INFO] Worker exiting (pid: 297994)
+[2023-02-18 08:23:13 +0000] [297995] [INFO] Worker exiting (pid: 297995)
+[2023-02-18 08:23:13 +0000] [297997] [INFO] Worker exiting (pid: 297997)
+[2023-02-18 08:23:14 +0000] [297930] [INFO] Shutting down: Master
+[2023-02-18 08:23:16 +0000] [298145] [INFO] Starting gunicorn 20.1.0
+[2023-02-18 08:23:16 +0000] [298145] [INFO] Listening at: http://127.0.0.1:8000 (298145)
+[2023-02-18 08:23:16 +0000] [298145] [INFO] Using worker: sync
+[2023-02-18 08:23:16 +0000] [298189] [INFO] Booting worker with pid: 298189
+[2023-02-18 08:23:16 +0000] [298190] [INFO] Booting worker with pid: 298190
+[2023-02-18 08:23:16 +0000] [298191] [INFO] Booting worker with pid: 298191
+[2023-02-18 08:23:16 +0000] [298192] [INFO] Booting worker with pid: 298192
+[2023-02-18 08:23:16 +0000] [298193] [INFO] Booting worker with pid: 298193
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+[2023-02-18 08:34:20 +0000] [298145] [INFO] Handling signal: term
+[2023-02-18 08:34:20 +0000] [298190] [INFO] Worker exiting (pid: 298190)
+[2023-02-18 08:34:20 +0000] [298189] [INFO] Worker exiting (pid: 298189)
+[2023-02-18 08:34:20 +0000] [298192] [INFO] Worker exiting (pid: 298192)
+[2023-02-18 08:34:20 +0000] [298193] [INFO] Worker exiting (pid: 298193)
+[2023-02-18 08:34:20 +0000] [298191] [INFO] Worker exiting (pid: 298191)
+[2023-02-18 08:34:21 +0000] [298145] [INFO] Shutting down: Master
+[2023-02-18 08:34:58 +0000] [298771] [INFO] Starting gunicorn 20.1.0
+[2023-02-18 08:34:58 +0000] [298771] [INFO] Listening at: http://127.0.0.1:8000 (298771)
+[2023-02-18 08:34:58 +0000] [298771] [INFO] Using worker: sync
+[2023-02-18 08:34:58 +0000] [298815] [INFO] Booting worker with pid: 298815
+[2023-02-18 08:34:58 +0000] [298816] [INFO] Booting worker with pid: 298816
+[2023-02-18 08:34:58 +0000] [298817] [INFO] Booting worker with pid: 298817
+[2023-02-18 08:34:58 +0000] [298818] [INFO] Booting worker with pid: 298818
+[2023-02-18 08:34:58 +0000] [298819] [INFO] Booting worker with pid: 298819
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+[2023-02-18 08:35:41 +0000] [298771] [INFO] Handling signal: term
+[2023-02-18 08:35:41 +0000] [298815] [INFO] Worker exiting (pid: 298815)
+[2023-02-18 08:35:41 +0000] [298816] [INFO] Worker exiting (pid: 298816)
+[2023-02-18 08:35:41 +0000] [298817] [INFO] Worker exiting (pid: 298817)
+[2023-02-18 08:35:41 +0000] [298818] [INFO] Worker exiting (pid: 298818)
+[2023-02-18 08:35:41 +0000] [298819] [INFO] Worker exiting (pid: 298819)
+[2023-02-18 08:35:42 +0000] [298771] [INFO] Shutting down: Master
+[2023-02-18 08:35:44 +0000] [298901] [INFO] Starting gunicorn 20.1.0
+[2023-02-18 08:35:44 +0000] [298901] [INFO] Listening at: http://127.0.0.1:8000 (298901)
+[2023-02-18 08:35:44 +0000] [298901] [INFO] Using worker: sync
+[2023-02-18 08:35:44 +0000] [298945] [INFO] Booting worker with pid: 298945
+[2023-02-18 08:35:44 +0000] [298946] [INFO] Booting worker with pid: 298946
+[2023-02-18 08:35:44 +0000] [298950] [INFO] Booting worker with pid: 298950
+[2023-02-18 08:35:44 +0000] [298951] [INFO] Booting worker with pid: 298951
+[2023-02-18 08:35:44 +0000] [298952] [INFO] Booting worker with pid: 298952
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/bs4/__init__.py:417: MarkupResemblesLocatorWarning: "http://erp.knestcrm.com/oauth2/callback" looks like a URL. Beautiful Soup is not an HTTP client. You should probably use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  warnings.warn(
+/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/bs4/__init__.py:417: MarkupResemblesLocatorWarning: "http://erp.knestcrm.com/oauth2/callback" looks like a URL. Beautiful Soup is not an HTTP client. You should probably use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  warnings.warn(
+/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/bs4/__init__.py:417: MarkupResemblesLocatorWarning: "https://erp.knestcrm.com/oauth2/callback" looks like a URL. Beautiful Soup is not an HTTP client. You should probably use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  warnings.warn(
+/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/bs4/__init__.py:417: MarkupResemblesLocatorWarning: "https://erp.knestcrm.com/oauth2/callback" looks like a URL. Beautiful Soup is not an HTTP client. You should probably use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  warnings.warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/bs4/__init__.py:417: MarkupResemblesLocatorWarning: "https://erp.knestcrm.com/oauth2/callback" looks like a URL. Beautiful Soup is not an HTTP client. You should probably use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  warnings.warn(
+/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/bs4/__init__.py:417: MarkupResemblesLocatorWarning: "https://erp.knestcrm.com/oauth2/callback" looks like a URL. Beautiful Soup is not an HTTP client. You should probably use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  warnings.warn(
+/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/bs4/__init__.py:417: MarkupResemblesLocatorWarning: "https://erp.knestcrm.com/oauth2/callback" looks like a URL. Beautiful Soup is not an HTTP client. You should probably use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  warnings.warn(
+/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/bs4/__init__.py:417: MarkupResemblesLocatorWarning: "https://erp.knestcrm.com/oauth2/callback" looks like a URL. Beautiful Soup is not an HTTP client. You should probably use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  warnings.warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/bs4/__init__.py:417: MarkupResemblesLocatorWarning: "https://erp.knestcrm.com/oauth2/callback" looks like a URL. Beautiful Soup is not an HTTP client. You should probably use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  warnings.warn(
+/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/bs4/__init__.py:417: MarkupResemblesLocatorWarning: "https://erp.knestcrm.com/oauth2/callback" looks like a URL. Beautiful Soup is not an HTTP client. You should probably use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  warnings.warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/env/lib/python3.10/site-packages/bs4/__init__.py:417: MarkupResemblesLocatorWarning: "https://erp.knestcrm.com/oauth2/callback" looks like a URL. Beautiful Soup is not an HTTP client. You should probably use an HTTP client like requests to get the document behind the URL, and feed that document to Beautiful Soup.
+  warnings.warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(
+/home/ubuntu/frappe-bench/apps/frappe/frappe/database/query.py:197: UserWarning: The 'filters_config' hook used to add custom operators is not yet implemented in frappe.db.query engine. Use db_query (frappe.get_list) instead.
+  warn(

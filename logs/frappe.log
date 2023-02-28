@@ -214,3 +214,237 @@ Form Dict: {}
 2023-01-25 11:12:55,434 ERROR frappe New Exception collected with id: 2023-01-25 11:12:55.348041-103.139.242.111-7bb
 Site: erp.knestcrm.com
 Form Dict: {'cmd': 'frappe.integrations.oauth2.authorize'}
+2023-02-02 09:20:38,516 ERROR frappe New Exception collected with id: 2023-02-02 09:20:38.410960-103.139.242.111-1d2
+Site: erp.knestcrm.com
+Form Dict: {'object': '{"warehouse_name":"AM","company":"Knest Manufacturers LLP"}'}
+2023-02-02 10:29:21,194 ERROR frappe New Exception collected with id: 2023-02-02 10:29:21.090638-103.139.242.111-adb
+Site: erp.knestcrm.com
+Form Dict: {'object': '{"warehouse_name":"AM","company":"Knest Manufacturers LLP"}'}
+2023-02-02 10:30:44,739 ERROR frappe New Exception collected with id: 2023-02-02 10:30:44.736645-103.139.242.111-a26
+Site: erp.knestcrm.com
+Form Dict: {'object': '{"warehouse_name":"AM","company":"Knest Manufacturers LLP"}'}
+2023-02-02 10:32:20,425 ERROR frappe New Exception collected with id: 2023-02-02 10:32:20.323822-103.139.242.111-6f4
+Site: erp.knestcrm.com
+Form Dict: {'object': '{"warehouse_name":"AM","company":"Knest Manufacturers LLP"}'}
+2023-02-02 10:33:11,475 ERROR frappe New Exception collected with id: 2023-02-02 10:33:11.472487-103.139.242.111-f6d
+Site: erp.knestcrm.com
+Form Dict: {'object': '{"warehouse_name":"AM","company":"Knest Manufacturers LLP"}'}
+2023-02-02 10:35:43,473 ERROR frappe New Exception collected with id: 2023-02-02 10:35:43.470936-103.139.242.111-b54
+Site: erp.knestcrm.com
+Form Dict: {'object': '{"warehouse_name":"AM","company":"Knest Manufacturers LLP"}'}
+2023-02-02 10:44:29,924 ERROR frappe New Exception collected with id: 2023-02-02 10:44:29.921982-103.139.242.111-1c8
+Site: erp.knestcrm.com
+Form Dict: {'object': '{"warehouse_name":"AM","company":"Knest Manufacturers LLP"}'}
+2023-02-02 11:33:00,584 ERROR frappe New Exception collected with id: 2023-02-02 11:33:00.582116-103.139.242.111-435
+Site: erp.knestcrm.com
+Form Dict: {'object': '{"warehouse_name":"AM","company":"Knest Manufacturers LLP"}'}
+2023-02-02 11:33:21,153 ERROR frappe New Exception collected with id: 2023-02-02 11:33:21.049094-103.139.242.111-59f
+Site: erp.knestcrm.com
+Form Dict: {'object': '{"warehouse_name":"AM","company":"Knest Manufacturers LLP"}'}
+2023-02-02 11:48:05,811 ERROR frappe New Exception collected with id: 2023-02-02 11:48:05.809274-103.139.242.111-36d
+Site: erp.knestcrm.com
+Form Dict: {'object': '{"warehouse_name":"AM","company":"Knest Manufacturers LLP"}'}
+2023-02-03 09:49:17,027 ERROR frappe New Exception collected with id: 2023-02-03 09:49:17.025274-103.139.242.111-2c4
+Site: erp.knestcrm.com
+Form Dict: {'object': '{"warehouse_name":"AM","company":"Knest Manufacturers LLP"}'}
+2023-02-07 05:30:48,280 ERROR frappe New Exception collected with id: 2023-02-07 05:30:48.278181-103.139.242.111-9de
+Site: erp.knestcrm.com
+Form Dict: {'limit_page_length': 20}
+2023-02-08 08:43:12,967 ERROR frappe New Exception collected with id: 2023-02-08 08:43:12.964935-103.139.242.111-517
+Site: erp.knestcrm.com
+Form Dict: {'limit_page_length': 20}
+2023-02-08 08:50:05,347 ERROR frappe New Exception collected with id: 2023-02-08 08:50:05.249882-103.139.242.111-d7b
+Site: erp.knestcrm.com
+Form Dict: {'name': 'dummy', 'creation': '2022-09-28 13:41:34.004388', 'modified': '2022-09-28 13:41:34.004388', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'enabled': 1, 'uom_name': 'dummy', 'must_be_whole_number': 1, 'doctype': 'UOM', 'limit_page_length': 20}
+2023-02-08 08:50:49,530 ERROR frappe New Exception collected with id: 2023-02-08 08:50:49.529019-103.139.242.111-65b
+Site: erp.knestcrm.com
+Form Dict: {'name': 'dummy', 'creation': '2022-09-28 13:41:34.004388', 'modified': '2022-09-28 13:41:34.004388', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'enabled': 1, 'uom_name': 'dummy', 'must_be_whole_number': 1, 'doctype': 'UOM', 'limit_page_length': 20}
+2023-02-08 08:51:01,135 ERROR frappe New Exception collected with id: 2023-02-08 08:51:01.134515-103.139.242.111-997
+Site: erp.knestcrm.com
+Form Dict: {'name': 'dummy', 'creation': '2022-09-28 13:41:34.004388', 'modified': '2022-09-28 13:41:34.004388', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'enabled': 1, 'uom_name': 'dummy', 'must_be_whole_number': 1, 'doctype': 'UOM', 'limit_page_length': 20}
+2023-02-08 09:36:32,012 ERROR frappe New Exception collected with id: 2023-02-08 09:36:32.010874-103.139.242.111-5d2
+Site: erp.knestcrm.com
+Form Dict: {'name': 'dummy', 'creation': '2022-09-28 13:41:34.004388', 'modified': '2022-09-28 13:41:34.004388', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'enabled': 1, 'uom_name': 'dummy', 'must_be_whole_number': 1, 'doctype': 'UOM', 'limit_page_length': 20}
+2023-02-08 11:57:55,066 ERROR frappe New Exception collected with id: 2023-02-08 11:57:55.064798-103.139.242.111-49c
+Site: erp.knestcrm.com
+Form Dict: {'name': 'dummy', 'creation': '2022-09-28 13:41:34.004388', 'modified': '2022-09-28 13:41:34.004388', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'enabled': 1, 'uom_name': 'dummy', 'must_be_whole_number': 1, 'doctype': 'UOM', 'limit_page_length': 20}
+2023-02-08 11:59:20,615 ERROR frappe New Exception collected with id: 2023-02-08 11:59:20.614515-103.139.242.111-269
+Site: erp.knestcrm.com
+Form Dict: {'name': 'dummy', 'creation': '2022-09-28 13:41:34.004388', 'modified': '2022-09-28 13:41:34.004388', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'enabled': 1, 'uom_name': 'dummy', 'must_be_whole_number': 1, 'doctype': 'UOM', 'limit_page_length': 20}
+2023-02-08 12:00:43,221 ERROR frappe New Exception collected with id: 2023-02-08 12:00:43.220223-103.139.242.111-754
+Site: erp.knestcrm.com
+Form Dict: {'name': 'dummy', 'creation': '2022-09-28 13:41:34.004388', 'modified': '2022-09-28 13:41:34.004388', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'enabled': 1, 'uom_name': 'dummy', 'must_be_whole_number': 1, 'doctype': 'UOM', 'limit_page_length': 20}
+2023-02-09 06:45:21,322 ERROR frappe New Exception collected with id: 2023-02-09 06:45:21.320009-103.139.242.111-cdb
+Site: erp.knestcrm.com
+Form Dict: {'object': {'warehouse_name': 'dummy'}}
+2023-02-09 06:48:07,066 ERROR frappe New Exception collected with id: 2023-02-09 06:48:07.064180-127.0.0.1-571
+Site: erp.knestcrm.com
+Form Dict: {}
+2023-02-09 06:51:06,436 ERROR frappe New Exception collected with id: 2023-02-09 06:51:06.434218-103.139.242.111-1d2
+Site: erp.knestcrm.com
+Form Dict: {'object': {'warehouse_name': 'dummy'}}
+2023-02-09 06:52:27,081 ERROR frappe New Exception collected with id: 2023-02-09 06:52:27.079164-103.139.242.111-1a9
+Site: erp.knestcrm.com
+Form Dict: {'object': {'warehouse_name': 'dummy'}}
+2023-02-09 06:52:59,457 ERROR frappe New Exception collected with id: 2023-02-09 06:52:59.454607-103.139.242.111-685
+Site: erp.knestcrm.com
+Form Dict: {'object': {'warehouse_name': 'dummy'}}
+2023-02-09 06:53:23,935 ERROR frappe New Exception collected with id: 2023-02-09 06:53:23.933154-103.139.242.111-8d1
+Site: erp.knestcrm.com
+Form Dict: {'object': {'warehouse_name': 'dummy'}}
+2023-02-09 08:53:38,978 ERROR frappe New Exception collected with id: 2023-02-09 08:53:38.976167-103.139.242.111-c72
+Site: erp.knestcrm.com
+Form Dict: {'object': {'warehouse_name': 'dummy'}}
+2023-02-09 08:55:51,990 ERROR frappe New Exception collected with id: 2023-02-09 08:55:51.988249-103.139.242.111-d49
+Site: erp.knestcrm.com
+Form Dict: {'object': {'name': 'dummy'}}
+2023-02-09 09:13:56,907 ERROR frappe New Exception collected with id: 2023-02-09 09:13:56.905142-103.139.242.111-ade
+Site: erp.knestcrm.com
+Form Dict: {'object': {'name': 'dummy'}}
+2023-02-09 09:22:23,335 ERROR frappe New Exception collected with id: 2023-02-09 09:22:23.332697-103.139.242.111-05e
+Site: erp.knestcrm.com
+Form Dict: {'object': {'warehouse_name': 'dummy'}}
+2023-02-09 09:23:06,299 ERROR frappe New Exception collected with id: 2023-02-09 09:23:06.297218-103.139.242.111-7bd
+Site: erp.knestcrm.com
+Form Dict: {'object': {'name1': 'dummy'}}
+2023-02-09 09:30:18,781 ERROR frappe New Exception collected with id: 2023-02-09 09:30:18.779310-103.139.242.111-c73
+Site: erp.knestcrm.com
+Form Dict: {'object': {'name': 'dummy - KML', 'owner': 'Administrator', 'creation': '2023-02-09 14:51:55.702584', 'modified': '2023-02-09 14:51:55.702584', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'warehouse_name': 'dummy', 'warehouse_type': None, 'parent_warehouse': None, 'default_in_transit_warehouse': None, 'is_group': 0, 'account': None, 'company': 'Knest Manufacturers LLP', 'disabled': 0, 'email_id': None, 'phone_no': None, 'mobile_no': None, 'address_line_1': None, 'address_line_2': None, 'city': None, 'state': None, 'pin': None, 'lft': 33, 'rgt': 34, 'old_parent': '', 'doctype': 'Warehouse'}}
+2023-02-11 07:31:01,678 ERROR frappe New Exception collected with id: 2023-02-11 07:31:01.574055-103.139.242.111-bef
+Site: vertical.knestcrm.com
+Form Dict: {'user': 'it@knestaluform.in', 'cmd': 'frappe.core.doctype.user.user.reset_password'}
+2023-02-11 07:31:08,531 ERROR frappe New Exception collected with id: 2023-02-11 07:31:08.522695-103.139.242.111-623
+Site: vertical.knestcrm.com
+Form Dict: {'user': 'it@knestaluform.in', 'cmd': 'frappe.core.doctype.user.user.reset_password'}
+2023-02-11 12:37:12,509 ERROR frappe New Exception collected with id: 2023-02-11 12:37:12.504170-103.139.242.111-e54
+Site: vertical.knestcrm.com
+Form Dict: {'user': 'it@knestaluform.in', 'cmd': 'frappe.core.doctype.user.user.reset_password'}
+2023-02-14 06:25:29,965 ERROR frappe New Exception collected with id: 2023-02-14 06:25:29.964106-103.139.242.111-6a1
+Site: erp.knestcrm.com
+Form Dict: {'name': 'Products1', 'owner': 'Administrator', 'creation': '2022-09-28 13:41:29.561530', 'modified': '2022-09-28 13:41:29.561530', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'item_group_name': 'Products1', 'parent_item_group': 'All Item Groups', 'is_group': 0, 'show_in_website': 1, 'include_descendants': 0, 'weightage': 0, 'lft': 2, 'rgt': 3, 'old_parent': 'All Item Groups', 'doctype': 'Item Group', 'website_specifications': [], 'item_group_defaults': [], 'filter_attributes': [], 'filter_fields': [], 'taxes': [], 'limit_page_length': 20}
+2023-02-14 06:52:41,785 ERROR frappe New Exception collected with id: 2023-02-14 06:52:41.662256-103.139.242.111-c41
+Site: erp.knestcrm.com
+Form Dict: {'name': 'Products1', 'owner': 'Administrator', 'creation': '2022-09-28 13:41:29.561530', 'modified': '2022-09-28 13:41:29.561530', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'item_group_name': 'Products1', 'parent_item_group': 'All Item Groups', 'is_group': 0, 'show_in_website': 1, 'include_descendants': 0, 'weightage': 0, 'lft': 2, 'rgt': 3, 'old_parent': 'All Item Groups', 'doctype': 'Item Group', 'website_specifications': [], 'item_group_defaults': [], 'filter_attributes': [], 'filter_fields': [], 'taxes': [], 'limit_page_length': 20}
+2023-02-20 04:12:40,517 ERROR frappe New Exception collected with id: 2023-02-20 04:12:40.509864-34.220.239.81-169
+Site: vertical.knestcrm.com
+Form Dict: {}
+2023-02-22 09:57:33,982 ERROR frappe New Exception collected with id: 2023-02-22 09:57:33.980274-103.139.242.111-4d4
+Site: erp.knestcrm.com
+Form Dict: {'name': 'OUTER GANGWAY', 'owner': 'Administrator', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'id': 9, 'name1': 'OUTER GANGWAY', 'doctype': 'Rack Location'}
+2023-02-22 09:57:34,020 ERROR frappe New Exception collected with id: 2023-02-22 09:57:34.017229-103.139.242.111-5a1
+Site: erp.knestcrm.com
+Form Dict: {'name': 'PLANT 3 B', 'owner': 'Administrator', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'id': 22, 'name1': 'PLANT 3 B', 'doctype': 'Rack Location'}
+2023-02-22 09:57:34,047 ERROR frappe New Exception collected with id: 2023-02-22 09:57:34.045168-103.139.242.111-c51
+Site: erp.knestcrm.com
+Form Dict: {'name': 'PLANT 3 D', 'owner': 'Administrator', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'id': 24, 'name1': 'PLANT 3 D', 'doctype': 'Rack Location'}
+2023-02-22 09:57:34,090 ERROR frappe New Exception collected with id: 2023-02-22 09:57:34.079728-103.139.242.111-dd1
+Site: erp.knestcrm.com
+Form Dict: {'name': 'AM', 'owner': 'Administrator', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'id': 18, 'name1': 'AM', 'doctype': 'Rack Location'}
+2023-02-22 09:57:34,125 ERROR frappe New Exception collected with id: 2023-02-22 09:57:34.122479-103.139.242.111-79f
+Site: erp.knestcrm.com
+Form Dict: {'name': 'KN7', 'owner': 'Administrator', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'id': 26, 'name1': 'KN7', 'doctype': 'Rack Location'}
+2023-02-22 09:57:34,168 ERROR frappe New Exception collected with id: 2023-02-22 09:57:34.164558-103.139.242.111-6cc
+Site: erp.knestcrm.com
+Form Dict: {'name': 'NEW PLANT', 'owner': 'Administrator', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'id': 10, 'name1': 'NEW PLANT', 'doctype': 'Rack Location'}
+2023-02-22 09:57:34,220 ERROR frappe New Exception collected with id: 2023-02-22 09:57:34.217808-103.139.242.111-f86
+Site: erp.knestcrm.com
+Form Dict: {'name': 'PLANT 3 C', 'owner': 'Administrator', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'id': 23, 'name1': 'PLANT 3 C', 'doctype': 'Rack Location'}
+2023-02-22 09:57:34,260 ERROR frappe New Exception collected with id: 2023-02-22 09:57:34.257653-103.139.242.111-742
+Site: erp.knestcrm.com
+Form Dict: {'name': 'PLATFORM 1 FRONT', 'owner': 'Administrator', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'id': 7, 'name1': 'PLATFORM 1 FRONT', 'doctype': 'Rack Location'}
+2023-02-22 09:57:34,268 ERROR frappe New Exception collected with id: 2023-02-22 09:57:34.048024-103.139.242.111-554
+Site: erp.knestcrm.com
+Form Dict: {'name': 'OUTSIDE', 'owner': 'Administrator', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'id': 8, 'name1': 'OUTSIDE', 'doctype': 'Rack Location'}
+2023-02-22 09:57:34,308 ERROR frappe New Exception collected with id: 2023-02-22 09:57:34.304294-103.139.242.111-1a0
+Site: erp.knestcrm.com
+Form Dict: {'name': 'PLATFORM 1', 'owner': 'Administrator', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'id': 3, 'name1': 'PLATFORM 1', 'doctype': 'Rack Location'}
+2023-02-22 09:57:34,317 ERROR frappe New Exception collected with id: 2023-02-22 09:57:34.313392-103.139.242.111-acc
+Site: erp.knestcrm.com
+Form Dict: {'name': 'PLATFORM 2', 'owner': 'Administrator', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'id': 4, 'name1': 'PLATFORM 2', 'doctype': 'Rack Location'}
+2023-02-22 09:57:34,320 ERROR frappe New Exception collected with id: 2023-02-22 09:57:34.014009-103.139.242.111-498
+Site: erp.knestcrm.com
+Form Dict: {'name': 'PLANT 3', 'owner': 'Administrator', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'id': 20, 'name1': 'PLANT 3', 'doctype': 'Rack Location'}
+2023-02-22 09:57:34,357 ERROR frappe New Exception collected with id: 2023-02-22 09:57:34.350299-103.139.242.111-380
+Site: erp.knestcrm.com
+Form Dict: {'name': 'PLATFORM 3 FRONT', 'owner': 'Administrator', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'id': 12, 'name1': 'PLATFORM 3 FRONT', 'doctype': 'Rack Location'}
+2023-02-22 09:57:34,365 ERROR frappe New Exception collected with id: 2023-02-22 09:57:34.360807-103.139.242.111-9c1
+Site: erp.knestcrm.com
+Form Dict: {'name': 'PLATFORM 3', 'owner': 'Administrator', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'id': 5, 'name1': 'PLATFORM 3', 'doctype': 'Rack Location'}
+2023-02-22 09:57:34,377 ERROR frappe New Exception collected with id: 2023-02-22 09:57:34.076592-103.139.242.111-635
+Site: erp.knestcrm.com
+Form Dict: {'name': 'PLANT 3 A', 'owner': 'Administrator', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'id': 21, 'name1': 'PLANT 3 A', 'doctype': 'Rack Location'}
+2023-02-22 09:57:34,384 ERROR frappe New Exception collected with id: 2023-02-22 09:57:34.381327-103.139.242.111-7b5
+Site: erp.knestcrm.com
+Form Dict: {'name': 'SHIVAM', 'owner': 'Administrator', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'id': 14, 'name1': 'SHIVAM', 'doctype': 'Rack Location'}
+2023-02-22 09:57:34,387 ERROR frappe New Exception collected with id: 2023-02-22 09:57:34.089468-103.139.242.111-1cc
+Site: erp.knestcrm.com
+Form Dict: {'name': 'MS STORE', 'owner': 'Administrator', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'id': 27, 'name1': 'MS STORE', 'doctype': 'Rack Location'}
+2023-02-22 09:57:34,415 ERROR frappe New Exception collected with id: 2023-02-22 09:57:34.410938-103.139.242.111-519
+Site: erp.knestcrm.com
+Form Dict: {'name': 'SP', 'owner': 'Administrator', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'id': 13, 'name1': 'SP', 'doctype': 'Rack Location'}
+2023-02-22 09:57:34,424 ERROR frappe New Exception collected with id: 2023-02-22 09:57:34.420960-103.139.242.111-81a
+Site: erp.knestcrm.com
+Form Dict: {'name': 'STORE', 'owner': 'Administrator', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'id': 1, 'name1': 'STORE', 'doctype': 'Rack Location'}
+2023-02-22 09:57:34,436 ERROR frappe New Exception collected with id: 2023-02-22 09:57:34.432576-103.139.242.111-e03
+Site: erp.knestcrm.com
+Form Dict: {'name': 'VERTICAL', 'owner': 'Administrator', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'id': 25, 'name1': 'VERTICAL', 'doctype': 'Rack Location'}
+2023-02-22 09:57:34,440 ERROR frappe New Exception collected with id: 2023-02-22 09:57:34.438133-103.139.242.111-4b4
+Site: erp.knestcrm.com
+Form Dict: {'name': 'PLATFORM 4', 'owner': 'Administrator', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'id': 6, 'name1': 'PLATFORM 4', 'doctype': 'Rack Location'}
+2023-02-22 09:57:34,442 ERROR frappe New Exception collected with id: 2023-02-22 09:57:34.439237-103.139.242.111-077
+Site: erp.knestcrm.com
+Form Dict: {'name': 'TANUSH', 'owner': 'Administrator', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'id': 15, 'name1': 'TANUSH', 'doctype': 'Rack Location'}
+2023-02-22 09:58:32,746 ERROR frappe New Exception collected with id: 2023-02-22 09:58:32.743869-103.139.242.111-9c7
+Site: erp.knestcrm.com
+Form Dict: {'name': 'AM', 'owner': 'Administrator', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'id': 18, 'name1': 'AM', 'doctype': 'Rack Location'}
+2023-02-23 05:47:25,714 ERROR frappe New Exception collected with id: 2023-02-23 05:47:25.713473-103.139.242.111-277
+Site: erp.knestcrm.com
+Form Dict: {'name': 'test', 'owner': 'Administrator', 'creation': '2023-02-22 16:16:36.416299', 'modified': '2023-02-22 16:16:36.416299', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'item': 'test', 'category': 'Category', 'auser': 'Auser', 'euser': 'Euser', 'short_code': '01', 'id': '001', 'category_dept': 'IT', 'unit': 'Meter', 'nonactive': 'N', 'doctype': 'Item Master', 'limit_page_length': 20}
+2023-02-23 05:48:17,378 ERROR frappe New Exception collected with id: 2023-02-23 05:48:17.376794-103.139.242.111-f96
+Site: erp.knestcrm.com
+Form Dict: {'name': 'test', 'owner': 'Administrator', 'creation': '2023-02-22 16:16:36.416299', 'modified': '2023-02-22 16:16:36.416299', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'item': 'test', 'category': 'Category', 'auser': 'Auser', 'euser': 'Euser', 'short_code': '01', 'id': '001', 'category_dept': 'IT', 'unit': 'Meter', 'nonactive': 'N', 'doctype': 'Item Master', 'limit_page_length': 20}
+2023-02-23 06:02:12,430 ERROR frappe New Exception collected with id: 2023-02-23 06:02:12.426607-103.139.242.111-2f7
+Site: erp.knestcrm.com
+Form Dict: {'name': 'RS', 'owner': 'Administrator', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'id': 1, 'name1': 'RS', 'created_date': '2021-03-06T00:00:00.000Z', 'modified_date': '2021-03-06T19:27:05.000Z', 'user': 'ADMIN', 'doctype': 'Currency Master'}
+2023-02-23 06:02:42,219 ERROR frappe New Exception collected with id: 2023-02-23 06:02:42.215761-103.139.242.111-f05
+Site: erp.knestcrm.com
+Form Dict: {'name': 'RS', 'owner': 'Administrator', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'id': 1, 'name1': 'RS', 'created_date': '2021-03-06T00:00:00.000Z', 'modified_date': '2021-03-06T19:27:05.000Z', 'user': 'ADMIN', 'doctype': 'Currency Master'}
+2023-02-23 06:25:01,516 ERROR frappe New Exception collected with id: 2023-02-23 06:25:01.513670-103.139.242.111-d14
+Site: erp.knestcrm.com
+Form Dict: {'name': 'test', 'owner': 'Administrator', 'creation': '2023-02-22 16:16:36.416299', 'modified': '2023-02-22 16:16:36.416299', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'item': 'test', 'category': 'Category', 'auser': 'Auser', 'euser': 'Euser', 'short_code': '01', 'id': '001', 'category_dept': 'IT', 'unit': 'Meter', 'nonactive': 'N', 'doctype': 'Item Master'}
+2023-02-23 06:25:18,754 ERROR frappe New Exception collected with id: 2023-02-23 06:25:18.751934-103.139.242.111-63e
+Site: erp.knestcrm.com
+Form Dict: {'name': 'test', 'owner': 'Administrator', 'creation': '2023-02-22 16:16:36.416299', 'modified': '2023-02-22 16:16:36.416299', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'item': 'test', 'category': 'Category', 'auser': 'Auser', 'euser': 'Euser', 'short_code': '01', 'id': '001', 'category_dept': 'IT', 'unit': 'Meter', 'nonactive': 'N', 'doctype': 'Item Master'}
+2023-02-23 06:25:35,172 ERROR frappe New Exception collected with id: 2023-02-23 06:25:35.170350-103.139.242.111-d2c
+Site: erp.knestcrm.com
+Form Dict: {'name': 'test', 'owner': 'Administrator', 'creation': '2023-02-22 16:16:36.416299', 'modified': '2023-02-22 16:16:36.416299', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'item': 'test', 'category': 'Category', 'auser': 'Auser', 'euser': 'Euser', 'short_code': '01', 'id': '001', 'category_dept': 'IT', 'unit': 'Meter', 'nonactive': 'N', 'doctype': 'Item Master'}
+2023-02-23 06:25:52,522 ERROR frappe New Exception collected with id: 2023-02-23 06:25:52.521228-103.139.242.111-9b8
+Site: erp.knestcrm.com
+Form Dict: {'name': 'test', 'owner': 'Administrator', 'creation': '2023-02-22 16:16:36.416299', 'modified': '2023-02-22 16:16:36.416299', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'item': 'test', 'category': 'Category', 'auser': 'Auser', 'euser': 'Euser', 'short_code': '01', 'id': '001', 'category_dept': 'IT', 'unit': 'Meter', 'nonactive': 'N', 'doctype': 'Item Master', 'limit_page_length': 20}
+2023-02-23 06:26:05,008 ERROR frappe New Exception collected with id: 2023-02-23 06:26:05.006557-103.139.242.111-72e
+Site: erp.knestcrm.com
+Form Dict: {'name': 'test', 'owner': 'Administrator', 'creation': '2023-02-22 16:16:36.416299', 'modified': '2023-02-22 16:16:36.416299', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'item': 'test', 'category': 'Category', 'auser': 'Auser', 'euser': 'Euser', 'short_code': '01', 'id': '001', 'category_dept': 'IT', 'unit': 'Meter', 'nonactive': 'N', 'doctype': 'Item Master'}
+2023-02-23 06:27:41,525 ERROR frappe New Exception collected with id: 2023-02-23 06:27:41.523418-103.139.242.111-210
+Site: erp.knestcrm.com
+Form Dict: {'name': 'test', 'owner': 'Administrator', 'creation': '2023-02-22 16:16:36.416299', 'modified': '2023-02-22 16:16:36.416299', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'item': 'test', 'category': 'Category', 'auser': 'Auser', 'euser': 'Euser', 'short_code': '01', 'id': '001', 'category_dept': 'IT', 'unit': 'Meter', 'nonactive': 'N', 'doctype': 'Item Master'}
+2023-02-23 06:28:05,078 ERROR frappe New Exception collected with id: 2023-02-23 06:28:05.076385-103.139.242.111-619
+Site: erp.knestcrm.com
+Form Dict: {'name': 'test', 'owner': 'Administrator', 'creation': '2023-02-22 16:16:36.416299', 'modified': '2023-02-22 16:16:36.416299', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'item': 'test', 'category': 'Category', 'auser': 'Auser', 'euser': 'Euser', 'short_code': '01', 'id': '001', 'category_dept': 'IT', 'unit': 'Meter', 'nonactive': 'N', 'doctype': 'Item Master'}
+2023-02-23 06:28:58,105 ERROR frappe New Exception collected with id: 2023-02-23 06:28:58.103193-103.139.242.111-094
+Site: erp.knestcrm.com
+Form Dict: {'name': 'test', 'owner': 'Administrator', 'creation': '2023-02-22 16:16:36.416299', 'modified': '2023-02-22 16:16:36.416299', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'item': 'test', 'category': 'Category', 'auser': 'Auser', 'euser': 'Euser', 'short_code': '01', 'id': '001', 'category_dept': 'IT', 'unit': 'Meter', 'nonactive': 'N', 'doctype': 'Item Master'}
+2023-02-23 06:29:02,847 ERROR frappe New Exception collected with id: 2023-02-23 06:29:02.844822-103.139.242.111-bf2
+Site: erp.knestcrm.com
+Form Dict: {'name': 'test', 'owner': 'Administrator', 'creation': '2023-02-22 16:16:36.416299', 'modified': '2023-02-22 16:16:36.416299', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'item': 'test', 'category': 'Category', 'auser': 'Auser', 'euser': 'Euser', 'short_code': '01', 'id': '001', 'category_dept': 'IT', 'unit': 'Meter', 'nonactive': 'N', 'doctype': 'Item Master'}
+2023-02-23 06:33:52,460 ERROR frappe New Exception collected with id: 2023-02-23 06:33:52.457929-103.139.242.111-9c5
+Site: erp.knestcrm.com
+Form Dict: {'name': 'test', 'owner': 'Administrator', 'creation': '2023-02-22 16:16:36.416299', 'modified': '2023-02-22 16:16:36.416299', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'item': 'test', 'category': 'Category', 'auser': 'Auser', 'euser': 'Euser', 'short_code': '01', 'id': '001', 'category_dept': 'IT', 'unit': 'Meter', 'nonactive': 'N', 'doctype': 'Item Master'}
+2023-02-23 06:42:16,964 ERROR frappe New Exception collected with id: 2023-02-23 06:42:16.962042-103.139.242.111-3fd
+Site: erp.knestcrm.com
+Form Dict: {'name': 'test', 'owner': 'Administrator', 'creation': '2023-02-22 16:16:36.416299', 'modified': '2023-02-22 16:16:36.416299', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'item': 'test', 'category': 'Category', 'auser': 'Auser', 'euser': 'Euser', 'short_code': '01', 'id': '001', 'category_dept': 'IT', 'unit': 'Meter', 'nonactive': 'N', 'doctype': 'Item Master'}
+2023-02-24 09:34:55,113 ERROR frappe New Exception collected with id: 2023-02-24 09:34:55.111248-103.139.242.111-af7
+Site: erp.knestcrm.com
+Form Dict: {'name': 'test', 'owner': 'Administrator', 'creation': '2023-02-22 16:16:36.416299', 'modified': '2023-02-22 16:16:36.416299', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'item': 'test', 'category': 'Category', 'auser': 'Auser', 'euser': 'Euser', 'short_code': '01', 'id': '001', 'category_dept': 'IT', 'unit': 'Meter', 'nonactive': 'N', 'doctype': 'Item Master'}
+2023-02-24 09:55:14,131 ERROR frappe New Exception collected with id: 2023-02-24 09:55:14.129183-103.139.242.111-324
+Site: erp.knestcrm.com
+Form Dict: {'name': 'test', 'owner': 'Administrator', 'creation': '2023-02-22 16:16:36.416299', 'modified': '2023-02-22 16:16:36.416299', 'modified_by': 'Administrator', 'docstatus': 0, 'idx': 0, 'item': 'test', 'category': 'Category', 'auser': 'Auser', 'euser': 'Euser', 'short_code': '01', 'id': '001', 'category_dept': 'IT', 'unit': 'Meter', 'nonactive': 'N', 'doctype': 'Item Master'}
