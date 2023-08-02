@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera."
+        }
+      ],
+      [
+        "expo-updates",
+        {
+          "username": "android_developer.one@knestaluform.in"
+        }
+      ]
+    ],
+    "name": "ERPKNEST",
+    "slug": "cameraAccess",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.androidexpodevone.cameraAccess"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4c5101b8-9461-4ab5-8d3c-e6a28fc16485"
+      }
+    },
+    "runtimeVersion": "1.0.1",
+    "updates": {
+      "url": "https://u.expo.dev/4c5101b8-9461-4ab5-8d3c-e6a28fc16485",
+      "requestHeaders": {
+        "expo-channel-name": "main"
+      }
+     
+    },
+    "owner": "android-expodev-one"
+
+  }
+
+
+}
